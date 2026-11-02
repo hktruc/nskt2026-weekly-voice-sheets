@@ -1,1 +1,7 @@
-{"status":"manual-snapshot","attemptedAt":null,"lastSuccessfulAt":null,"preservedPreviousSnapshot":true,"note":"Workers AI workflow chưa được cấu hình secrets."}
+{
+  "status": "failed",
+  "attemptedAt": "2026-11-02T23:43:37.140Z",
+  "lastSuccessfulAt": "2026-11-02T23:35:51.981Z",
+  "error": "Expected ',' or '}' after property value in JSON at position 6867 (line 125 column 14)",
+  "preservedPreviousSnapshot": true
+}
