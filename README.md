@@ -14,3 +14,11 @@ Website tĩnh GitHub Pages tổng hợp câu trả lời `WEEK` từ các tab h�
 ## Làm mới thủ công
 
 Xuất CSV của các tab thứ Năm vào thư mục gốc, rồi chạy `node scripts/build-data.js`. Tệp `data/weeks.json` là ảnh chụp công khai dùng cho GitHub Pages. Chưa có lịch làm mới tự động; đây là quy trình thủ công.
+
+## Làm mới AI theo lịch (chuẩn bị, chưa kích hoạt)
+
+Workflow `.github/workflows/refresh.yml` chạy phút 17 mỗi ba giờ để tránh đỉnh tải đầu giờ. Nó dò các tab thứ Năm, loại dữ liệu liên hệ, gửi `sourceId + câu hỏi + câu trả lời` đã ẩn danh tới Workers AI, kiểm tra lại mọi `sourceId`, rồi mới ghi snapshot.
+
+Cần hai GitHub Actions secrets: `CLOUDFLARE_ACCOUNT_ID` và `CLOUDFLARE_API_TOKEN`. Token riêng chỉ giới hạn trong đúng tài khoản và quyền `Workers AI Read` + `Workers AI Edit`, theo tài liệu REST chính thức của Cloudflare. Không nhập token vào mã nguồn hoặc nội dung chat.
+
+Khi quota/API lỗi, snapshot thành công trước đó được giữ nguyên, `data/status.json` ghi lần thử thất bại, và workflow kết thúc ở trạng thái failed; trang không được đóng dấu thời gian mới giả tạo. Phần này chưa được chạy vì chưa có secrets được phê duyệt.
