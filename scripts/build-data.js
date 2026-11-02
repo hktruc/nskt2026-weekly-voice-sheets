@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 function parseCsv(text) {
   const rows=[]; let row=[], cell='', q=false;
@@ -56,19 +57,52 @@ const groups=[
     ['Hiện chưa có câu hỏi cụ thể',['chưa','không có','hiện tại thì chưa']]
   ]}
 ];
+function parseQuestions(text){
+  const out=[]; const re=/Câu\s+(\d+)\s*:\s*([\s\S]*?)(?=\n\s*Câu\s+\d+\s*:|$)/gi; let m;
+  while((m=re.exec(text||'')))out.push({number:Number(m[1]),text:m[2].trim()});
+  return out;
+}
+function routePrompt(text){
+  const n=text.toLocaleLowerCase('vi');
+  if(/làm tất cả câu chuyện|đúc kết công thức kể chuyện|hoàn thiện đúc kết công thức kể chuyện/.test(n))return 'excluded';
+  const hits=[];
+  if(/nhật ký|trạng thái tâm|cảm xúc/.test(n))hits.push('journal');
+  if(/thay đổi|chuyển hoá|chuyển hóa/.test(n)&&/nhận thức|tư duy|hành vi|lời nói/.test(n))hits.push('change');
+  if(/kaizen/.test(n)&&/bài làm|phản hồi|chấm/.test(n))hits.push('kaizen');
+  if(/điểm tốt/.test(n)&&/phát huy/.test(n)&&/lớp học/.test(n))hits.push('strength');
+  if(/điểm cần cải thiện/.test(n)&&/lớp học/.test(n))hits.push('improve');
+  if(/hành động cụ thể/.test(n)&&/(đóng góp|lớp học tốt)/.test(n))hits.push('action');
+  if(/khó khăn/.test(n)&&/(câu hỏi|btc|thầy)/.test(n))hits.push('questions');
+  return hits.length===1?hits[0]:null;
+}
 const empty=/^(\.|-|chưa|chưa có|không|không có|\(chưa trả lời\)|sẽ quan sát thêm|sẽ suy nghĩ thêm|dạ chưa,? biết ơn ạ!?)[.!\s]*$/i;
+function substantive(a){
+  const n=a.toLocaleLowerCase('vi').replace(/\s+/g,' ').trim();
+  if(!n||empty.test(n)||n.length<12)return false;
+  return !/^(chưa có|hiện chưa|tôi sẽ|em sẽ) (góp ý|suy nghĩ|quan sát|trả lời)( thêm)?( sau)?[.!]*$/i.test(n);
+}
+function redactContacts(a){
+  return a.replace(/[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}/g,'[đã ẩn email]').replace(/(?<!\d)0\d{9}(?!\d)/g,'[đã ẩn số điện thoại]');
+}
 const files=fs.readdirSync('.').filter(x=>/^2026\d{4}\.csv$/.test(x)).sort();
 const weeks=[];
 for(const file of files){
   const tab=path.basename(file,'.csv');
   const rows=parseCsv(fs.readFileSync(file,'utf8')).filter(r=>r['Loại bài']==='WEEK');
   const sources=[];
-  rows.forEach((r,i)=>groups.forEach(g=>{
-    // Tuần cũ có 9 câu (có câu công thức kể chuyện ở vị trí 5); tuần mới bỏ câu đó nên bốn ý định cuối dịch lên một cột.
-    const col=(r['Nội dung câu hỏi']||'').includes('Câu 9:')?g.oldCol:g.newCol;
-    const a=(r[col]||'').trim(); if(!a||empty.test(a))return;
-    sources.push({id:`${tab}-r${i+2}-${col.replace('Câu ','q')}`,row:i+2,questionColumn:col,group:g.id,name:r['Họ và tên'].trim(),answer:a,submitted:r['Nộp lúc']||'',due:r['Hạn nộp']||''});
-  }));
+  const reviewQueue=[];
+  rows.forEach((r,i)=>{
+    const prompts=parseQuestions(r['Nội dung câu hỏi']||'');
+    const routed=new Map();
+    prompts.forEach(p=>{const group=routePrompt(p.text);if(group==='excluded')return;if(group&&!routed.has(group))routed.set(group,p);else if(group&&routed.get(group)?.text!==p.text)reviewQueue.push({row:i+2,reason:'duplicate-intent',questionNumber:p.number,prompt:p.text});});
+    groups.forEach(g=>{
+      const p=routed.get(g.id); if(!p)return;
+      const col=`Câu ${p.number}`,a=redactContacts((r[col]||'').trim()); if(!substantive(a))return;
+      const fingerprint=crypto.createHash('sha256').update([tab,r['Họ và tên'].trim(),g.id,a].join('\u001f')).digest('hex').slice(0,16);
+      sources.push({id:`${tab}-${fingerprint}`,fingerprint,row:i+2,questionColumn:col,questionPrompt:p.text,group:g.id,name:r['Họ và tên'].trim(),answer:a,submitted:r['Nộp lúc']||'',due:r['Hạn nộp']||''});
+    });
+    prompts.filter(p=>!routePrompt(p.text)&&substantive(r[`Câu ${p.number}`]||'')).forEach(p=>reviewQueue.push({row:i+2,reason:'unclassified-question',questionNumber:p.number,prompt:p.text,name:r['Họ và tên'].trim(),answer:redactContacts(r[`Câu ${p.number}`])}));
+  });
   const summaries=groups.map(g=>{
     const pool=sources.filter(s=>s.group===g.id);
     const used=new Set(); const ideas=[];
@@ -80,7 +114,7 @@ for(const file of files){
     if(rest.length)ideas.push({title:'Các nhu cầu và góc nhìn riêng cần được đọc nguyên văn',count:rest.length,sourceIds:rest.map(s=>s.id),unique:true});
     return {id:g.id,title:g.title,ideas};
   });
-  weeks.push({tab,due:rows[0]?.['Hạn nộp']||'',submissionCount:rows.length,answerCount:sources.length,complete:rows.length>=20,summaries,sources});
+  weeks.push({tab,due:rows[0]?.['Hạn nộp']||'',submissionCount:rows.length,answerCount:sources.length,complete:rows.length>=20,reviewCount:reviewQueue.length,summaries,sources,reviewQueue});
 }
 fs.mkdirSync('data',{recursive:true});
 fs.writeFileSync('data/weeks.json',JSON.stringify({generatedAt:new Date().toISOString(),sheetId:'1iDg5ryTjItafI9K0lwORi7KcwsCUmCClaQEg79KhWyQ',weeks},null,2));
