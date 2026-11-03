@@ -1,24 +1,24 @@
 # NSKT 2026 Weekly Voice — phương án 2
 
-Website tĩnh GitHub Pages tổng hợp câu trả lời `WEEK` từ các tab hạn nộp thứ Năm của Google Sheet do chủ lớp cung cấp.
+GitHub Pages trình bày bản tin góp ý từ các hàng `Loại bài = WEEK` trong những tab hạn nộp thứ Năm của Google Sheet do chủ lớp cung cấp.
 
-## Nguyên tắc dữ liệu
+## Cấu trúc bản tin
 
-- Chỉ xuất tên công khai, câu trả lời liên quan, tab/hàng nguồn, hạn nộp và thời điểm nộp.
-- Không xuất email, số điện thoại hoặc toàn bộ bảng thô.
-- Bảy nhóm cấp cao bám theo ý định câu hỏi; bộ định tuyến đọc từng nhãn `Câu N:` trong nội dung đề rồi ánh xạ theo nghĩa của chính câu hỏi, không theo vị trí cột. Ý chung cần ít nhất hai nguồn độc lập. Bản hiện tại dùng quy tắc từ khóa có thể kiểm tra, không dùng mô hình AI.
-- Ý riêng được giữ riêng, không biến thành đồng thuận giả.
-- Câu hỏi mới, mơ hồ hoặc trùng ý định được giữ trong `reviewQueue`, không bị gán sai hay bỏ im lặng.
-- Mỗi nguồn có dấu vân tay nội dung SHA-256 rút gọn; số hàng chỉ dùng để đối chiếu tại thời điểm tạo ảnh chụp.
+`Câu hỏi: [chủ đề BTC] → 5–10 ý chính có bằng chứng → danh sách học viên → câu hỏi và câu trả lời nguyên văn`.
 
-## Làm mới thủ công
+Không đánh số câu hỏi ở tiêu đề vì BTC có thể đổi vị trí. Cột `Nội dung câu hỏi` của từng tab là nguồn xác định ý nghĩa; mã `Câu N` chỉ dùng để ghép đúng ô trả lời trong chính hàng đó.
 
-Xuất CSV của các tab thứ Năm vào thư mục gốc, rồi chạy `node scripts/build-data.js`. Tệp `data/weeks.json` là ảnh chụp công khai dùng cho GitHub Pages. Chưa có lịch làm mới tự động; đây là quy trình thủ công.
+Chỉ công bố tên, phản hồi liên quan và dấu vết tab/hàng/thời gian. Không công bố email, số điện thoại hoặc bảng thô. Ý hiếm cần hỗ trợ và quan điểm trái chiều được giữ lại; không biến thành đồng thuận giả.
 
-## Làm mới AI theo lịch (chuẩn bị, chưa kích hoạt)
+## Cập nhật theo giờ
 
-Workflow `.github/workflows/refresh.yml` chạy phút 17 mỗi ba giờ để tránh đỉnh tải đầu giờ. Nó dò các tab thứ Năm, loại dữ liệu liên hệ, gửi `sourceId + câu hỏi + câu trả lời` đã ẩn danh tới Workers AI, kiểm tra lại mọi `sourceId`, rồi mới ghi snapshot.
+Phương án 2 **không gọi Cloudflare Workers AI**. GitHub Actions chỉ kiểm tra bản tin đã xuất bản và không tiêu quota AI.
 
-Cần hai GitHub Actions secrets: `CLOUDFLARE_ACCOUNT_ID` và `CLOUDFLARE_API_TOKEN`. Token riêng chỉ giới hạn trong đúng tài khoản và quyền `Workers AI Read` + `Workers AI Edit`, theo tài liệu REST chính thức của Cloudflare. Không nhập token vào mã nguồn hoặc nội dung chat.
+Tác vụ ChatGPT theo giờ sẽ:
 
-Khi quota/API lỗi, snapshot thành công trước đó được giữ nguyên, `data/status.json` ghi lần thử thất bại, và workflow kết thúc ở trạng thái failed; trang không được đóng dấu thời gian mới giả tạo. Phần này chưa được chạy vì chưa có secrets được phê duyệt.
+1. Đọc các tab thứ Năm và lọc hàng `WEEK`.
+2. So sánh content hash; không đổi thì không commit.
+3. Khi có dữ liệu mới/sửa, phân loại theo nghĩa câu hỏi, tổng hợp có dẫn nguồn và cập nhật `data/weeks.json`.
+4. Chạy `node scripts/validate-snapshot.mjs` trước khi commit. Bản đang dở không được ghi đè bản đã kiểm chứng.
+
+Các secrets Cloudflare cũ không còn được workflow sử dụng. Việc xóa secrets là thao tác quản trị riêng, không tự động thực hiện.

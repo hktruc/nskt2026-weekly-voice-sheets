@@ -1,0 +1,16 @@
+name: Validate published bulletin
+on:
+  workflow_dispatch:
+  push:
+    paths: ['data/**', 'app.js', 'index.html', 'styles.css', 'scripts/validate-snapshot.mjs']
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/validate-snapshot.mjs
