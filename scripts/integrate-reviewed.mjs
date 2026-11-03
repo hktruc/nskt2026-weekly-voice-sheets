@@ -6,6 +6,13 @@ const groups = ['journal', 'change', 'kaizen', 'strength', 'improve', 'action', 
 const dataFile = 'data/weeks.json';
 const data = JSON.parse(fs.readFileSync(dataFile, 'utf8'));
 const errors = [];
+const privacyHeldSourceIds = new Set([
+  '20261029-84322c972b46f4af',
+  '20261029-937bc07870748b77',
+  '20261029-2406339fa6cd0ea6',
+  '20261029-67e26bb94e7b6d29',
+  '20261029-f947abe8fa583e7e',
+]);
 
 for (const tab of tabs) {
   const week = data.weeks.find((item) => item.tab === tab);
@@ -44,6 +51,16 @@ for (const tab of tabs) {
     summary.provenance = candidate.provenance || { sourceHash: candidate.sourceHash, sourceHashMethod: candidate.sourceHashMethod, method: candidate.method };
     if (candidate.privacyReview) summary.privacyReview = candidate.privacyReview;
   }
+}
+
+for (const week of data.weeks) {
+  week.sources = week.sources.map((source) => privacyHeldSourceIds.has(source.id) ? {
+    id: source.id,
+    group: source.group,
+    questionColumn: source.questionColumn,
+    privacyHeld: true,
+    heldStatus: 'Nguồn giữ riêng; không công bố tên hoặc nguyên văn.',
+  } : source);
 }
 
 if (errors.length) { console.error(errors.join('\n')); process.exit(1); }

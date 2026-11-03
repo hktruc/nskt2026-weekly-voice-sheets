@@ -11,12 +11,16 @@ for(const week of data.weeks||[]){
       if(!idea.title||!Array.isArray(idea.sourceIds)||!idea.sourceIds.length)problems.push(`${week.tab}/${group.id}: invalid idea`);
       for(const id of idea.sourceIds||[])if(!ids.has(id))problems.push(`${week.tab}/${group.id}: missing source ${id}`);
       for(const id of idea.privacyReviewSourceIds||[])if(!(idea.sourceIds||[]).includes(id))problems.push(`${week.tab}/${group.id}: privacy source is not evidence ${id}`);
-      const learners=new Set((idea.sourceIds||[]).map(id=>(week.sources||[]).find(s=>s.id===id)?.name?.trim().toLocaleLowerCase('vi')).filter(Boolean));
-      if((strict||group.method==='chatgpt-semantic-reviewed')&&idea.count!=null&&idea.count!==learners.size)problems.push(`${week.tab}/${group.id}: count must equal unique learners`);
+      const evidenceSources=(idea.sourceIds||[]).map(id=>(week.sources||[]).find(s=>s.id===id)).filter(Boolean);
+      const learners=new Set(evidenceSources.map(s=>s.name?.trim().toLocaleLowerCase('vi')).filter(Boolean));
+      const heldCount=evidenceSources.filter(s=>s.privacyHeld).length;
+      if((strict||group.method==='chatgpt-semantic-reviewed')&&idea.count!=null&&(idea.count<learners.size||idea.count>learners.size+heldCount))problems.push(`${week.tab}/${group.id}: count must conservatively include public learners and held sources`);
     }
   }
   for(const source of week.sources||[]){
-    if(!source.questionPrompt||!source.answer||!source.name)problems.push(`${week.tab}: incomplete source ${source.id}`);
+    if(source.privacyHeld){
+      if('name' in source||'answer' in source||'questionPrompt' in source||'row' in source||'submitted' in source)problems.push(`${week.tab}: held source exposes private fields ${source.id}`);
+    }else if(!source.questionPrompt||!source.answer||!source.name)problems.push(`${week.tab}: incomplete source ${source.id}`);
     if(/@|\b0\d{9}\b/.test(`${source.answer} ${source.questionPrompt}`))problems.push(`${week.tab}: possible contact data in ${source.id}`);
   }
   if(strict&&['20261022','20261029'].includes(week.tab)){

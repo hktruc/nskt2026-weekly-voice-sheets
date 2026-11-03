@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T00:38:58.240Z",
+  "generatedAt": "2026-11-03T00:43:31.300Z",
   "sheetId": "1iDg5ryTjItafI9K0lwORi7KcwsCUmCClaQEg79KhWyQ",
   "weeks": [
     {
@@ -12881,15 +12881,10 @@
         },
         {
           "id": "20261029-84322c972b46f4af",
-          "fingerprint": "84322c972b46f4af",
-          "row": 5,
-          "questionColumn": "Câu 9",
-          "questionPrompt": "Bạn có khó khăn & câu hỏi gì đến BTC/Thầy?",
           "group": "questions",
-          "name": "Vũ Phương Ngân",
-          "answer": "Em đang sắp xếp để quay trở lại lớp sớm nhất, do hiện tại em ko có ai hỗ trợ trông 4 em bé buổi tối để e có thể đến lớp học offline. Chồng e đi làm muộn mới về. Em cũng đã bàn với chồng là mỗi tối thứ 6 hàng tuần a về sớm hơn để e có thể đi học, thì a nói a đồng ý, nhưng cho a 1 tháng vì chồng em mới quay trở lại công việc được 1 tuần nay ạ",
-          "submitted": "29/10/2026 22:57",
-          "due": "29/10/2026 23:00"
+          "questionColumn": "Câu 9",
+          "privacyHeld": true,
+          "heldStatus": "Nguồn giữ riêng; không công bố tên hoặc nguyên văn."
         },
         {
           "id": "20261029-8b54b5346cd8a81c",
@@ -16589,15 +16584,10 @@
         },
         {
           "id": "20261029-937bc07870748b77",
-          "fingerprint": "937bc07870748b77",
-          "row": 70,
-          "questionColumn": "Câu 9",
-          "questionPrompt": "Bạn có khó khăn & câu hỏi gì đến BTC/Thầy?",
           "group": "questions",
-          "name": "Nguyễn Thị Nga",
-          "answer": "khó khăn làm việc với nhóm hiện tại , mong muốn được chuyển sang nhóm khác để có tinh thần học tập tốt hơn",
-          "submitted": "29/10/2026 19:08",
-          "due": "29/10/2026 23:00"
+          "questionColumn": "Câu 9",
+          "privacyHeld": true,
+          "heldStatus": "Nguồn giữ riêng; không công bố tên hoặc nguyên văn."
         },
         {
           "id": "20261029-0345c47ede5be322",
@@ -19445,15 +19435,10 @@
         },
         {
           "id": "20261029-2406339fa6cd0ea6",
-          "fingerprint": "2406339fa6cd0ea6",
-          "row": 119,
-          "questionColumn": "Câu 9",
-          "questionPrompt": "Bạn có khó khăn & câu hỏi gì đến BTC/Thầy?",
           "group": "questions",
-          "name": "Vũ Thị Vân Anh",
-          "answer": "Vì gia đình ở xa chỗ học, mà sức khỏe cũng hơi kém. Gia đình lại có bạn bị ốm. Có thể trong thời gian tới việc đến học ở lớp sẽ gặp khó khăn. Vậy mong BTC có thể tạo điều kiện. Những buổi không tham gia được, có thể cho mình tham gia zoom được thì tốt quá. Vì mình rất muốn tham gia cùng thầy và lớp. cảm ơn",
-          "submitted": "28/10/2026 10:20",
-          "due": "29/10/2026 23:00"
+          "questionColumn": "Câu 9",
+          "privacyHeld": true,
+          "heldStatus": "Nguồn giữ riêng; không công bố tên hoặc nguyên văn."
         },
         {
           "id": "20261029-beafa6825129a7e9",
@@ -20333,15 +20318,10 @@
         },
         {
           "id": "20261029-67e26bb94e7b6d29",
-          "fingerprint": "67e26bb94e7b6d29",
-          "row": 131,
-          "questionColumn": "Câu 9",
-          "questionPrompt": "Bạn có khó khăn & câu hỏi gì đến BTC/Thầy?",
           "group": "questions",
-          "name": "Nguyễn Thị Thảo",
-          "answer": "cảm xúc tâm bị tụt",
-          "submitted": "26/10/2026 18:42",
-          "due": "29/10/2026 23:00"
+          "questionColumn": "Câu 9",
+          "privacyHeld": true,
+          "heldStatus": "Nguồn giữ riêng; không công bố tên hoặc nguyên văn."
         },
         {
           "id": "20261029-2a7ffcd44ad2c10c",
@@ -20417,15 +20397,10 @@
         },
         {
           "id": "20261029-f947abe8fa583e7e",
-          "fingerprint": "f947abe8fa583e7e",
-          "row": 132,
-          "questionColumn": "Câu 9",
-          "questionPrompt": "Bạn có khó khăn & câu hỏi gì đến BTC/Thầy?",
           "group": "questions",
-          "name": "Trần Tiến Dũng",
-          "answer": "hiện nhóm em có bạn Tiến ở Đà Nẵng đang có nhiều động lực và tâm huyết, hàng tuần đều bay vào đều đặn tham gia lớp, nhờ BTC và thầy hỏi thử bạn ấy cần hỗ trợ gì không ạ",
-          "submitted": "25/10/2026 21:11",
-          "due": "29/10/2026 23:00"
+          "questionColumn": "Câu 9",
+          "privacyHeld": true,
+          "heldStatus": "Nguồn giữ riêng; không công bố tên hoặc nguyên văn."
         },
         {
           "id": "20261029-b327265a472a0a7f",
