@@ -3,6 +3,7 @@ import crypto from 'node:crypto';
 
 const freshPath = process.env.FRESH_SNAPSHOT;
 if (!freshPath) throw new Error('FRESH_SNAPSHOT is required');
+const checkedAt = process.env.CHECKED_AT || new Date().toISOString();
 const dataPath = 'data/weeks.json';
 const current = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 const fresh = JSON.parse(fs.readFileSync(freshPath, 'utf8'));
@@ -32,7 +33,7 @@ const definitions = {
     idea('Phản hồi đồng đội mở thêm góc nhìn và nhu cầu kaizen', 'Một học viên cho biết phản hồi của đồng đội giúp có thêm góc nhìn và thấy cần tiếp tục cải tiến.', ['20261105-cfb8922bd1c720f7'], { unique: true }),
   ],
   kaizen: [
-    idea('Bài nộp hiện chủ yếu là ảnh hoặc video, chưa đủ văn bản để đúc kết điểm kaizen', 'Năm nguồn hiện chỉ cung cấp liên kết hoặc tệp đính kèm. Bản tin giữ trạng thái chờ đọc, không suy diễn nội dung từ liên kết và chưa tạo kết luận kaizen.', ['20261105-16a003bda17929bd', '20261105-d599e3d0fb3f4254', '20261105-de3a494ffd540d75', '20261105-3c0f5ef499463ce7', '20261105-926bcf35582f2712'], { reviewRequired: true }),
+    idea('Bài nộp hiện chủ yếu là ảnh hoặc video, chưa đủ văn bản để đúc kết điểm kaizen', 'Sáu nguồn hiện chủ yếu cung cấp liên kết, tệp đính kèm hoặc ghi chú sẽ bổ sung sơ đồ. Bản tin giữ trạng thái chờ đọc, không suy diễn nội dung từ liên kết và chưa tạo kết luận kaizen.', ['20261105-16a003bda17929bd', '20261105-d599e3d0fb3f4254', '20261105-de3a494ffd540d75', '20261105-3c0f5ef499463ce7', '20261105-926bcf35582f2712', '20261105-e692ddc22726dca2'], { reviewRequired: true }),
   ],
   strength: [
     idea('Khuyến khích sự chủ động chia sẻ và tăng thời lượng thực hành', 'Hai ý kiến muốn phát huy việc chủ động chia sẻ hoặc luyện tập nhiều hơn; chưa có đủ chi tiết để quy thành một phương thức bắt buộc.', ['20261105-d3c8017fcddb2b7a', '20261105-b27a5d6b575c1585']),
@@ -82,14 +83,14 @@ const updated = {
   ],
   checkpoint: {
     status: 'ongoing',
-    reviewedAt: '2026-11-03T01:15:00.000Z',
+    reviewedAt: checkedAt,
     method: 'Native ChatGPT semantic reading; no external AI API.',
     sourceCount: freshWeek.sources.length,
   },
 };
 current.weeks = current.weeks.map((week) => week.tab === tab ? updated : week);
 if (stableHash(current.weeks.filter((week) => ['20261022', '20261029'].includes(week.tab))) !== protectedBefore) throw new Error('Protected reviewed weeks changed');
-current.generatedAt = '2026-11-03T01:15:00.000Z';
+current.generatedAt = checkedAt;
 current.method = 'chatgpt-semantic-reviewed-with-ongoing-draft';
 const temporary = `${dataPath}.next`;
 fs.writeFileSync(temporary, `${JSON.stringify(current, null, 2)}\n`);
