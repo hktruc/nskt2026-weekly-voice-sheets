@@ -1,7 +1,7 @@
 {
   "status": "success",
-  "checkedAt": "2026-11-03T02:15:00.000Z",
-  "scheduleLocalTime": "2026-11-03 09:15 Asia/Ho_Chi_Minh",
+  "checkedAt": "2026-11-03T04:15:00.000Z",
+  "scheduleLocalTime": "2026-11-03 11:15 Asia/Ho_Chi_Minh",
   "sourceChanged": true,
   "changedTabs": [
     "20261105"
@@ -13,11 +13,11 @@
   "currentTab": {
     "tab": "20261105",
     "status": "ongoing",
-    "weekRows": 6,
-    "sourceCount": 27,
-    "newSourceCount": 1,
+    "weekRows": 7,
+    "sourceCount": 34,
+    "newSourceCount": 7,
     "semanticMethod": "Native ChatGPT semantic reading; no external AI API.",
-    "sourceHash": "7f7b0c66d997767ef5ff6923340a07484dcdb272cf2d3321c930885623629cfe"
+    "sourceHash": "ea78f9a9e9f891867e954e506880beec684e618403a2eebc84911b0f7ba8d4ba"
   },
   "privacyHeldSourceCount": 6,
   "externalAiUsed": false,

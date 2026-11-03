@@ -24,16 +24,17 @@ const idea = (title, summary, sourceIds, extra = {}) => ({
 });
 const definitions = {
   journal: [
-    idea('Đón nhận phản hồi với tâm thế bình thường hoặc sẵn sàng lắng nghe', 'Ba phản hồi mô tả sự bình thường, không quá buồn hoặc sẵn sàng nghe góp ý. Đây mới là trạng thái tự thuật của từng người, chưa phải kết luận rằng mọi phản hồi đều đã được tiếp nhận trọn vẹn.', ['20261105-968fa7522f58634a', '20261105-865ea295130216f0', '20261105-053b972524594bb2']),
+    idea('Đón nhận phản hồi với tâm thế bình thường, vui hoặc sẵn sàng lắng nghe', 'Bốn phản hồi mô tả sự bình thường, không quá buồn, vui khi có thêm góc nhìn hoặc sẵn sàng nghe góp ý. Đây mới là trạng thái tự thuật của từng người, chưa phải kết luận rằng mọi phản hồi đều đã được tiếp nhận trọn vẹn.', ['20261105-968fa7522f58634a', '20261105-865ea295130216f0', '20261105-053b972524594bb2', '20261105-0fa23d4b5a13ca38']),
     idea('Góp ý về phần đúc kết chưa hợp lý gây bối rối', 'Một học viên chưa rõ cách tách phần đúc kết và kể chuyện khi đang dùng chung một sơ đồ; đây là nhu cầu cần được làm rõ, không phải đánh giá chung của lớp.', ['20261105-f253bf5a264aa9a5'], { unique: true }),
   ],
   change: [
-    idea('Kỹ năng kể chuyện bắt đầu rõ hơn qua thực hành', 'Hai nguồn ghi nhận nói tốt hơn hoặc quen dần với mô hình và cách mở đầu; mức độ tiến bộ còn được mô tả ngắn, chưa đủ để khẳng định đã thành thạo.', ['20261105-b8ea968b79d2e301', '20261105-7ae7b75148b53f6c']),
+    idea('Kỹ năng kể chuyện bắt đầu rõ hơn qua thực hành', 'Ba nguồn ghi nhận nói tốt hơn, kể tự nhiên hơn hoặc quen dần với mô hình và cách mở đầu; mức độ tiến bộ khác nhau và chưa đồng nghĩa đã thành thạo.', ['20261105-b8ea968b79d2e301', '20261105-7ae7b75148b53f6c', '20261105-dc9679f001a676e1']),
     idea('Nhìn nhận giới hạn cá nhân và tôn trọng sự riêng biệt', 'Một học viên nhận biết kỹ năng kể chuyện còn hạn chế nhưng vẫn giữ sự tôn trọng đối với cách thể hiện riêng.', ['20261105-acfeac20c2448e2a'], { unique: true }),
     idea('Phản hồi đồng đội mở thêm góc nhìn và nhu cầu kaizen', 'Một học viên cho biết phản hồi của đồng đội giúp có thêm góc nhìn và thấy cần tiếp tục cải tiến.', ['20261105-cfb8922bd1c720f7'], { unique: true }),
+    idea('Tư duy đa chiều và trả lời phản biện vẫn còn yếu', 'Một học viên ghi nhận đã tiến bộ ở quan sát–phân tích–đúc kết nhưng vẫn gặp khó khi nhìn đa chiều và trả lời câu hỏi phản biện.', ['20261105-dc9679f001a676e1'], { unique: true }),
   ],
   kaizen: [
-    idea('Bài nộp hiện chủ yếu là ảnh hoặc video, chưa đủ văn bản để đúc kết điểm kaizen', 'Sáu nguồn hiện chủ yếu cung cấp liên kết, tệp đính kèm hoặc ghi chú sẽ bổ sung sơ đồ. Bản tin giữ trạng thái chờ đọc, không suy diễn nội dung từ liên kết và chưa tạo kết luận kaizen.', ['20261105-16a003bda17929bd', '20261105-d599e3d0fb3f4254', '20261105-de3a494ffd540d75', '20261105-3c0f5ef499463ce7', '20261105-926bcf35582f2712', '20261105-e692ddc22726dca2'], { reviewRequired: true }),
+    idea('Bài nộp hiện chủ yếu là ảnh hoặc video, chưa đủ văn bản để đúc kết điểm kaizen', 'Bảy nguồn hiện chủ yếu cung cấp liên kết, tệp đính kèm hoặc ghi chú sẽ bổ sung sơ đồ. Bản tin giữ trạng thái chờ đọc, không suy diễn nội dung từ liên kết và chưa tạo kết luận kaizen.', ['20261105-16a003bda17929bd', '20261105-d599e3d0fb3f4254', '20261105-de3a494ffd540d75', '20261105-3c0f5ef499463ce7', '20261105-926bcf35582f2712', '20261105-e692ddc22726dca2', '20261105-37005bf547144d19'], { reviewRequired: true }),
   ],
   strength: [
     idea('Khuyến khích sự chủ động chia sẻ và tăng thời lượng thực hành', 'Hai ý kiến muốn phát huy việc chủ động chia sẻ hoặc luyện tập nhiều hơn; chưa có đủ chi tiết để quy thành một phương thức bắt buộc.', ['20261105-d3c8017fcddb2b7a', '20261105-b27a5d6b575c1585']),
@@ -44,11 +45,12 @@ const definitions = {
     idea('Góp ý nên được xử lý ngay trên lớp để bớt cục bộ và tốn thời gian', 'Một học viên thấy hành trình góp ý còn cục bộ trong nhóm, còn lớp mở thêm lại khó theo vì tốn thời gian; đề xuất giải quyết ngay trong buổi học.', ['20261105-6d3cae52b488dabd'], { unique: true }),
   ],
   action: [
-    idea('Đồng hành, góp ý và mở rộng tương tác với đồng đội', 'Ba nguồn cam kết đồng hành, góp ý trong nhóm hoặc tương tác và phản hồi cho học viên khác thôn.', ['20261105-626c0222d2a09e49', '20261105-f1f1480ce5fd06ed', '20261105-ea3264a0b6034cb3']),
+    idea('Đồng hành, góp ý và mở rộng tương tác với đồng đội', 'Bốn nguồn cam kết đồng hành, xem bài, góp ý chân thành trong nhóm hoặc tương tác và phản hồi cho học viên khác thôn.', ['20261105-626c0222d2a09e49', '20261105-f1f1480ce5fd06ed', '20261105-ea3264a0b6034cb3', '20261105-7b7730be7a5c6569']),
     idea('Tăng mức thực hành cá nhân', 'Hai nguồn nêu làm bài đầy đủ hoặc làm nhiều bài hơn; đây là cam kết tự rèn, không phải nghĩa vụ BTC.', ['20261105-7ff137a395f3ae75', '20261105-ea3264a0b6034cb3']),
   ],
   questions: [
     idea('Thiếu thời gian vì trách nhiệm gia đình và công việc', 'Một học viên cho biết nguồn lực thời gian hạn chế nên bài chưa được chỉn chu. Bản tin chỉ giữ nhu cầu hỗ trợ khái quát và giữ riêng tên, nguyên văn.', ['20261105-26d192f69c9707bc'], { unique: true, privacyReviewSourceIds: ['20261105-26d192f69c9707bc'], requiresPrivacyReview: true }),
+    idea('Cần hướng dẫn áp dụng các hệ quy chiếu vào câu chuyện bản thân', 'Một học viên chưa rõ cách đưa 4VTĐT, Ba gốc và Ikigai vào cốt truyện cá nhân, đồng thời muốn biết bài làm có đúng kỳ vọng của Thầy và BTC không.', ['20261105-6c5399160b657cd7'], { unique: true }),
   ],
 };
 
@@ -80,6 +82,8 @@ const updated = {
     ...freshWeek.reviewQueue,
     ...freshWeek.sources.filter((source) => source.group === 'kaizen').map((source) => ({ sourceId: source.id, reason: 'attachment-only-needs-review' })),
     { sourceId: '20261105-aaf4649aee7cec9d', reason: 'non-substantive-no-improvement-yet' },
+    { sourceId: '20261105-168eb113d313e2c0', reason: 'non-substantive-general-response' },
+    { sourceId: '20261105-e0631cb0e7b37019', reason: 'non-substantive-no-improvement-yet' },
   ],
   checkpoint: {
     status: 'ongoing',
