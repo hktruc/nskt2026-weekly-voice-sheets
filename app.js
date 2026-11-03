@@ -5,7 +5,7 @@ const personKey=s=>(s.name||'').trim().toLocaleLowerCase('vi').replace(/\s+/g,' 
 const privateIds=idea=>new Set(idea.privacyReviewSourceIds||[]);
 function peopleFor(idea){const seen=new Set(),held=privateIds(idea);return (idea.sourceIds||[]).filter(id=>!held.has(id)).map(id=>sourceMap[id]).filter(s=>{if(!s)return false;const key=personKey(s);if(seen.has(key))return false;seen.add(key);return true})}
 function countLabel(idea){const publicCount=peopleFor(idea).length,held=privateIds(idea).size;return `${publicCount} tên học viên${held?` + ${held} nguồn giữ riêng`:''}`}
-fetch('data/weeks.json').then(r=>r.json()).then(d=>{model=d;const s=$('#week');d.weeks.slice().reverse().forEach(w=>s.add(new Option(`${w.tab} · ${w.submissionCount} bài`,w.tab)));s.onchange=render;$('#search').oninput=render;render()}).catch(()=>$('#groups').innerHTML='<p class="empty">Không tải được dữ liệu.</p>');
+fetch('data/weeks.json').then(r=>r.json()).then(d=>{model=d;const s=$('#week');d.weeks.slice().reverse().forEach(w=>s.add(new Option(`${w.tab} · ${w.submissionCount} bài${w.complete?'':' · đang thu'}`,w.tab)));const preferred=d.weeks.slice().reverse().find(w=>w.complete);if(preferred)s.value=preferred.tab;s.onchange=render;$('#search').oninput=render;render()}).catch(()=>$('#groups').innerHTML='<p class="empty">Không tải được dữ liệu.</p>');
 function render(){
   current=model.weeks.find(w=>w.tab===$('#week').value)||model.weeks.at(-1);sourceMap=Object.fromEntries(current.sources.map(s=>[s.id,s]));
   const q=$('#search').value.trim().toLocaleLowerCase('vi');
