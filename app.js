@@ -16,6 +16,7 @@ let activeIdea;
 let activeGroup;
 const personKey = (source) => (source.name || '').trim().toLocaleLowerCase('vi').replace(/\s+/g, ' ');
 const privateIds = (idea) => new Set(idea.privacyReviewSourceIds || []);
+const questionText = (title) => String(title || '').replace(/^Câu hỏi\s*:\s*/i, '').trim();
 
 function peopleFor(idea) {
   const seen = new Set();
@@ -58,7 +59,8 @@ function render() {
   $('#groups').innerHTML = current.summaries.map((group) => {
     const ideas = (group.ideas || []).map((idea, index) => ({ idea, index })).filter(({ idea }) => !query || [idea.title, idea.summary, ...idea.sourceIds.map((id) => sourceMap[id]?.name), ...idea.sourceIds.map((id) => sourceMap[id]?.answer)].join(' ').toLocaleLowerCase('vi').includes(query));
     if (!ideas.length) return '';
-    return `<section class="group"><h2>${esc(group.title || TITLES[group.id])}</h2><div class="ideas">${ideas.map(({ idea, index }, displayIndex) => `<article class="idea"><span class="badge">Ý ${displayIndex + 1} · ${countLabel(idea)}</span><h3>${esc(idea.title)}</h3>${idea.summary ? `<p>${esc(idea.summary)}</p>` : ''}<button class="contributors" data-group="${group.id}" data-index="${index}">Xem học viên đóng góp ý này</button></article>`).join('')}</div></section>`;
+    const title = group.title || TITLES[group.id];
+    return `<section class="group"><header class="question-block"><span class="question-label">Câu hỏi</span><h2>${esc(questionText(title))}</h2><p class="question-meta">${ideas.length} ý chính được đúc kết từ các phản hồi liên quan</p></header><div class="ideas">${ideas.map(({ idea, index }, displayIndex) => `<article class="idea"><span class="badge">Ý ${displayIndex + 1} · ${countLabel(idea)}</span><h3>${esc(idea.title)}</h3>${idea.summary ? `<p>${esc(idea.summary)}</p>` : ''}<button class="contributors" data-group="${group.id}" data-index="${index}">Xem học viên đóng góp ý này</button></article>`).join('')}</div></section>`;
   }).join('') || '<p class="empty">Không tìm thấy kết quả phù hợp.</p>';
   document.querySelectorAll('.contributors').forEach((button) => { button.onclick = () => openContributors(button.dataset.group, Number(button.dataset.index)); });
 }
