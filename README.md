@@ -23,4 +23,6 @@ Tác vụ ChatGPT theo giờ sẽ:
 3. Khi có dữ liệu mới/sửa, phân loại theo nghĩa câu hỏi, tổng hợp có dẫn nguồn và cập nhật `data/weeks.json`.
 4. Chạy `node scripts/validate-snapshot.mjs` trước khi commit. Bản đang dở không được ghi đè bản đã kiểm chứng.
 
+Đợt xuất bản hai tuần hoàn tất dùng 14 file `review-candidates/<tab>/<group>.json`. Chạy `node scripts/integrate-reviewed.mjs`, sau đó `STRICT_REVIEWED=1 node scripts/validate-snapshot.mjs`. Script từ chối thiếu group, source ID sai nhóm, coverage không khớp hoặc privacy ID không nằm trong evidence; chỉ ghi `data/weeks.json` sau khi toàn bộ kiểm tra đạt.
+
 Các secrets Cloudflare cũ không còn được workflow sử dụng. Việc xóa secrets là thao tác quản trị riêng, không tự động thực hiện.
