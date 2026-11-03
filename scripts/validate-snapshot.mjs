@@ -10,6 +10,7 @@ for(const week of data.weeks||[]){
     for(const idea of group.ideas||[]){
       if(!idea.title||!Array.isArray(idea.sourceIds)||!idea.sourceIds.length)problems.push(`${week.tab}/${group.id}: invalid idea`);
       for(const id of idea.sourceIds||[])if(!ids.has(id))problems.push(`${week.tab}/${group.id}: missing source ${id}`);
+      for(const id of idea.privacyReviewSourceIds||[])if(!(idea.sourceIds||[]).includes(id))problems.push(`${week.tab}/${group.id}: privacy source is not evidence ${id}`);
       const learners=new Set((idea.sourceIds||[]).map(id=>(week.sources||[]).find(s=>s.id===id)?.name?.trim().toLocaleLowerCase('vi')).filter(Boolean));
       if((strict||group.method==='chatgpt-semantic-reviewed')&&idea.count!=null&&idea.count!==learners.size)problems.push(`${week.tab}/${group.id}: count must equal unique learners`);
     }
