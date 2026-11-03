@@ -1,6 +1,16 @@
 name: Refresh weekly synthesis
 on:
   workflow_dispatch:
+    inputs:
+      target_tab:
+        description: Completed Thursday tab to process
+        required: true
+        default: '20261029'
+      target_group:
+        description: One semantic question group
+        required: true
+        type: choice
+        options: [journal, change, kaizen, strength, improve, action, questions]
 permissions:
   contents: write
 concurrency:
@@ -19,13 +29,16 @@ jobs:
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          WORKERS_AI_MODEL: '@cf/meta/llama-3.3-70b-instruct-fp8-fast'
+          WORKERS_AI_MODEL: '@cf/meta/llama-3.2-3b-instruct'
+          TARGET_TAB: ${{ inputs.target_tab }}
+          TARGET_GROUP: ${{ inputs.target_group }}
+          CHUNK_SIZE: '12'
         run: node scripts/refresh-ai.mjs
       - name: Commit snapshot or explicit failure status
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/weeks.json data/status.json
+          git add data/weeks.json data/status.json data/ai-cache
           git diff --cached --quiet || git commit -m "chore: refresh weekly synthesis"
           git push
       - if: steps.refresh.outcome == 'failure'

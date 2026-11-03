@@ -1,12 +1,57 @@
-import fs from 'node:fs'; import crypto from 'node:crypto';
-const LABELS={journal:'Nhật ký cảm xúc từ phản hồi đồng đội',change:'Chuyển hóa trong học tập và đời sống',kaizen:'Điểm tự kaizen từ chấm bài đồng đội',strength:'Điểm tốt của lớp cần phát huy',improve:'Điểm lớp học cần cải thiện',action:'Hành động học viên cam kết đóng góp',questions:'Khó khăn và câu hỏi gửi BTC/Thầy'};
-const SHEET='1iDg5ryTjItafI9K0lwORi7KcwsCUmCClaQEg79KhWyQ',ACCOUNT=process.env.CLOUDFLARE_ACCOUNT_ID,TOKEN=process.env.CLOUDFLARE_API_TOKEN,MODEL=process.env.WORKERS_AI_MODEL||'@cf/meta/llama-3.1-8b-instruct',out='data/weeks.json',status='data/status.json',old=fs.existsSync(out)?JSON.parse(fs.readFileSync(out,'utf8')):null,attemptedAt=new Date().toISOString();
-function csv(t){const o=[];let r=[],c='',q=false;for(let i=0;i<t.length;i++){let x=t[i],n=t[i+1];if(q){if(x==='"'&&n==='"'){c+='"';i++}else if(x==='"')q=false;else c+=x}else if(x==='"')q=true;else if(x===','){r.push(c);c=''}else if(x==='\n'){r.push(c.replace(/\r$/,''));o.push(r);r=[];c=''}else c+=x}const h=o.shift()||[];return o.filter(x=>x.some(Boolean)).map(x=>Object.fromEntries(h.map((k,i)=>[k,x[i]||''])))}
-const redact=s=>(s||'').replace(/[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}/g,'[đã ẩn email]').replace(/(?<!\d)0\d{9}(?!\d)/g,'[đã ẩn số điện thoại]');
-function qs(s=''){const a=[],re=/Câu\s+(\d+)\s*:\s*([\s\S]*?)(?=\n\s*Câu\s+\d+\s*:|$)/gi;let m;while((m=re.exec(s)))a.push({n:+m[1],text:m[2].trim()});return a}
-function intent(t){const n=t.toLocaleLowerCase('vi'),h=[];if(/làm tất cả câu chuyện|đúc kết công thức kể chuyện/.test(n))return'excluded';if(/nhật ký|trạng thái tâm|cảm xúc/.test(n))h.push('journal');if(/thay đổi|chuyển hoá|chuyển hóa/.test(n)&&/nhận thức|tư duy|hành vi|lời nói/.test(n))h.push('change');if(/kaizen/.test(n)&&/bài làm|phản hồi|chấm/.test(n))h.push('kaizen');if(/điểm tốt/.test(n)&&/phát huy/.test(n)&&/lớp học/.test(n))h.push('strength');if(/điểm cần cải thiện/.test(n)&&/lớp học/.test(n))h.push('improve');if(/hành động cụ thể/.test(n)&&/(đóng góp|lớp học tốt)/.test(n))h.push('action');if(/khó khăn/.test(n)&&/(câu hỏi|btc|thầy)/.test(n))h.push('questions');return h.length===1?h[0]:null}
-function thursdays(){const a=[],d=new Date();d.setUTCDate(d.getUTCDate()-84);for(let i=0;i<105;i++){if(d.getUTCDay()===4)a.push(d.toISOString().slice(0,10).replaceAll('-',''));d.setUTCDate(d.getUTCDate()+1)}return a}
-async function tab(n){const r=await fetch(`https://docs.google.com/spreadsheets/d/${SHEET}/gviz/tq?tqx=out:csv&sheet=${n}`);if(!r.ok)return null;const t=await r.text();return t.startsWith('"STT"')?csv(t):null}
-async function ai(messages){if(!ACCOUNT||!TOKEN)throw Error('missing Cloudflare secrets');const r=await fetch(`https://api.cloudflare.com/client/v4/accounts/${ACCOUNT}/ai/run/${MODEL}`,{method:'POST',headers:{Authorization:`Bearer ${TOKEN}`,'Content-Type':'application/json'},body:JSON.stringify({messages,response_format:{type:'json_object'},max_tokens:6000,temperature:0})}),j=await r.json();if(!r.ok||!j.success)throw Error(`Workers AI ${r.status}: ${JSON.stringify(j.errors||j).slice(0,240)}`);const x=j.result?.response??j.result;if(typeof x!=='string')return x;const clean=x.replace(/^```json|```$/g,'').trim();try{return JSON.parse(clean)}catch{const a=clean.indexOf('{'),b=clean.lastIndexOf('}');if(a>=0&&b>a)return JSON.parse(clean.slice(a,b+1));throw Error('Workers AI returned invalid JSON')}}
-async function synth(group,s){if(!s.length)return[];const p=[];for(let i=0;i<s.length;i+=28)p.push(await ai([{role:'system',content:'Tổng hợp trung thực. Không suy diễn đồng thuận. Chỉ dùng sourceId đã cho. JSON {ideas:[{title,summary,sourceIds,unique,conflict}]}.'},{role:'user',content:`Nhóm ${group}. Ý chung >=2 nguồn; nhu cầu độc đáo giữ unique=true. ${JSON.stringify(s.slice(i,i+28).map(({id,answer})=>({sourceId:id,answer})))}`}])) ;const m=await ai([{role:'system',content:'Hợp nhất cụm ngữ nghĩa, không tăng đồng thuận hoặc tạo sourceId. JSON {ideas:[{title,summary,sourceIds,unique,conflict}]}.'},{role:'user',content:JSON.stringify(p)}]),ids=new Set(s.map(x=>x.id));return(m.ideas||[]).map(x=>({...x,sourceIds:[...new Set(x.sourceIds||[])].filter(id=>ids.has(id))})).filter(x=>x.sourceIds.length&&(x.unique||x.sourceIds.length>=2))}
-try{const weeks=[];for(const name of thursdays()){const rows=await tab(name);if(!rows)continue;const picked=rows.filter(r=>(r['Loại bài']||'').trim()==='WEEK'),sources=[],reviewQueue=[];picked.forEach((r,i)=>qs(r['Nội dung câu hỏi']).forEach(p=>{const g=intent(p.text),a=redact((r[`Câu ${p.n}`]||'').trim());if(g===null&&a)reviewQueue.push({row:i+2,question:p.text,answer:a});if(!g||g==='excluded'||a.length<12||/^\(chưa trả lời\)$/i.test(a))return;const h=crypto.createHash('sha256').update([name,r['Họ và tên'],g,a].join('\u001f')).digest('hex').slice(0,16);sources.push({id:`${name}-${h}`,row:i+2,group:g,name:r['Họ và tên'],answer:a,due:r['Hạn nộp'],submitted:r['Nộp lúc'],questionPrompt:p.text})}));const summaries=[];for(const g of ['journal','change','kaizen','strength','improve','action','questions'])summaries.push({id:g,ideas:await synth(g,sources.filter(x=>x.group===g))});weeks.push({tab:name,due:sources[0]?.due||'',submissionCount:picked.length,answerCount:sources.length,complete:picked.length>=20,reviewQueue,summaries,sources})}const payload={generatedAt:new Date().toISOString(),sheetId:SHEET,method:'workers-ai-semantic',model:MODEL,weeks};fs.writeFileSync(out,JSON.stringify(payload,null,2));fs.writeFileSync(status,JSON.stringify({status:'ok',attemptedAt,lastSuccessfulAt:payload.generatedAt,model:MODEL},null,2))}catch(e){fs.writeFileSync(status,JSON.stringify({status:'failed',attemptedAt,lastSuccessfulAt:old?.generatedAt||null,error:String(e.message).slice(0,300),preservedPreviousSnapshot:Boolean(old)},null,2));console.error(e);process.exitCode=2}
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+
+const ACCOUNT=process.env.CLOUDFLARE_ACCOUNT_ID,TOKEN=process.env.CLOUDFLARE_API_TOKEN;
+const MODEL=process.env.WORKERS_AI_MODEL||'@cf/meta/llama-3.2-3b-instruct';
+const TAB=process.env.TARGET_TAB||'20261029',GROUP=process.env.TARGET_GROUP||'journal';
+const VERSION='question-ideas-v2',CHUNK=Number(process.env.CHUNK_SIZE||12);
+const DATA='data/weeks.json',STATUS='data/status.json',ROOT='data/ai-cache';
+const attemptedAt=new Date().toISOString();
+const sha=x=>crypto.createHash('sha256').update(x).digest('hex').slice(0,20);
+const read=f=>JSON.parse(fs.readFileSync(f,'utf8'));
+function write(f,v){fs.mkdirSync(path.dirname(f),{recursive:true});fs.writeFileSync(f,JSON.stringify(v,null,2)+'\n')}
+function validate(value,allowed){
+  if(!value||!Array.isArray(value.ideas))throw Error('AI response lacks ideas[]');
+  return value.ideas.map((x,i)=>{if(!x||typeof x.title!=='string'||typeof x.summary!=='string')throw Error(`Invalid idea ${i}`);
+    const sourceIds=[...new Set(Array.isArray(x.sourceIds)?x.sourceIds:[])].filter(id=>allowed.has(id));
+    if(!sourceIds.length)throw Error(`Idea ${i} has no valid source`);
+    return{title:x.title.trim(),summary:x.summary.trim(),sourceIds,unique:Boolean(x.unique),conflict:Boolean(x.conflict)};
+  });
+}
+async function ai(messages,max_tokens){
+  if(!ACCOUNT||!TOKEN)throw Error('Missing Cloudflare Actions secrets');
+  const r=await fetch(`https://api.cloudflare.com/client/v4/accounts/${ACCOUNT}/ai/run/${MODEL}`,{method:'POST',headers:{Authorization:`Bearer ${TOKEN}`,'Content-Type':'application/json'},body:JSON.stringify({messages,response_format:{type:'json_object'},max_tokens,temperature:0})});
+  const j=await r.json();if(!r.ok||!j.success)throw Error(`Workers AI ${r.status}: ${JSON.stringify(j.errors||j).slice(0,500)}`);
+  const raw=j.result?.response??j.result,value=typeof raw==='string'?JSON.parse(raw.replace(/^```json|```$/g,'').trim()):raw;
+  return{value,usage:j.result?.usage||null};
+}
+function status(previous,patch){write(STATUS,{...previous,attemptedAt,target:{tab:TAB,group:GROUP},model:MODEL,promptVersion:VERSION,...patch})}
+
+const payload=read(DATA),previous=fs.existsSync(STATUS)?read(STATUS):{};
+const week=payload.weeks.find(w=>w.tab===TAB);if(!week)throw Error(`Unknown target tab ${TAB}`);
+const sources=week.sources.filter(s=>s.group===GROUP);if(!sources.length)throw Error(`No sources for ${TAB}/${GROUP}`);
+const key=sha(JSON.stringify({version:VERSION,model:MODEL,tab:TAB,group:GROUP,sources:sources.map(({id,answer,questionPrompt})=>({id,answer,questionPrompt}))}));
+const dir=path.join(ROOT,TAB,GROUP,key),manifestFile=path.join(dir,'manifest.json');
+const chunks=[];for(let i=0;i<sources.length;i+=CHUNK)chunks.push(sources.slice(i,i+CHUNK));
+let manifest=fs.existsSync(manifestFile)?read(manifestFile):{state:'pending',tab:TAB,group:GROUP,model:MODEL,promptVersion:VERSION,sourceHash:key,sourceCount:sources.length,completedChunks:[],createdAt:attemptedAt};
+write(manifestFile,manifest);status(previous,{status:'running',sourceCount:sources.length,chunkCount:chunks.length,completedChunks:manifest.completedChunks.length,preservedPreviousSnapshot:true});
+
+try{
+  for(let i=0;i<chunks.length;i++){
+    const file=path.join(dir,`chunk-${String(i+1).padStart(2,'0')}.json`);if(fs.existsSync(file))continue;
+    const chunk=chunks[i];console.log(`checkpoint ${TAB}/${GROUP} ${i+1}/${chunks.length}; ${chunk.length} sources`);
+    const result=await ai([{role:'system',content:'Tổng hợp trung thực phản hồi học viên bằng tiếng Việt. Chỉ dùng sourceId đã cho. Không suy diễn đồng thuận, không bịa nguồn. JSON {"ideas":[{"title":"...","summary":"...","sourceIds":["..."],"unique":false,"conflict":false}]}.'},{role:'user',content:`Câu hỏi BTC: ${chunk[0]?.questionPrompt||GROUP}\nRút ý từ lô này. Nhu cầu hiếm cần hỗ trợ có thể unique=true. ${JSON.stringify(chunk.map(({id,answer})=>({sourceId:id,answer})))}`}],1200);
+    const ideas=validate(result.value,new Set(chunk.map(s=>s.id)));write(file,{index:i,sourceIds:chunk.map(s=>s.id),ideas,usage:result.usage});
+    manifest.completedChunks=[...new Set([...manifest.completedChunks,i])].sort((a,b)=>a-b);manifest.updatedAt=new Date().toISOString();write(manifestFile,manifest);
+    status(previous,{status:'partial',sourceCount:sources.length,chunkCount:chunks.length,completedChunks:manifest.completedChunks.length,preservedPreviousSnapshot:true});
+  }
+  const chunkIdeas=chunks.flatMap((_,i)=>read(path.join(dir,`chunk-${String(i+1).padStart(2,'0')}.json`)).ideas);
+  console.log(`final merge ${TAB}/${GROUP}; ${chunkIdeas.length} checkpoint ideas`);
+  const merged=await ai([{role:'system',content:'Hợp nhất ngữ nghĩa bằng tiếng Việt thành khoảng 5-10 ý chính nếu đủ bằng chứng; không ép số lượng, không tạo sourceId, giữ nhu cầu hiếm và quan điểm trái chiều. JSON {"ideas":[{"title":"...","summary":"...","sourceIds":["..."],"unique":false,"conflict":false}]}.'},{role:'user',content:JSON.stringify(chunkIdeas)}],1800);
+  const finalIdeas=validate(merged.value,new Set(sources.map(s=>s.id)));write(path.join(dir,'final.json'),{ideas:finalIdeas,usage:merged.usage,completedAt:new Date().toISOString()});
+  manifest={...manifest,state:'complete',ideaCount:finalIdeas.length,completedAt:new Date().toISOString()};write(manifestFile,manifest);
+  const summary=week.summaries.find(x=>x.id===GROUP);if(!summary)throw Error(`Missing summary ${GROUP}`);
+  Object.assign(summary,{ideas:finalIdeas,method:'workers-ai-semantic',model:MODEL,sourceHash:key});payload.generatedAt=new Date().toISOString();payload.method='workers-ai-semantic-incremental';payload.model=MODEL;write(DATA,payload);
+  status(previous,{status:'partial-success',lastSuccessfulAt:payload.generatedAt,completedGroups:[{tab:TAB,group:GROUP,sourceHash:key,ideaCount:finalIdeas.length}],preservedPreviousSnapshot:false});
+}catch(error){manifest={...manifest,state:'partial',updatedAt:new Date().toISOString(),error:String(error.message).slice(0,500)};write(manifestFile,manifest);status(previous,{status:'failed',error:String(error.message).slice(0,500),sourceCount:sources.length,chunkCount:chunks.length,completedChunks:manifest.completedChunks.length,preservedPreviousSnapshot:true});console.error(error);process.exitCode=2;}
