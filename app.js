@@ -8,6 +8,8 @@ function countLabel(idea){const publicCount=peopleFor(idea).length,held=privateI
 fetch('data/weeks.json').then(r=>r.json()).then(d=>{model=d;const s=$('#week');d.weeks.slice().reverse().forEach(w=>s.add(new Option(`${w.tab} · ${w.submissionCount} bài${w.complete?'':' · đang thu'}`,w.tab)));const preferred=d.weeks.slice().reverse().find(w=>w.complete);if(preferred)s.value=preferred.tab;s.onchange=render;$('#search').oninput=render;render()}).catch(()=>$('#groups').innerHTML='<p class="empty">Không tải được dữ liệu.</p>');
 function render(){
   current=model.weeks.find(w=>w.tab===$('#week').value)||model.weeks.at(-1);sourceMap=Object.fromEntries(current.sources.map(s=>[s.id,s]));
+  const reviewed=current.summaries.every(g=>g.method==='chatgpt-semantic-reviewed');
+  document.querySelector('aside').textContent=reviewed?'Bản tin đã được ChatGPT đọc và tổng hợp ngữ nghĩa từ toàn bộ phản hồi có trong snapshot; mỗi ý đều truy ngược được nguồn.':'Tuần đang thu bài — nội dung hiện tại là bản nháp, chưa dùng làm kết luận chính thức.';
   const q=$('#search').value.trim().toLocaleLowerCase('vi');
   $('#stats').innerHTML=`<div class="stat"><b>${current.submissionCount}</b><span>bài WEEK${current.complete?'':' · đang thu bài'}</span></div><div class="stat"><b>${current.answerCount}</b><span>câu trả lời có nội dung</span></div><div class="stat"><b>${esc(current.due||current.tab)}</b><span>hạn nộp</span></div>`;
   $('#groups').innerHTML=current.summaries.map(g=>{
