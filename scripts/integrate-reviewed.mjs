@@ -12,6 +12,7 @@ const privacyHeldSourceIds = new Set([
   '20261029-2406339fa6cd0ea6',
   '20261029-67e26bb94e7b6d29',
   '20261029-f947abe8fa583e7e',
+  '20261105-26d192f69c9707bc',
 ]);
 
 for (const tab of tabs) {

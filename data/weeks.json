@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T00:43:31.300Z",
+  "generatedAt": "2026-11-03T01:15:00.000Z",
   "sheetId": "1iDg5ryTjItafI9K0lwORi7KcwsCUmCClaQEg79KhWyQ",
   "weeks": [
     {
@@ -20576,134 +20576,300 @@
     {
       "tab": "20261105",
       "due": "05/11/2026 23:00",
-      "submissionCount": 4,
-      "answerCount": 20,
+      "submissionCount": 5,
+      "answerCount": 26,
       "complete": false,
-      "reviewCount": 4,
+      "reviewCount": 5,
       "summaries": [
         {
           "id": "journal",
-          "title": "Câu hỏi: Nhật ký cảm xúc từ phản hồi đồng đội",
+          "title": "Câu hỏi: Viết Nhật ký đúc kết (trạng thái tâm, cảm xúc) của bạn từ trải nghiệm khen chê của đồng đội về video của bạn?",
+          "method": "chatgpt-semantic-draft",
+          "coverage": {
+            "reviewedSourceCount": 4,
+            "representedSourceCount": 4,
+            "status": "ongoing"
+          },
           "ideas": [
             {
-              "title": "Các nhu cầu và góc nhìn riêng cần được đọc nguyên văn",
-              "count": 3,
+              "title": "Đón nhận phản hồi với tâm thế bình thường hoặc sẵn sàng lắng nghe",
+              "summary": "Ba phản hồi mô tả sự bình thường, không quá buồn hoặc sẵn sàng nghe góp ý. Đây mới là trạng thái tự thuật của từng người, chưa phải kết luận rằng mọi phản hồi đều đã được tiếp nhận trọn vẹn.",
               "sourceIds": [
-                "20261105-f253bf5a264aa9a5",
+                "20261105-968fa7522f58634a",
                 "20261105-865ea295130216f0",
                 "20261105-053b972524594bb2"
               ],
+              "count": 3
+            },
+            {
+              "title": "Góp ý về phần đúc kết chưa hợp lý gây bối rối",
+              "summary": "Một học viên chưa rõ cách tách phần đúc kết và kể chuyện khi đang dùng chung một sơ đồ; đây là nhu cầu cần được làm rõ, không phải đánh giá chung của lớp.",
+              "sourceIds": [
+                "20261105-f253bf5a264aa9a5"
+              ],
+              "count": 1,
               "unique": true
             }
           ]
         },
         {
           "id": "change",
-          "title": "Câu hỏi: Chuyển hóa trong học tập và đời sống",
+          "title": "Câu hỏi: Từ trải nghiệm thực hành kể chuyện, hãy chia sẻ sự thay đổi, chuyển hoá của bạn về nhận thức, tư duy, hành vi và lời nói,..?",
+          "method": "chatgpt-semantic-draft",
+          "coverage": {
+            "reviewedSourceCount": 4,
+            "representedSourceCount": 4,
+            "status": "ongoing"
+          },
           "ideas": [
             {
-              "title": "Các nhu cầu và góc nhìn riêng cần được đọc nguyên văn",
-              "count": 3,
+              "title": "Kỹ năng kể chuyện bắt đầu rõ hơn qua thực hành",
+              "summary": "Hai nguồn ghi nhận nói tốt hơn hoặc quen dần với mô hình và cách mở đầu; mức độ tiến bộ còn được mô tả ngắn, chưa đủ để khẳng định đã thành thạo.",
               "sourceIds": [
                 "20261105-b8ea968b79d2e301",
-                "20261105-7ae7b75148b53f6c",
+                "20261105-7ae7b75148b53f6c"
+              ],
+              "count": 2
+            },
+            {
+              "title": "Nhìn nhận giới hạn cá nhân và tôn trọng sự riêng biệt",
+              "summary": "Một học viên nhận biết kỹ năng kể chuyện còn hạn chế nhưng vẫn giữ sự tôn trọng đối với cách thể hiện riêng.",
+              "sourceIds": [
+                "20261105-acfeac20c2448e2a"
+              ],
+              "count": 1,
+              "unique": true
+            },
+            {
+              "title": "Phản hồi đồng đội mở thêm góc nhìn và nhu cầu kaizen",
+              "summary": "Một học viên cho biết phản hồi của đồng đội giúp có thêm góc nhìn và thấy cần tiếp tục cải tiến.",
+              "sourceIds": [
                 "20261105-cfb8922bd1c720f7"
               ],
+              "count": 1,
               "unique": true
             }
           ]
         },
         {
           "id": "kaizen",
-          "title": "Câu hỏi: Điểm tự kaizen từ chấm bài đồng đội",
+          "title": "Câu hỏi: Luyện kể chuyện (tăng giờ bay, 4 kỹ, tác phẩm)\nLưu ý: Nên làm mỗi ngày 1 bài.\n\n- Câu chuyện tinh hoa + Chọn 02/4 câu chuyện tinh hoa buổi trước (Liêm Pha - Lạn Tương Như; Việt Vương Câu Tiễn; Phạm Lãi Văn Chủng; Mua nghĩa, Mạnh Thường Quân - Cổ học) để làm lại (kaizen, 4 kỹ, tác phẩm)\n\n- Câu chuyện bản thân + Chọn 02 giai đoạn cuộc đời, dấu ấn lớn (theo dòng thời gian: thơ ấu, đi học, sinh viên, đi làm, hiện tại, tương lai,..) để kể lại. Sau đó, lồng ghép vào hệ quy chiếu 4VTĐT, Cây 3 gốc và Ikigai\n\nCá chép chọn 1 trong 2 level sau:\n- Level Than Đá:\n+ Kể 01 tích chuyện tinh hoa và 01 tích chuyện bản thân\n\n- Level Kim Cương:\n+ Kể 02 tích chuyện tinh hoa và 02 tích chuyện bản thân\n\nDùng bút & giấy A3 để tóm ý, sơ đồ, trình bày, quay video (nên dùng zoom & có mic lọc ồn)\n\nĐăng youtube & FB reel:\n- Gán video câu chuyện 1\n- Gán video câu chuyện 2\n- Gán video câu chuyện 3\n- Gán video câu chuyện 4\nNhắn ĐNT chấm điểm và phản hồi (phản biện, khen chê) ít nhất 1 câu chuyện trên web dh3g.vn cho bạn",
+          "method": "chatgpt-semantic-draft",
+          "coverage": {
+            "reviewedSourceCount": 5,
+            "representedSourceCount": 5,
+            "status": "ongoing"
+          },
           "ideas": [
             {
-              "title": "Các nhu cầu và góc nhìn riêng cần được đọc nguyên văn",
-              "count": 4,
+              "title": "Bài nộp hiện chủ yếu là ảnh hoặc video, chưa đủ văn bản để đúc kết điểm kaizen",
+              "summary": "Năm nguồn hiện chỉ cung cấp liên kết hoặc tệp đính kèm. Bản tin giữ trạng thái chờ đọc, không suy diễn nội dung từ liên kết và chưa tạo kết luận kaizen.",
               "sourceIds": [
+                "20261105-16a003bda17929bd",
                 "20261105-d599e3d0fb3f4254",
                 "20261105-de3a494ffd540d75",
                 "20261105-3c0f5ef499463ce7",
                 "20261105-926bcf35582f2712"
               ],
-              "unique": true
+              "count": 5,
+              "reviewRequired": true
             }
           ]
         },
         {
           "id": "strength",
-          "title": "Câu hỏi: Điểm tốt của lớp cần phát huy",
+          "title": "Câu hỏi: 01 điểm tốt cần phát huy trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
+          "method": "chatgpt-semantic-draft",
+          "coverage": {
+            "reviewedSourceCount": 4,
+            "representedSourceCount": 4,
+            "status": "ongoing"
+          },
           "ideas": [
             {
-              "title": "Duy trì chia sẻ và học trực tiếp tại lớp",
-              "count": 2,
+              "title": "Khuyến khích sự chủ động chia sẻ và tăng thời lượng thực hành",
+              "summary": "Hai ý kiến muốn phát huy việc chủ động chia sẻ hoặc luyện tập nhiều hơn; chưa có đủ chi tiết để quy thành một phương thức bắt buộc.",
+              "sourceIds": [
+                "20261105-d3c8017fcddb2b7a",
+                "20261105-b27a5d6b575c1585"
+              ],
+              "count": 2
+            },
+            {
+              "title": "Trân trọng chia sẻ từ học viên cũ và mong Thầy chia sẻ thêm",
+              "summary": "Hai nguồn đánh giá cao hoặc mong tăng phần chia sẻ từ người có trải nghiệm, gồm học viên cũ và Thầy.",
               "sourceIds": [
                 "20261105-ab0a281806c14531",
                 "20261105-66413b33d4049251"
-              ]
-            },
-            {
-              "title": "Các nhu cầu và góc nhìn riêng cần được đọc nguyên văn",
-              "count": 1,
-              "sourceIds": [
-                "20261105-b27a5d6b575c1585"
               ],
-              "unique": true
+              "count": 2
             }
           ]
         },
         {
           "id": "improve",
-          "title": "Câu hỏi: Điểm lớp học cần cải thiện",
+          "title": "Câu hỏi: 03 điểm cần cải thiện trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
+          "method": "chatgpt-semantic-draft",
+          "coverage": {
+            "reviewedSourceCount": 4,
+            "representedSourceCount": 3,
+            "status": "ongoing"
+          },
           "ideas": [
             {
-              "title": "Các nhu cầu và góc nhìn riêng cần được đọc nguyên văn",
-              "count": 3,
+              "title": "Làm ít bài hơn nhưng lặp lại kỹ và xem lại cốt truyện",
+              "summary": "Hai nguồn hướng tới chất lượng: xem lại cốt truyện và ưu tiên một bài mỗi tuần để làm đi làm lại kỹ hơn.",
               "sourceIds": [
-                "20261105-6d3cae52b488dabd",
-                "20261105-aaf4649aee7cec9d",
+                "20261105-e353a43ab682d5fe",
                 "20261105-9e5dab4f8fc4a824"
               ],
+              "count": 2
+            },
+            {
+              "title": "Góp ý nên được xử lý ngay trên lớp để bớt cục bộ và tốn thời gian",
+              "summary": "Một học viên thấy hành trình góp ý còn cục bộ trong nhóm, còn lớp mở thêm lại khó theo vì tốn thời gian; đề xuất giải quyết ngay trong buổi học.",
+              "sourceIds": [
+                "20261105-6d3cae52b488dabd"
+              ],
+              "count": 1,
               "unique": true
             }
           ]
         },
         {
           "id": "action",
-          "title": "Câu hỏi: Hành động học viên cam kết đóng góp",
+          "title": "Câu hỏi: Hành động cụ thể của bạn đóng góp giúp lớp học tốt lên là gì?",
+          "method": "chatgpt-semantic-draft",
+          "coverage": {
+            "reviewedSourceCount": 4,
+            "representedSourceCount": 4,
+            "status": "ongoing"
+          },
           "ideas": [
             {
-              "title": "Các nhu cầu và góc nhìn riêng cần được đọc nguyên văn",
-              "count": 3,
+              "title": "Đồng hành, góp ý và mở rộng tương tác với đồng đội",
+              "summary": "Ba nguồn cam kết đồng hành, góp ý trong nhóm hoặc tương tác và phản hồi cho học viên khác thôn.",
               "sourceIds": [
+                "20261105-626c0222d2a09e49",
                 "20261105-f1f1480ce5fd06ed",
+                "20261105-ea3264a0b6034cb3"
+              ],
+              "count": 3
+            },
+            {
+              "title": "Tăng mức thực hành cá nhân",
+              "summary": "Hai nguồn nêu làm bài đầy đủ hoặc làm nhiều bài hơn; đây là cam kết tự rèn, không phải nghĩa vụ BTC.",
+              "sourceIds": [
                 "20261105-7ff137a395f3ae75",
                 "20261105-ea3264a0b6034cb3"
               ],
-              "unique": true
+              "count": 2
             }
           ]
         },
         {
           "id": "questions",
-          "title": "Câu hỏi: Khó khăn và câu hỏi gửi BTC/Thầy",
+          "title": "Câu hỏi: Bạn có khó khăn & câu hỏi gì đến BTC/Thầy?",
+          "method": "chatgpt-semantic-draft",
+          "coverage": {
+            "reviewedSourceCount": 1,
+            "representedSourceCount": 1,
+            "status": "ongoing"
+          },
           "ideas": [
             {
-              "title": "Các nhu cầu và góc nhìn riêng cần được đọc nguyên văn",
-              "count": 1,
+              "title": "Thiếu thời gian vì trách nhiệm gia đình và công việc",
+              "summary": "Một học viên cho biết nguồn lực thời gian hạn chế nên bài chưa được chỉn chu. Bản tin chỉ giữ nhu cầu hỗ trợ khái quát và giữ riêng tên, nguyên văn.",
               "sourceIds": [
                 "20261105-26d192f69c9707bc"
               ],
-              "unique": true
+              "count": 1,
+              "unique": true,
+              "privacyReviewSourceIds": [
+                "20261105-26d192f69c9707bc"
+              ],
+              "requiresPrivacyReview": true
             }
           ]
         }
       ],
       "sources": [
         {
+          "id": "20261105-968fa7522f58634a",
+          "fingerprint": "968fa7522f58634a",
+          "row": 2,
+          "questionColumn": "Câu 2",
+          "questionPrompt": "Viết Nhật ký đúc kết (trạng thái tâm, cảm xúc) của bạn từ trải nghiệm khen chê của đồng đội về video của bạn?",
+          "group": "journal",
+          "name": "Nguyễn Thị Thảo",
+          "answer": "Khi nhận được phản hồi về chia sẻ câu chuyện chưa thuyết phục cũng không bị buồn vì biết trước sẽ là như thế. Lý do là vì cachd mình kể nội dung có nhiều yếu tố khác.",
+          "submitted": "03/11/2026 07:00",
+          "due": "05/11/2026 23:00"
+        },
+        {
+          "id": "20261105-acfeac20c2448e2a",
+          "fingerprint": "acfeac20c2448e2a",
+          "row": 2,
+          "questionColumn": "Câu 3",
+          "questionPrompt": "Từ trải nghiệm thực hành kể chuyện, hãy chia sẻ sự thay đổi, chuyển hoá của bạn về nhận thức, tư duy, hành vi và lời nói,..?",
+          "group": "change",
+          "name": "Nguyễn Thị Thảo",
+          "answer": "Mình vẫn biết kỹ năng kể chuyện chưa giỏi nhưng mình tôn trọng sự riêng biệt.",
+          "submitted": "03/11/2026 07:00",
+          "due": "05/11/2026 23:00"
+        },
+        {
+          "id": "20261105-16a003bda17929bd",
+          "fingerprint": "16a003bda17929bd",
+          "row": 2,
+          "questionColumn": "Câu 1",
+          "questionPrompt": "Luyện kể chuyện (tăng giờ bay, 4 kỹ, tác phẩm)\nLưu ý: Nên làm mỗi ngày 1 bài.\n\n- Câu chuyện tinh hoa + Chọn 02/4 câu chuyện tinh hoa buổi trước (Liêm Pha - Lạn Tương Như; Việt Vương Câu Tiễn; Phạm Lãi Văn Chủng; Mua nghĩa, Mạnh Thường Quân - Cổ học) để làm lại (kaizen, 4 kỹ, tác phẩm)\n\n- Câu chuyện bản thân + Chọn 02 giai đoạn cuộc đời, dấu ấn lớn (theo dòng thời gian: thơ ấu, đi học, sinh viên, đi làm, hiện tại, tương lai,..) để kể lại. Sau đó, lồng ghép vào hệ quy chiếu 4VTĐT, Cây 3 gốc và Ikigai\n\nCá chép chọn 1 trong 2 level sau:\n- Level Than Đá:\n+ Kể 01 tích chuyện tinh hoa và 01 tích chuyện bản thân\n\n- Level Kim Cương:\n+ Kể 02 tích chuyện tinh hoa và 02 tích chuyện bản thân\n\nDùng bút & giấy A3 để tóm ý, sơ đồ, trình bày, quay video (nên dùng zoom & có mic lọc ồn)\n\nĐăng youtube & FB reel:\n- Gán video câu chuyện 1\n- Gán video câu chuyện 2\n- Gán video câu chuyện 3\n- Gán video câu chuyện 4\nNhắn ĐNT chấm điểm và phản hồi (phản biện, khen chê) ít nhất 1 câu chuyện trên web dh3g.vn cho bạn",
+          "group": "kaizen",
+          "name": "Nguyễn Thị Thảo",
+          "answer": "[Ảnh] https://s3.sunteco.app/images-stc/images/43ea1b7c-f648-4e32-ba57-e551a7fd2d73.jpeg",
+          "submitted": "03/11/2026 07:00",
+          "due": "05/11/2026 23:00"
+        },
+        {
+          "id": "20261105-d3c8017fcddb2b7a",
+          "fingerprint": "d3c8017fcddb2b7a",
+          "row": 2,
+          "questionColumn": "Câu 5",
+          "questionPrompt": "01 điểm tốt cần phát huy trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
+          "group": "strength",
+          "name": "Nguyễn Thị Thảo",
+          "answer": "Chủ động chia sẻ không cần sơ đồ.",
+          "submitted": "03/11/2026 07:00",
+          "due": "05/11/2026 23:00"
+        },
+        {
+          "id": "20261105-e353a43ab682d5fe",
+          "fingerprint": "e353a43ab682d5fe",
+          "row": 2,
+          "questionColumn": "Câu 6",
+          "questionPrompt": "03 điểm cần cải thiện trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
+          "group": "improve",
+          "name": "Nguyễn Thị Thảo",
+          "answer": "Xem lại cốt câu chuyện",
+          "submitted": "03/11/2026 07:00",
+          "due": "05/11/2026 23:00"
+        },
+        {
+          "id": "20261105-626c0222d2a09e49",
+          "fingerprint": "626c0222d2a09e49",
+          "row": 2,
+          "questionColumn": "Câu 7",
+          "questionPrompt": "Hành động cụ thể của bạn đóng góp giúp lớp học tốt lên là gì?",
+          "group": "action",
+          "name": "Nguyễn Thị Thảo",
+          "answer": "Đồnh hành cùng đồng đội",
+          "submitted": "03/11/2026 07:00",
+          "due": "05/11/2026 23:00"
+        },
+        {
           "id": "20261105-f253bf5a264aa9a5",
           "fingerprint": "f253bf5a264aa9a5",
-          "row": 2,
+          "row": 3,
           "questionColumn": "Câu 2",
           "questionPrompt": "Viết Nhật ký đúc kết (trạng thái tâm, cảm xúc) của bạn từ trải nghiệm khen chê của đồng đội về video của bạn?",
           "group": "journal",
@@ -20715,7 +20881,7 @@
         {
           "id": "20261105-b8ea968b79d2e301",
           "fingerprint": "b8ea968b79d2e301",
-          "row": 2,
+          "row": 3,
           "questionColumn": "Câu 3",
           "questionPrompt": "Từ trải nghiệm thực hành kể chuyện, hãy chia sẻ sự thay đổi, chuyển hoá của bạn về nhận thức, tư duy, hành vi và lời nói,..?",
           "group": "change",
@@ -20727,7 +20893,7 @@
         {
           "id": "20261105-d599e3d0fb3f4254",
           "fingerprint": "d599e3d0fb3f4254",
-          "row": 2,
+          "row": 3,
           "questionColumn": "Câu 1",
           "questionPrompt": "Luyện kể chuyện (tăng giờ bay, 4 kỹ, tác phẩm)\nLưu ý: Nên làm mỗi ngày 1 bài.\n\n- Câu chuyện tinh hoa + Chọn 02/4 câu chuyện tinh hoa buổi trước (Liêm Pha - Lạn Tương Như; Việt Vương Câu Tiễn; Phạm Lãi Văn Chủng; Mua nghĩa, Mạnh Thường Quân - Cổ học) để làm lại (kaizen, 4 kỹ, tác phẩm)\n\n- Câu chuyện bản thân + Chọn 02 giai đoạn cuộc đời, dấu ấn lớn (theo dòng thời gian: thơ ấu, đi học, sinh viên, đi làm, hiện tại, tương lai,..) để kể lại. Sau đó, lồng ghép vào hệ quy chiếu 4VTĐT, Cây 3 gốc và Ikigai\n\nCá chép chọn 1 trong 2 level sau:\n- Level Than Đá:\n+ Kể 01 tích chuyện tinh hoa và 01 tích chuyện bản thân\n\n- Level Kim Cương:\n+ Kể 02 tích chuyện tinh hoa và 02 tích chuyện bản thân\n\nDùng bút & giấy A3 để tóm ý, sơ đồ, trình bày, quay video (nên dùng zoom & có mic lọc ồn)\n\nĐăng youtube & FB reel:\n- Gán video câu chuyện 1\n- Gán video câu chuyện 2\n- Gán video câu chuyện 3\n- Gán video câu chuyện 4\nNhắn ĐNT chấm điểm và phản hồi (phản biện, khen chê) ít nhất 1 câu chuyện trên web dh3g.vn cho bạn",
           "group": "kaizen",
@@ -20739,7 +20905,7 @@
         {
           "id": "20261105-ab0a281806c14531",
           "fingerprint": "ab0a281806c14531",
-          "row": 2,
+          "row": 3,
           "questionColumn": "Câu 5",
           "questionPrompt": "01 điểm tốt cần phát huy trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
           "group": "strength",
@@ -20751,7 +20917,7 @@
         {
           "id": "20261105-6d3cae52b488dabd",
           "fingerprint": "6d3cae52b488dabd",
-          "row": 2,
+          "row": 3,
           "questionColumn": "Câu 6",
           "questionPrompt": "03 điểm cần cải thiện trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
           "group": "improve",
@@ -20763,7 +20929,7 @@
         {
           "id": "20261105-f1f1480ce5fd06ed",
           "fingerprint": "f1f1480ce5fd06ed",
-          "row": 2,
+          "row": 3,
           "questionColumn": "Câu 7",
           "questionPrompt": "Hành động cụ thể của bạn đóng góp giúp lớp học tốt lên là gì?",
           "group": "action",
@@ -20775,7 +20941,7 @@
         {
           "id": "20261105-865ea295130216f0",
           "fingerprint": "865ea295130216f0",
-          "row": 3,
+          "row": 4,
           "questionColumn": "Câu 2",
           "questionPrompt": "Viết Nhật ký đúc kết (trạng thái tâm, cảm xúc) của bạn từ trải nghiệm khen chê của đồng đội về video của bạn?",
           "group": "journal",
@@ -20787,7 +20953,7 @@
         {
           "id": "20261105-7ae7b75148b53f6c",
           "fingerprint": "7ae7b75148b53f6c",
-          "row": 3,
+          "row": 4,
           "questionColumn": "Câu 3",
           "questionPrompt": "Từ trải nghiệm thực hành kể chuyện, hãy chia sẻ sự thay đổi, chuyển hoá của bạn về nhận thức, tư duy, hành vi và lời nói,..?",
           "group": "change",
@@ -20799,7 +20965,7 @@
         {
           "id": "20261105-de3a494ffd540d75",
           "fingerprint": "de3a494ffd540d75",
-          "row": 3,
+          "row": 4,
           "questionColumn": "Câu 1",
           "questionPrompt": "Luyện kể chuyện (tăng giờ bay, 4 kỹ, tác phẩm)\nLưu ý: Nên làm mỗi ngày 1 bài.\n\n- Câu chuyện tinh hoa + Chọn 02/4 câu chuyện tinh hoa buổi trước (Liêm Pha - Lạn Tương Như; Việt Vương Câu Tiễn; Phạm Lãi Văn Chủng; Mua nghĩa, Mạnh Thường Quân - Cổ học) để làm lại (kaizen, 4 kỹ, tác phẩm)\n\n- Câu chuyện bản thân + Chọn 02 giai đoạn cuộc đời, dấu ấn lớn (theo dòng thời gian: thơ ấu, đi học, sinh viên, đi làm, hiện tại, tương lai,..) để kể lại. Sau đó, lồng ghép vào hệ quy chiếu 4VTĐT, Cây 3 gốc và Ikigai\n\nCá chép chọn 1 trong 2 level sau:\n- Level Than Đá:\n+ Kể 01 tích chuyện tinh hoa và 01 tích chuyện bản thân\n\n- Level Kim Cương:\n+ Kể 02 tích chuyện tinh hoa và 02 tích chuyện bản thân\n\nDùng bút & giấy A3 để tóm ý, sơ đồ, trình bày, quay video (nên dùng zoom & có mic lọc ồn)\n\nĐăng youtube & FB reel:\n- Gán video câu chuyện 1\n- Gán video câu chuyện 2\n- Gán video câu chuyện 3\n- Gán video câu chuyện 4\nNhắn ĐNT chấm điểm và phản hồi (phản biện, khen chê) ít nhất 1 câu chuyện trên web dh3g.vn cho bạn",
           "group": "kaizen",
@@ -20811,7 +20977,7 @@
         {
           "id": "20261105-b27a5d6b575c1585",
           "fingerprint": "b27a5d6b575c1585",
-          "row": 3,
+          "row": 4,
           "questionColumn": "Câu 5",
           "questionPrompt": "01 điểm tốt cần phát huy trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
           "group": "strength",
@@ -20823,7 +20989,7 @@
         {
           "id": "20261105-aaf4649aee7cec9d",
           "fingerprint": "aaf4649aee7cec9d",
-          "row": 3,
+          "row": 4,
           "questionColumn": "Câu 6",
           "questionPrompt": "03 điểm cần cải thiện trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
           "group": "improve",
@@ -20835,7 +21001,7 @@
         {
           "id": "20261105-7ff137a395f3ae75",
           "fingerprint": "7ff137a395f3ae75",
-          "row": 3,
+          "row": 4,
           "questionColumn": "Câu 7",
           "questionPrompt": "Hành động cụ thể của bạn đóng góp giúp lớp học tốt lên là gì?",
           "group": "action",
@@ -20847,7 +21013,7 @@
         {
           "id": "20261105-053b972524594bb2",
           "fingerprint": "053b972524594bb2",
-          "row": 4,
+          "row": 5,
           "questionColumn": "Câu 2",
           "questionPrompt": "Viết Nhật ký đúc kết (trạng thái tâm, cảm xúc) của bạn từ trải nghiệm khen chê của đồng đội về video của bạn?",
           "group": "journal",
@@ -20859,7 +21025,7 @@
         {
           "id": "20261105-cfb8922bd1c720f7",
           "fingerprint": "cfb8922bd1c720f7",
-          "row": 4,
+          "row": 5,
           "questionColumn": "Câu 3",
           "questionPrompt": "Từ trải nghiệm thực hành kể chuyện, hãy chia sẻ sự thay đổi, chuyển hoá của bạn về nhận thức, tư duy, hành vi và lời nói,..?",
           "group": "change",
@@ -20871,7 +21037,7 @@
         {
           "id": "20261105-3c0f5ef499463ce7",
           "fingerprint": "3c0f5ef499463ce7",
-          "row": 4,
+          "row": 5,
           "questionColumn": "Câu 1",
           "questionPrompt": "Luyện kể chuyện (tăng giờ bay, 4 kỹ, tác phẩm)\nLưu ý: Nên làm mỗi ngày 1 bài.\n\n- Câu chuyện tinh hoa + Chọn 02/4 câu chuyện tinh hoa buổi trước (Liêm Pha - Lạn Tương Như; Việt Vương Câu Tiễn; Phạm Lãi Văn Chủng; Mua nghĩa, Mạnh Thường Quân - Cổ học) để làm lại (kaizen, 4 kỹ, tác phẩm)\n\n- Câu chuyện bản thân + Chọn 02 giai đoạn cuộc đời, dấu ấn lớn (theo dòng thời gian: thơ ấu, đi học, sinh viên, đi làm, hiện tại, tương lai,..) để kể lại. Sau đó, lồng ghép vào hệ quy chiếu 4VTĐT, Cây 3 gốc và Ikigai\n\nCá chép chọn 1 trong 2 level sau:\n- Level Than Đá:\n+ Kể 01 tích chuyện tinh hoa và 01 tích chuyện bản thân\n\n- Level Kim Cương:\n+ Kể 02 tích chuyện tinh hoa và 02 tích chuyện bản thân\n\nDùng bút & giấy A3 để tóm ý, sơ đồ, trình bày, quay video (nên dùng zoom & có mic lọc ồn)\n\nĐăng youtube & FB reel:\n- Gán video câu chuyện 1\n- Gán video câu chuyện 2\n- Gán video câu chuyện 3\n- Gán video câu chuyện 4\nNhắn ĐNT chấm điểm và phản hồi (phản biện, khen chê) ít nhất 1 câu chuyện trên web dh3g.vn cho bạn",
           "group": "kaizen",
@@ -20883,7 +21049,7 @@
         {
           "id": "20261105-66413b33d4049251",
           "fingerprint": "66413b33d4049251",
-          "row": 4,
+          "row": 5,
           "questionColumn": "Câu 5",
           "questionPrompt": "01 điểm tốt cần phát huy trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
           "group": "strength",
@@ -20895,7 +21061,7 @@
         {
           "id": "20261105-9e5dab4f8fc4a824",
           "fingerprint": "9e5dab4f8fc4a824",
-          "row": 4,
+          "row": 5,
           "questionColumn": "Câu 6",
           "questionPrompt": "03 điểm cần cải thiện trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
           "group": "improve",
@@ -20907,7 +21073,7 @@
         {
           "id": "20261105-ea3264a0b6034cb3",
           "fingerprint": "ea3264a0b6034cb3",
-          "row": 4,
+          "row": 5,
           "questionColumn": "Câu 7",
           "questionPrompt": "Hành động cụ thể của bạn đóng góp giúp lớp học tốt lên là gì?",
           "group": "action",
@@ -20918,20 +21084,15 @@
         },
         {
           "id": "20261105-26d192f69c9707bc",
-          "fingerprint": "26d192f69c9707bc",
-          "row": 4,
-          "questionColumn": "Câu 8",
-          "questionPrompt": "Bạn có khó khăn & câu hỏi gì đến BTC/Thầy?",
           "group": "questions",
-          "name": "Trường Sinh",
-          "answer": "1 mình dạy và rèn 2 con trai, mưu sinh 4 - 5 việc nên hơi bận rộn... nên thời gian làm BT chưa được Chỉn Chu",
-          "submitted": "01/11/2026 16:30",
-          "due": "05/11/2026 23:00"
+          "questionColumn": "Câu 8",
+          "privacyHeld": true,
+          "heldStatus": "Nguồn giữ riêng; không công bố tên hoặc nguyên văn."
         },
         {
           "id": "20261105-926bcf35582f2712",
           "fingerprint": "926bcf35582f2712",
-          "row": 5,
+          "row": 6,
           "questionColumn": "Câu 1",
           "questionPrompt": "Luyện kể chuyện (tăng giờ bay, 4 kỹ, tác phẩm)\nLưu ý: Nên làm mỗi ngày 1 bài.\n\n- Câu chuyện tinh hoa + Chọn 02/4 câu chuyện tinh hoa buổi trước (Liêm Pha - Lạn Tương Như; Việt Vương Câu Tiễn; Phạm Lãi Văn Chủng; Mua nghĩa, Mạnh Thường Quân - Cổ học) để làm lại (kaizen, 4 kỹ, tác phẩm)\n\n- Câu chuyện bản thân + Chọn 02 giai đoạn cuộc đời, dấu ấn lớn (theo dòng thời gian: thơ ấu, đi học, sinh viên, đi làm, hiện tại, tương lai,..) để kể lại. Sau đó, lồng ghép vào hệ quy chiếu 4VTĐT, Cây 3 gốc và Ikigai\n\nCá chép chọn 1 trong 2 level sau:\n- Level Than Đá:\n+ Kể 01 tích chuyện tinh hoa và 01 tích chuyện bản thân\n\n- Level Kim Cương:\n+ Kể 02 tích chuyện tinh hoa và 02 tích chuyện bản thân\n\nDùng bút & giấy A3 để tóm ý, sơ đồ, trình bày, quay video (nên dùng zoom & có mic lọc ồn)\n\nĐăng youtube & FB reel:\n- Gán video câu chuyện 1\n- Gán video câu chuyện 2\n- Gán video câu chuyện 3\n- Gán video câu chuyện 4\nNhắn ĐNT chấm điểm và phản hồi (phản biện, khen chê) ít nhất 1 câu chuyện trên web dh3g.vn cho bạn",
           "group": "kaizen",
@@ -20965,9 +21126,45 @@
           "reason": "duplicate-intent",
           "questionNumber": 4,
           "prompt": "Từ hoạt động phản hồi & chấm bài cho ĐNT trên web dh3g.vn , 3 điểm cần kaizen cho bài làm của bạn?"
+        },
+        {
+          "row": 6,
+          "reason": "duplicate-intent",
+          "questionNumber": 4,
+          "prompt": "Từ hoạt động phản hồi & chấm bài cho ĐNT trên web dh3g.vn , 3 điểm cần kaizen cho bài làm của bạn?"
+        },
+        {
+          "sourceId": "20261105-16a003bda17929bd",
+          "reason": "attachment-only-needs-review"
+        },
+        {
+          "sourceId": "20261105-d599e3d0fb3f4254",
+          "reason": "attachment-only-needs-review"
+        },
+        {
+          "sourceId": "20261105-de3a494ffd540d75",
+          "reason": "attachment-only-needs-review"
+        },
+        {
+          "sourceId": "20261105-3c0f5ef499463ce7",
+          "reason": "attachment-only-needs-review"
+        },
+        {
+          "sourceId": "20261105-926bcf35582f2712",
+          "reason": "attachment-only-needs-review"
+        },
+        {
+          "sourceId": "20261105-aaf4649aee7cec9d",
+          "reason": "non-substantive-no-improvement-yet"
         }
-      ]
+      ],
+      "checkpoint": {
+        "status": "ongoing",
+        "reviewedAt": "2026-11-03T01:15:00.000Z",
+        "method": "Native ChatGPT semantic reading; no external AI API.",
+        "sourceCount": 26
+      }
     }
   ],
-  "method": "chatgpt-semantic-reviewed"
+  "method": "chatgpt-semantic-reviewed-with-ongoing-draft"
 }
