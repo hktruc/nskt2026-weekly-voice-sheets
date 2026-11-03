@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T00:31:20.026Z",
+  "generatedAt": "2026-11-03T00:38:58.240Z",
   "sheetId": "1iDg5ryTjItafI9K0lwORi7KcwsCUmCClaQEg79KhWyQ",
   "weeks": [
     {
@@ -12,11 +12,11 @@
       "summaries": [
         {
           "id": "journal",
-          "title": "Câu hỏi: Viß║┐t Nhß║¡t k├╜ ─æ├║c kß║┐t (trß║íng th├íi t├óm, cß║úm x├║c) cß╗ºa bß║ín tß╗½ trß║úi nghiß╗çm khen ch├¬ cß╗ºa ─æß╗ông ─æß╗Öi vß╗ü video cß╗ºa bß║ín?",
+          "title": "Câu hỏi: Viết Nhật ký đúc kết (trạng thái tâm, cảm xúc) của bạn từ trải nghiệm khen chê của đồng đội về video của bạn?",
           "ideas": [
             {
-              "title": "Ch╞░a c├│ ─æß╗º phß║ún hß╗ôi ─æß╗â viß║┐t nhß║¡t k├╜ khen ch├¬",
-              "summary": "Nhiß╗üu ng╞░ß╗¥i ch╞░a nhß║¡n ─æ╞░ß╗úc nhß║¡n x├⌐t, ─æang chß╗¥ hoß║╖c sß║╜ bß╗ò sung nhß║¡t k├╜; mß╗Öt phß║ºn n├¬u r├╡ nß╗Öp b├ái s├ít hß║ín/ch╞░a gß╗¡i n├¬n ─æß╗ông ─æß╗Öi ch╞░a kß╗ïp xem. Kh├┤ng suy diß╗àn rß║▒ng tß║Ñt cß║ú ─æß╗üu thiß║┐u sß╗▒ hß╗ù trß╗ú cß╗ºa lß╗¢p.",
+              "title": "Chưa có đủ phản hồi để viết nhật ký khen chê",
+              "summary": "Nhiều người chưa nhận được nhận xét, đang chờ hoặc sẽ bổ sung nhật ký; một phần nêu rõ nộp bài sát hạn/chưa gửi nên đồng đội chưa kịp xem. Không suy diễn rằng tất cả đều thiếu sự hỗ trợ của lớp.",
               "sourceIds": [
                 "20261022-0835abf7cd27647d",
                 "20261022-e4f8b081dfdfa824",
@@ -68,8 +68,8 @@
               "count": 42
             },
             {
-              "title": "Lß╗¥i khen v├á sß╗▒ ─æß╗Öng vi├¬n ─æem lß║íi niß╗üm vui, tß╗▒ tin hoß║╖c ─æß╗Öng lß╗▒c",
-              "summary": "C├íc phß║ún hß╗ôi t├¡ch cß╗▒c gi├║p ng╞░ß╗¥i hß╗ìc cß║úm thß║Ñy ─æ╞░ß╗úc ghi nhß║¡n, vui hoß║╖c ─æ╞░ß╗úc kh├¡ch lß╗ç tiß║┐p tß╗Ñc r├¿n luyß╗çn. ─É├óy kh├┤ng phß║úi trß║íng th├íi cß╗ºa mß╗ìi ng╞░ß╗¥i; mß╗Öt sß╗æ ─æß╗ông thß╗¥i nhß║¡n thß║Ñy tß╗▒ m├ún, ng╞░ß╗úng hoß║╖c bß║Ñt an.",
+              "title": "Lời khen và sự động viên đem lại niềm vui, tự tin hoặc động lực",
+              "summary": "Các phản hồi tích cực giúp người học cảm thấy được ghi nhận, vui hoặc được khích lệ tiếp tục rèn luyện. Đây không phải trạng thái của mọi người; một số đồng thời nhận thấy tự mãn, ngượng hoặc bất an.",
               "sourceIds": [
                 "20261022-73a16b7af71c8c74",
                 "20261022-1e4e8339c05746dd",
@@ -106,8 +106,8 @@
               "count": 28
             },
             {
-              "title": "Lß╗¥i ch├¬ c├│ thß╗â l├ám chß║ính l├▓ng, kh├íng cß╗▒ v├á kh╞íi l├¬n c├íi t├┤i",
-              "summary": "Mß╗Öt sß╗æ ng╞░ß╗¥i ghi nhß║¡n buß╗ôn, xß║Ñu hß╗ò, cß║Ñn t├óm, kh├│ chß╗ïu hoß║╖c muß╗æn tranh luß║¡n khi bß╗ï g├│p ├╜; c├│ ng╞░ß╗¥i nhß║¡n ra phß║ún ß╗⌐ng c╞í thß╗â v├á vß║½n ch╞░a b├¼nh thß║ún. Giß╗» lß║íi kh├│ kh─ân n├áy thay v├¼ m├┤ tß║ú cß║ú nh├│m ─æ├ú ho├án to├án ─æ├│n nhß║¡n khen ch├¬.",
+              "title": "Lời chê có thể làm chạnh lòng, kháng cự và khơi lên cái tôi",
+              "summary": "Một số người ghi nhận buồn, xấu hổ, cấn tâm, khó chịu hoặc muốn tranh luận khi bị góp ý; có người nhận ra phản ứng cơ thể và vẫn chưa bình thản. Giữ lại khó khăn này thay vì mô tả cả nhóm đã hoàn toàn đón nhận khen chê.",
               "sourceIds": [
                 "20261022-f303b5bfa9fa1099",
                 "20261022-666e6a5322da4943",
@@ -140,8 +140,8 @@
               "count": 24
             },
             {
-              "title": "Quan s├ít phß║ún ß╗⌐ng rß╗ôi chß║¡m lß║íi ─æß╗â giß╗» hoß║╖c kh├┤i phß╗Ñc t├óm qu├ón b├¼nh",
-              "summary": "Nhß╗»ng ng╞░ß╗¥i n├áy m├┤ tß║ú quan s├ít t├óm, nhß║¡n ra mong cß║ºu lß╗¥i khen/bß║ún ng├ú, h├¡t thß╗ƒ hoß║╖c b├¼nh t─⌐nh xem x├⌐t g├│p ├╜. Mß╗⌐c ─æß╗Ö kh├íc nhau: c├│ ng╞░ß╗¥i giß╗» b├¼nh thß║ún, c├│ ng╞░ß╗¥i mß╗¢i v╞░ß╗út qua dao ─æß╗Öng nhß║╣, c├│ ng╞░ß╗¥i vß║½n ─æang r├¿n.",
+              "title": "Quan sát phản ứng rồi chậm lại để giữ hoặc khôi phục tâm quân bình",
+              "summary": "Những người này mô tả quan sát tâm, nhận ra mong cầu lời khen/bản ngã, hít thở hoặc bình tĩnh xem xét góp ý. Mức độ khác nhau: có người giữ bình thản, có người mới vượt qua dao động nhẹ, có người vẫn đang rèn.",
               "sourceIds": [
                 "20261022-1e4e8339c05746dd",
                 "20261022-8d6b249107a521a7",
@@ -173,8 +173,8 @@
               "count": 23
             },
             {
-              "title": "Biß║┐t ╞ín v├á chß╗º ─æß╗Öng mß╗ƒ l├▓ng nghe g├│p ├╜",
-              "summary": "Ng╞░ß╗¥i hß╗ìc tr├ón trß╗ìng thß╗¥i gian, thiß╗çn ├╜ v├á sß╗▒ ─æß╗Öng vi├¬n cß╗ºa ─æß╗ông ─æß╗Öi, sß║╡n s├áng lß║»ng nghe hoß║╖c chß╗º ─æß╗Öng xin phß║ún hß╗ôi. Sß╗▒ cß║ºu thß╗ï kh├┤ng ─æß╗ông ngh─⌐a mß╗ìi lß╗¥i g├│p ├╜ ─æß╗üu ─æ╞░ß╗úc mß║╖c nhi├¬n coi l├á ─æ├║ng.",
+              "title": "Biết ơn và chủ động mở lòng nghe góp ý",
+              "summary": "Người học trân trọng thời gian, thiện ý và sự động viên của đồng đội, sẵn sàng lắng nghe hoặc chủ động xin phản hồi. Sự cầu thị không đồng nghĩa mọi lời góp ý đều được mặc nhiên coi là đúng.",
               "sourceIds": [
                 "20261022-a8987fcd09a14bb6",
                 "20261022-c5a74e9c74493b0a",
@@ -210,8 +210,8 @@
               "count": 27
             },
             {
-              "title": "G├│p ├╜ mß╗ƒ th├¬m g├│c nh├¼n v├á chß╗ë ra ─æiß╗üu cß╗Ñ thß╗â ─æß╗â sß╗¡a",
-              "summary": "Mß╗Öt sß╗æ phß║ún hß╗ôi gi├║p ng╞░ß╗¥i hß╗ìc nhß║¡n ra thiß║┐u s├│t, kiß╗âm tra lß║íi c├ích hiß╗âu v├á chß╗ënh b├ái: l├ám r├╡ ph├ón t├¡ch, kiß╗âm chß╗⌐ng c├óu chuyß╗çn, c├┤ ─æß╗ìng s╞í ─æß╗ô, bß╗ò sung trß║úi nghiß╗çm hoß║╖c cß║úi thiß╗çn giß╗ìng/├óm thanh. ─É├óy l├á nhß╗»ng h╞░ß╗¢ng sß╗¡a kh├íc nhau, kh├┤ng phß║úi mß╗ìi ng╞░ß╗¥i c├╣ng mß║»c mß╗Öt lß╗ùi.",
+              "title": "Góp ý mở thêm góc nhìn và chỉ ra điều cụ thể để sửa",
+              "summary": "Một số phản hồi giúp người học nhận ra thiếu sót, kiểm tra lại cách hiểu và chỉnh bài: làm rõ phân tích, kiểm chứng câu chuyện, cô đọng sơ đồ, bổ sung trải nghiệm hoặc cải thiện giọng/âm thanh. Đây là những hướng sửa khác nhau, không phải mọi người cùng mắc một lỗi.",
               "sourceIds": [
                 "20261022-c5a74e9c74493b0a",
                 "20261022-de0cb7788e6bdf81",
@@ -244,8 +244,8 @@
               "count": 24
             },
             {
-              "title": "├üp lß╗▒c l├ám s├ít hß║ín g├óy vß╗Öi, ├íy n├íy v├á giß║úm c╞í hß╗Öi nhß║¡n phß║ún hß╗ôi",
-              "summary": "C├íc nguß╗ôn tß╗▒ m├┤ tß║ú tr├¼ ho├ún hoß║╖c quß╗╣ thß╗¥i gian chß║¡t, l├ám b├ái gß║Ñp, c─âng thß║│ng, tiß║┐c nuß╗æi v├á lo ß║únh h╞░ß╗ƒng ─æß╗ông ─æß╗Öi. C├│ ng╞░ß╗¥i ch╞░a biß║┐t c├ích tho├ít v├▓ng lß║╖p s├ít hß║ín; cß║ºn giß╗» nhu cß║ºu n├áy thay v├¼ quy th├ánh thiß║┐u cß╗æ gß║»ng.",
+              "title": "Áp lực làm sát hạn gây vội, áy náy và giảm cơ hội nhận phản hồi",
+              "summary": "Các nguồn tự mô tả trì hoãn hoặc quỹ thời gian chật, làm bài gấp, căng thẳng, tiếc nuối và lo ảnh hưởng đồng đội. Có người chưa biết cách thoát vòng lặp sát hạn; cần giữ nhu cầu này thay vì quy thành thiếu cố gắng.",
               "sourceIds": [
                 "20261022-741c0dc9f971e77c",
                 "20261022-5e6721dcd7900a08",
@@ -267,8 +267,8 @@
               "count": 13
             },
             {
-              "title": "Ngß║íi bß╗ï ─æ├ính gi├í hoß║╖c xuß║Ñt hiß╗çn khiß║┐n viß╗çc chia sß║╗ c├▓n kh├│",
-              "summary": "C├│ ng╞░ß╗¥i sß╗ú tr├¼nh b├áy, ngß║íi ─æ─âng c├┤ng khai hay bß╗Öc lß╗Ö ─æiß╗âm yß║┐u, tß╗▒ nghi ngß╗¥ v├á ngh─⌐ ─æß║┐n bß╗Å cuß╗Öc; c├│ ng╞░ß╗¥i kh├┤ng th├¡ch xuß║Ñt hiß╗çn tr├¬n mß║íng chß╗⌐ kh├┤ng phß║úi sß╗ú ph├¬ b├¼nh. Mß╗Öt sß╗æ vß║½n tiß║┐p tß╗Ñc r├¿n d├╣ ch╞░a tß╗▒ tin, n├¬n kh├┤ng ─æ╞░ß╗úc gß╗Öp tß║Ñt cß║ú th├ánh ─æ├ú v╞░ß╗út qua nß╗ùi sß╗ú.",
+              "title": "Ngại bị đánh giá hoặc xuất hiện khiến việc chia sẻ còn khó",
+              "summary": "Có người sợ trình bày, ngại đăng công khai hay bộc lộ điểm yếu, tự nghi ngờ và nghĩ đến bỏ cuộc; có người không thích xuất hiện trên mạng chứ không phải sợ phê bình. Một số vẫn tiếp tục rèn dù chưa tự tin, nên không được gộp tất cả thành đã vượt qua nỗi sợ.",
               "sourceIds": [
                 "20261022-8dd7942378f4874f",
                 "20261022-40ffc0c29f9dde0c",
@@ -287,8 +287,8 @@
               "count": 10
             },
             {
-              "title": "Tß╗▒ nh├¼n lß║íi chß║Ñt l╞░ß╗úng v├á mß╗⌐c ─æß╗Ö chuß║⌐n bß╗ï, kß╗â cß║ú khi ch╞░a ─æ╞░ß╗úc nhß║¡n x├⌐t",
-              "summary": "Nhß╗»ng nguß╗ôn n├áy tß╗▒ thß║Ñy cß║ºn l├ám kß╗╣/chß╗ën chu h╞ín hoß║╖c cß║úi thiß╗çn c├ích kß╗â, giß╗ìng, s╞í ─æß╗ô v├á chiß╗üu s├óu hiß╗âu biß║┐t; mß╗Öt sß╗æ c┼⌐ng ghi nhß║¡n tiß║┐n bß╗Ö v├á quyß║┐t t├óm tiß║┐p tß╗Ñc. Ph├ón biß╗çt ─æ├óy l├á tß╗▒ ─æ├ính gi├í hoß║╖c trß║úi nghiß╗çm l├ám b├ái, kh├┤ng g├ín th├ánh lß╗¥i ch├¬ cß╗ºa ─æß╗ông ─æß╗Öi.",
+              "title": "Tự nhìn lại chất lượng và mức độ chuẩn bị, kể cả khi chưa được nhận xét",
+              "summary": "Những nguồn này tự thấy cần làm kỹ/chỉn chu hơn hoặc cải thiện cách kể, giọng, sơ đồ và chiều sâu hiểu biết; một số cũng ghi nhận tiến bộ và quyết tâm tiếp tục. Phân biệt đây là tự đánh giá hoặc trải nghiệm làm bài, không gán thành lời chê của đồng đội.",
               "sourceIds": [
                 "20261022-8d6b249107a521a7",
                 "20261022-8dd7942378f4874f",
@@ -315,8 +315,8 @@
               "count": 18
             },
             {
-              "title": "Mß╗¢i nhß║¡n lß╗¥i khen, ch╞░a c├│ ├╜ g├│p ├╜ vß╗ü ─æiß╗âm cß║ºn sß╗¡a",
-              "summary": "Mß╗Öt ng╞░ß╗¥i cho biß║┐t chß╗ë mß╗¢i c├│ mß╗Öt bß║ín nhß║¡n x├⌐t v├á chß╗ë khen, ch╞░a ch├¬. ─É├óy l├á t├¼nh trß║íng phß║ún hß╗ôi c├▓n mß╗Öt chiß╗üu ß╗ƒ ri├¬ng nguß╗ôn n├áy, kh├┤ng phß║úi kß║┐t luß║¡n chung vß╗ü ─æß╗ông ─æß╗Öi.",
+              "title": "Mới nhận lời khen, chưa có ý góp ý về điểm cần sửa",
+              "summary": "Một người cho biết chỉ mới có một bạn nhận xét và chỉ khen, chưa chê. Đây là tình trạng phản hồi còn một chiều ở riêng nguồn này, không phải kết luận chung về đồng đội.",
               "sourceIds": [
                 "20261022-55f6db6881a6ebca"
               ],
@@ -340,11 +340,11 @@
         },
         {
           "id": "change",
-          "title": "Câu hỏi: Tß╗½ trß║úi nghiß╗çm thß╗▒c h├ánh kß╗â chuyß╗çn, h├úy chia sß║╗ sß╗▒ thay ─æß╗òi, chuyß╗ân ho├í cß╗ºa bß║ín vß╗ü nhß║¡n thß╗⌐c, t╞░ duy, h├ánh vi v├á lß╗¥i n├│i,..?",
+          "title": "Câu hỏi: Từ trải nghiệm thực hành kể chuyện, hãy chia sẻ sự thay đổi, chuyển hoá của bạn về nhận thức, tư duy, hành vi và lời nói,..?",
           "ideas": [
             {
-              "title": "Tß╗▒ tin h╞ín khi n├│i, quay video v├á chia sß║╗ tr╞░ß╗¢c ng╞░ß╗¥i kh├íc",
-              "summary": "Nhiß╗üu hß╗ìc vi├¬n bß╗¢t sß╗ú n├│i hoß║╖c ─æ─âng video v├á cß║úm thß║Ñy tß╗▒ nhi├¬n h╞ín khi chia sß║╗. Mß╗⌐c tiß║┐n bß╗Ö kh├┤ng ─æß╗ông ─æß╗üu: c├│ ng╞░ß╗¥i mß╗¢i tß╗▒ tin h╞ín mß╗Öt ch├║t, vß║½n ch╞░a h├ái l├▓ng vß╗¢i kß╗╣ n─âng kß╗â chuyß╗çn.",
+              "title": "Tự tin hơn khi nói, quay video và chia sẻ trước người khác",
+              "summary": "Nhiều học viên bớt sợ nói hoặc đăng video và cảm thấy tự nhiên hơn khi chia sẻ. Mức tiến bộ không đồng đều: có người mới tự tin hơn một chút, vẫn chưa hài lòng với kỹ năng kể chuyện.",
               "sourceIds": [
                 "20261022-66df619ddd7a7563",
                 "20261022-0487719640e5fcca",
@@ -369,8 +369,8 @@
               "count": 16
             },
             {
-              "title": "T├│m ├╜, s╞í ─æß╗ô h├│a v├á kß╗â chuyß╗çn gß╗ìn, c├│ cß║Ñu tr├║c h╞ín",
-              "summary": "Viß╗çc l├ám lß║íi gi├║p hß╗ìc vi├¬n t├¼m th├┤ng ─æiß╗çp cß╗æt l├╡i, ─æ├║c kß║┐t v├á tr├¼nh b├áy bß║▒ng s╞í ─æß╗ô r├╡ h╞ín; mß╗Öt sß╗æ ─æ├ú giß║úm chi tiß║┐t thß╗½a hoß║╖c thß╗¥i l╞░ß╗úng video. C├íc nguß╗ôn kh├íc nhau nhß║Ñn mß║ính t├│m tß║»t, logic, framework hoß║╖c thß╗¡ c├ích kß╗â mß╗¢i, kh├┤ng phß║úi ai c┼⌐ng ─æ├ú th├ánh thß║ío.",
+              "title": "Tóm ý, sơ đồ hóa và kể chuyện gọn, có cấu trúc hơn",
+              "summary": "Việc làm lại giúp học viên tìm thông điệp cốt lõi, đúc kết và trình bày bằng sơ đồ rõ hơn; một số đã giảm chi tiết thừa hoặc thời lượng video. Các nguồn khác nhau nhấn mạnh tóm tắt, logic, framework hoặc thử cách kể mới, không phải ai cũng đã thành thạo.",
               "sourceIds": [
                 "20261022-1e929e6d893fe6e5",
                 "20261022-61b2cabae6638bc5",
@@ -412,8 +412,8 @@
               "count": 33
             },
             {
-              "title": "Ch├║ ├╜ giß╗ìng n├│i, nhß╗ïp ─æß╗Ö v├á diß╗àn ─æß║ít truyß╗ün cß║úm",
-              "summary": "Qua nghe lß║íi v├á luyß╗çn nhiß╗üu lß║ºn, hß╗ìc vi├¬n ─æiß╗üu chß╗ënh tß╗æc ─æß╗Ö, nhß╗ïp nghß╗ë, tß╗½ thß╗½a v├á c├ích diß╗àn ─æß║ít. C├│ nguß╗ôn ghi nhß║¡n n├│i r├╡, chß║¡m, tr├┤i chß║úy h╞ín; c├│ nguß╗ôn mß╗¢i nhß║¡n ra ─æiß╗üu cß║ºn r├¿n, n├¬n kh├┤ng coi mß╗ìi lß╗¥i tß╗▒ nhß║»c l├á kß║┐t quß║ú ─æ├ú ─æß║ít.",
+              "title": "Chú ý giọng nói, nhịp độ và diễn đạt truyền cảm",
+              "summary": "Qua nghe lại và luyện nhiều lần, học viên điều chỉnh tốc độ, nhịp nghỉ, từ thừa và cách diễn đạt. Có nguồn ghi nhận nói rõ, chậm, trôi chảy hơn; có nguồn mới nhận ra điều cần rèn, nên không coi mọi lời tự nhắc là kết quả đã đạt.",
               "sourceIds": [
                 "20261022-c53bfa74d08d2ec3",
                 "20261022-6bc775fd415eb10d",
@@ -442,8 +442,8 @@
               "count": 20
             },
             {
-              "title": "Nh├¼n ─æa chiß╗üu, truy nguy├¬n nh├ón v├á phß║ún biß╗çn thay v├¼ vß╗Öi kß║┐t luß║¡n",
-              "summary": "Nhiß╗üu nguß╗ôn chuyß╗ân tß╗½ c├ích nh├¼n mß╗Öt chiß╗üu sang x├⌐t bß╗æi cß║únh, ─æß╗Öng c╞í, nh├ón quß║ú v├á nhiß╗üu c├ích hiß╗âu; g├│p ├╜ cß╗ºa ─æß╗ông ─æß╗Öi/coach gi├║p mß╗ƒ rß╗Öng g├│c nh├¼n. Mß╗Öt nh├ính ri├¬ng nhß║Ñn mß║ính kiß╗âm tra ─æß╗Ö tin cß║¡y cß╗ºa c├óu chuyß╗çn, kh├┤ng mß║╖c nhi├¬n xem mß╗ìi chi tiß║┐t l├á sß╗▒ thß║¡t; ─æ├óy l├á quan ─æiß╗âm cß║ºn ─æ╞░ß╗úc giß╗», kh├┤ng h├▓a tan v├áo lß╗¥i khen chung.",
+              "title": "Nhìn đa chiều, truy nguyên nhân và phản biện thay vì vội kết luận",
+              "summary": "Nhiều nguồn chuyển từ cách nhìn một chiều sang xét bối cảnh, động cơ, nhân quả và nhiều cách hiểu; góp ý của đồng đội/coach giúp mở rộng góc nhìn. Một nhánh riêng nhấn mạnh kiểm tra độ tin cậy của câu chuyện, không mặc nhiên xem mọi chi tiết là sự thật; đây là quan điểm cần được giữ, không hòa tan vào lời khen chung.",
               "sourceIds": [
                 "20261022-de801ac465b55e19",
                 "20261022-c53bfa74d08d2ec3",
@@ -489,8 +489,8 @@
               "count": 37
             },
             {
-              "title": "Quan s├ít t├óm, lß║»ng nghe v├á chß║¡m lß║íi tr╞░ß╗¢c phß║ún ß╗⌐ng",
-              "summary": "Hß╗ìc vi├¬n li├¬n hß╗ç b├ái hß╗ìc vß╗¢i viß╗çc bß╗¢t n├│ng giß║¡n, ph├ín x├⌐t v├á tß╗▒ ├íi, c├ón nhß║»c tr╞░ß╗¢c lß╗¥i n├│i/h├ánh ─æß╗Öng, nghe ng╞░ß╗¥i kh├íc s├óu h╞ín. C├íc nguß╗ôn m├┤ tß║ú qu├í tr├¼nh ─æang r├¿n, c├│ l├║c vß║½n x├ío trß╗Ön hoß║╖c phß║ún ß╗⌐ng; kh├┤ng tuy├¬n bß╗æ cß║úm x├║c ti├¬u cß╗▒c ─æ├ú biß║┐n mß║Ñt.",
+              "title": "Quan sát tâm, lắng nghe và chậm lại trước phản ứng",
+              "summary": "Học viên liên hệ bài học với việc bớt nóng giận, phán xét và tự ái, cân nhắc trước lời nói/hành động, nghe người khác sâu hơn. Các nguồn mô tả quá trình đang rèn, có lúc vẫn xáo trộn hoặc phản ứng; không tuyên bố cảm xúc tiêu cực đã biến mất.",
               "sourceIds": [
                 "20261022-c53bfa74d08d2ec3",
                 "20261022-d247572919a835ff",
@@ -525,8 +525,8 @@
               "count": 26
             },
             {
-              "title": "─É╞░a b├ái hß╗ìc ─æß║ío ─æß╗⌐c, biß║┐t ╞ín v├á sß╗▒ quan t├óm v├áo ─æß╗¥i sß╗æng",
-              "summary": "C├íc c├óu chuyß╗çn kh╞íi gß╗úi l├▓ng biß║┐t ╞ín, ├╜ thß╗⌐c cß╗æng hiß║┐n, giß╗» chß╗» t├¡n v├á quan t├óm ng╞░ß╗¥i th├ón; mß╗Öt sß╗æ ─æ├ú thay ─æß╗òi c├ích ß╗⌐ng xß╗¡, mß╗Öt sß╗æ mß╗¢i n├¬u mong muß╗æn hoß║╖c tß╗▒ nhß║»c phß║úi l├ám. Giß╗» r├╡ kh├íc biß╗çt giß╗»a nhß║¡n thß╗⌐c, cam kß║┐t v├á h├ánh vi thß╗▒c tß║┐, kh├┤ng biß║┐n cß║úm x├║c tr╞░ß╗¢c nh├ón vß║¡t th├ánh th├ánh t├¡ch ─æ├ú ─æß║ít.",
+              "title": "Đưa bài học đạo đức, biết ơn và sự quan tâm vào đời sống",
+              "summary": "Các câu chuyện khơi gợi lòng biết ơn, ý thức cống hiến, giữ chữ tín và quan tâm người thân; một số đã thay đổi cách ứng xử, một số mới nêu mong muốn hoặc tự nhắc phải làm. Giữ rõ khác biệt giữa nhận thức, cam kết và hành vi thực tế, không biến cảm xúc trước nhân vật thành thành tích đã đạt.",
               "sourceIds": [
                 "20261022-c53bfa74d08d2ec3",
                 "20261022-e14aaf044a9664aa",
@@ -555,8 +555,8 @@
               "count": 20
             },
             {
-              "title": "Ki├¬n tr├¼ thß╗▒c h├ánh, ─æß╗ìc s├óu v├á l├ám lß║íi thay v├¼ l├ám cho xong",
-              "summary": "Nhiß╗üu nguß╗ôn nhß║¡n ra cß║ºn ─æß║ºu t╞░ thß╗¥i gian, ─æß╗ìc kß╗╣, lß║╖p lß║íi v├á cß║úi tiß║┐n; c├│ ng╞░ß╗¥i duy tr├¼ tß╗æt h╞ín, c├│ ng╞░ß╗¥i mß╗¢i ─æß║╖t quyß║┐t t├óm hoß║╖c ch╞░a ─æß╗üu. Viß╗çc ─æß╗ìc s├ích trß╗ƒ n├¬n dß╗à tiß║┐p cß║¡n v├á ─æ├íng muß╗æn l├ám h╞ín ─æß╗æi vß╗¢i mß╗Öt sß╗æ hß╗ìc vi├¬n; kh├┤ng ─æß╗ông nhß║Ñt sß╗▒ y├¬u th├¡ch vß╗¢i th├│i quen ─æ├ú bß╗ün vß╗»ng.",
+              "title": "Kiên trì thực hành, đọc sâu và làm lại thay vì làm cho xong",
+              "summary": "Nhiều nguồn nhận ra cần đầu tư thời gian, đọc kỹ, lặp lại và cải tiến; có người duy trì tốt hơn, có người mới đặt quyết tâm hoặc chưa đều. Việc đọc sách trở nên dễ tiếp cận và đáng muốn làm hơn đối với một số học viên; không đồng nhất sự yêu thích với thói quen đã bền vững.",
               "sourceIds": [
                 "20261022-253e147a32ca3742",
                 "20261022-7b8ca90e31e5a893",
@@ -600,8 +600,8 @@
               "count": 35
             },
             {
-              "title": "ß╗¿ng dß╗Ñng kß╗â chuyß╗çn trong gia ─æ├¼nh, c├┤ng viß╗çc v├á viß╗çc hß╗ìc",
-              "summary": "Mß╗Öt sß╗æ hß╗ìc vi├¬n ─æ├ú kß╗â cho con/ng╞░ß╗¥i th├ón hoß║╖c t├¼m c├ích d├╣ng chuyß╗çn trong ─æ├áo tß║ío, t╞░ vß║Ñn v├á c├┤ng viß╗çc. Nhß╗»ng c├ích ß╗⌐ng dß╗Ñng kh├íc nhau ─æ╞░ß╗úc giß╗» cß╗Ñ thß╗â; ri├¬ng cß║úi thiß╗çn tr├¡ nhß╗¢ l├á tß╗▒ cß║úm nhß║¡n cß╗ºa mß╗Öt nguß╗ôn, kh├┤ng phß║úi kß║┐t luß║¡n vß╗ü hiß╗çu quß║ú sß╗⌐c khß╗Åe cß╗ºa kh├│a hß╗ìc.",
+              "title": "Ứng dụng kể chuyện trong gia đình, công việc và việc học",
+              "summary": "Một số học viên đã kể cho con/người thân hoặc tìm cách dùng chuyện trong đào tạo, tư vấn và công việc. Những cách ứng dụng khác nhau được giữ cụ thể; riêng cải thiện trí nhớ là tự cảm nhận của một nguồn, không phải kết luận về hiệu quả sức khỏe của khóa học.",
               "sourceIds": [
                 "20261022-d5d038209071a7cd",
                 "20261022-8f9a3b1397783cdd",
@@ -625,8 +625,8 @@
               "count": 15
             },
             {
-              "title": "Tß╗½ cß║úm x├║c tr╞░ß╗¢c c├óu chuyß╗çn ─æß║┐n phß║ún t╞░ v├á mong muß╗æn lan tß╗Åa",
-              "summary": "C├│ hß╗ìc vi├¬n cß║úm thß║Ñy c├óu chuyß╗çn chß║ím s├óu h╞ín qua mß╗ùi lß║ºn ─æß╗ìc/kß╗â, tß╗½ ─æ├│ soi lß║íi ch├¡nh m├¼nh v├á muß╗æn chia sß║╗ gi├í trß╗ï. Mß╗Öt quan ─æiß╗âm nhß║Ñn mß║ính kß╗â chuyß╗çn kh├┤ng chß╗ë l├á biß╗âu diß╗àn hay kß╗╣ n─âng giao tiß║┐p; sß╗▒ x├║c ─æß╗Öng ch╞░a tß╗▒ ─æß╗Öng l├á thay ─æß╗òi h├ánh vi.",
+              "title": "Từ cảm xúc trước câu chuyện đến phản tư và mong muốn lan tỏa",
+              "summary": "Có học viên cảm thấy câu chuyện chạm sâu hơn qua mỗi lần đọc/kể, từ đó soi lại chính mình và muốn chia sẻ giá trị. Một quan điểm nhấn mạnh kể chuyện không chỉ là biểu diễn hay kỹ năng giao tiếp; sự xúc động chưa tự động là thay đổi hành vi.",
               "sourceIds": [
                 "20261022-77326bdabe37a207",
                 "20261022-2fa3bb1ae48fd3d5",
@@ -648,8 +648,8 @@
               "count": 13
             },
             {
-              "title": "Vß║½n c├▓n hß║ín chß║┐ hoß║╖c ch╞░a thß║Ñy chuyß╗ân h├│a r├╡: kh├┤ng bß╗Å qua tiß║┐ng n├│i ng╞░ß╗úc chiß╗üu",
-              "summary": "Mß╗Öt sß╗æ hß╗ìc vi├¬n nhß║¡n ra kß╗╣ n─âng c├▓n yß║┐u, thiß║┐u g├│c nh├¼n, ch╞░a luyß╗çn ─æß╗üu hoß║╖c bß╗ï c├┤ng viß╗çc cß║ún trß╗ƒ; c├│ ng╞░ß╗¥i tß╗▒ tin h╞ín nh╞░ng ch╞░a thß║Ñy tiß║┐n bß╗Ö t╞░╞íng xß╗⌐ng. ─É├óy l├á tß╗▒ ─æ├ính gi├í c├▓n kh├│ kh─ân, kh├┤ng phß║úi bß║▒ng chß╗⌐ng rß║▒ng tß║Ñt cß║ú ─æß╗üu ─æ├ú chuyß╗ân h├│a tß╗æt, c┼⌐ng kh├┤ng tß╗▒ ─æß╗Öng l├á y├¬u cß║ºu BTC thay ─æß╗òi ch╞░╞íng tr├¼nh.",
+              "title": "Vẫn còn hạn chế hoặc chưa thấy chuyển hóa rõ: không bỏ qua tiếng nói ngược chiều",
+              "summary": "Một số học viên nhận ra kỹ năng còn yếu, thiếu góc nhìn, chưa luyện đều hoặc bị công việc cản trở; có người tự tin hơn nhưng chưa thấy tiến bộ tương xứng. Đây là tự đánh giá còn khó khăn, không phải bằng chứng rằng tất cả đều đã chuyển hóa tốt, cũng không tự động là yêu cầu BTC thay đổi chương trình.",
               "sourceIds": [
                 "20261022-77326bdabe37a207",
                 "20261022-e14aaf044a9664aa",
@@ -691,11 +691,11 @@
         },
         {
           "id": "kaizen",
-          "title": "Câu hỏi: Tß╗½ hoß║ít ─æß╗Öng phß║ún hß╗ôi & chß║Ñm b├ái cho ─ÉNT tr├¬n web dh3g.vn , 3 ─æiß╗âm cß║ºn kaizen cho b├ái l├ám cß╗ºa bß║ín?",
+          "title": "Câu hỏi: Từ hoạt động phản hồi & chấm bài cho ĐNT trên web dh3g.vn , 3 điểm cần kaizen cho bài làm của bạn?",
           "ideas": [
             {
-              "title": "Chuß║⌐n bß╗ï sß╗¢m, tß║¡p trung v├á l├ám kß╗╣ thay v├¼ chß║íy hß║ín hoß║╖c ─æß╗æi ph├│",
-              "summary": "Ng╞░ß╗¥i hß╗ìc muß╗æn chß╗º ─æß╗Öng thß╗¥i gian, ─æß╗ìcΓÇôngh─⌐ΓÇôl├ám kß╗╣, giß╗» kß╗╖ luß║¡t v├á d├ánh ─æß╗º c├┤ng sß╗⌐c cho b├ái. Mß╗Öt sß╗æ n├¬u r├╡ l├ám tß╗½ ─æß║ºu tuß║ºn/chß╗º nhß║¡t hoß║╖c ─æ─âng sß╗¢m ─æß╗â c├▓n nhß║¡n g├│p ├╜; mß╗Öt sß╗æ mß╗¢i tß╗▒ nhß║¡n m├¼nh ch╞░a nghi├¬m t├║c, kh├┤ng ─æ╞░ß╗úc m├┤ tß║ú th├ánh ─æ├ú thay ─æß╗òi.",
+              "title": "Chuẩn bị sớm, tập trung và làm kỹ thay vì chạy hạn hoặc đối phó",
+              "summary": "Người học muốn chủ động thời gian, đọc–nghĩ–làm kỹ, giữ kỷ luật và dành đủ công sức cho bài. Một số nêu rõ làm từ đầu tuần/chủ nhật hoặc đăng sớm để còn nhận góp ý; một số mới tự nhận mình chưa nghiêm túc, không được mô tả thành đã thay đổi.",
               "sourceIds": [
                 "20261022-50e842401e7fd2ea",
                 "20261022-f495757e78b0616a",
@@ -738,8 +738,8 @@
               "count": 34
             },
             {
-              "title": "Kß╗â v├á ─æ├║c kß║┐t gß╗ìn, c├│ trß╗ìng t├óm nh╞░ng ─æß╗º ├╜",
-              "summary": "Cß║ºn bß╗Å lan man, chß╗ìn ├╜ cß╗æt l├╡i v├á nß╗æi mß║ích kß╗â r├╡ r├áng; mß╗Öt sß╗æ ─æß╗ü xuß║Ñt kß╗ïch bß║ún v├á ph├ón bß╗ò thß╗¥i l╞░ß╗úng tr╞░ß╗¢c khi quay. Gß╗ìn kh├┤ng ─æß╗ông ngh─⌐a bß╗Å thiß║┐u bß╗æi cß║únh hay b├ái hß╗ìc; c├│ nguß╗ôn vß║½n cß║ºn bß╗ò sung ├╜ c├▓n thiß║┐u. Mß╗Öt nguß╗ôn ─æß╗ü nghß╗ï mß╗ƒ ─æß║ºu bß║▒ng c├óu hß╗Åi ─æß╗â kh╞íi gß╗úi ng╞░ß╗¥i nghe.",
+              "title": "Kể và đúc kết gọn, có trọng tâm nhưng đủ ý",
+              "summary": "Cần bỏ lan man, chọn ý cốt lõi và nối mạch kể rõ ràng; một số đề xuất kịch bản và phân bổ thời lượng trước khi quay. Gọn không đồng nghĩa bỏ thiếu bối cảnh hay bài học; có nguồn vẫn cần bổ sung ý còn thiếu. Một nguồn đề nghị mở đầu bằng câu hỏi để khơi gợi người nghe.",
               "sourceIds": [
                 "20261022-2f15922a446cc308",
                 "20261022-17ebd129249f95df",
@@ -774,8 +774,8 @@
               "count": 26
             },
             {
-              "title": "R├¿n giß╗ìng kß╗â r├╡, tr├┤i chß║úy, c├│ nhß╗ïp v├á truyß╗ün cß║úm",
-              "summary": "C├íc h╞░ß╗¢ng r├¿n gß╗ôm giß║úm vß║Ñp/tß╗½ ─æß╗çm, t─âng ─æß╗Ö r├╡ v├á ├óm l╞░ß╗úng, nhß║ÑnΓÇôngß║»t hß╗úp l├╜, thay ─æß╗òi cao ─æß╗Ö v├á kß╗â tß╗▒ nhi├¬n h╞ín. Kh├┤ng ├íp mß╗Öt tß╗æc ─æß╗Ö cho tß║Ñt cß║ú: c├│ ng╞░ß╗¥i cß║ºn chß║¡m lß║íi, nguß╗ôn kh├íc muß╗æn nhanh h╞ín mß╗Öt ch├║t.",
+              "title": "Rèn giọng kể rõ, trôi chảy, có nhịp và truyền cảm",
+              "summary": "Các hướng rèn gồm giảm vấp/từ đệm, tăng độ rõ và âm lượng, nhấn–ngắt hợp lý, thay đổi cao độ và kể tự nhiên hơn. Không áp một tốc độ cho tất cả: có người cần chậm lại, nguồn khác muốn nhanh hơn một chút.",
               "sourceIds": [
                 "20261022-af194bb8a38f9384",
                 "20261022-6a27b8b4316d5a38",
@@ -815,8 +815,8 @@
               "count": 31
             },
             {
-              "title": "Phong th├íi tß╗▒ nhi├¬n, ├ính mß║»t v├á ng├┤n ngß╗» c╞í thß╗â ph├╣ hß╗úp",
-              "summary": "Mß╗Öt sß╗æ cß║ºn tß╗▒ tin v├á thß║ú lß╗Ång n├⌐t mß║╖t, nh├¼n v├áo camera/ng╞░ß╗¥i nghe, kiß╗âm so├ít n─âng l╞░ß╗úng hoß║╖c bß╗¢t ─æß╗Öng t├íc thß╗½a. ─É├óy l├á c├íc nhu cß║ºu c├í nh├ón kh├íc nhau; kh├┤ng coi tß║Ñt cß║ú ─æß╗üu thiß║┐u tß╗▒ tin hay ─æß╗üu cß║ºn th├¬m cß╗¡ ─æß╗Öng.",
+              "title": "Phong thái tự nhiên, ánh mắt và ngôn ngữ cơ thể phù hợp",
+              "summary": "Một số cần tự tin và thả lỏng nét mặt, nhìn vào camera/người nghe, kiểm soát năng lượng hoặc bớt động tác thừa. Đây là các nhu cầu cá nhân khác nhau; không coi tất cả đều thiếu tự tin hay đều cần thêm cử động.",
               "sourceIds": [
                 "20261022-8b9af8671f46ca93",
                 "20261022-0761c6d8672ce1a2",
@@ -840,8 +840,8 @@
               "count": 15
             },
             {
-              "title": "S╞í ─æß╗ô h├│a c├│ cß║Ñu tr├║c, r├╡ d├▓ng chß║úy v├á dß╗à ─æß╗ìc",
-              "summary": "Cß║ºn chuyß╗ân tß╗½ liß╗çt k├¬ sang s╞í ─æß╗ô logic, thß╗â hiß╗çn ─æ├║ng quan hß╗ç/tiß║┐n tr├¼nh, chß╗ënh bß╗æ cß╗ÑcΓÇôchß╗»ΓÇôm├áu v├á d├╣ng s╞í ─æß╗ô khi chia sß║╗. Giß╗» kh├íc biß╗çt: c├│ ng╞░ß╗¥i muß╗æn sinh ─æß╗Öng/chi tiß║┐t h╞ín, c├│ ng╞░ß╗¥i nhß║Ñn mß║ính chß╗ë cß║ºn ─æß╗º sß╗▒ kiß╗çn mß║Ñu chß╗æt, kh├┤ng cß║ºn qu├í ─æß║╣p hay qu├í chi tiß║┐t. C├│ nguß╗ôn ch╞░a ─æß╗ông ├╜ s╞í ─æß╗ô cß╗ºa m├¼nh s╞í s├ái v├á muß╗æn kiß╗âm tra lß║íi.",
+              "title": "Sơ đồ hóa có cấu trúc, rõ dòng chảy và dễ đọc",
+              "summary": "Cần chuyển từ liệt kê sang sơ đồ logic, thể hiện đúng quan hệ/tiến trình, chỉnh bố cục–chữ–màu và dùng sơ đồ khi chia sẻ. Giữ khác biệt: có người muốn sinh động/chi tiết hơn, có người nhấn mạnh chỉ cần đủ sự kiện mấu chốt, không cần quá đẹp hay quá chi tiết. Có nguồn chưa đồng ý sơ đồ của mình sơ sài và muốn kiểm tra lại.",
               "sourceIds": [
                 "20261022-c148bf33b58fb7d6",
                 "20261022-bb01e3e9e0a57089",
@@ -888,8 +888,8 @@
               "count": 38
             },
             {
-              "title": "Ph├ón t├¡ch s├óu, c├│ c─ân cß╗⌐ v├á nhiß╗üu g├│c nh├¼n thay v├¼ chß╗ë kß╗â lß║íi",
-              "summary": "Ng╞░ß╗¥i hß╗ìc muß╗æn ─æß╗ìc/ngh─⌐ kß╗╣, hiß╗âu bß╗æi cß║únhΓÇôvai tr├▓ΓÇô─æß╗Öng c╞í, ─æß║╖t c├óu hß╗Åi phß║ún biß╗çn v├á nh├¼n ─æa chiß╗üu ─æß╗â ─æ├║c kß║┐t sß║»c h╞ín. Mß╗Öt sß╗æ muß╗æn d├╣ng khung t╞░ duy hoß║╖c c├┤ng cß╗Ñ hß╗ù trß╗ú; kh├┤ng biß║┐n viß╗çc d├╣ng c├┤ng cß╗Ñ th├ánh y├¬u cß║ºu chung. C├íc c├óu hß╗Åi cß╗Ñ thß╗â vß╗ü bß╗æi cß║únh, quan hß╗ç nh├ón vß║¡t v├á ─æß╗ô vß║¡t trong truyß╗çn ─æ╞░ß╗úc giß╗» trong nguß╗ôn dß║½n.",
+              "title": "Phân tích sâu, có căn cứ và nhiều góc nhìn thay vì chỉ kể lại",
+              "summary": "Người học muốn đọc/nghĩ kỹ, hiểu bối cảnh–vai trò–động cơ, đặt câu hỏi phản biện và nhìn đa chiều để đúc kết sắc hơn. Một số muốn dùng khung tư duy hoặc công cụ hỗ trợ; không biến việc dùng công cụ thành yêu cầu chung. Các câu hỏi cụ thể về bối cảnh, quan hệ nhân vật và đồ vật trong truyện được giữ trong nguồn dẫn.",
               "sourceIds": [
                 "20261022-70c144dd963219fa",
                 "20261022-246f79486055e58e",
@@ -928,8 +928,8 @@
               "count": 30
             },
             {
-              "title": "─É├║c kß║┐t th├ánh b├ái hß╗ìc cho bß║ún th├ón v├á ß╗⌐ng dß╗Ñng cß╗Ñ thß╗â",
-              "summary": "Cß║ºn l├ám r├╡ th├┤ng ─æiß╗çp, soi chiß║┐u trß║úi nghiß╗çm cß╗ºa m├¼nh, chuyß╗ân b├ái hß╗ìc th├ánh c├ích h├ánh ─æß╗Öng trong ─æß╗¥i sß╗æng thay v├¼ chß╗ë l├╜ thuyß║┐t. Mß╗Öt sß╗æ ─æß╗ü nghß╗ï ─æ├║c kß║┐t th├ánh c├┤ng thß╗⌐c d├╣ng lß║íi, theo d├╡i viß╗çc ├íp dß╗Ñng hoß║╖c ─æ╞░a trß║úi nghiß╗çm bß║ún th├ón v├áo cuß╗æi b├ái; kh├┤ng g├ín nhß╗»ng kß╗╣ thuß║¡t ri├¬ng ─æ├│ cho mß╗ìi nguß╗ôn.",
+              "title": "Đúc kết thành bài học cho bản thân và ứng dụng cụ thể",
+              "summary": "Cần làm rõ thông điệp, soi chiếu trải nghiệm của mình, chuyển bài học thành cách hành động trong đời sống thay vì chỉ lý thuyết. Một số đề nghị đúc kết thành công thức dùng lại, theo dõi việc áp dụng hoặc đưa trải nghiệm bản thân vào cuối bài; không gán những kỹ thuật riêng đó cho mọi nguồn.",
               "sourceIds": [
                 "20261022-af194bb8a38f9384",
                 "20261022-17ebd129249f95df",
@@ -961,8 +961,8 @@
               "count": 23
             },
             {
-              "title": "Luyß╗çn c├│ chß╗º ─æ├¡ch, hß╗ìc tß╗½ ─æß╗ông ─æß╗Öi v├á chß╗º ─æß╗Öng xin phß║ún hß╗ôi",
-              "summary": "C├íc nguß╗ôn muß╗æn xem b├ái/nghe g├│p ├╜ ─æß╗â hß╗ìc c├ích l├ám, luyß╗çn lß║╖p lß║íi, th├¬m chß║Ñt liß╗çu ─æß╗ìcΓÇônghe hoß║╖c hß╗ìc nh├│m. Mß╗Öt nguß╗ôn ╞░u ti├¬n l├ám s├óu mß╗Öt b├ái thay v├¼ l├ám ─æß╗º bß╗æn khi chß║Ñt l╞░ß╗úng ch╞░a ─æß║ít; ─æ├óy l├á ╞░u ti├¬n c├í nh├ón vß╗ü chß║Ñt l╞░ß╗úng, kh├┤ng phß║úi y├¬u cß║ºu cß║ú lß╗¢p giß║úm b├ái. Mß╗Öt nguß╗ôn muß╗æn ghi nhß║¡t k├╜ ─æß╗üu v├á c├│ cß║Ñu tr├║c h╞ín. Ri├¬ng mß╗Öt ng╞░ß╗¥i c├▓n giß╗» lß║íi c├óu hß╗Åi/├╜ kiß║┐n v├¼ sß╗ú nghe ti├¬u cß╗▒c; cß║ºn l├ám r├╡ c├ích trao ─æß╗òi x├óy dß╗▒ng, kh├┤ng suy diß╗àn nß╗Öi dung nhß╗»ng c├óu hß╗Åi ch╞░a ─æ╞░ß╗úc n├│i ra.",
+              "title": "Luyện có chủ đích, học từ đồng đội và chủ động xin phản hồi",
+              "summary": "Các nguồn muốn xem bài/nghe góp ý để học cách làm, luyện lặp lại, thêm chất liệu đọc–nghe hoặc học nhóm. Một nguồn ưu tiên làm sâu một bài thay vì làm đủ bốn khi chất lượng chưa đạt; đây là ưu tiên cá nhân về chất lượng, không phải yêu cầu cả lớp giảm bài. Một nguồn muốn ghi nhật ký đều và có cấu trúc hơn. Riêng một người còn giữ lại câu hỏi/ý kiến vì sợ nghe tiêu cực; cần làm rõ cách trao đổi xây dựng, không suy diễn nội dung những câu hỏi chưa được nói ra.",
               "sourceIds": [
                 "20261022-50e842401e7fd2ea",
                 "20261022-b17bd3a85a2bcbc2",
@@ -989,8 +989,8 @@
               "count": 18
             },
             {
-              "title": "Cß║úi thiß╗çn khung h├¼nh, ├óm thanh v├á thao t├íc quay ─æß╗â ng╞░ß╗¥i xem theo d├╡i r├╡",
-              "summary": "Nhu cß║ºu cß╗Ñ thß╗â gß╗ôm d├ánh thß╗¥i gian tß║úi video, chß╗ënh camera/khung ngang, hiß╗çn s╞í ─æß╗ô, kh├┤ng ─æß╗â camera che nß╗Öi dung, d├╣ng con trß╗Å dß║½n dß║»t, bß╗¢t filter chuyß╗ân ─æß╗Öng v├á cß║úi thiß╗çn mic. Mß╗Öt sß╗æ muß╗æn d├╣ng phß║ºn mß╗üm l├ám ─æß║╣p h├¼nh ß║únh hoß║╖c chß╗ìn l├║c n─âng l╞░ß╗úng tß╗æt; kh├┤ng coi c├íc lß╗▒a chß╗ìn thiß║┐t bß╗ï/c├┤ng cß╗Ñ l├á ─æiß╗üu bß║»t buß╗Öc.",
+              "title": "Cải thiện khung hình, âm thanh và thao tác quay để người xem theo dõi rõ",
+              "summary": "Nhu cầu cụ thể gồm dành thời gian tải video, chỉnh camera/khung ngang, hiện sơ đồ, không để camera che nội dung, dùng con trỏ dẫn dắt, bớt filter chuyển động và cải thiện mic. Một số muốn dùng phần mềm làm đẹp hình ảnh hoặc chọn lúc năng lượng tốt; không coi các lựa chọn thiết bị/công cụ là điều bắt buộc.",
               "sourceIds": [
                 "20261022-89a46bc2fa6f07ac",
                 "20261022-4bd515b1b2617507",
@@ -1013,8 +1013,8 @@
               "count": 14
             },
             {
-              "title": "Mß╗Öt sß╗æ ng╞░ß╗¥i ch╞░a c├│ trß║úi nghiß╗çm chß║Ñm/nhß║¡n g├│p ├╜ ─æß╗â x├íc ─æß╗ïnh kaizen",
-              "summary": "C├íc nguß╗ôn b├ío ch╞░a chß║Ñm ─æ╞░ß╗úc b├ái, ch╞░a nhß║¡n phß║ún hß╗ôi hoß║╖c sß║╜ bß╗ò sung sau khi chß║Ñm. ─É├óy l├á t├¼nh trß║íng ch╞░a ─æß╗º ─æß║ºu v├áo, kh├┤ng ─æ╞░ß╗úc tß╗▒ ─æiß╗ün ba ─æiß╗âm cß║úi thiß╗çn hay quy tß║Ñt cß║ú th├ánh lß╗ùi cß╗ºa website/─æß╗ông ─æß╗Öi.",
+              "title": "Một số người chưa có trải nghiệm chấm/nhận góp ý để xác định kaizen",
+              "summary": "Các nguồn báo chưa chấm được bài, chưa nhận phản hồi hoặc sẽ bổ sung sau khi chấm. Đây là tình trạng chưa đủ đầu vào, không được tự điền ba điểm cải thiện hay quy tất cả thành lỗi của website/đồng đội.",
               "sourceIds": [
                 "20261022-718e4914b95f0aa1",
                 "20261022-9a18d5aac56bc9dd",
@@ -1047,11 +1047,11 @@
         },
         {
           "id": "strength",
-          "title": "Câu hỏi: 01 ─æiß╗âm tß╗æt cß║ºn ph├ít huy trong lß╗¢p hß╗ìc l├á g├¼? (Thß║ºy, BTC, vß║¡n h├ánh, ─æß╗Öi nh├│m, b├ái hß╗ìc, b├ái tß║¡p, web, buß╗òi hß╗ìc offline, chß║Ñm b├ái,..)",
+          "title": "Câu hỏi: 01 điểm tốt cần phát huy trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
           "ideas": [
             {
-              "title": "Thß╗▒c h├ánh trß╗▒c tiß║┐p, nh├│m nhß╗Å v├á tranh biß╗çn gi├║p t─âng n─âng lß╗▒c",
-              "summary": "Hß╗ìc vi├¬n ─æ├ính gi├í cao viß╗çc kß╗â chuyß╗çn, chia sß║╗, hß╗ÅiΓÇô─æ├íp v├á phß║ún biß╗çn ngay tß║íi lß╗¢p; nh├│m nhß╗Å tß║ío c╞í hß╗Öi thß╗¡ sß╗⌐c tr╞░ß╗¢c khi tr├¼nh b├áy rß╗Öng h╞ín. C├│ nguß╗ôn ─æß╗ü nghß╗ï tiß║┐p tß╗Ñc hoß║╖c t─âng c╞í hß╗Öi thß╗▒c h├ánh, kh├┤ng phß║úi tß║Ñt cß║ú ─æß╗üu nhß║¡n x├⌐t rß║▒ng thß╗¥i l╞░ß╗úng hiß╗çn tß║íi ─æ├ú ─æß╗º.",
+              "title": "Thực hành trực tiếp, nhóm nhỏ và tranh biện giúp tăng năng lực",
+              "summary": "Học viên đánh giá cao việc kể chuyện, chia sẻ, hỏi–đáp và phản biện ngay tại lớp; nhóm nhỏ tạo cơ hội thử sức trước khi trình bày rộng hơn. Có nguồn đề nghị tiếp tục hoặc tăng cơ hội thực hành, không phải tất cả đều nhận xét rằng thời lượng hiện tại đã đủ.",
               "sourceIds": [
                 "20261022-d465cf01e76668a2",
                 "20261022-bcc7ce4a7f6783a1",
@@ -1092,8 +1092,8 @@
               "count": 32
             },
             {
-              "title": "C├ích gß╗úi mß╗ƒ v├á ─æ├║c kß║┐t cß╗ºa Thß║ºy tß║ío gi├í trß╗ï",
-              "summary": "C├íc nguß╗ôn khen c├ích t╞░ duy, ─æ├║c kß║┐t, sß╗▒ nhiß╗çt t├¼nh v├á viß╗çc Thß║ºy ─æß║┐n nh├│m g├│p ├╜. Mß╗Öt sß╗æ lß╗¥i ghi nhß║¡n ─æi k├¿m mong muß╗æn c├│ c├óu chuyß╗çn/s╞í ─æß╗ô mß║½u ─æß╗â hß╗ìc c├ích l├ám.",
+              "title": "Cách gợi mở và đúc kết của Thầy tạo giá trị",
+              "summary": "Các nguồn khen cách tư duy, đúc kết, sự nhiệt tình và việc Thầy đến nhóm góp ý. Một số lời ghi nhận đi kèm mong muốn có câu chuyện/sơ đồ mẫu để học cách làm.",
               "sourceIds": [
                 "20261022-e798c03025bddeb0",
                 "20261022-f3ac06ff2393adab",
@@ -1110,8 +1110,8 @@
               "count": 8
             },
             {
-              "title": "B├ái tß║¡p v├á c├óu chuyß╗çn nu├┤i th├│i quen hß╗ìc s├óu, ß╗⌐ng dß╗Ñng ─æß╗¥i sß╗æng",
-              "summary": "Nß╗Öi dung c├óu chuyß╗çn v├á b├ái tß║¡p ─æ╞░ß╗úc ─æ├ính gi├í c├│ ├╜ ngh─⌐a, gi├║p quan s├ítΓÇôph├ón t├¡chΓÇô─æ├║c kß║┐t, r├¿n ─æß╗üu ─æß║╖n v├á ├íp dß╗Ñng. Mß╗Öt ├╜ nhß║Ñn mß║ính l├ám ├¡t nh╞░ng kß╗╣; kh├┤ng suy diß╗àn th├ánh ─æß╗ông thuß║¡n muß╗æn t─âng sß╗æ l╞░ß╗úng b├ái.",
+              "title": "Bài tập và câu chuyện nuôi thói quen học sâu, ứng dụng đời sống",
+              "summary": "Nội dung câu chuyện và bài tập được đánh giá có ý nghĩa, giúp quan sát–phân tích–đúc kết, rèn đều đặn và áp dụng. Một ý nhấn mạnh làm ít nhưng kỹ; không suy diễn thành đồng thuận muốn tăng số lượng bài.",
               "sourceIds": [
                 "20261022-56247c9b51c5eea2",
                 "20261022-a53446c7d2b5bda8",
@@ -1132,8 +1132,8 @@
               "count": 12
             },
             {
-              "title": "─Éß╗Öi nh├│m th├ón h├▓a, hß╗ù trß╗ú v├á c├╣ng nhß║»c nhau hß╗ìc",
-              "summary": "Sß╗▒ t╞░╞íng t├íc, lß║»ng nghe, phß║ún hß╗ôi v├á ─æß╗ông h├ánh kh├┤ng ph├ín x├⌐t tß║ío m├┤i tr╞░ß╗¥ng t├¡ch cß╗▒c; nhiß╗üu nguß╗ôn muß╗æn giß╗» tinh thß║ºn ─æß╗ông ─æß╗Öi v├á kß╗╖ luß║¡t tß╗▒ hß╗ìc.",
+              "title": "Đội nhóm thân hòa, hỗ trợ và cùng nhắc nhau học",
+              "summary": "Sự tương tác, lắng nghe, phản hồi và đồng hành không phán xét tạo môi trường tích cực; nhiều nguồn muốn giữ tinh thần đồng đội và kỷ luật tự học.",
               "sourceIds": [
                 "20261022-c8d6718e95d99c3f",
                 "20261022-0b4ca55fbee1a0db",
@@ -1157,8 +1157,8 @@
               "count": 15
             },
             {
-              "title": "BTC v├á ─æß╗Öi ng┼⌐ ─æß╗ông h├ánh s├ít, nhß║»c viß╗çc v├á h╞░ß╗¢ng dß║½n",
-              "summary": "Hß╗ìc vi├¬n ghi nhß║¡n vß║¡n h├ánh chuy├¬n nghiß╗çp, nhß║»c b├ái, giß║úi ─æ├íp v├á ─æß╗Öng vi├¬n th╞░ß╗¥ng xuy├¬n. C├íc ─æß╗ü nghß╗ï s├ít sao h╞ín l├á mong muß╗æn cß║úi thiß╗çn tiß║┐p, kh├┤ng phß╗º nhß║¡n phß║ºn ─æ├ú tß╗æt.",
+              "title": "BTC và đội ngũ đồng hành sát, nhắc việc và hướng dẫn",
+              "summary": "Học viên ghi nhận vận hành chuyên nghiệp, nhắc bài, giải đáp và động viên thường xuyên. Các đề nghị sát sao hơn là mong muốn cải thiện tiếp, không phủ nhận phần đã tốt.",
               "sourceIds": [
                 "20261022-8791d6b7626c4f25",
                 "20261022-987092c8181efa04",
@@ -1179,8 +1179,8 @@
               "count": 12
             },
             {
-              "title": "Website v├á hß╗ìc liß╗çu mß║½u hß╗ù trß╗ú viß╗çc hß╗ìc",
-              "summary": "Website ─æ╞░ß╗úc khen chß╗ën chu, chuy├¬n nghiß╗çp v├á thuß║¡n tiß╗çn cho hß╗ìc tß║¡p; c├│ nguß╗ôn ─æ├ính gi├í cao tß╗▒ hß╗ìc v├á viß╗çc BTC chia sß║╗ b├ái hay l├¬n nh├│m ─æß╗â tham khß║úo.",
+              "title": "Website và học liệu mẫu hỗ trợ việc học",
+              "summary": "Website được khen chỉn chu, chuyên nghiệp và thuận tiện cho học tập; có nguồn đánh giá cao tự học và việc BTC chia sẻ bài hay lên nhóm để tham khảo.",
               "sourceIds": [
                 "20261022-9b005fdcc7bcd9fb",
                 "20261022-684808cad7419393",
@@ -1194,8 +1194,8 @@
               "count": 5
             },
             {
-              "title": "Mong th├¬m l╞░ß╗út tr├¼nh b├áy, chß╗»a b├ái v├á coach l├ám mß║½u",
-              "summary": "─É├óy l├á ─æß╗ü xuß║Ñt nß║▒m trong ├┤ ─æiß╗âm tß╗æt: th├¬m c╞í hß╗Öi l├¬n s├ón khß║Ñu, c├│ h╞░ß╗¢ng dß║½n/─æß╗ông h├ánh tß╗½ coach, Thß║ºy/BTC chß╗»a b├ái v├á l├ám mß║½u. Cß║ºn ph├ón biß╗çt lß╗¥i ─æß╗ü nghß╗ï vß╗¢i lß╗¥i khen chß║»c chß║»n.",
+              "title": "Mong thêm lượt trình bày, chữa bài và coach làm mẫu",
+              "summary": "Đây là đề xuất nằm trong ô điểm tốt: thêm cơ hội lên sân khấu, có hướng dẫn/đồng hành từ coach, Thầy/BTC chữa bài và làm mẫu. Cần phân biệt lời đề nghị với lời khen chắc chắn.",
               "sourceIds": [
                 "20261022-81ab030c2f31b765",
                 "20261022-364c0fd8cc7a5645",
@@ -1210,8 +1210,8 @@
               "count": 6
             },
             {
-              "title": "Nhu cß║ºu tiß║┐p cß║¡n hß╗ìc liß╗çu v├á nghe r├╡ khi hß╗ìc tß╗½ xa",
-              "summary": "C├│ ─æß╗ü nghß╗ï video xem lß║íi, c├óu chuyß╗çn gß╗æc ─æß╗â chuß║⌐n bß╗ï khi vß║»ng, v├á mic c├ái ├ío ─æß╗â ng╞░ß╗¥i hß╗ìc Zoom nghe ─æ╞░ß╗úc l├║c Thß║ºy di chuyß╗ân chß╗»a b├ái. ─É├óy l├á nhu cß║ºu hß╗ù trß╗ú cß╗Ñ thß╗â, kh├┤ng phß║úi lß╗¥i khen vß╗ü hß╗ç thß╗æng hiß╗çn tß║íi.",
+              "title": "Nhu cầu tiếp cận học liệu và nghe rõ khi học từ xa",
+              "summary": "Có đề nghị video xem lại, câu chuyện gốc để chuẩn bị khi vắng, và mic cài áo để người học Zoom nghe được lúc Thầy di chuyển chữa bài. Đây là nhu cầu hỗ trợ cụ thể, không phải lời khen về hệ thống hiện tại.",
               "sourceIds": [
                 "20261022-2e2327834e195c12",
                 "20261022-98a48e3448f0a3af",
@@ -1223,8 +1223,8 @@
               "count": 3
             },
             {
-              "title": "├üp lß╗▒c theo b├ái v├á mong ─æ╞░ß╗úc linh hoß║ít ─æß╗â tiß║┐p tß╗Ñc hß╗ìc",
-              "summary": "Mß╗Öt nguß╗ôn thß║Ñy b├ái nhiß╗üu v├á muß╗æn theo kß╗ïp; mß╗Öt nguß╗ôn xin ─æ╞░ß╗úc th├┤ng cß║úm tß║ím thß╗¥i v├¼ nguß╗ôn lß╗▒c ch╞░a ß╗òn, nh╞░ng mong theo lß╗¢p ─æß║┐n cuß╗æi. Giß╗» ─æ├óy l├á kh├│ kh─ân ri├¬ng, kh├┤ng coi l├á ─æ├ính gi├í chung cß╗ºa cß║ú lß╗¢p.",
+              "title": "Áp lực theo bài và mong được linh hoạt để tiếp tục học",
+              "summary": "Một nguồn thấy bài nhiều và muốn theo kịp; một nguồn xin được thông cảm tạm thời vì nguồn lực chưa ổn, nhưng mong theo lớp đến cuối. Giữ đây là khó khăn riêng, không coi là đánh giá chung của cả lớp.",
               "sourceIds": [
                 "20261022-2997a77f5ed6333b",
                 "20261022-aa0223a1eb8b5959"
@@ -1235,8 +1235,8 @@
               "count": 2
             },
             {
-              "title": "Tß╗▒ r├¿n b├ái kß╗╣ v├á cß║úi tiß║┐n c├ích hß╗ìc",
-              "summary": "Mß╗Öt sß╗æ nguß╗ôn trß║ú lß╗¥i bß║▒ng ─æß╗ïnh h╞░ß╗¢ng tß╗▒ hß╗ìc: luyß╗çn b├ái kß╗╣ h╞ín, cß║úi tiß║┐n c├ích l├ám sau mß╗ùi tuß║ºn. ─É├óy l├á ├╜ tß╗▒ kaizen, kh├┤ng phß║úi bß║▒ng chß╗⌐ng lß╗¢p ─æang c├│ ─æiß╗âm mß║ính ─æ├│.",
+              "title": "Tự rèn bài kỹ và cải tiến cách học",
+              "summary": "Một số nguồn trả lời bằng định hướng tự học: luyện bài kỹ hơn, cải tiến cách làm sau mỗi tuần. Đây là ý tự kaizen, không phải bằng chứng lớp đang có điểm mạnh đó.",
               "sourceIds": [
                 "20261022-157a44510cae4661",
                 "20261022-a7f8746b0138d5fa"
@@ -1261,11 +1261,11 @@
         },
         {
           "id": "improve",
-          "title": "Câu hỏi: 03 ─æiß╗âm cß║ºn cß║úi thiß╗çn trong lß╗¢p hß╗ìc l├á g├¼? (Thß║ºy, BTC, vß║¡n h├ánh, ─æß╗Öi nh├│m, b├ái hß╗ìc, b├ái tß║¡p, web, buß╗òi hß╗ìc offline, chß║Ñm b├ái,..)",
+          "title": "Câu hỏi: 03 điểm cần cải thiện trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
           "ideas": [
             {
-              "title": "Giß╗» ─æ├║ng giß╗¥ v├á d├ánh phß║ºn ─æ├║c kß║┐t cß╗ºa Thß║ºy ß╗ƒ thß╗¥i ─æiß╗âm hß╗ìc vi├¬n c├▓n tham dß╗▒",
-              "summary": "Nhiß╗üu nguß╗ôn phß║ún ├ính kß║┐t th├║c muß╗Ön, phß║ºn ch├¡nh ─æß║┐n qu├í trß╗à, cß║ºn bß║»t ─æß║ºu/kß║┐t th├║c ─æ├║ng cam kß║┐t v├á chia l╞░ß╗út tr├¼nh b├áy hß╗úp l├╜. C├│ ─æß╗ü nghß╗ï bß║»t ─æß║ºu 18h, cho ng╞░ß╗¥i ß╗ƒ xa vß╗ü 21h30 hoß║╖c giß║úng phß║ºn ch├¡nh 21hΓÇô21h30; ri├¬ng mß╗Öt nguß╗ôn lß║íi thß║Ñy thß╗¥i gian hß╗ìc ├¡t, n├¬n kh├┤ng gß╗Öp th├ánh y├¬u cß║ºu ─æß╗ông loß║ít r├║t ngß║»n.",
+              "title": "Giữ đúng giờ và dành phần đúc kết của Thầy ở thời điểm học viên còn tham dự",
+              "summary": "Nhiều nguồn phản ánh kết thúc muộn, phần chính đến quá trễ, cần bắt đầu/kết thúc đúng cam kết và chia lượt trình bày hợp lý. Có đề nghị bắt đầu 18h, cho người ở xa về 21h30 hoặc giảng phần chính 21h–21h30; riêng một nguồn lại thấy thời gian học ít, nên không gộp thành yêu cầu đồng loạt rút ngắn.",
               "sourceIds": [
                 "20261022-389fd5a6f2f8d0b6",
                 "20261022-8ac64a516e47b08b",
@@ -1291,8 +1291,8 @@
               "count": 17
             },
             {
-              "title": "Giß║úm tß║úi sß╗æ l╞░ß╗úng, t─âng chiß╗üu s├óu b├ái tß║¡p v├á chuß║⌐n bß╗ï tr╞░ß╗¢c",
-              "summary": "C├íc ├╜ muß╗æn b├ái gß╗ìn, ├¡t c├óu chuyß╗çn h╞ín ─æß╗â luyß╗çn kß╗╣/lß║╖p lß║íi v├á li├¬n hß╗ç cuß╗Öc sß╗æng; ph├ít tr╞░ß╗¢c c├óu chuyß╗çn hoß║╖c gß╗úi ├╜, l├ám r├╡ mß╗Ñc ti├¬u ─æß╗â kh├┤ng mß║Ñt qu├í nhiß╗üu giß╗¥ ─æß╗ìc mß╗¢i tß║íi lß╗¢p. C├│ ─æß╗ü xuß║Ñt giß╗» b├ái r├¿n t├óm h├áng ng├áy, chia tiß║┐n ─æß╗Ö sß╗¢m; c┼⌐ng c├│ nguß╗ôn muß╗æn th├¬m lß╗▒a chß╗ìn c├óu chuyß╗çn hoß║╖c k├⌐o d├ái m├┤-─æun kß╗â chuyß╗çn. Mß╗Öt ─æß╗ü nghß╗ï ri├¬ng l├á hß║ín nß╗Öp b├ái ─æß║┐n24h. Giß╗» r├╡ c├íc ph╞░╞íng ├ín kh├íc nhau.",
+              "title": "Giảm tải số lượng, tăng chiều sâu bài tập và chuẩn bị trước",
+              "summary": "Các ý muốn bài gọn, ít câu chuyện hơn để luyện kỹ/lặp lại và liên hệ cuộc sống; phát trước câu chuyện hoặc gợi ý, làm rõ mục tiêu để không mất quá nhiều giờ đọc mới tại lớp. Có đề xuất giữ bài rèn tâm hàng ngày, chia tiến độ sớm; cũng có nguồn muốn thêm lựa chọn câu chuyện hoặc kéo dài mô-đun kể chuyện. Một đề nghị riêng là hạn nộp bài đến24h. Giữ rõ các phương án khác nhau.",
               "sourceIds": [
                 "20261022-d876c30c24db9621",
                 "20261022-b20b5fe2a3d465f7",
@@ -1317,8 +1317,8 @@
               "count": 16
             },
             {
-              "title": "Thß║ºy, coach v├á trß╗ú giß║úng chß╗»a b├ái, l├ám mß║½u, chß╗ë dß║½n cß╗Ñ thß╗â",
-              "summary": "Hß╗ìc vi├¬n muß╗æn biß║┐t b├ái m├¼nh ─æ├║ng/sai ß╗ƒ ─æ├óu, c├ích s╞í ─æß╗ô h├│a, kß╗â chuyß╗çn v├á phß║ún biß╗çn; ─æß╗ü nghß╗ï ng╞░ß╗¥i c├│ kinh nghiß╗çm ─æi c├╣ng nh├│m, l├ám mß║½u, chia sß║╗ c├┤ng thß╗⌐c sau khi hß╗ìc vi├¬n suy ngh─⌐, v├á chß║Ñm s├ít tß╗½ng ng╞░ß╗¥i. C├│ nguß╗ôn muß╗æn thß║ºy xuß║Ñt hiß╗çn/giß║úng nhiß╗üu h╞ín.",
+              "title": "Thầy, coach và trợ giảng chữa bài, làm mẫu, chỉ dẫn cụ thể",
+              "summary": "Học viên muốn biết bài mình đúng/sai ở đâu, cách sơ đồ hóa, kể chuyện và phản biện; đề nghị người có kinh nghiệm đi cùng nhóm, làm mẫu, chia sẻ công thức sau khi học viên suy nghĩ, và chấm sát từng người. Có nguồn muốn thầy xuất hiện/giảng nhiều hơn.",
               "sourceIds": [
                 "20261022-b198dd5bafce474b",
                 "20261022-fb8cd0199cf1939c",
@@ -1349,8 +1349,8 @@
               "count": 22
             },
             {
-              "title": "Chß║Ñm ch├⌐o cß║ºn ─æß╗º thß╗¥i gian, c├┤ng cß╗Ñ thuß║¡n tiß╗çn v├á ti├¬u ch├¡ r├╡",
-              "summary": "C├íc nguß╗ôn ─æß╗ü nghß╗ï chß║Ñm sau khi quan s├ít phß║ún biß╗çn, k├⌐o hß║ín chß║Ñm sang s├íng h├┤m sau, t─âng thß╗¥i gian/─æß╗Öng lß╗▒c ─æß╗â nhß║¡n x├⌐t thß╗▒c chß║Ñt; sß╗¡a ghi nhß║¡n ─æiß╗âm tr├¬n link b├ái thay v├¼ th├¬m QR, xß╗¡ l├╜ v├▓ng lß║╖p ch╞░a nß╗Öp b├ái nh╞░ng phß║úi c├│ nhß║¡t k├╜ nhß║¡n g├│p ├╜. Mß╗Öt sß╗æ muß╗æn BTC/coach chß║Ñm thay hoß║╖c bß╗ò sung v├¼ hß╗ìc vi├¬n thiß║┐u thß╗¥i gian/n─âng lß╗▒c; kh├┤ng coi l├á ─æß╗ông thuß║¡n bß╗Å chß║Ñm ch├⌐o.",
+              "title": "Chấm chéo cần đủ thời gian, công cụ thuận tiện và tiêu chí rõ",
+              "summary": "Các nguồn đề nghị chấm sau khi quan sát phản biện, kéo hạn chấm sang sáng hôm sau, tăng thời gian/động lực để nhận xét thực chất; sửa ghi nhận điểm trên link bài thay vì thêm QR, xử lý vòng lặp chưa nộp bài nhưng phải có nhật ký nhận góp ý. Một số muốn BTC/coach chấm thay hoặc bổ sung vì học viên thiếu thời gian/năng lực; không coi là đồng thuận bỏ chấm chéo.",
               "sourceIds": [
                 "20261022-6a88ccd80c41eede",
                 "20261022-daa07f2c20522a5a",
@@ -1377,8 +1377,8 @@
               "count": 18
             },
             {
-              "title": "Hß╗ìc Zoom cß║ºn nghe r├╡ v├á c├│ ng╞░ß╗¥i ─æiß╗üu phß╗æi, hß╗ù trß╗ú thß╗▒c h├ánh",
-              "summary": "Cß║úi thiß╗çn nß╗æi hai ─æß║ºu cß║ºu, mic/loa v├á kiß╗âm tra kß╗╣ thuß║¡t; ng╞░ß╗¥i hß╗ìc online cß║ºn nghe phß║ºn Thß║ºy chß╗»a b├ái, c├│ ─æiß╗üu phß╗æi vi├¬n v├á c╞í hß╗Öi nh├│m/Zoom bß╗ò sung ─æ╞░ß╗úc th├┤ng b├ío sß╗¢m. Giß╗» cß║ú y├¬u cß║ºu hß╗ù trß╗ú ng╞░ß╗¥i vß║»ng hoß║╖c ß╗ƒ xa.",
+              "title": "Học Zoom cần nghe rõ và có người điều phối, hỗ trợ thực hành",
+              "summary": "Cải thiện nối hai đầu cầu, mic/loa và kiểm tra kỹ thuật; người học online cần nghe phần Thầy chữa bài, có điều phối viên và cơ hội nhóm/Zoom bổ sung được thông báo sớm. Giữ cả yêu cầu hỗ trợ người vắng hoặc ở xa.",
               "sourceIds": [
                 "20261022-6a88ccd80c41eede",
                 "20261022-160abcf50e23e8ff",
@@ -1400,8 +1400,8 @@
               "count": 13
             },
             {
-              "title": "Tß╗ò chß╗⌐c nh├│m hiß╗çu quß║ú v├á giao l╞░u/chß║Ñm giß╗»a c├íc th├┤n",
-              "summary": "Cß║ºn l├ám r├╡ vai tr├▓, t─âng kß║┐t nß╗æi v├á thß╗¥i gian thß╗▒c h├ánh c├│ chiß╗üu s├óu; trß╗Ön/gß╗Öp nh├│m, chß║Ñm ngo├ái th├┤n, chuß║⌐n bß╗ï b├ái chung, recap v├á tß╗ò chß╗⌐c hoß║ít ─æß╗Öng thay v├¼ tß╗▒ ph├ít. C├│ ├╜ muß╗æn nh├│m tß╗▒ tß╗æi ╞░u chß╗⌐ kh├┤ng lß╗ç thuß╗Öc ho├án to├án v├áo Thß║ºy; mß╗Öt sß╗æ cß║ºn coach dß║½n dß║»t. Giß╗» kh├íc biß╗çt vß╗ü mß╗⌐c tß╗▒ quß║ún.",
+              "title": "Tổ chức nhóm hiệu quả và giao lưu/chấm giữa các thôn",
+              "summary": "Cần làm rõ vai trò, tăng kết nối và thời gian thực hành có chiều sâu; trộn/gộp nhóm, chấm ngoài thôn, chuẩn bị bài chung, recap và tổ chức hoạt động thay vì tự phát. Có ý muốn nhóm tự tối ưu chứ không lệ thuộc hoàn toàn vào Thầy; một số cần coach dẫn dắt. Giữ khác biệt về mức tự quản.",
               "sourceIds": [
                 "20261022-6a88ccd80c41eede",
                 "20261022-daa07f2c20522a5a",
@@ -1430,8 +1430,8 @@
               "count": 20
             },
             {
-              "title": "Kh├┤ng gian, hß╗ìc cß╗Ñ v├á suß║Ñt ─ân cß║ºn ─æß╗º ─æß╗â hß╗ìc kh├┤ng bß╗ï gi├ín ─æoß║ín",
-              "summary": "C├íc nhu cß║ºu cß╗Ñ thß╗â gß╗ôm chia kh├┤ng gian giß║úm ß╗ôn, th├¬m tß║ºng/ph├▓ng, bß║úng chß║»c dß╗à viß║┐t, ─æß╗º b├║t giß║Ñy; bß╗æ tr├¡ ─æß╗ô ─ân tß╗æi sß╗¢m v├á ─æß╗º. Mß╗Öt ─æß╗ü nghß╗ï ri├¬ng l├á c├│10ph├║t t─⌐nh t├óm. ─É├óy l├á c├íc hß║íng mß╗Ñc vß║¡n h├ánh ri├¬ng d╞░ß╗¢i c├╣ng chß╗º ─æß╗ü ─æiß╗üu kiß╗çn hß╗ìc, kh├┤ng phß║úi mß╗ìi nguß╗ôn ─æß╗üu ─æß╗ü nghß╗ï tß║Ñt cß║ú.",
+              "title": "Không gian, học cụ và suất ăn cần đủ để học không bị gián đoạn",
+              "summary": "Các nhu cầu cụ thể gồm chia không gian giảm ồn, thêm tầng/phòng, bảng chắc dễ viết, đủ bút giấy; bố trí đồ ăn tối sớm và đủ. Một đề nghị riêng là có10phút tĩnh tâm. Đây là các hạng mục vận hành riêng dưới cùng chủ đề điều kiện học, không phải mọi nguồn đều đề nghị tất cả.",
               "sourceIds": [
                 "20261022-6ae048bb41bbd89d",
                 "20261022-ae69c3531da393c0",
@@ -1449,8 +1449,8 @@
               "count": 9
             },
             {
-              "title": "C├┤ng cß╗Ñ v├á truyß╗ün th├┤ng cß║ºn r├╡, bß╗¢t g├óy gi├ín ─æoß║ín",
-              "summary": "C├│ ─æß╗ü nghß╗ï giß║úm bot xuß╗æng mß╗Öt th├┤ng b├ío l├║c22h, h╞░ß╗¢ng dß║½n d├╣ng app, l├ám r├╡ cß║Ñu tr├║c ch╞░╞íng tr├¼nh/vai tr├▓ BTCΓÇôBPS, c├ích trß║ú b├ái kß╗╖ luß║¡t v├á truyß╗ün th├┤ng lß╗ïch hß╗ù trß╗ú sß╗¢m, c├┤ng khai. Nhß╗»ng vß║Ñn ─æß╗ü n├áy cß║ºn c├óu trß║ú lß╗¥i cß╗Ñ thß╗â, kh├┤ng chß╗ë lß╗¥i nhß║»c cß╗æ gß║»ng.",
+              "title": "Công cụ và truyền thông cần rõ, bớt gây gián đoạn",
+              "summary": "Có đề nghị giảm bot xuống một thông báo lúc22h, hướng dẫn dùng app, làm rõ cấu trúc chương trình/vai trò BTC–BPS, cách trả bài kỷ luật và truyền thông lịch hỗ trợ sớm, công khai. Những vấn đề này cần câu trả lời cụ thể, không chỉ lời nhắc cố gắng.",
               "sourceIds": [
                 "20261022-16514680911fee56",
                 "20261022-6f4fd050b4b5ef2c",
@@ -1465,8 +1465,8 @@
               "count": 6
             },
             {
-              "title": "Duy tr├¼ n─âng l╞░ß╗úng, hiß╗âu th╞░╞íng v├á ─æß╗Öng lß╗▒c ß╗ƒ cß║ú hai ─æß║ºu cß║ºu",
-              "summary": "Mß╗Öt sß╗æ nguß╗ôn muß╗æn t─âng n─âng l╞░ß╗úng khi Thß║ºy vß║»ng/ß╗ƒ ─æß║ºu cß║ºu kh├íc, kß║┐t nß╗æi hiß╗âu th╞░╞íng v├á nhß║»c lß║íi l├╜ do hß╗ìc ─æß╗â hß╗ìc vi├¬n cß║úm nhß║¡n ─æß╗ông h├ánh. Kh├┤ng khß║│ng ─æß╗ïnh nguy├¬n nh├ón bß╗Å hß╗ìc chß╗ë tß╗½ mß╗Öt nhß║¡n x├⌐t c├í nh├ón.",
+              "title": "Duy trì năng lượng, hiểu thương và động lực ở cả hai đầu cầu",
+              "summary": "Một số nguồn muốn tăng năng lượng khi Thầy vắng/ở đầu cầu khác, kết nối hiểu thương và nhắc lại lý do học để học viên cảm nhận đồng hành. Không khẳng định nguyên nhân bỏ học chỉ từ một nhận xét cá nhân.",
               "sourceIds": [
                 "20261022-16514680911fee56",
                 "20261022-b07ce28c540e4bb3",
@@ -1483,8 +1483,8 @@
               "count": 8
             },
             {
-              "title": "Mß╗Öt sß╗æ c├óu trß║ú lß╗¥i l├á viß╗çc hß╗ìc vi├¬n tß╗▒ ─æiß╗üu chß╗ënh",
-              "summary": "C├íc ├╜ tß╗▒ hß╗ìc v├á nhß║»c lß║íi, thß╗▒c h├ánh th├¬m, chuß║⌐n bß╗ï/ho├án th├ánh b├ái kß╗╣ tr╞░ß╗¢c lß╗¢p ─æ╞░ß╗úc giß╗» vß╗¢i chß╗º thß╗â hß╗ìc vi├¬n; kh├┤ng chuyß╗ân th├ánh lß╗¥i ch├¬ BTC.",
+              "title": "Một số câu trả lời là việc học viên tự điều chỉnh",
+              "summary": "Các ý tự học và nhắc lại, thực hành thêm, chuẩn bị/hoàn thành bài kỹ trước lớp được giữ với chủ thể học viên; không chuyển thành lời chê BTC.",
               "sourceIds": [
                 "20261022-aaf2f8227f6682a8",
                 "20261022-8b132997e3c57d8d",
@@ -1510,11 +1510,11 @@
         },
         {
           "id": "action",
-          "title": "Câu hỏi: H├ánh ─æß╗Öng cß╗Ñ thß╗â cß╗ºa bß║ín ─æ├│ng g├│p gi├║p lß╗¢p hß╗ìc tß╗æt l├¬n l├á g├¼?",
+          "title": "Câu hỏi: Hành động cụ thể của bạn đóng góp giúp lớp học tốt lên là gì?",
           "ideas": [
             {
-              "title": "L├ám b├ái nghi├¬m t├║c, ─æß║ºy ─æß╗º v├á sß╗¢m ─æß╗â c├│ thß╗¥i gian ─æ├áo s├óu",
-              "summary": "Cam kß║┐t phß╗ò biß║┐n l├á ho├án th├ánh phß║ºn hß╗ìc cß╗ºa m├¼nh, chuß║⌐n bß╗ï tr╞░ß╗¢c, l├ám4kß╗╣ v├á giß╗» ─æ├║ng hß║ín; mß╗Öt sß╗æ nhß║Ñn mß║ính l├ám sß╗¢m ─æß╗â suy ngß║½m hoß║╖c n├óng chß║Ñt l╞░ß╗úng. Kh├┤ng diß╗àn giß║úi mß╗ìi nguß╗ôn ─æß╗üu cam kß║┐t th├¬m b├ái ngo├ái y├¬u cß║ºu.",
+              "title": "Làm bài nghiêm túc, đầy đủ và sớm để có thời gian đào sâu",
+              "summary": "Cam kết phổ biến là hoàn thành phần học của mình, chuẩn bị trước, làm4kỹ và giữ đúng hạn; một số nhấn mạnh làm sớm để suy ngẫm hoặc nâng chất lượng. Không diễn giải mọi nguồn đều cam kết thêm bài ngoài yêu cầu.",
               "sourceIds": [
                 "20261022-ab580c2033e57a81",
                 "20261022-2ab3077d02a48218",
@@ -1557,8 +1557,8 @@
               "count": 34
             },
             {
-              "title": "─Éi hß╗ìc ─æß╗üu, ─æ├║ng giß╗¥ v├á giß╗» kß╗╖ luß║¡t l├ám g╞░╞íng",
-              "summary": "Hß╗ìc vi├¬n cam kß║┐t hiß╗çn diß╗çn, tß║¡p trung, tu├ón thß╗º quy ─æß╗ïnh v├á kh├┤ng ─æß╗â vi phß║ím ß║únh h╞░ß╗ƒng ─æß╗ông ─æß╗Öi; mß╗Öt sß╗æ chß╗ë c├│ thß╗â quay lß║íi to├án t├óm sau khi sß║»p xß║┐p nguß╗ôn lß╗▒c, cß║ºn giß╗» ─æiß╗üu kiß╗çn ß║Ñy.",
+              "title": "Đi học đều, đúng giờ và giữ kỷ luật làm gương",
+              "summary": "Học viên cam kết hiện diện, tập trung, tuân thủ quy định và không để vi phạm ảnh hưởng đồng đội; một số chỉ có thể quay lại toàn tâm sau khi sắp xếp nguồn lực, cần giữ điều kiện ấy.",
               "sourceIds": [
                 "20261022-ab580c2033e57a81",
                 "20261022-645fed2b4c8367c6",
@@ -1592,8 +1592,8 @@
               "count": 25
             },
             {
-              "title": "Nhß║»c b├ái, hß╗Åi th─âm v├á hß╗ù trß╗ú ─ÉNT/─æß╗ông ─æß╗Öi c├╣ng theo hß╗ìc",
-              "summary": "C├íc h├ánh ─æß╗Öng gß╗ôm nhß║»c deadline, gß╗ìi bß║ín ─æi offline, ─æß╗Öng vi├¬n ng╞░ß╗¥i chß║¡m, hß╗ù trß╗ú c├┤ng nghß╗ç/c├ích ─æ├║c kß║┐t v├á t├¼m hiß╗âu kh├│ kh─ân; hß╗ù trß╗ú c├│ mß╗Ñc ─æ├¡ch gi├║p bß║ín tiß║┐n bß╗Ö chß╗⌐ kh├┤ng chß╗ë th├║c ├⌐p.",
+              "title": "Nhắc bài, hỏi thăm và hỗ trợ ĐNT/đồng đội cùng theo học",
+              "summary": "Các hành động gồm nhắc deadline, gọi bạn đi offline, động viên người chậm, hỗ trợ công nghệ/cách đúc kết và tìm hiểu khó khăn; hỗ trợ có mục đích giúp bạn tiến bộ chứ không chỉ thúc ép.",
               "sourceIds": [
                 "20261022-e881e9bc63df213a",
                 "20261022-d789667e93ec1ab8",
@@ -1627,8 +1627,8 @@
               "count": 25
             },
             {
-              "title": "Chß╗º ─æß╗Öng kß║┐t nß╗æi, hiß╗âu th╞░╞íng v├á tham gia sinh hoß║ít nh├│m",
-              "summary": "Cam kß║┐t t╞░╞íng t├íc, chia sß║╗, lß║»ng nghe s├óu v├á kh├¡ch lß╗ç ─æß╗â nh├│m c├│ n─âng l╞░ß╗úng; c├│ ├╜ kß║┐t nß╗æi vß╗¢i th├┤n kh├íc. Nhß╗»ng lß╗¥i n├│i c├▓n kh├íi qu├ít ─æ╞░ß╗úc giß╗» ─æ├║ng mß╗⌐c, kh├┤ng bß╗ïa th├¬m kß║┐ hoß║ích cß╗Ñ thß╗â.",
+              "title": "Chủ động kết nối, hiểu thương và tham gia sinh hoạt nhóm",
+              "summary": "Cam kết tương tác, chia sẻ, lắng nghe sâu và khích lệ để nhóm có năng lượng; có ý kết nối với thôn khác. Những lời nói còn khái quát được giữ đúng mức, không bịa thêm kế hoạch cụ thể.",
               "sourceIds": [
                 "20261022-2ab3077d02a48218",
                 "20261022-d8dbdf8dd65c9768",
@@ -1660,8 +1660,8 @@
               "count": 23
             },
             {
-              "title": "Tß╗ò chß╗⌐c thß╗▒c h├ánh, chia sß║╗ b├ái v├á tranh biß╗çn c├╣ng nhau",
-              "summary": "C├│ h├ánh ─æß╗Öng mß╗ƒ Zoom kß╗â chuyß╗çn, chia sß║╗ nß╗Öi dung/quan ─æiß╗âm, chuß║⌐n bß╗ï s╞í ─æß╗ô, c├╣ng luyß╗çn phß║ún biß╗çn, nhß║¡n x├⌐t b├ái v├á hß╗ìc tß╗½ nguß╗ôn cß╗ºa nhau. Mß╗Öt cam kß║┐t cß╗Ñ thß╗â l├á chß║Ñm ch├⌐o2ng╞░ß╗¥i/tuß║ºn; kh├┤ng ├íp chß╗ë ti├¬u n├áy cho tß║Ñt cß║ú.",
+              "title": "Tổ chức thực hành, chia sẻ bài và tranh biện cùng nhau",
+              "summary": "Có hành động mở Zoom kể chuyện, chia sẻ nội dung/quan điểm, chuẩn bị sơ đồ, cùng luyện phản biện, nhận xét bài và học từ nguồn của nhau. Một cam kết cụ thể là chấm chéo2người/tuần; không áp chỉ tiêu này cho tất cả.",
               "sourceIds": [
                 "20261022-894ba9931238c375",
                 "20261022-75b1f89ed0923876",
@@ -1683,8 +1683,8 @@
               "count": 13
             },
             {
-              "title": "G├│p ├╜ ch├ón thß╗▒c cho nh├│m v├á BTC ─æß╗â sß╗¡a c├ích vß║¡n h├ánh",
-              "summary": "C├íc nguß╗ôn n├¬u ─æ├│ng g├│p ├╜ kiß║┐n trung thß╗▒c, phß║ún ├ính bß║Ñt cß║¡p, thß║úo luß║¡n ti├¬u ch├¡ kß╗â chuyß╗çn/─æ├║c kß║┐t/phß║ún biß╗çn v├á b├ío lß╗ùi web. ─É├óy l├á h├ánh ─æß╗Öng phß║ún hß╗ôi, kh├┤ng nhß║Ñt thiß║┐t l├á mß╗Öt y├¬u cß║ºu ─æ├ú ─æ╞░ß╗úc BTC chß║Ñp thuß║¡n.",
+              "title": "Góp ý chân thực cho nhóm và BTC để sửa cách vận hành",
+              "summary": "Các nguồn nêu đóng góp ý kiến trung thực, phản ánh bất cập, thảo luận tiêu chí kể chuyện/đúc kết/phản biện và báo lỗi web. Đây là hành động phản hồi, không nhất thiết là một yêu cầu đã được BTC chấp thuận.",
               "sourceIds": [
                 "20261022-3dd406b9f6ff66d2",
                 "20261022-b8e036c76da3f64b",
@@ -1698,8 +1698,8 @@
               "count": 5
             },
             {
-              "title": "Nhß║¡n viß╗çc phß╗Ñng sß╗▒ v├á hß╗ù trß╗ú ─æiß╗üu kiß╗çn lß╗¢p hß╗ìc",
-              "summary": "Cam kß║┐t hoß║╖c viß╗çc ─æ├ú l├ám gß╗ôm s├ít sao ban c├ín sß╗▒, hostZoom, hß╗ù trß╗ú bß╗»a tß╗æi/dß╗ìn dß║╣p, tß╗▒ mang b├║t giß║Ñy, giß╗» vß╗ç sinh, khß╗ƒi ─æß╗Öng ─æß║ºu giß╗¥ v├á l├ám video cho nh├│m. Mß╗Öt ng╞░ß╗¥i ─æ├ú v├áo BPS nh╞░ng tß╗▒ nhß║¡n ch╞░a ─æ├│ng g├│p nhiß╗üu; giß╗» ─æ├║ng mß╗⌐c ─æ├│.",
+              "title": "Nhận việc phụng sự và hỗ trợ điều kiện lớp học",
+              "summary": "Cam kết hoặc việc đã làm gồm sát sao ban cán sự, hostZoom, hỗ trợ bữa tối/dọn dẹp, tự mang bút giấy, giữ vệ sinh, khởi động đầu giờ và làm video cho nhóm. Một người đã vào BPS nhưng tự nhận chưa đóng góp nhiều; giữ đúng mức đó.",
               "sourceIds": [
                 "20261022-e5de02395522d3c0",
                 "20261022-d5adbfc3ed0da2f5",
@@ -1717,8 +1717,8 @@
               "count": 9
             },
             {
-              "title": "C├│ ├╜ kiß║┐n gß╗¡i BTC trong ├┤ ─æ├│ng g├│p, ch╞░a phß║úi cam kß║┐t c├í nh├ón",
-              "summary": "C├íc nguß╗ôn n├áy ─æß╗ü nghß╗ï BTC chß║Ñm b├ái, ─æß╗òi c├ích giß║úng, ─æß║⌐y phß║ºn giß║úng cß╗ºa Thß║ºy sß╗¢m h╞ín, giao l╞░u/chß║Ñm giß╗»a ─æß╗Öi v├á chia hai tß║ºng giß║úm ß╗ôn. Giß╗» nh╞░ ─æß╗ü xuß║Ñt vß╗¢i ng╞░ß╗¥i tß╗ò chß╗⌐c, kh├┤ng g├ín th├ánh h├ánh ─æß╗Öng m├á hß╗ìc vi├¬n hß╗⌐a tß╗▒ l├ám.",
+              "title": "Có ý kiến gửi BTC trong ô đóng góp, chưa phải cam kết cá nhân",
+              "summary": "Các nguồn này đề nghị BTC chấm bài, đổi cách giảng, đẩy phần giảng của Thầy sớm hơn, giao lưu/chấm giữa đội và chia hai tầng giảm ồn. Giữ như đề xuất với người tổ chức, không gán thành hành động mà học viên hứa tự làm.",
               "sourceIds": [
                 "20261022-d13b5763bdadc994",
                 "20261022-b1d524cc571a46ab",
@@ -1732,8 +1732,8 @@
               "count": 5
             },
             {
-              "title": "Ch╞░a thß╗â ─æ├│ng g├│p ngay nh╞░ng muß╗æn bß╗ò sung khi c├│ nguß╗ôn lß╗▒c",
-              "summary": "Mß╗Öt sß╗æ hß╗ìc vi├¬n thß╗½a nhß║¡n hiß╗çn ch╞░a l├ám ─æ╞░ß╗úc/ch╞░a ─æß║ít hoß║╖c ch╞░a c├│ ─æ├│ng g├│p ─æ├íng kß╗â; c├│ ng╞░ß╗¥i dß╗▒ ─æß╗ïnh d├ánh th├¬m nguß╗ôn lß╗▒c trong th├íng11. ─É├óy l├á t├¼nh trß║íng hiß╗çn tß║íi, kh├┤ng phß║úi ho├án th├ánh h├ánh ─æß╗Öng.",
+              "title": "Chưa thể đóng góp ngay nhưng muốn bổ sung khi có nguồn lực",
+              "summary": "Một số học viên thừa nhận hiện chưa làm được/chưa đạt hoặc chưa có đóng góp đáng kể; có người dự định dành thêm nguồn lực trong tháng11. Đây là tình trạng hiện tại, không phải hoàn thành hành động.",
               "sourceIds": [
                 "20261022-347fb94b658afa75",
                 "20261022-915dec5bd253548d",
@@ -1761,11 +1761,11 @@
         },
         {
           "id": "questions",
-          "title": "Câu hỏi: Bß║ín c├│ kh├│ kh─ân & c├óu hß╗Åi g├¼ ─æß║┐n BTC/Thß║ºy?",
+          "title": "Câu hỏi: Bạn có khó khăn & câu hỏi gì đến BTC/Thầy?",
           "ideas": [
             {
-              "title": "Kh├│ thu xß║┐p thß╗¥i gian v├á c├ón bß║▒ng tß║úi hß╗ìc vß╗¢i nguß╗ôn lß╗▒c",
-              "summary": "C├íc nguß╗ôn n├¬u bß║¡n, thiß║┐u thß╗¥i gian thß╗▒c h├ánh/l├ám b├ái hoß║╖c ch╞░a c├│ kß╗╖ luß║¡t, cß║ºn tß╗▒ sß║»p xß║┐p v├á ─æ├┤i khi xin th├┤ng cß║úm tß║ím thß╗¥i. C├│ ng╞░ß╗¥i n├│i r├╡ kh├┤ng muß╗æn hß║í chuß║⌐n; kh├┤ng suy diß╗àn th├ánh y├¬u cß║ºu giß║úm chuß║⌐n cß╗ºa to├án nh├│m.",
+              "title": "Khó thu xếp thời gian và cân bằng tải học với nguồn lực",
+              "summary": "Các nguồn nêu bận, thiếu thời gian thực hành/làm bài hoặc chưa có kỷ luật, cần tự sắp xếp và đôi khi xin thông cảm tạm thời. Có người nói rõ không muốn hạ chuẩn; không suy diễn thành yêu cầu giảm chuẩn của toàn nhóm.",
               "sourceIds": [
                 "20261022-691b492ca15d7735",
                 "20261022-aefda1363478fd14",
@@ -1790,8 +1790,8 @@
               "count": 16
             },
             {
-              "title": "Cß║ºn h╞░ß╗¢ng dß║½n kß╗â chuyß╗çn, ─æ├║c kß║┐t v├á s╞í ─æß╗ô h├│a bß║▒ng v├¡ dß╗Ñ",
-              "summary": "Kh├│ kh─ân gß╗ôm kß╗â c├│ sß╗⌐c truyß╗ün cß║úm, t├¼m ├╜ s├óu, s╞í ─æß╗ô dß╗à hiß╗âu v├á l├ám quen c├óu chuyß╗çn mß╗¢i; ─æß╗ü nghß╗ï c├┤ng thß╗⌐c, v├¡ dß╗Ñ mß║½u v├á l├ám r├╡ mß╗Ñc ─æ├¡ch b├ái tß║¡p. Kh├┤ng coi mß╗ìi ng╞░ß╗¥i ─æß╗üu cß║ºn c├╣ng mß╗Öt mß╗⌐c hß╗ù trß╗ú.",
+              "title": "Cần hướng dẫn kể chuyện, đúc kết và sơ đồ hóa bằng ví dụ",
+              "summary": "Khó khăn gồm kể có sức truyền cảm, tìm ý sâu, sơ đồ dễ hiểu và làm quen câu chuyện mới; đề nghị công thức, ví dụ mẫu và làm rõ mục đích bài tập. Không coi mọi người đều cần cùng một mức hỗ trợ.",
               "sourceIds": [
                 "20261022-691b492ca15d7735",
                 "20261022-8b375dce818f8f3a",
@@ -1812,8 +1812,8 @@
               "count": 12
             },
             {
-              "title": "Cß║ºn trß╗ú gi├║p c├┤ng nghß╗ç ─æß╗â quay, ─æ─âng video v├á l├ám b├ái hiß╗çu quß║ú",
-              "summary": "C├íc nguß╗ôn gß║╖p kh├│ khi uploadYouTube, quayZoom hoß║╖c phß╗æi hß╗úp c├┤ng nghß╗ç vß╗¢i ph╞░╞íng ph├íp mß╗¢i; mong ng╞░ß╗¥i c├│ kinh nghiß╗çm hß╗ù trß╗ú ─æß╗â tiß║┐t kiß╗çm thß╗¥i gian.",
+              "title": "Cần trợ giúp công nghệ để quay, đăng video và làm bài hiệu quả",
+              "summary": "Các nguồn gặp khó khi uploadYouTube, quayZoom hoặc phối hợp công nghệ với phương pháp mới; mong người có kinh nghiệm hỗ trợ để tiết kiệm thời gian.",
               "sourceIds": [
                 "20261022-8b375dce818f8f3a",
                 "20261022-2a81725d49aab7f2",
@@ -1825,8 +1825,8 @@
               "count": 3
             },
             {
-              "title": "Cß║ºn phß║ún hß╗ôi c├│ chß║Ñt l╞░ß╗úng v├á ng╞░ß╗¥i ─æß╗ông h├ánh chß╗»a b├ái",
-              "summary": "C├│ nguß╗ôn nhß╗¥ nhiß╗üu lß║ºn nh╞░ng ch╞░a nhß║¡n phß║ún hß╗ôi t╞░╞íng xß╗⌐ng; mß╗Öt nguß╗ôn video d├ái ├¡t ─æ╞░ß╗úc xem n├¬n xin ng╞░ß╗¥i gi├áu trß║úi nghiß╗çm ─æß╗ông h├ánh. Mong ─æ╞░ß╗úc chß╗ë r├╡ ─æiß╗üu sß╗¡a v├á nhß║¡n phß║ún hß╗ôi chß║Ñt l╞░ß╗úng, kh├┤ng chß╗ë th├¬m ─æiß╗âm sß╗æ.",
+              "title": "Cần phản hồi có chất lượng và người đồng hành chữa bài",
+              "summary": "Có nguồn nhờ nhiều lần nhưng chưa nhận phản hồi tương xứng; một nguồn video dài ít được xem nên xin người giàu trải nghiệm đồng hành. Mong được chỉ rõ điều sửa và nhận phản hồi chất lượng, không chỉ thêm điểm số.",
               "sourceIds": [
                 "20261022-5348cea7ff4ffe50",
                 "20261022-dbbffe3e09d7aaea",
@@ -1839,8 +1839,8 @@
               "count": 4
             },
             {
-              "title": "Xin linh hoß║ít tham dß╗▒ v├á bß║úo ─æß║úm phß║ºn ch├¡nh kh├┤ng qu├í muß╗Ön",
-              "summary": "C├│ nguß╗ôn c├ón nhß║»c bß║úo l╞░u, xin quay lß║íi sau thß╗¥i gian bß║¡n/─æß║┐n19h v├¼ ─æ╞░ß╗¥ng xa, kh├│ ─æß║┐n ─æ├║ng giß╗¥ do c├┤ng viß╗çc hoß║╖c ch╞░a ho├án th├ánh b├ái do sß╗⌐c khß╗Åe. Nhß╗»ng tr╞░ß╗¥ng hß╗úp n├áy cß║ºn BTC trao ─æß╗òi ri├¬ng. C├íc nguß╗ôn kh├íc muß╗æn phß║ºn Thß║ºy giß║úng sß╗¢m21hΓÇô21h30 ─æß╗â kh├┤ng lß╗í nß╗Öi dung khi phß║úi vß╗ü.",
+              "title": "Xin linh hoạt tham dự và bảo đảm phần chính không quá muộn",
+              "summary": "Có nguồn cân nhắc bảo lưu, xin quay lại sau thời gian bận/đến19h vì đường xa, khó đến đúng giờ do công việc hoặc chưa hoàn thành bài do sức khỏe. Những trường hợp này cần BTC trao đổi riêng. Các nguồn khác muốn phần Thầy giảng sớm21h–21h30 để không lỡ nội dung khi phải về.",
               "sourceIds": [
                 "20261022-5bf1a85ec6668411",
                 "20261022-39e340618038fbe2",
@@ -1855,8 +1855,8 @@
               "count": 6
             },
             {
-              "title": "Cß║ºn th├┤ng tin ch├¡nh thß╗⌐c vß╗ü lß╗ïch trß║úi nghiß╗çm v├á lß╗ïch s├ít Tß║┐t",
-              "summary": "Hai c├óu hß╗Åi ri├¬ng cß║ºn trß║ú lß╗¥i r├╡: ─æß╗út10ng├áy trß║úi nghiß╗çm diß╗àn ra khi n├áo/ß╗ƒ ─æ├óu, v├á lß╗¢p c├│ hß╗ìc ng├áy05/02/2027hay kh├┤ng. Kh├┤ng tß╗▒ suy ─æo├ín lß╗ïch.",
+              "title": "Cần thông tin chính thức về lịch trải nghiệm và lịch sát Tết",
+              "summary": "Hai câu hỏi riêng cần trả lời rõ: đợt10ngày trải nghiệm diễn ra khi nào/ở đâu, và lớp có học ngày05/02/2027hay không. Không tự suy đoán lịch.",
               "sourceIds": [
                 "20261022-bbb97fd99b2dad8f",
                 "20261022-67b7d6568c7fef86"
@@ -1867,8 +1867,8 @@
               "count": 2
             },
             {
-              "title": "L├ám r├╡ quy ─æß╗ïnh kß╗╖ luß║¡t, c├┤ng cß╗Ñ vß║╜ s╞í ─æß╗ô v├á khß╗ò giß║Ñy",
-              "summary": "C├íc c├óu hß╗Åi cß╗Ñ thß╗â: c├ích t├¡nh kß╗╖ luß║¡t; c├│ ─æ╞░ß╗úc s╞í ─æß╗ô h├│a bß║▒ngPowerPoint kh├┤ng d├╣ngAI thay giß║Ñy b├║t; nhß║¡n x├⌐tA3nhß╗Å v├áA2ph├╣ hß╗úp h╞ín. ─É├óy l├á c├íc quy ─æß╗ïnh/lß╗▒a chß╗ìn ri├¬ng cß║ºn phß║ún hß╗ôi ch├¡nh thß╗⌐c, kh├┤ng c├│ ─æß╗ông thuß║¡n chung thay c├┤ng cß╗Ñ.",
+              "title": "Làm rõ quy định kỷ luật, công cụ vẽ sơ đồ và khổ giấy",
+              "summary": "Các câu hỏi cụ thể: cách tính kỷ luật; có được sơ đồ hóa bằngPowerPoint không dùngAI thay giấy bút; nhận xétA3nhỏ vàA2phù hợp hơn. Đây là các quy định/lựa chọn riêng cần phản hồi chính thức, không có đồng thuận chung thay công cụ.",
               "sourceIds": [
                 "20261022-9b078423466805dd",
                 "20261022-8f485bef39c0bb99",
@@ -1880,8 +1880,8 @@
               "count": 3
             },
             {
-              "title": "─Éß╗Öng lß╗▒c hß╗ìc ch╞░a h├¼nh th├ánh r├╡ cß║ºn ─æ╞░ß╗úc ─æß╗ông h├ánh",
-              "summary": "Mß╗Öt ng╞░ß╗¥i ch╞░a t├¼m thß║Ñy ─æam m├¬ n├¬n ch╞░a chß╗º ─æß╗Öng. Giß╗» t├¡n hiß╗çu ri├¬ng n├áy ─æß╗â hß╗ù trß╗ú, kh├┤ng kß║┐t luß║¡n ─æß╗Öng lß╗▒c to├án lß╗¢p thß║Ñp.",
+              "title": "Động lực học chưa hình thành rõ cần được đồng hành",
+              "summary": "Một người chưa tìm thấy đam mê nên chưa chủ động. Giữ tín hiệu riêng này để hỗ trợ, không kết luận động lực toàn lớp thấp.",
               "sourceIds": [
                 "20261022-84c3e24620966583"
               ],
@@ -1891,8 +1891,8 @@
               "count": 1
             },
             {
-              "title": "Muß╗æn biß║┐t n─âng lß╗▒c cß║ºn c├│ ─æß╗â mang gi├í trß╗ï ba gß╗æc tß╗¢i cß╗Öng ─æß╗ông",
-              "summary": "Mß╗Öt c├óu hß╗Åi ri├¬ng vß╗ü nhß╗»ng tß╗æ chß║Ñt cß║ºn r├¿n ─æß╗â chuyß╗ân tß║úi gi├í trß╗ï ba gß╗æc cho cß╗Öng ─æß╗ông ng╞░ß╗¥i trß║╗. Cß║ºn trß║ú lß╗¥i ─æß╗ïnh h╞░ß╗¢ng cß╗Ñ thß╗â, kh├┤ng gß╗Öp v├áo kh├│ kh─ân c├┤ng nghß╗ç hay lß╗ïch hß╗ìc.",
+              "title": "Muốn biết năng lực cần có để mang giá trị ba gốc tới cộng đồng",
+              "summary": "Một câu hỏi riêng về những tố chất cần rèn để chuyển tải giá trị ba gốc cho cộng đồng người trẻ. Cần trả lời định hướng cụ thể, không gộp vào khó khăn công nghệ hay lịch học.",
               "sourceIds": [
                 "20261022-bf5b0492bdb720d6"
               ],
@@ -10641,11 +10641,11 @@
       "summaries": [
         {
           "id": "journal",
-          "title": "Câu hỏi: Viß║┐t Nhß║¡t k├╜ ─æ├║c kß║┐t (trß║íng th├íi t├óm, cß║úm x├║c) cß╗ºa bß║ín tß╗½ trß║úi nghiß╗çm khen ch├¬ cß╗ºa ─æß╗ông ─æß╗Öi vß╗ü video cß╗ºa bß║ín?",
+          "title": "Câu hỏi: Viết Nhật ký đúc kết (trạng thái tâm, cảm xúc) của bạn từ trải nghiệm khen chê của đồng đội về video của bạn?",
           "ideas": [
             {
-              "title": "Biß║┐t ╞ín v├á vui khi ─æ╞░ß╗úc ─æß╗ông ─æß╗Öi quan t├óm",
-              "summary": "C├íc phß║ún hß╗ôi n├áy ghi nhß║¡n niß╗üm vui, sß╗▒ biß║┐t ╞ín hoß║╖c tinh thß║ºn cß╗ƒi mß╗ƒ khi c├│ ng╞░ß╗¥i d├ánh thß╗¥i gian g├│p ├╜; kh├┤ng c├│ ngh─⌐a mß╗ìi ng╞░ß╗¥i ─æß╗üu ─æ├ú hß║┐t kh├│ chß╗ïu.",
+              "title": "Biết ơn và vui khi được đồng đội quan tâm",
+              "summary": "Các phản hồi này ghi nhận niềm vui, sự biết ơn hoặc tinh thần cởi mở khi có người dành thời gian góp ý; không có nghĩa mọi người đều đã hết khó chịu.",
               "sourceIds": [
                 "20261029-b46eae4b65ca4271",
                 "20261029-3572eb664a32db47",
@@ -10686,8 +10686,8 @@
               "count": 32
             },
             {
-              "title": "Nh├¼n lß║íi mong cß║ºu ─æ╞░ß╗úc khen v├á quan s├ít t├óm",
-              "summary": "Hß╗ìc vi├¬n nhß║¡n diß╗çn t├óm th├¡ch ─æ╞░ß╗úc c├┤ng nhß║¡n, phß║ún ß╗⌐ng khi bß╗ï ch├¬ v├á tß║¡p dß╗½ng lß║íi, quan s├ít hoß║╖c bu├┤ng cß║úm x├║c thay v├¼ bß╗ï cuß╗æn theo.",
+              "title": "Nhìn lại mong cầu được khen và quan sát tâm",
+              "summary": "Học viên nhận diện tâm thích được công nhận, phản ứng khi bị chê và tập dừng lại, quan sát hoặc buông cảm xúc thay vì bị cuốn theo.",
               "sourceIds": [
                 "20261029-a4ea6b7b9e445b47",
                 "20261029-ad525c2009e9b63b",
@@ -10712,8 +10712,8 @@
               "count": 16
             },
             {
-              "title": "Lß╗¥i ch├¬ vß║½n c├│ thß╗â g├óy tß╗▒ ├íi, buß╗ôn hoß║╖c phß║ún kh├íng",
-              "summary": "Mß╗Öt sß╗æ ng╞░ß╗¥i kß╗â thß║¡t vß╗ü hß╗Ñt hß║½ng, n├│ng giß║¡n, muß╗æn thanh minh hoß║╖c chß╗⌐ng minh m├¼nh ─æ├║ng. C├│ ng╞░ß╗¥i ─æ├ú dß╗ïu lß║íi; c├│ ng╞░ß╗¥i vß║½n chß╗ïu ß║únh h╞░ß╗ƒng r├╡, n├¬n kh├┤ng gß╗Öp th├ánh c├óu chuyß╗çn chuyß╗ân h├│a ho├án tß║Ñt.",
+              "title": "Lời chê vẫn có thể gây tự ái, buồn hoặc phản kháng",
+              "summary": "Một số người kể thật về hụt hẫng, nóng giận, muốn thanh minh hoặc chứng minh mình đúng. Có người đã dịu lại; có người vẫn chịu ảnh hưởng rõ, nên không gộp thành câu chuyện chuyển hóa hoàn tất.",
               "sourceIds": [
                 "20261029-0000e103327a84c8",
                 "20261029-4056395ec1cac272",
@@ -10739,8 +10739,8 @@
               "count": 17
             },
             {
-              "title": "Dß║ºn b├¼nh thß║ún h╞ín tr╞░ß╗¢c khen ch├¬",
-              "summary": "Mß╗Öt sß╗æ phß║ún hß╗ôi m├┤ tß║ú bß╗¢t cß║Ñn t├óm, quen bß╗ï ch├¬, giß╗» th├íi ─æß╗Ö trung t├¡nh hoß║╖c kh├┤ng buß╗ôn khi ─æ╞░ß╗úc g├│p ├╜; ─æ├óy l├á trß║úi nghiß╗çm ri├¬ng cß╗ºa nhß╗»ng nguß╗ôn n├áy.",
+              "title": "Dần bình thản hơn trước khen chê",
+              "summary": "Một số phản hồi mô tả bớt cấn tâm, quen bị chê, giữ thái độ trung tính hoặc không buồn khi được góp ý; đây là trải nghiệm riêng của những nguồn này.",
               "sourceIds": [
                 "20261029-8b54b5346cd8a81c",
                 "20261029-1a0cfe401bffde6b",
@@ -10760,8 +10760,8 @@
               "count": 11
             },
             {
-              "title": "G├│p ├╜ cß╗Ñ thß╗â gi├║p thß║Ñy ─æiß╗âm m├╣ v├á sß╗¡a b├ái",
-              "summary": "Hß╗ìc vi├¬n n├¬u viß╗çc bß╗ò sung ─æ├║c kß║┐t, sß╗¡a s╞í ─æß╗ô, giß╗ìng kß╗â, ─æß╗Ö c├┤ ─æß╗ìng hoß║╖c c├ích hiß╗ân thß╗ï h├¼nh ß║únh. Mß╗Öt sß╗æ mong ─æ╞░ß╗úc chß╗ë r├╡ chß╗ù ch╞░a tß╗æt h╞ín l├á chß╗ë nhß║¡n lß╗¥i khen.",
+              "title": "Góp ý cụ thể giúp thấy điểm mù và sửa bài",
+              "summary": "Học viên nêu việc bổ sung đúc kết, sửa sơ đồ, giọng kể, độ cô đọng hoặc cách hiển thị hình ảnh. Một số mong được chỉ rõ chỗ chưa tốt hơn là chỉ nhận lời khen.",
               "sourceIds": [
                 "20261029-b46eae4b65ca4271",
                 "20261029-ad525c2009e9b63b",
@@ -10789,8 +10789,8 @@
               "count": 19
             },
             {
-              "title": "Ch╞░a c├│ phß║ún hß╗ôi; cß║ºn chß║Ñm ch├⌐o sß╗¢m v├á ─æß╗º s├óu",
-              "summary": "Nhiß╗üu nguß╗ôn ─æang chß╗¥, ch╞░a xin ─æ╞░ß╗úc hoß║╖c ch╞░a nhß║¡n ─æ╞░ß╗úc phß║ún hß╗ôi, th╞░ß╗¥ng v├¼ nß╗Öp s├ít hß║ín. C├│ ng╞░ß╗¥i mong ─æ╞░ß╗úc quan t├óm h╞ín hoß║╖c cß║ºn nhß║¡n x├⌐t cß╗Ñ thß╗â. ─É├óy l├á thiß║┐u trß║úi nghiß╗çm phß║ún hß╗ôi, kh├┤ng phß║úi ├╜ kiß║┐n h├ái l├▓ng.",
+              "title": "Chưa có phản hồi; cần chấm chéo sớm và đủ sâu",
+              "summary": "Nhiều nguồn đang chờ, chưa xin được hoặc chưa nhận được phản hồi, thường vì nộp sát hạn. Có người mong được quan tâm hơn hoặc cần nhận xét cụ thể. Đây là thiếu trải nghiệm phản hồi, không phải ý kiến hài lòng.",
               "sourceIds": [
                 "20261029-ef3ce63973133a53",
                 "20261029-dd52612f80bd2034",
@@ -10837,8 +10837,8 @@
               "count": 38
             },
             {
-              "title": "├üp lß╗▒c thß╗¥i gian v├á b├ái d├ái ß║únh h╞░ß╗ƒng t├óm thß║┐ l├ám b├ái",
-              "summary": "C├íc nguß╗ôn n├áy kß╗â vß╗ü lo trß╗à hß║ín, nß║ún v├¼ b├ái d├ái, ├íy n├íy khi l├ám ─æß╗æi ph├│ hoß║╖c ch╞░a kß╗╣. Mß╗Öt sß╗æ tß╗▒ nhß║»c l├ám sß╗¢m, sß║»p xß║┐p lß║íi viß╗çc hß╗ìc v├á bß╗¢t cß║ºu to├án.",
+              "title": "Áp lực thời gian và bài dài ảnh hưởng tâm thế làm bài",
+              "summary": "Các nguồn này kể về lo trễ hạn, nản vì bài dài, áy náy khi làm đối phó hoặc chưa kỹ. Một số tự nhắc làm sớm, sắp xếp lại việc học và bớt cầu toàn.",
               "sourceIds": [
                 "20261029-f29bc3d4f67612e8",
                 "20261029-2c69c9833a51bfc0",
@@ -10866,8 +10866,8 @@
               "count": 19
             },
             {
-              "title": "─Éß╗Öng vi├¬n gi├║p bß╗¢t sß╗ú v├á tß╗▒ tin chia sß║╗ h╞ín",
-              "summary": "Nhß║¡n x├⌐t n├óng ─æß╗í, lß╗¥i khen hoß║╖c trß║úi nghiß╗çm thß╗▒c h├ánh khiß║┐n mß╗Öt sß╗æ hß╗ìc vi├¬n bß╗¢t sß╗ú bß╗ï ph├ín x├⌐t, bß╗¢t ngß║íi quay video v├á c├│ ─æß╗Öng lß╗▒c tiß║┐p tß╗Ñc.",
+              "title": "Động viên giúp bớt sợ và tự tin chia sẻ hơn",
+              "summary": "Nhận xét nâng đỡ, lời khen hoặc trải nghiệm thực hành khiến một số học viên bớt sợ bị phán xét, bớt ngại quay video và có động lực tiếp tục.",
               "sourceIds": [
                 "20261029-4056395ec1cac272",
                 "20261029-27b167af454b9512",
@@ -10889,8 +10889,8 @@
               "count": 13
             },
             {
-              "title": "Nh├¼n b├ái ─æß╗ông ─æß╗Öi ─æß╗â hß╗ìc sß╗▒ chß╗ën chu",
-              "summary": "Quan s├ít b├ái l├ám, s╞í ─æß╗ô hoß║╖c g├│c nh├¼n cß╗ºa ng╞░ß╗¥i kh├íc gi├║p hß╗ìc vi├¬n thß║Ñy ─æiß╗üu m├¼nh c├▓n thiß║┐u v├á muß╗æn ─æß║ºu t╞░, luyß╗çn tß║¡p kß╗╣ h╞ín.",
+              "title": "Nhìn bài đồng đội để học sự chỉn chu",
+              "summary": "Quan sát bài làm, sơ đồ hoặc góc nhìn của người khác giúp học viên thấy điều mình còn thiếu và muốn đầu tư, luyện tập kỹ hơn.",
               "sourceIds": [
                 "20261029-fcabc36ad6e5190c",
                 "20261029-ad525c2009e9b63b",
@@ -10925,17 +10925,17 @@
               "20261029-588e19c8f73b72e6"
             ],
             "exclusionReasons": {
-              "20261029-57252f8132cbb311": "Chß╗ë b├ío ch╞░a cß║¡p nhß║¡t, ch╞░a c├│ trß║úi nghiß╗çm cß╗Ñ thß╗â.",
-              "20261029-5dec1ecca6caac73": "Lß╗¥i bß║»t ─æß║ºu thao t├íc, kh├┤ng phß║úi phß║ún hß╗ôi.",
-              "20261029-2f157e58135af1da": "Hß║╣n l├ám sau kß╗│ nghß╗ë.",
-              "20261029-4e8ad588bfcebca2": "Chß╗ë c├│ li├¬n kß║┐t video; ch╞░a c├│ v─ân bß║ún ─æß╗â tß╗òng hß╗úp.",
-              "20261029-2201b363465f750d": "Chß╗ë c├│ li├¬n kß║┐t Facebook; ch╞░a c├│ v─ân bß║ún ─æß╗â tß╗òng hß╗úp.",
-              "20261029-843247b881ece665": "Mong cß║úi thiß╗çn chung, kh├┤ng n├¬u cß║úm x├║c hay trß║úi nghiß╗çm cß╗Ñ thß╗â.",
-              "20261029-e9b40577d5591830": "Ch╞░a l├ám.",
-              "20261029-01635aeacd10d2f0": "Th├┤ng b├ío lß╗ïch ─æi thiß╗ün/nß╗Öp b├╣.",
-              "20261029-e01cadfe80c51664": "Chß╗ë n├│i cß║ºn luyß╗çn tß║¡p, kh├┤ng c├│ trß║úi nghiß╗çm cß╗Ñ thß╗â.",
-              "20261029-0f0802284fd64d2d": "Chß╗ë c├│ li├¬n kß║┐t video; ch╞░a c├│ v─ân bß║ún ─æß╗â tß╗òng hß╗úp.",
-              "20261029-588e19c8f73b72e6": "Tß╗æt h╞ín mß╗ùi ng├áy nh╞░ng kh├┤ng c├│ nß╗Öi dung cß╗Ñ thß╗â."
+              "20261029-57252f8132cbb311": "Chỉ báo chưa cập nhật, chưa có trải nghiệm cụ thể.",
+              "20261029-5dec1ecca6caac73": "Lời bắt đầu thao tác, không phải phản hồi.",
+              "20261029-2f157e58135af1da": "Hẹn làm sau kỳ nghỉ.",
+              "20261029-4e8ad588bfcebca2": "Chỉ có liên kết video; chưa có văn bản để tổng hợp.",
+              "20261029-2201b363465f750d": "Chỉ có liên kết Facebook; chưa có văn bản để tổng hợp.",
+              "20261029-843247b881ece665": "Mong cải thiện chung, không nêu cảm xúc hay trải nghiệm cụ thể.",
+              "20261029-e9b40577d5591830": "Chưa làm.",
+              "20261029-01635aeacd10d2f0": "Thông báo lịch đi thiền/nộp bù.",
+              "20261029-e01cadfe80c51664": "Chỉ nói cần luyện tập, không có trải nghiệm cụ thể.",
+              "20261029-0f0802284fd64d2d": "Chỉ có liên kết video; chưa có văn bản để tổng hợp.",
+              "20261029-588e19c8f73b72e6": "Tốt hơn mỗi ngày nhưng không có nội dung cụ thể."
             },
             "excludedSourceCount": 11
           },
@@ -10943,11 +10943,11 @@
         },
         {
           "id": "change",
-          "title": "Câu hỏi: Tß╗½ trß║úi nghiß╗çm thß╗▒c h├ánh kß╗â chuyß╗çn, h├úy chia sß║╗ sß╗▒ thay ─æß╗òi, chuyß╗ân ho├í cß╗ºa bß║ín vß╗ü nhß║¡n thß╗⌐c, t╞░ duy, h├ánh vi v├á lß╗¥i n├│i,..?",
+          "title": "Câu hỏi: Từ trải nghiệm thực hành kể chuyện, hãy chia sẻ sự thay đổi, chuyển hoá của bạn về nhận thức, tư duy, hành vi và lời nói,..?",
           "ideas": [
             {
-              "title": "Kß╗â r├╡ ├╜, mß║ích lß║íc v├á tß╗▒ tin h╞ín",
-              "summary": "Hß╗ìc vi├¬n ghi nhß║¡n bß╗¢t vß║Ñp hoß║╖c ├á ß╗½, biß║┐t nhß║Ñn nh├í, n├│i ─æ├║ng trß╗ìng t├óm v├á mß║ính dß║ín chia sß║╗ h╞ín. Mß╗⌐c tiß║┐n bß╗Ö kh├íc nhau; mß╗Öt sß╗æ vß║½n c├▓n l├║ng t├║ng.",
+              "title": "Kể rõ ý, mạch lạc và tự tin hơn",
+              "summary": "Học viên ghi nhận bớt vấp hoặc à ừ, biết nhấn nhá, nói đúng trọng tâm và mạnh dạn chia sẻ hơn. Mức tiến bộ khác nhau; một số vẫn còn lúng túng.",
               "sourceIds": [
                 "20261029-e0cb45a77ef93f97",
                 "20261029-c5158acd6042a3d4",
@@ -10994,8 +10994,8 @@
               "count": 38
             },
             {
-              "title": "─Éß╗ìc kß╗╣, ghi ch├⌐p v├á s╞í ─æß╗ô h├│a ─æß╗â hiß╗âu s├óu",
-              "summary": "Thay v├¼ ─æß╗ìc l╞░ß╗¢t, hß╗ìc vi├¬n ─æß╗ìc/nghe lß║íi, viß║┐t v├á t├│m ├╜ ─æß╗â nhß╗¢ mß║ích truyß╗çn, t├¼m cß╗æt l├╡i hoß║╖c hiß╗âu bß╗æi cß║únh. C├│ ng╞░ß╗¥i ─æ├ú tiß║┐n bß╗Ö, c├│ ng╞░ß╗¥i mß╗¢i h├¼nh th├ánh c├ích l├ám.",
+              "title": "Đọc kỹ, ghi chép và sơ đồ hóa để hiểu sâu",
+              "summary": "Thay vì đọc lướt, học viên đọc/nghe lại, viết và tóm ý để nhớ mạch truyện, tìm cốt lõi hoặc hiểu bối cảnh. Có người đã tiến bộ, có người mới hình thành cách làm.",
               "sourceIds": [
                 "20261029-56e4fa469713a813",
                 "20261029-362170cd9fd02d5e",
@@ -11040,8 +11040,8 @@
               "count": 36
             },
             {
-              "title": "T╞░ duy ─æa chiß╗üu, phß║ún biß╗çn v├á nh├ónΓÇôduy├¬nΓÇôquß║ú",
-              "summary": "C├íc nguß╗ôn m├┤ tß║ú ─æß║╖t c├óu hß╗Åi s├óu h╞ín, nh├¼n ─æß╗Öng c╞í/bß╗æi cß║únh, ph├ón t├¡ch nh├ón quß║ú hoß║╖c hß╗ç thß╗æng h├│a thay v├¼ vß╗Öi kß║┐t luß║¡n; mß╗Öt sß╗æ ─æ├ú d├╣ng c├ích ngh─⌐ ─æ├│ ngo├ái b├ái tß║¡p.",
+              "title": "Tư duy đa chiều, phản biện và nhân–duyên–quả",
+              "summary": "Các nguồn mô tả đặt câu hỏi sâu hơn, nhìn động cơ/bối cảnh, phân tích nhân quả hoặc hệ thống hóa thay vì vội kết luận; một số đã dùng cách nghĩ đó ngoài bài tập.",
               "sourceIds": [
                 "20261029-54ed876d00a3b406",
                 "20261029-648a31bb2737b506",
@@ -11080,8 +11080,8 @@
               "count": 29
             },
             {
-              "title": "Soi m├¼nh v├á ─æß╗æi xß╗¡ tß╗¡ tß║┐, thß║Ñu cß║úm h╞ín",
-              "summary": "B├ái hß╗ìc tß╗½ nh├ón vß║¡t ─æ╞░ß╗úc li├¬n hß╗ç vß╗¢i c├ích sß╗æng, gia ─æ├¼nh v├á c├┤ng viß╗çc: bß╗¢t h╞ín thua, ngh─⌐ cho ng╞░ß╗¥i kh├íc, khi├¬m hß║í v├á x├óy dß╗▒ng quan hß╗ç ch├ón th├ánh. C├│ phß║ún hß╗ôi l├á ─æß╗ïnh h╞░ß╗¢ng muß╗æn thß╗▒c h├ánh, ch╞░a phß║úi kß║┐t quß║ú ─æ├ú kiß╗âm chß╗⌐ng.",
+              "title": "Soi mình và đối xử tử tế, thấu cảm hơn",
+              "summary": "Bài học từ nhân vật được liên hệ với cách sống, gia đình và công việc: bớt hơn thua, nghĩ cho người khác, khiêm hạ và xây dựng quan hệ chân thành. Có phản hồi là định hướng muốn thực hành, chưa phải kết quả đã kiểm chứng.",
               "sourceIds": [
                 "20261029-e0cb45a77ef93f97",
                 "20261029-eb0ec682deeb38bc",
@@ -11119,8 +11119,8 @@
               "count": 29
             },
             {
-              "title": "Chß║¡m lß║íi, quan s├ít c├íi t├┤i tr╞░ß╗¢c khi phß║ún ß╗⌐ng",
-              "summary": "Mß╗Öt sß╗æ hß╗ìc vi├¬n biß║┐t dß╗½ng, soi t├óm v├á suy x├⌐t tr╞░ß╗¢c khi n├│i hoß║╖c quyß║┐t ─æß╗ïnh; nhß║¡n ra bß║ún ng├ú v├á mong ─æiß╗üu chß╗ënh phß║ún ß╗⌐ng thay v├¼ tranh thß║»ng.",
+              "title": "Chậm lại, quan sát cái tôi trước khi phản ứng",
+              "summary": "Một số học viên biết dừng, soi tâm và suy xét trước khi nói hoặc quyết định; nhận ra bản ngã và mong điều chỉnh phản ứng thay vì tranh thắng.",
               "sourceIds": [
                 "20261029-45778d8767655e13",
                 "20261029-69d311eeba099c14",
@@ -11152,8 +11152,8 @@
               "count": 23
             },
             {
-              "title": "Ki├¬n tr├¼, kß╗╖ luß║¡t v├á chß╗ïu tr├ích nhiß╗çm vß╗¢i viß╗çc hß╗ìc",
-              "summary": "Hß╗ìc vi├¬n kß╗â viß╗çc v╞░ß╗út ngß║íi ─æß╗ìc/viß╗çc kh├│, l├ám sß╗¢m h╞ín, luyß╗çn ─æß╗üu hoß║╖c tß╗▒ nhß║»c bß║▒ng t├¡ch truyß╗çn. Mß╗Öt sß╗æ mß╗¢i l├á cam kß║┐t v├á vß║½n gß║╖p tr├¼ ho├ún, kh├┤ng n├¬n xem tß║Ñt cß║ú ─æ├ú duy tr├¼ ─æ╞░ß╗úc th├│i quen.",
+              "title": "Kiên trì, kỷ luật và chịu trách nhiệm với việc học",
+              "summary": "Học viên kể việc vượt ngại đọc/việc khó, làm sớm hơn, luyện đều hoặc tự nhắc bằng tích truyện. Một số mới là cam kết và vẫn gặp trì hoãn, không nên xem tất cả đã duy trì được thói quen.",
               "sourceIds": [
                 "20261029-f5c29e085d5415e1",
                 "20261029-4ade89f833786221",
@@ -11191,8 +11191,8 @@
               "count": 29
             },
             {
-              "title": "Mang c├óu chuyß╗çn v├áo dß║íy hß╗ìc, gia ─æ├¼nh v├á phß╗Ñng sß╗▒",
-              "summary": "C├íc nguß╗ôn n├¬u kß╗â chuyß╗çn cho con/hß╗ìc sinh, ─æ├áo tß║ío ─æß╗Öi ng┼⌐, diß╗àn giß║úi kiß║┐n thß╗⌐c nghß╗ü nghiß╗çp hoß║╖c chß╗ìn th├┤ng ─æiß╗çp ─æß╗â gi├║p ng╞░ß╗¥i nghe thay v├¼ chß╗ë ho├án th├ánh b├ái.",
+              "title": "Mang câu chuyện vào dạy học, gia đình và phụng sự",
+              "summary": "Các nguồn nêu kể chuyện cho con/học sinh, đào tạo đội ngũ, diễn giải kiến thức nghề nghiệp hoặc chọn thông điệp để giúp người nghe thay vì chỉ hoàn thành bài.",
               "sourceIds": [
                 "20261029-3996bbaf50a68706",
                 "20261029-4ade89f833786221",
@@ -11212,8 +11212,8 @@
               "count": 11
             },
             {
-              "title": "Tiß║┐n bß╗Ö ch╞░a r├╡ hoß║╖c c├▓n khoß║úng c├ích giß╗»a hiß╗âu v├á l├ám",
-              "summary": "Giß╗» lß║íi phß║ún hß╗ôi ch╞░a thß║Ñy chuyß╗ân h├│a r├╡, kß╗â c├▓n thiß║┐u tß╗▒ nhi├¬n/logic, kh├│ ─æ├║c kß║┐t, thiß║┐u thß╗¥i gian hoß║╖c c├▓n tr├¼ ho├ún. ─É├óy l├á giß╗¢i hß║ín cß║ºn hß╗ù trß╗ú, kh├┤ng phß║úi bß║▒ng chß╗⌐ng hß╗ìc vi├¬n ─æ├ú th├ánh thß║ío.",
+              "title": "Tiến bộ chưa rõ hoặc còn khoảng cách giữa hiểu và làm",
+              "summary": "Giữ lại phản hồi chưa thấy chuyển hóa rõ, kể còn thiếu tự nhiên/logic, khó đúc kết, thiếu thời gian hoặc còn trì hoãn. Đây là giới hạn cần hỗ trợ, không phải bằng chứng học viên đã thành thạo.",
               "sourceIds": [
                 "20261029-8197f34a926426c5",
                 "20261029-1a35c9bcb6587cc3",
@@ -11241,8 +11241,8 @@
               "count": 19
             },
             {
-              "title": "Nh├¼n d├ái hß║ín, biß║┐t trß╗ìng t├óm v├á bu├┤ng ─æ├║ng l├║c",
-              "summary": "Mß╗Öt sß╗æ b├ái hß╗ìc ri├¬ng xoay quanh ╞░u ti├¬n ─æiß╗üu quan trß╗ìng, gi├í trß╗ï cß╗ºa tiß╗ün v├á niß╗üm tin, nh├¼n xa h╞ín lß╗úi tr╞░ß╗¢c mß║»t, hoß║╖c biß║┐t dß╗½ng ─æ├║ng thß╗¥i ─æiß╗âm.",
+              "title": "Nhìn dài hạn, biết trọng tâm và buông đúng lúc",
+              "summary": "Một số bài học riêng xoay quanh ưu tiên điều quan trọng, giá trị của tiền và niềm tin, nhìn xa hơn lợi trước mắt, hoặc biết dừng đúng thời điểm.",
               "sourceIds": [
                 "20261029-7fd2fa601f6b65a4",
                 "20261029-10bef2cd229b43d0",
@@ -11261,8 +11261,8 @@
               "count": 10
             },
             {
-              "title": "Kh├┤ng lß╗ç thuß╗Öc mß╗Öt c├┤ng thß╗⌐c kß╗â chuyß╗çn cß╗æ ─æß╗ïnh",
-              "summary": "Mß╗Öt hß╗ìc vi├¬n chß╗ìn linh hoß║ít theo tß╗½ng chuyß╗çn v├á ng╞░ß╗¥i nghe, d├╣ng bß╗æn b╞░ß╗¢c ─æß╗ìcΓÇôngh─⌐ΓÇôl├ámΓÇôkiß╗âm tra kß╗╣ nh╞░ng kh├┤ng ├⌐p mß╗ìi b├ái v├áo mß╗Öt khu├┤n. ─É├óy l├á g├│c nh├¼n ri├¬ng, kh├┤ng phß║úi ─æß╗ông thuß║¡n cß╗ºa lß╗¢p.",
+              "title": "Không lệ thuộc một công thức kể chuyện cố định",
+              "summary": "Một học viên chọn linh hoạt theo từng chuyện và người nghe, dùng bốn bước đọc–nghĩ–làm–kiểm tra kỹ nhưng không ép mọi bài vào một khuôn. Đây là góc nhìn riêng, không phải đồng thuận của lớp.",
               "sourceIds": [
                 "20261029-29d78cfcaba18809"
               ],
@@ -11294,19 +11294,19 @@
               "20261029-ff7aeb7aac7a2638"
             ],
             "exclusionReasons": {
-              "20261029-22dac2c7396da490": "Chß╗ë khß║│ng ─æß╗ïnh c├│ chuyß╗ân h├│a, kh├┤ng n├¬u thay ─æß╗òi cß╗Ñ thß╗â.",
-              "20261029-9ddeda93c4a0af28": "Cß║úm nhß║¡n chung v├á lß╗¥i cß║úm ╞ín, ch╞░a chß╗ë r├╡ thay ─æß╗òi.",
-              "20261029-2a5b44353b17b946": "Lß╗¥i bß║»t ─æß║ºu thao t├íc, kh├┤ng phß║úi phß║ún hß╗ôi.",
-              "20261029-7ab28127027f209e": "Chß╗ë n├¬u xem phim, ch╞░a c├│ thay ─æß╗òi hay b├ái hß╗ìc.",
-              "20261029-30eadba3def15508": "Hß║╣n l├ám sau kß╗│ nghß╗ë.",
-              "20261029-9401b0010e2ff84d": "Chß╗ë c├│ li├¬n kß║┐t video; ch╞░a c├│ v─ân bß║ún ─æß╗â tß╗òng hß╗úp.",
-              "20261029-1443b2327f1a2bf1": "Hiß╗âu bß║ún th├ón h╞ín nh╞░ng kh├┤ng n├¬u nß╗Öi dung cß╗Ñ thß╗â.",
-              "20261029-8ac13efe31004aaa": "Ch╞░a l├ám.",
-              "20261029-02bb6fc7e00f56c6": "Th├┤ng b├ío lß╗ïch ─æi thiß╗ün/nß╗Öp b├╣.",
-              "20261029-7ebcee9a4f10cd10": "Ghi nhß║¡n t├¡ch truyß╗çn hay nh╞░ng ch╞░a n├¬u thay ─æß╗òi cß╗Ñ thß╗â.",
-              "20261029-f194b550224b9a92": "Chß╗ë c├│ li├¬n kß║┐t video; ch╞░a c├│ v─ân bß║ún ─æß╗â tß╗òng hß╗úp.",
-              "20261029-c5c152584cb79a56": "Tß╗æt h╞ín mß╗ùi ng├áy nh╞░ng kh├┤ng n├¬u thay ─æß╗òi cß╗Ñ thß╗â.",
-              "20261029-ff7aeb7aac7a2638": "Chß╗ë n├¬u ß║Ñn t╞░ß╗úng vß╗¢i nh├ón vß║¡t, ch╞░a n├¬u chuyß╗ân h├│a."
+              "20261029-22dac2c7396da490": "Chỉ khẳng định có chuyển hóa, không nêu thay đổi cụ thể.",
+              "20261029-9ddeda93c4a0af28": "Cảm nhận chung và lời cảm ơn, chưa chỉ rõ thay đổi.",
+              "20261029-2a5b44353b17b946": "Lời bắt đầu thao tác, không phải phản hồi.",
+              "20261029-7ab28127027f209e": "Chỉ nêu xem phim, chưa có thay đổi hay bài học.",
+              "20261029-30eadba3def15508": "Hẹn làm sau kỳ nghỉ.",
+              "20261029-9401b0010e2ff84d": "Chỉ có liên kết video; chưa có văn bản để tổng hợp.",
+              "20261029-1443b2327f1a2bf1": "Hiểu bản thân hơn nhưng không nêu nội dung cụ thể.",
+              "20261029-8ac13efe31004aaa": "Chưa làm.",
+              "20261029-02bb6fc7e00f56c6": "Thông báo lịch đi thiền/nộp bù.",
+              "20261029-7ebcee9a4f10cd10": "Ghi nhận tích truyện hay nhưng chưa nêu thay đổi cụ thể.",
+              "20261029-f194b550224b9a92": "Chỉ có liên kết video; chưa có văn bản để tổng hợp.",
+              "20261029-c5c152584cb79a56": "Tốt hơn mỗi ngày nhưng không nêu thay đổi cụ thể.",
+              "20261029-ff7aeb7aac7a2638": "Chỉ nêu ấn tượng với nhân vật, chưa nêu chuyển hóa."
             },
             "excludedSourceCount": 13
           },
@@ -11314,11 +11314,11 @@
         },
         {
           "id": "kaizen",
-          "title": "Câu hỏi: Tß╗½ hoß║ít ─æß╗Öng phß║ún hß╗ôi & chß║Ñm b├ái cho ─ÉNT tr├¬n web dh3g.vn , 3 ─æiß╗âm cß║ºn kaizen cho b├ái l├ám cß╗ºa bß║ín?",
+          "title": "Câu hỏi: Từ hoạt động phản hồi & chấm bài cho ĐNT trên web dh3g.vn , 3 điểm cần kaizen cho bài làm của bạn?",
           "ideas": [
             {
-              "title": "Kß╗â c├┤ ─æß╗ìng, r├╡ mß║ích nh╞░ng kh├┤ng mß║Ñt bß╗æi cß║únh",
-              "summary": "Chß║»t lß╗ìc ├╜ cß╗æt l├╡i, nß╗æi t├¼nh tiß║┐t v├á l├ám r├╡ th├┤ng ─æiß╗çp thay v├¼ kß╗â lan man. C├│ phß║ún hß╗ôi l╞░u ├╜ rß║▒ng qu├í ngß║»n, thiß║┐u chi tiß║┐t v├á bß╗æi cß║únh c┼⌐ng khiß║┐n ng╞░ß╗¥i nghe kh├│ hiß╗âu.",
+              "title": "Kể cô đọng, rõ mạch nhưng không mất bối cảnh",
+              "summary": "Chắt lọc ý cốt lõi, nối tình tiết và làm rõ thông điệp thay vì kể lan man. Có phản hồi lưu ý rằng quá ngắn, thiếu chi tiết và bối cảnh cũng khiến người nghe khó hiểu.",
               "sourceIds": [
                 "20261029-1560c9e8a7e8f35d",
                 "20261029-9a67f4edc04ac653",
@@ -11359,8 +11359,8 @@
               "count": 31
             },
             {
-              "title": "S╞í ─æß╗ô ├¡t chß╗», r├╡ cß║Ñu tr├║c v├á dß╗à nh├¼n",
-              "summary": "R├║t gß╗ìn chß╗», chß╗ìn bß╗æ cß╗Ñc theo mß║ích truyß╗çn hoß║╖c khung ph├ón t├¡ch, d├╣ng h├¼nh ß║únh v├á chß╗» viß║┐t r├╡ ─æß╗â ng╞░ß╗¥i xem nß║»m ├╜; kh├┤ng chß╗ë ch├⌐p lß║íi diß╗àn biß║┐n.",
+              "title": "Sơ đồ ít chữ, rõ cấu trúc và dễ nhìn",
+              "summary": "Rút gọn chữ, chọn bố cục theo mạch truyện hoặc khung phân tích, dùng hình ảnh và chữ viết rõ để người xem nắm ý; không chỉ chép lại diễn biến.",
               "sourceIds": [
                 "20261029-f4e222fd542d3e77",
                 "20261029-62ab9c355142dd37",
@@ -11400,8 +11400,8 @@
               "count": 31
             },
             {
-              "title": "─Éß╗ìc s├óu, phß║ún biß╗çn v├á mß╗ƒ th├¬m g├│c nh├¼n",
-              "summary": "─Éß╗ìc kß╗╣ bß╗æi cß║únh, ph├ón t├¡ch nh├ón duy├¬n quß║ú v├á 3 gß╗æcΓÇô3 ─æß╗Öc, ─æß║╖t c├óu hß╗Åi sß║»c h╞ín, bß╗ò sung quan ─æiß╗âm c├í nh├ón thay v├¼ suy ─æo├ín mß╗Öt chiß╗üu. Mß╗Öt sß╗æ ng╞░ß╗¥i muß╗æn d├╣ng AI ─æß╗â soi th├¬m g├│c nh├¼n.",
+              "title": "Đọc sâu, phản biện và mở thêm góc nhìn",
+              "summary": "Đọc kỹ bối cảnh, phân tích nhân duyên quả và 3 gốc–3 độc, đặt câu hỏi sắc hơn, bổ sung quan điểm cá nhân thay vì suy đoán một chiều. Một số người muốn dùng AI để soi thêm góc nhìn.",
               "sourceIds": [
                 "20261029-a2b046a8a6241f7f",
                 "20261029-ba7bf268f8efc4dc",
@@ -11443,8 +11443,8 @@
               "count": 33
             },
             {
-              "title": "Luyß╗çn giß╗ìng, thß║ºn th├íi v├á sß╗▒ tß╗▒ nhi├¬n",
-              "summary": "Tß║¡p n├│i r├╡, chß║¡m vß╗½a, bß╗¢t tß╗½ ─æß╗çm; t─âng nhß║Ñn nh├í, cß║úm x├║c, n├⌐t mß║╖t v├á ng├┤n ngß╗» c╞í thß╗â. Mß╗Öt ├╜ kiß║┐n ╞░u ti├¬n luyß╗çn n├│i tß╗▒ nhi├¬n tr╞░ß╗¢c, tr├ính sa v├áo h├¼nh thß╗⌐c v├¼ dß╗à cß║ºu to├án.",
+              "title": "Luyện giọng, thần thái và sự tự nhiên",
+              "summary": "Tập nói rõ, chậm vừa, bớt từ đệm; tăng nhấn nhá, cảm xúc, nét mặt và ngôn ngữ cơ thể. Một ý kiến ưu tiên luyện nói tự nhiên trước, tránh sa vào hình thức vì dễ cầu toàn.",
               "sourceIds": [
                 "20261029-79f7add8f1e2a130",
                 "20261029-a44cc5542d673267",
@@ -11479,8 +11479,8 @@
               "count": 26
             },
             {
-              "title": "L├ám sß╗¢m, luyß╗çn ─æß╗üu v├á thß╗▒c hiß╗çn ─æß╗º 4 kß╗╣",
-              "summary": "Bß║»t ─æß║ºu b├ái sß╗¢m, chia viß╗çc theo ng├áy, ─æß╗ìc v├á l├ám lß║íi nhiß╗üu lß║ºn ─æß╗â c├│ thß╗¥i gian n├óng chß║Ñt l╞░ß╗úng thay v├¼ dß╗ôn s├ít hß║ín; c├│ ng╞░ß╗¥i ─æß║╖t mß╗æc ho├án th├ánh tr╞░ß╗¢c thß╗⌐ Ba.",
+              "title": "Làm sớm, luyện đều và thực hiện đủ 4 kỹ",
+              "summary": "Bắt đầu bài sớm, chia việc theo ngày, đọc và làm lại nhiều lần để có thời gian nâng chất lượng thay vì dồn sát hạn; có người đặt mốc hoàn thành trước thứ Ba.",
               "sourceIds": [
                 "20261029-a2b046a8a6241f7f",
                 "20261029-b7045103ad46d3d6",
@@ -11515,8 +11515,8 @@
               "count": 26
             },
             {
-              "title": "N├óng chß║Ñt l╞░ß╗úng h├¼nh ß║únh v├á c├ích quay",
-              "summary": "Cß║úi thiß╗çn ├ính s├íng, g├│c m├íy, thumbnail, chß╗ënh sß╗¡a v├á ─æß╗Ö r├╡ cß╗ºa bß║úng hoß║╖c slide; ─æ╞░a phß║ºn ─æ├║c kß║┐t v├áo video. C├│ ng╞░ß╗¥i muß╗æn thß╗¡ ─æß╗⌐ng c├╣ng bß║úng thay v├¼ chß╗ë quay qua Zoom.",
+              "title": "Nâng chất lượng hình ảnh và cách quay",
+              "summary": "Cải thiện ánh sáng, góc máy, thumbnail, chỉnh sửa và độ rõ của bảng hoặc slide; đưa phần đúc kết vào video. Có người muốn thử đứng cùng bảng thay vì chỉ quay qua Zoom.",
               "sourceIds": [
                 "20261029-8e1520822dfe4776",
                 "20261029-348eb50c0eb973af",
@@ -11536,8 +11536,8 @@
               "count": 11
             },
             {
-              "title": "Mß╗ƒ ─æß║ºu thu h├║t, kß╗â s├íng tß║ío v├á sinh ─æß╗Öng",
-              "summary": "D├╣ng chi tiß║┐t ─æß║»t gi├í hoß║╖c c├óu hß╗Åi gß╗úi t├▓ m├▓ ─æß╗â mß╗ƒ chuyß╗çn, thß╗¡ g├│c kß╗â mß╗¢i, ─æiß╗âm bß║Ñt ngß╗¥ hay ch├║t h├ái h╞░ß╗¢c thay v├¼ kß╗â ─æß╗üu mß╗Öt mß║ích.",
+              "title": "Mở đầu thu hút, kể sáng tạo và sinh động",
+              "summary": "Dùng chi tiết đắt giá hoặc câu hỏi gợi tò mò để mở chuyện, thử góc kể mới, điểm bất ngờ hay chút hài hước thay vì kể đều một mạch.",
               "sourceIds": [
                 "20261029-79f7add8f1e2a130",
                 "20261029-f6cc6b8ccb810cf2",
@@ -11564,8 +11564,8 @@
               "count": 18
             },
             {
-              "title": "Chß╗º ─æß╗Öng xin chß║Ñm ch├⌐o v├á hß╗ìc c├ích l├ám cß╗ºa bß║ín",
-              "summary": "Xin phß║ún hß╗ôi, xem b├ái v├á c├ích tr├¼nh b├áy cß╗ºa ─æß╗ông ─æß╗Öi ─æß╗â cß║úi tiß║┐n; c├│ ng╞░ß╗¥i nhß║¡n ra m├¼nh ch╞░a d├ánh ─æß╗º sß╗▒ quan t├óm cho viß╗çc gi├║p ─æß╗ç nhß╗ï th├ón tiß║┐n bß╗Ö.",
+              "title": "Chủ động xin chấm chéo và học cách làm của bạn",
+              "summary": "Xin phản hồi, xem bài và cách trình bày của đồng đội để cải tiến; có người nhận ra mình chưa dành đủ sự quan tâm cho việc giúp đệ nhị thân tiến bộ.",
               "sourceIds": [
                 "20261029-d0e50d2028b75fb8",
                 "20261029-1f857b665856416c",
@@ -11587,8 +11587,8 @@
               "count": 13
             },
             {
-              "title": "─É├║c kß║┐t b├ái hß╗ìc v├á nß╗æi vß╗¢i ─æß╗¥i sß╗æng",
-              "summary": "L├ám r├╡ b├ái hß╗ìc ng╞░ß╗¥i xem nhß║¡n ─æ╞░ß╗úc, gß║»n ph├ón t├¡ch vß╗¢i t├¼nh huß╗æng thß╗▒c tß║┐ v├á ─æiß╗üu chß╗ënh c├ích kß╗â theo ho├án cß║únh, kh├┤ng dß╗½ng ß╗ƒ t├│m tß║»t nß╗Öi dung.",
+              "title": "Đúc kết bài học và nối với đời sống",
+              "summary": "Làm rõ bài học người xem nhận được, gắn phân tích với tình huống thực tế và điều chỉnh cách kể theo hoàn cảnh, không dừng ở tóm tắt nội dung.",
               "sourceIds": [
                 "20261029-348eb50c0eb973af",
                 "20261029-ed4c6e1ce078f24d",
@@ -11610,8 +11610,8 @@
               "count": 13
             },
             {
-              "title": "Mß╗Öt ├╜ kiß║┐n ch╞░a thß║Ñy cß║ºn thay ─æß╗òi",
-              "summary": "Mß╗Öt ng╞░ß╗¥i cho rß║▒ng b├ái hiß╗çn tß║íi ─æ├ú hß╗úp l├╜ v├á ch╞░a c├│ ─æiß╗âm cß║ºn kaizen; ─æ├óy l├á ├╜ ri├¬ng, kh├┤ng phß║úi kß║┐t luß║¡n chung.",
+              "title": "Một ý kiến chưa thấy cần thay đổi",
+              "summary": "Một người cho rằng bài hiện tại đã hợp lý và chưa có điểm cần kaizen; đây là ý riêng, không phải kết luận chung.",
               "sourceIds": [
                 "20261029-d17d13858e3a3cb2"
               ],
@@ -11656,34 +11656,34 @@
               "20261029-c4f9fa52dc4d819e"
             ],
             "exclusionReasons": {
-              "20261029-f66c1db7c2ee54c0": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-75a346160492f3a6": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-887709b1ec5d5a35": "Xin lß╗ùi v├¼ nß╗Öp muß╗Ön v├á n├¬u ╞░u ti├¬n ho├án th├ánh, ch╞░a x├íc ─æß╗ïnh ─æiß╗âm kaizen cß╗Ñ thß╗â.",
-              "20261029-ad2c9760281ec7e5": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-e0b89be4f5ecda13": "Th├┤ng b├ío sß║╜ bß║»t ─æß║ºu l├ám, ch╞░a n├¬u nß╗Öi dung cß║úi tiß║┐n.",
-              "20261029-28c593e63ca232b6": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-3292e2d7a804446d": "Hß║╣n l├ám sau kß╗│ nghß╗ë, ch╞░a n├¬u nß╗Öi dung cß║úi tiß║┐n.",
-              "20261029-b5a76ccc794d0367": "Chß╗ë c├│ li├¬n kß║┐t video; kh├┤ng suy diß╗àn nß╗Öi dung ch╞░a ─æ╞░ß╗úc ─æß╗ìc.",
-              "20261029-293e8f757520a31e": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-9f2acbddb66821dd": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-89beed2558672c5e": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-a1782554fdeef79d": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-a9de70ae70f9377a": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-cf7a21b727dbd90d": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-41688d91b4a95905": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-2a87fb4c0d518afe": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-5aa3a585211fa328": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-162dc81d9160564c": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-88d534734495376f": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-f7bab2807696b01e": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-8775765f8d74de14": "Chß╗ë c├│ li├¬n kß║┐t video; kh├┤ng suy diß╗àn nß╗Öi dung ch╞░a ─æ╞░ß╗úc ─æß╗ìc.",
-              "20261029-46744866033155cc": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-e6ea83ab617507ab": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-96dae1ad93b1ea95": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-167578ce036a8580": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-ccd691b6e7fd1eb5": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-32f22626df20362b": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â.",
-              "20261029-c4f9fa52dc4d819e": "Chß╗ë b├ío ch╞░a c├│ phß║ún hß╗ôi/ch╞░a chß║Ñm ch├⌐o hoß║╖c sß║╜ bß╗ò sung, kh├┤ng n├¬u ─æiß╗âm cß║úi tiß║┐n cß╗Ñ thß╗â."
+              "20261029-f66c1db7c2ee54c0": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-75a346160492f3a6": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-887709b1ec5d5a35": "Xin lỗi vì nộp muộn và nêu ưu tiên hoàn thành, chưa xác định điểm kaizen cụ thể.",
+              "20261029-ad2c9760281ec7e5": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-e0b89be4f5ecda13": "Thông báo sẽ bắt đầu làm, chưa nêu nội dung cải tiến.",
+              "20261029-28c593e63ca232b6": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-3292e2d7a804446d": "Hẹn làm sau kỳ nghỉ, chưa nêu nội dung cải tiến.",
+              "20261029-b5a76ccc794d0367": "Chỉ có liên kết video; không suy diễn nội dung chưa được đọc.",
+              "20261029-293e8f757520a31e": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-9f2acbddb66821dd": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-89beed2558672c5e": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-a1782554fdeef79d": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-a9de70ae70f9377a": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-cf7a21b727dbd90d": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-41688d91b4a95905": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-2a87fb4c0d518afe": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-5aa3a585211fa328": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-162dc81d9160564c": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-88d534734495376f": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-f7bab2807696b01e": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-8775765f8d74de14": "Chỉ có liên kết video; không suy diễn nội dung chưa được đọc.",
+              "20261029-46744866033155cc": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-e6ea83ab617507ab": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-96dae1ad93b1ea95": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-167578ce036a8580": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-ccd691b6e7fd1eb5": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-32f22626df20362b": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể.",
+              "20261029-c4f9fa52dc4d819e": "Chỉ báo chưa có phản hồi/chưa chấm chéo hoặc sẽ bổ sung, không nêu điểm cải tiến cụ thể."
             },
             "inputSourceCount": 124,
             "coveredSourceCount": 96,
@@ -11694,11 +11694,11 @@
         },
         {
           "id": "strength",
-          "title": "Câu hỏi: 01 ─æiß╗âm tß╗æt cß║ºn ph├ít huy trong lß╗¢p hß╗ìc l├á g├¼? (Thß║ºy, BTC, vß║¡n h├ánh, ─æß╗Öi nh├│m, b├ái hß╗ìc, b├ái tß║¡p, web, buß╗òi hß╗ìc offline, chß║Ñm b├ái,..)",
+          "title": "Câu hỏi: 01 điểm tốt cần phát huy trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
           "ideas": [
             {
-              "title": "Giß╗» thß║úo luß║¡n nh├│m nhß╗Å ─æß╗â ai c┼⌐ng ─æ╞░ß╗úc n├│i v├á phß║ún biß╗çn",
-              "summary": "C├íc phß║ún hß╗ôi ─æ├ính gi├í cao hoß║╖c muß╗æn duy tr├¼ tr├¼nh b├áy trong nh├│m, ─æß║╖t c├óu hß╗Åi ─æa chiß╗üu v├á ph├ón bß╗ò l╞░ß╗út n├│i; mß╗Öt sß╗æ ─æß╗ü nghß╗ï quß║ún l├╜ thß╗¥i gian ─æß╗â tr├ính lan man.",
+              "title": "Giữ thảo luận nhóm nhỏ để ai cũng được nói và phản biện",
+              "summary": "Các phản hồi đánh giá cao hoặc muốn duy trì trình bày trong nhóm, đặt câu hỏi đa chiều và phân bổ lượt nói; một số đề nghị quản lý thời gian để tránh lan man.",
               "sourceIds": [
                 "20261029-0ae1c90b5f308dd3",
                 "20261029-2cd4cf6f6dfff284",
@@ -11724,8 +11724,8 @@
               "count": 17
             },
             {
-              "title": "Ph├ít huy c├íc buß╗òi Zoom luyß╗çn kß╗â v├á phß║ún biß╗çn",
-              "summary": "Hß╗ìc vi├¬n ghi nhß║¡n buß╗òi hß╗ù trß╗ú mß╗¢i v├á nhß╗ïp Zoom c├╣ng luyß╗çn tß║¡p. C├│ ─æß╗ü nghß╗ï tiß║┐p tß╗Ñc chß╗»a b├ái, mß╗ƒ th├¬m c╞í hß╗Öi luyß╗çn v├á bß╗æ tr├¡ giß╗¥ ph├╣ hß╗úp.",
+              "title": "Phát huy các buổi Zoom luyện kể và phản biện",
+              "summary": "Học viên ghi nhận buổi hỗ trợ mới và nhịp Zoom cùng luyện tập. Có đề nghị tiếp tục chữa bài, mở thêm cơ hội luyện và bố trí giờ phù hợp.",
               "sourceIds": [
                 "20261029-d52dbd6f9806ca9f",
                 "20261029-94b56e5a0b601bd2",
@@ -11741,8 +11741,8 @@
               "count": 7
             },
             {
-              "title": "─Éß╗ông ─æß╗Öi n├óng ─æß╗í, nhß║»c nhau l├ám b├ái v├á c├╣ng tiß║┐n bß╗Ö",
-              "summary": "C├íc ├╜ kiß║┐n tr├ón trß╗ìng sß╗▒ chß╗º ─æß╗Öng, g╞░╞íng mß║½u, nhiß╗çt t├¼nh v├á ─æ├┤n ─æß╗æc trong nh├│m; c├│ mong muß╗æn kß║┐t nß╗æi s├óu h╞ín, kh├┤ng ─æß╗â ai bß╗ï bß╗Å lß║íi.",
+              "title": "Đồng đội nâng đỡ, nhắc nhau làm bài và cùng tiến bộ",
+              "summary": "Các ý kiến trân trọng sự chủ động, gương mẫu, nhiệt tình và đôn đốc trong nhóm; có mong muốn kết nối sâu hơn, không để ai bị bỏ lại.",
               "sourceIds": [
                 "20261029-e067f57e5812c09e",
                 "20261029-f50f8416a480b992",
@@ -11766,8 +11766,8 @@
               "count": 15
             },
             {
-              "title": "Ghi nhß║¡n sß╗▒ tß║¡n t├óm cß╗ºa Thß║ºy, BTC v├á ban c├ín sß╗▒",
-              "summary": "C├íc phß║ún hß╗ôi n├¬u sß╗▒ nhiß╗çt t├¼nh, nß╗ù lß╗▒c v├á ─æß╗ông h├ánh cß╗ºa ng╞░ß╗¥i dß║íy, ban tß╗ò chß╗⌐c, c├ín sß╗▒ v├á ─æß╗Öi ng┼⌐ phß╗Ñng sß╗▒.",
+              "title": "Ghi nhận sự tận tâm của Thầy, BTC và ban cán sự",
+              "summary": "Các phản hồi nêu sự nhiệt tình, nỗ lực và đồng hành của người dạy, ban tổ chức, cán sự và đội ngũ phụng sự.",
               "sourceIds": [
                 "20261029-08b81ce503c619c6",
                 "20261029-619371e7b3b32124",
@@ -11784,8 +11784,8 @@
               "count": 8
             },
             {
-              "title": "B├ái hß╗ìc v├á lß╗¥i ─æ├║c kß║┐t mß╗ƒ th├¬m g├│c nh├¼n s├óu",
-              "summary": "Hß╗ìc vi├¬n ─æ├ính gi├í c├óu chuyß╗çn, t├ái liß╗çu ─æß╗ìc v├á ─æ├║c kß║┐t cß╗ºa Thß║ºy c├│ ├╜ ngh─⌐a, gi├║p suy ngß║½m v├á khai mß╗ƒ nhß║¡n thß╗⌐c.",
+              "title": "Bài học và lời đúc kết mở thêm góc nhìn sâu",
+              "summary": "Học viên đánh giá câu chuyện, tài liệu đọc và đúc kết của Thầy có ý nghĩa, giúp suy ngẫm và khai mở nhận thức.",
               "sourceIds": [
                 "20261029-2221d5cd9f95859c",
                 "20261029-9570c4997947a66b",
@@ -11798,8 +11798,8 @@
               "count": 4
             },
             {
-              "title": "Duy tr├¼ kh├┤ng gian offline cß╗ƒi mß╗ƒ v├á c├│ t╞░╞íng t├íc",
-              "summary": "Buß╗òi gß║╖p trß╗▒c tiß║┐p, kh├┤ng kh├¡ th├ón thiß╗çn v├á n─âng l╞░ß╗úng hß╗ìc hß╗Åi ─æ╞░ß╗úc tr├ón trß╗ìng; c├│ ng╞░ß╗¥i xem ─æ├óy l├á c╞í hß╗Öi v╞░ß╗út c├íi t├┤i ─æß╗â tß║¡p chia sß║╗.",
+              "title": "Duy trì không gian offline cởi mở và có tương tác",
+              "summary": "Buổi gặp trực tiếp, không khí thân thiện và năng lượng học hỏi được trân trọng; có người xem đây là cơ hội vượt cái tôi để tập chia sẻ.",
               "sourceIds": [
                 "20261029-1705e762543f0eed",
                 "20261029-98fe8b86bb56db63",
@@ -11815,8 +11815,8 @@
               "count": 7
             },
             {
-              "title": "T─âng chß╗»a b├ái trß╗▒c tiß║┐p v├á h╞░ß╗¢ng dß║½n tß╗½ ng╞░ß╗¥i c├│ kinh nghiß╗çm",
-              "summary": "C├íc ├╜ kiß║┐n muß╗æn giß╗» hoß║╖c t─âng nhß║¡n x├⌐t, chß║Ñm ch├⌐o, b├ái mß║½u v├á sß╗¡a b├ái tß╗½ Thß║ºy, coach, BTC hay ─æß╗ông ─æß╗Öi giß╗Åi; mß╗Öt ├╜ ─æß╗ü nghß╗ï coach 1:1 ─æß╗â gß╗í rß╗æi v├á giß╗» ─æß╗Öng lß╗▒c.",
+              "title": "Tăng chữa bài trực tiếp và hướng dẫn từ người có kinh nghiệm",
+              "summary": "Các ý kiến muốn giữ hoặc tăng nhận xét, chấm chéo, bài mẫu và sửa bài từ Thầy, coach, BTC hay đồng đội giỏi; một ý đề nghị coach 1:1 để gỡ rối và giữ động lực.",
               "sourceIds": [
                 "20261029-0ae1c90b5f308dd3",
                 "20261029-2cd4cf6f6dfff284",
@@ -11837,8 +11837,8 @@
               "count": 12
             },
             {
-              "title": "Lß║»ng nghe hß╗ìc vi├¬n v├á linh hoß║ít ─æiß╗üu chß╗ënh c├ích hß╗ìc",
-              "summary": "Hß╗ìc vi├¬n ghi nhß║¡n cß║úi tiß║┐n, tß╗▒ hß╗ìc chß╗º ─æß╗Öng v├á kh├┤ng rß║¡p khu├┤n; c├│ ├╜ tr├ón trß╗ìng viß╗çc giß║úm mß╗⌐c ─æß║ºu t╞░ ß╗ƒ mß╗Öt sß╗æ video ─æß╗â ng╞░ß╗¥i bß║¡n vß║½n theo hß╗ìc ─æ╞░ß╗úc.",
+              "title": "Lắng nghe học viên và linh hoạt điều chỉnh cách học",
+              "summary": "Học viên ghi nhận cải tiến, tự học chủ động và không rập khuôn; có ý trân trọng việc giảm mức đầu tư ở một số video để người bận vẫn theo học được.",
               "sourceIds": [
                 "20261029-dbdeb9c46e128f73",
                 "20261029-04c2417e4ebe6e6e",
@@ -11853,8 +11853,8 @@
               "count": 6
             },
             {
-              "title": "Giß╗» nhß╗ïp hß╗ìc ─æi ─æ├┤i vß╗¢i thß╗▒c h├ánh ─æß╗üu ─æß║╖n",
-              "summary": "C├íc phß║ún hß╗ôi muß╗æn duy tr├¼ hß╗ìcΓÇôhiß╗âuΓÇôh├ánh, nhß╗ïp r├¿n luyß╗çn v├á kß╗â chuyß╗çn lß║╖p lß║íi thay v├¼ chß╗ë tiß║┐p nhß║¡n l├╜ thuyß║┐t.",
+              "title": "Giữ nhịp học đi đôi với thực hành đều đặn",
+              "summary": "Các phản hồi muốn duy trì học–hiểu–hành, nhịp rèn luyện và kể chuyện lặp lại thay vì chỉ tiếp nhận lý thuyết.",
               "sourceIds": [
                 "20261029-3019227d1363eb7e",
                 "20261029-8322240d87f813bb",
@@ -11867,8 +11867,8 @@
               "count": 4
             },
             {
-              "title": "─Éiß╗üu chß╗ënh lß╗ïch ─æß╗â ng╞░ß╗¥i bß║¡n hoß║╖c ß╗ƒ xa theo ─æ╞░ß╗úc",
-              "summary": "─É├óy l├á ─æß╗ü xuß║Ñt nß║▒m trong c├óu hß╗Åi vß╗ü ─æiß╗âm tß╗æt, kh├┤ng phß║úi lß╗¥i khen ─æ├ú thß╗▒c hiß╗çn: bß║»t ─æß║ºu sß╗¢m h╞ín, kß║┐t th├║c ─æ├║ng giß╗¥, c├ón nhß║»c buß╗òi s├íng hoß║╖c lß╗ïch nghß╗ë ─æß╗â phß╗Ñc hß╗ôi; vß║½n muß╗æn c├│ thß╗¥i gian hß╗ìc vß╗¢i Thß║ºy.",
+              "title": "Điều chỉnh lịch để người bận hoặc ở xa theo được",
+              "summary": "Đây là đề xuất nằm trong câu hỏi về điểm tốt, không phải lời khen đã thực hiện: bắt đầu sớm hơn, kết thúc đúng giờ, cân nhắc buổi sáng hoặc lịch nghỉ để phục hồi; vẫn muốn có thời gian học với Thầy.",
               "sourceIds": [
                 "20261029-d4a92a6fccf86cd3",
                 "20261029-214dd172e02a2121",
@@ -11899,15 +11899,15 @@
               "20261029-89b1102a65764e16"
             ],
             "exclusionReasons": {
-              "20261029-57e016d660178a2d": "Kh├┤ng n├¬u ─æiß╗âm tß╗æt hoß║╖c ─æß╗ü xuß║Ñt cß╗Ñ thß╗â: trß║ú lß╗¥i chung, ch╞░a ngh─⌐ ra, hß║╣n g├│p ├╜ hoß║╖c kh├┤ng li├¬n quan.",
-              "20261029-ec691c9fb410cbd4": "Kh├┤ng n├¬u ─æiß╗âm tß╗æt hoß║╖c ─æß╗ü xuß║Ñt cß╗Ñ thß╗â: trß║ú lß╗¥i chung, ch╞░a ngh─⌐ ra, hß║╣n g├│p ├╜ hoß║╖c kh├┤ng li├¬n quan.",
-              "20261029-71465a90c1c27aa8": "Kh├┤ng n├¬u ─æiß╗âm tß╗æt hoß║╖c ─æß╗ü xuß║Ñt cß╗Ñ thß╗â: trß║ú lß╗¥i chung, ch╞░a ngh─⌐ ra, hß║╣n g├│p ├╜ hoß║╖c kh├┤ng li├¬n quan.",
-              "20261029-d218f78af2069190": "Kh├┤ng n├¬u ─æiß╗âm tß╗æt hoß║╖c ─æß╗ü xuß║Ñt cß╗Ñ thß╗â: trß║ú lß╗¥i chung, ch╞░a ngh─⌐ ra, hß║╣n g├│p ├╜ hoß║╖c kh├┤ng li├¬n quan.",
-              "20261029-73b2f2f45db7416e": "Kh├┤ng n├¬u ─æiß╗âm tß╗æt hoß║╖c ─æß╗ü xuß║Ñt cß╗Ñ thß╗â: trß║ú lß╗¥i chung, ch╞░a ngh─⌐ ra, hß║╣n g├│p ├╜ hoß║╖c kh├┤ng li├¬n quan.",
-              "20261029-03d88408c88d0fb7": "Kh├┤ng n├¬u ─æiß╗âm tß╗æt hoß║╖c ─æß╗ü xuß║Ñt cß╗Ñ thß╗â: trß║ú lß╗¥i chung, ch╞░a ngh─⌐ ra, hß║╣n g├│p ├╜ hoß║╖c kh├┤ng li├¬n quan.",
-              "20261029-5ec905eaa6654a15": "Kh├┤ng n├¬u ─æiß╗âm tß╗æt hoß║╖c ─æß╗ü xuß║Ñt cß╗Ñ thß╗â: trß║ú lß╗¥i chung, ch╞░a ngh─⌐ ra, hß║╣n g├│p ├╜ hoß║╖c kh├┤ng li├¬n quan.",
-              "20261029-6a05cfb87a504e27": "Kh├┤ng n├¬u ─æiß╗âm tß╗æt hoß║╖c ─æß╗ü xuß║Ñt cß╗Ñ thß╗â: trß║ú lß╗¥i chung, ch╞░a ngh─⌐ ra, hß║╣n g├│p ├╜ hoß║╖c kh├┤ng li├¬n quan.",
-              "20261029-89b1102a65764e16": "Kh├┤ng n├¬u ─æiß╗âm tß╗æt hoß║╖c ─æß╗ü xuß║Ñt cß╗Ñ thß╗â: trß║ú lß╗¥i chung, ch╞░a ngh─⌐ ra, hß║╣n g├│p ├╜ hoß║╖c kh├┤ng li├¬n quan."
+              "20261029-57e016d660178a2d": "Không nêu điểm tốt hoặc đề xuất cụ thể: trả lời chung, chưa nghĩ ra, hẹn góp ý hoặc không liên quan.",
+              "20261029-ec691c9fb410cbd4": "Không nêu điểm tốt hoặc đề xuất cụ thể: trả lời chung, chưa nghĩ ra, hẹn góp ý hoặc không liên quan.",
+              "20261029-71465a90c1c27aa8": "Không nêu điểm tốt hoặc đề xuất cụ thể: trả lời chung, chưa nghĩ ra, hẹn góp ý hoặc không liên quan.",
+              "20261029-d218f78af2069190": "Không nêu điểm tốt hoặc đề xuất cụ thể: trả lời chung, chưa nghĩ ra, hẹn góp ý hoặc không liên quan.",
+              "20261029-73b2f2f45db7416e": "Không nêu điểm tốt hoặc đề xuất cụ thể: trả lời chung, chưa nghĩ ra, hẹn góp ý hoặc không liên quan.",
+              "20261029-03d88408c88d0fb7": "Không nêu điểm tốt hoặc đề xuất cụ thể: trả lời chung, chưa nghĩ ra, hẹn góp ý hoặc không liên quan.",
+              "20261029-5ec905eaa6654a15": "Không nêu điểm tốt hoặc đề xuất cụ thể: trả lời chung, chưa nghĩ ra, hẹn góp ý hoặc không liên quan.",
+              "20261029-6a05cfb87a504e27": "Không nêu điểm tốt hoặc đề xuất cụ thể: trả lời chung, chưa nghĩ ra, hẹn góp ý hoặc không liên quan.",
+              "20261029-89b1102a65764e16": "Không nêu điểm tốt hoặc đề xuất cụ thể: trả lời chung, chưa nghĩ ra, hẹn góp ý hoặc không liên quan."
             },
             "assignedSourceCount": 71,
             "excludedSourceCount": 9
@@ -11916,11 +11916,11 @@
         },
         {
           "id": "improve",
-          "title": "Câu hỏi: 03 ─æiß╗âm cß║ºn cß║úi thiß╗çn trong lß╗¢p hß╗ìc l├á g├¼? (Thß║ºy, BTC, vß║¡n h├ánh, ─æß╗Öi nh├│m, b├ái hß╗ìc, b├ái tß║¡p, web, buß╗òi hß╗ìc offline, chß║Ñm b├ái,..)",
+          "title": "Câu hỏi: 03 điểm cần cải thiện trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
           "ideas": [
             {
-              "title": "Chß╗æt giß╗¥ hß╗ìc v├á l╞░ß╗út tr├¼nh b├áy gß╗ìn, ─æ├║ng hß║╣n",
-              "summary": "C├íc ├╜ kiß║┐n muß╗æn bß║»t ─æß║ºu hoß║╖c kß║┐t th├║c sß╗¢m, ─æ├║ng giß╗¥, kiß╗âm so├ít thß╗¥i l╞░ß╗úng mß╗ùi ─æß╗Öi/c├í nh├ón v├á hß║ín chß║┐ lan man ─æß╗â nhiß╗üu ng╞░ß╗¥i ─æ╞░ß╗úc thß╗▒c h├ánh.",
+              "title": "Chốt giờ học và lượt trình bày gọn, đúng hẹn",
+              "summary": "Các ý kiến muốn bắt đầu hoặc kết thúc sớm, đúng giờ, kiểm soát thời lượng mỗi đội/cá nhân và hạn chế lan man để nhiều người được thực hành.",
               "sourceIds": [
                 "20261029-d3ab907469acf8f8",
                 "20261029-48cc6136232ee9ff",
@@ -11941,8 +11941,8 @@
               "count": 12
             },
             {
-              "title": "Gß╗¡i tr╞░ß╗¢c ─æß╗ü v├á t├ái liß╗çu; l├ám r├╡ y├¬u cß║ºu, ti├¬u ch├¡",
-              "summary": "─Éß╗ü nghß╗ï th├┤ng b├ío sß╗¢m nß╗Öi dung offline v├á b├ái tß║¡p, t├ích r├╡ t├¡ch truyß╗çn, c├│ khung quan s├ítΓÇôph├ón t├¡chΓÇô─æ├║c kß║┐tΓÇôchia sß║╗ v├á thang ─æo. Hß╗ìc vi├¬n c┼⌐ng cß║ºn chuß║⌐n bß╗ï tr╞░ß╗¢c thay v├¼ v├áo lß╗¢p mß╗¢i ─æß╗ìc.",
+              "title": "Gửi trước đề và tài liệu; làm rõ yêu cầu, tiêu chí",
+              "summary": "Đề nghị thông báo sớm nội dung offline và bài tập, tách rõ tích truyện, có khung quan sát–phân tích–đúc kết–chia sẻ và thang đo. Học viên cũng cần chuẩn bị trước thay vì vào lớp mới đọc.",
               "sourceIds": [
                 "20261029-fdce13208b3884aa",
                 "20261029-57d75bcd9174bd7c",
@@ -11960,8 +11960,8 @@
               "count": 9
             },
             {
-              "title": "Giß║úm tß║úi ─æß╗â c├│ thß╗¥i gian l├ám s├óu",
-              "summary": "Mß╗Öt sß╗æ hß╗ìc vi├¬n thß║Ñy b├ái d├ái hoß║╖c nß║╖ng, ─æß╗ü nghß╗ï giß║úm sß╗æ chuyß╗çn mß╗ùi tuß║ºn hoß║╖c bß╗Å b├ái ng├áy cuß╗æi tuß║ºn; c├íc mß╗⌐c ─æß╗ü xuß║Ñt kh├íc nhau, kh├┤ng phß║úi mß╗Öt ph╞░╞íng ├ín ─æ├ú thß╗æng nhß║Ñt.",
+              "title": "Giảm tải để có thời gian làm sâu",
+              "summary": "Một số học viên thấy bài dài hoặc nặng, đề nghị giảm số chuyện mỗi tuần hoặc bỏ bài ngày cuối tuần; các mức đề xuất khác nhau, không phải một phương án đã thống nhất.",
               "sourceIds": [
                 "20261029-8786c91634e053dd",
                 "20261029-87e800fa1b8e51fd",
@@ -11975,8 +11975,8 @@
               "count": 5
             },
             {
-              "title": "Chß╗»a b├ái mß║½u v├á chß╗æt kiß║┐n thß╗⌐c tß╗½ Thß║ºy/BTC",
-              "summary": "Muß╗æn nghe kß╗â mß║½u, ─æ├║c kß║┐t sau mß╗ùi nß╗Öi dung, l├ám trß╗ìn mß╗Öt b├ái kh├│ v├á nhß║¡n g├│p ├╜ trß╗▒c tiß║┐p ─æß╗â biß║┐t h╞░ß╗¢ng ─æ├║ng; c├│ ─æß╗ü xuß║Ñt hß╗ç thß╗æng tß╗▒ chß║Ñm/sß╗¡a lß╗ùi.",
+              "title": "Chữa bài mẫu và chốt kiến thức từ Thầy/BTC",
+              "summary": "Muốn nghe kể mẫu, đúc kết sau mỗi nội dung, làm trọn một bài khó và nhận góp ý trực tiếp để biết hướng đúng; có đề xuất hệ thống tự chấm/sửa lỗi.",
               "sourceIds": [
                 "20261029-d3ab907469acf8f8",
                 "20261029-ef46c09b8f3275cb",
@@ -11993,8 +11993,8 @@
               "count": 8
             },
             {
-              "title": "Tß╗ò chß╗⌐c chß║Ñm ch├⌐o ─æß╗üu v├á giao l╞░u giß╗»a c├íc nh├│m",
-              "summary": "─Éß╗ü nghß╗ï nhß║»c hoß║╖c bß║»t buß╗Öc g├│p ├╜, t─âng thß╗¥i gian xem/chß║Ñm video, nß╗Öp b├ái dß║ºn, mß╗ƒ chß║Ñm ch├⌐o kh├íc th├┤n v├á thß║úo luß║¡n li├¬n nh├│m ─æß╗â phß║ún hß╗ôi thß╗▒c sß╗▒ ─æß║┐n ─æ╞░ß╗úc ng╞░ß╗¥i hß╗ìc.",
+              "title": "Tổ chức chấm chéo đều và giao lưu giữa các nhóm",
+              "summary": "Đề nghị nhắc hoặc bắt buộc góp ý, tăng thời gian xem/chấm video, nộp bài dần, mở chấm chéo khác thôn và thảo luận liên nhóm để phản hồi thực sự đến được người học.",
               "sourceIds": [
                 "20261029-5b6b7788309d4d7c",
                 "20261029-78c14b98dc1a3b3c",
@@ -12015,8 +12015,8 @@
               "count": 12
             },
             {
-              "title": "Th├¬m kh├┤ng gian Zoom v├á kß║┐t nß╗æi hß╗ù trß╗ú con ng╞░ß╗¥i",
-              "summary": "Muß╗æn c├│ th├¬m buß╗òi Zoom thß╗▒c h├ánh/Hiß╗âu Th╞░╞íng vß╗¢i h╞░ß╗¢ng dß║½n, mß╗ƒ camera, BTC v├á c├ín sß╗▒ gß║ºn nh├│m h╞ín thay v├¼ chß╗ë bot, t─âng ─æß╗Öng lß╗▒c dß╗▒ offline. Mß╗Öt sß╗æ hß╗ìc vi├¬n ─æ├ú thß║Ñy Zoom mß╗¢i hß╗»u ├¡ch.",
+              "title": "Thêm không gian Zoom và kết nối hỗ trợ con người",
+              "summary": "Muốn có thêm buổi Zoom thực hành/Hiểu Thương với hướng dẫn, mở camera, BTC và cán sự gần nhóm hơn thay vì chỉ bot, tăng động lực dự offline. Một số học viên đã thấy Zoom mới hữu ích.",
               "sourceIds": [
                 "20261029-a95c1df9cb227874",
                 "20261029-ceafa638f91c54e3",
@@ -12035,8 +12035,8 @@
               "count": 10
             },
             {
-              "title": "─Éß╗òi nß╗Öi dung cho gß║ºn ─æß╗¥i sß╗æng v├á phß║ún ├ính trß║úi nghiß╗çm thß║¡t",
-              "summary": "─Éß╗ü nghß╗ï th├¬m t├¡ch truyß╗çn Viß╗çt Nam, chuyß╗çn hiß╗çn ─æß║íi v├á ß╗⌐ng dß╗Ñng thß╗▒c tß║┐. Mß╗Öt ├╜ muß╗æn b├ái ng├áy ghi nhß║¡n cß║ú s├ón giß║¡n/ba ─æß╗Öc thay v├¼ chß╗ë t├¡ch h├ánh vi tß╗æt; mß╗Öt ├╜ muß╗æn hß╗ìc b├ái mß╗¢i thay v├¼ chß╗ë chß╗»a b├ái c┼⌐.",
+              "title": "Đổi nội dung cho gần đời sống và phản ánh trải nghiệm thật",
+              "summary": "Đề nghị thêm tích truyện Việt Nam, chuyện hiện đại và ứng dụng thực tế. Một ý muốn bài ngày ghi nhận cả sân giận/ba độc thay vì chỉ tích hành vi tốt; một ý muốn học bài mới thay vì chỉ chữa bài cũ.",
               "sourceIds": [
                 "20261029-7a997d627b97b714",
                 "20261029-afdfc254d45c1802",
@@ -12050,8 +12050,8 @@
               "count": 5
             },
             {
-              "title": "Chß╗ënh c├┤ng cß╗Ñ v├á hß║¡u cß║ºn ─æß╗â viß╗çc hß╗ìc thuß║¡n tiß╗çn h╞ín",
-              "summary": "C├íc ─æß╗ü xuß║Ñt cß╗Ñ thß╗â gß╗ôm mic/loa dß╗à nghe, giß║úm ß╗ôn khi thß║úo luß║¡n, chuß║⌐n bß╗ï thß╗⌐c ─ân sß╗¢m, giß║Ñy ─æß╗º d├╣ng, bß║ún truyß╗çn in, video YouTube ─æß╗â nghe lß║íi v├á khung giß╗¥/bulk upload b├ái ng├áy. Mß╗Öt ├╜ muß╗æn sß╗¡a c├ích t├¡nh chuß╗ùi ng├áy li├¬n tß╗Ñc.",
+              "title": "Chỉnh công cụ và hậu cần để việc học thuận tiện hơn",
+              "summary": "Các đề xuất cụ thể gồm mic/loa dễ nghe, giảm ồn khi thảo luận, chuẩn bị thức ăn sớm, giấy đủ dùng, bản truyện in, video YouTube để nghe lại và khung giờ/bulk upload bài ngày. Một ý muốn sửa cách tính chuỗi ngày liên tục.",
               "sourceIds": [
                 "20261029-d3ab907469acf8f8",
                 "20261029-6e7c4261d49ca700",
@@ -12069,8 +12069,8 @@
               "count": 9
             },
             {
-              "title": "Cho hß╗ìc vi├¬n vß║»ng bß║Ñt khß║ú kh├íng theo lß╗¢p qua Zoom",
-              "summary": "Hai phß║ún hß╗ôi xin ph╞░╞íng ├ín dß╗▒ trß╗▒c tuyß║┐n khi kh├┤ng thß╗â tß╗¢i offline, trong ─æ├│ c├│ ─æß╗ü xuß║Ñt giß╗¢i hß║ín mß╗Öt buß╗òi nghß╗ë c├í nh├ón mß╗ùi th├íng.",
+              "title": "Cho học viên vắng bất khả kháng theo lớp qua Zoom",
+              "summary": "Hai phản hồi xin phương án dự trực tuyến khi không thể tới offline, trong đó có đề xuất giới hạn một buổi nghỉ cá nhân mỗi tháng.",
               "sourceIds": [
                 "20261029-c2ed29ea597c4796",
                 "20261029-c4f192e4aa380aad"
@@ -12081,8 +12081,8 @@
               "count": 2
             },
             {
-              "title": "Cho thß║Ñy g├│p ├╜ hß╗ìc vi├¬n ─æ├ú ─æ╞░ß╗úc ─æ╞░a v├áo cß║úi tiß║┐n",
-              "summary": "Mß╗Öt phß║ún hß╗ôi muß╗æn mß╗ùi tuß║ºn chß╗ìn ba ├╜ t╞░ß╗ƒng cß╗ºa hß╗ìc vi├¬n ─æß╗â triß╗ân khai v├á b├¼nh chß╗ìn b├ái xuß║Ñt sß║»c l├ám t├ái liß╗çu tham khß║úo; ─æ├óy l├á ─æß╗ü xuß║Ñt ri├¬ng, ch╞░a phß║úi ─æß╗ông thuß║¡n cß╗ºa lß╗¢p.",
+              "title": "Cho thấy góp ý học viên đã được đưa vào cải tiến",
+              "summary": "Một phản hồi muốn mỗi tuần chọn ba ý tưởng của học viên để triển khai và bình chọn bài xuất sắc làm tài liệu tham khảo; đây là đề xuất riêng, chưa phải đồng thuận của lớp.",
               "sourceIds": [
                 "20261029-7ab762e0de308ffc"
               ],
@@ -12124,30 +12124,30 @@
               "20261029-ce4344dfdf88a775"
             ],
             "exclusionReasons": {
-              "20261029-c9efb920cef21e90": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-f698985d01685d9a": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-136b62714d76df0f": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-35a9d2f662df98e5": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-c0c7b6dbeaa1ee8f": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-d8d7fa91d32d1590": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-815c503a3778c44b": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-d6ee728aa63a66b0": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-4a56ce5b21e8f387": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-e46937ea29afcf2e": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-feded5bff560447c": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-3fee1c7083e118d2": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-3f77ceb6bc97720b": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-9453b94522b145f6": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-a20ec1f42d03810c": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-8ca645e2b4162758": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-c75b90ba80fb8fec": "Chß╗ë n├¬u t├¬n hß║íng mß╗Ñc, kh├┤ng m├┤ tß║ú ─æiß╗âm cß║ºn sß╗¡a.",
-              "20261029-5c2dc6367d30cd52": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-7639e399451391f8": "Chß╗ë n├¬u t├¬n hß║íng mß╗Ñc, kh├┤ng m├┤ tß║ú ─æiß╗âm cß║ºn sß╗¡a.",
-              "20261029-f7ea30fe481b2aca": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-fe579f5df9320ae0": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-fd76116804e57913": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-475377c9167ff3c7": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung.",
-              "20261029-ce4344dfdf88a775": "Kh├┤ng n├¬u cß║úi thiß╗çn cß╗Ñ thß╗â: ch╞░a c├│, h├ái l├▓ng, hß║╣n sau hoß║╖c tham chiß║┐u g├│p ├╜ c┼⌐ kh├┤ng c├│ nß╗Öi dung."
+              "20261029-c9efb920cef21e90": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-f698985d01685d9a": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-136b62714d76df0f": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-35a9d2f662df98e5": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-c0c7b6dbeaa1ee8f": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-d8d7fa91d32d1590": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-815c503a3778c44b": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-d6ee728aa63a66b0": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-4a56ce5b21e8f387": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-e46937ea29afcf2e": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-feded5bff560447c": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-3fee1c7083e118d2": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-3f77ceb6bc97720b": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-9453b94522b145f6": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-a20ec1f42d03810c": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-8ca645e2b4162758": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-c75b90ba80fb8fec": "Chỉ nêu tên hạng mục, không mô tả điểm cần sửa.",
+              "20261029-5c2dc6367d30cd52": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-7639e399451391f8": "Chỉ nêu tên hạng mục, không mô tả điểm cần sửa.",
+              "20261029-f7ea30fe481b2aca": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-fe579f5df9320ae0": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-fd76116804e57913": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-475377c9167ff3c7": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung.",
+              "20261029-ce4344dfdf88a775": "Không nêu cải thiện cụ thể: chưa có, hài lòng, hẹn sau hoặc tham chiếu góp ý cũ không có nội dung."
             },
             "assignedSourceCount": 49,
             "excludedSourceCount": 24
@@ -12156,11 +12156,11 @@
         },
         {
           "id": "action",
-          "title": "Câu hỏi: H├ánh ─æß╗Öng cß╗Ñ thß╗â cß╗ºa bß║ín ─æ├│ng g├│p gi├║p lß╗¢p hß╗ìc tß╗æt l├¬n l├á g├¼?",
+          "title": "Câu hỏi: Hành động cụ thể của bạn đóng góp giúp lớp học tốt lên là gì?",
           "ideas": [
             {
-              "title": "Ho├án th├ánh b├ái tß║¡p c├│ tr├ích nhiß╗çm, ─æ├║ng hß║ín",
-              "summary": "Tß╗▒ l├ám ─æß║ºy ─æß╗º v├á chß╗ën chu phß║ºn viß╗çc cß╗ºa m├¼nh, chuß║⌐n bß╗ï b├ái tr╞░ß╗¢c buß╗òi hß╗ìc hoß║╖c Zoom, kh├┤ng ─æß╗â chß║¡m trß╗à ß║únh h╞░ß╗ƒng tß║¡p thß╗â. Mß╗Öt sß╗æ ng╞░ß╗¥i muß╗æn l├ám sß╗¢m ─æß╗â c├▓n sß╗¡a b├ái v├á chß║Ñm ch├⌐o.",
+              "title": "Hoàn thành bài tập có trách nhiệm, đúng hạn",
+              "summary": "Tự làm đầy đủ và chỉn chu phần việc của mình, chuẩn bị bài trước buổi học hoặc Zoom, không để chậm trễ ảnh hưởng tập thể. Một số người muốn làm sớm để còn sửa bài và chấm chéo.",
               "sourceIds": [
                 "20261029-ce0d8c6c6defe27a",
                 "20261029-35f2a353216c21fd",
@@ -12202,8 +12202,8 @@
               "count": 33
             },
             {
-              "title": "Giß╗» kß╗╖ luß║¡t v├á hiß╗çn diß╗çn ─æß║ºy ─æß╗º",
-              "summary": "─Éß║┐n lß╗¢p ─æ├║ng giß╗¥ hoß║╖c sß╗¢m h╞ín, dß╗▒ ─æß╗º buß╗òi hß╗ìc v├á hoß║ít ─æß╗Öng nh├│m, giß╗» quy ─æß╗ïnh v├á kß╗╖ luß║¡t tß╗▒ th├ón. C├│ ng╞░ß╗¥i chß╗º ─æß╗Öng ─æß║┐n sß╗¢m hai tiß║┐ng ─æß╗â luyß╗çn c├╣ng bß║ín.",
+              "title": "Giữ kỷ luật và hiện diện đầy đủ",
+              "summary": "Đến lớp đúng giờ hoặc sớm hơn, dự đủ buổi học và hoạt động nhóm, giữ quy định và kỷ luật tự thân. Có người chủ động đến sớm hai tiếng để luyện cùng bạn.",
               "sourceIds": [
                 "20261029-71e66a661a291cf7",
                 "20261029-15b135d5ca0b4c3c",
@@ -12234,8 +12234,8 @@
               "count": 22
             },
             {
-              "title": "Nhß║»c tiß║┐n ─æß╗Ö, ─æß╗Öng vi├¬n v├á kh├┤ng bß╗Å r╞íi ─æß╗ông ─æß╗Öi",
-              "summary": "Chß╗º ─æß╗Öng hß╗Åi th─âm, nhß║»c lß╗ïch v├á hß║ín nß╗Öp, n├óng ─æß╗í ng╞░ß╗¥i gß║╖p kh├│ kh─ân ─æß╗â c├╣ng ─æi tiß║┐p. C├│ cam kß║┐t kh├¡ch lß╗ç bß║▒ng t├┤n trß╗ìng, kh├┤ng g├óy ├íp lß╗▒c hay so s├ính.",
+              "title": "Nhắc tiến độ, động viên và không bỏ rơi đồng đội",
+              "summary": "Chủ động hỏi thăm, nhắc lịch và hạn nộp, nâng đỡ người gặp khó khăn để cùng đi tiếp. Có cam kết khích lệ bằng tôn trọng, không gây áp lực hay so sánh.",
               "sourceIds": [
                 "20261029-07617e75ccb59779",
                 "20261029-7bd5c4d7ee527b81",
@@ -12266,8 +12266,8 @@
               "count": 22
             },
             {
-              "title": "G├│p ├╜ thß║¡t, chß║Ñm ch├⌐o v├á ─æß║╖t c├óu hß╗Åi phß║ún biß╗çn",
-              "summary": "D├ánh thß╗¥i gian xem b├ái, lß║»ng nghe v├á phß║ún hß╗ôi cho ─æß╗ç nhß╗ï th├ón; mß║ính dß║ín hß╗Åi ─æ├íp, thß║úo luß║¡n v├á phß║ún biß╗çn ─æß╗â c├╣ng tiß║┐n bß╗Ö.",
+              "title": "Góp ý thật, chấm chéo và đặt câu hỏi phản biện",
+              "summary": "Dành thời gian xem bài, lắng nghe và phản hồi cho đệ nhị thân; mạnh dạn hỏi đáp, thảo luận và phản biện để cùng tiến bộ.",
               "sourceIds": [
                 "20261029-ce0d8c6c6defe27a",
                 "20261029-59b671d6895892d3",
@@ -12291,8 +12291,8 @@
               "count": 15
             },
             {
-              "title": "Chia sß║╗ c├ích l├ám v├á trß║úi nghiß╗çm thß╗▒c h├ánh",
-              "summary": "Chia sß║╗ g├│c nh├¼n, kinh nghiß╗çm sß╗æng v├á c├ích kß╗â chuyß╗çn ─æß╗â bß║ín hß╗ìc ├íp dß╗Ñng; c├│ ─æ├│ng g├│p cß╗Ñ thß╗â vß╗ü s├íu b╞░ß╗¢c kß╗â chuyß╗çn, h╞░ß╗¢ng dß║½n l├ám b├ái v├á ch─âm c├óy tr├¬n web.",
+              "title": "Chia sẻ cách làm và trải nghiệm thực hành",
+              "summary": "Chia sẻ góc nhìn, kinh nghiệm sống và cách kể chuyện để bạn học áp dụng; có đóng góp cụ thể về sáu bước kể chuyện, hướng dẫn làm bài và chăm cây trên web.",
               "sourceIds": [
                 "20261029-71e66a661a291cf7",
                 "20261029-15b135d5ca0b4c3c",
@@ -12316,8 +12316,8 @@
               "count": 15
             },
             {
-              "title": "Phß╗Ñng sß╗▒ v├á tß║ío th├¬m kh├┤ng gian luyß╗çn c├╣ng nhau",
-              "summary": "Duy tr├¼ Hiß╗âu Th╞░╞íng, mß╗ƒ Zoom luyß╗çn tß║¡p, phß╗æi hß╗úp ban phß╗Ñng sß╗▒ hoß║╖c tham gia ban hß╗ìc tß║¡p v├á kß╗╖ luß║¡t ─æß╗â hß╗ù trß╗ú hoß║ít ─æß╗Öng chung.",
+              "title": "Phụng sự và tạo thêm không gian luyện cùng nhau",
+              "summary": "Duy trì Hiểu Thương, mở Zoom luyện tập, phối hợp ban phụng sự hoặc tham gia ban học tập và kỷ luật để hỗ trợ hoạt động chung.",
               "sourceIds": [
                 "20261029-050617cee81c6247",
                 "20261029-5d8e546ad05d6d27",
@@ -12331,8 +12331,8 @@
               "count": 5
             },
             {
-              "title": "Tß║ío kh├┤ng kh├¡ cß╗ƒi mß╗ƒ, ghi nhß║¡n v├á t╞░╞íng t├íc",
-              "summary": "T─âng lß║»ng nghe, ghi nhß║¡n, cß║úm ╞ín v├á t╞░╞íng t├íc trong nh├│m; tß║ío bß║ºu kh├┤ng kh├¡ vui vß║╗ ─æß╗â mß╗ìi ng╞░ß╗¥i dß╗à chia sß║╗. C├│ ├╜ kiß║┐n g├│p h├ít giß╗¥ giß║úi lao.",
+              "title": "Tạo không khí cởi mở, ghi nhận và tương tác",
+              "summary": "Tăng lắng nghe, ghi nhận, cảm ơn và tương tác trong nhóm; tạo bầu không khí vui vẻ để mọi người dễ chia sẻ. Có ý kiến góp hát giờ giải lao.",
               "sourceIds": [
                 "20261029-7bd5c4d7ee527b81",
                 "20261029-050617cee81c6247",
@@ -12352,8 +12352,8 @@
               "count": 11
             },
             {
-              "title": "Quan s├ít v├á hß╗ìc tß╗½ lß╗¢p ─æß╗â ─æ├│ng g├│p tß╗æt h╞ín",
-              "summary": "Theo d├╡i lß╗¢p, hß╗ìc c├ích l├ám tß╗½ nhß╗»ng nh├│m kh├íc v├á b├ái chia sß║╗ cß╗ºa cß║ú lß╗¢p ─æß╗â bß╗ò sung g├│c nh├¼n, t├¡ch l┼⌐y trß║úi nghiß╗çm cho viß╗çc thß╗▒c h├ánh.",
+              "title": "Quan sát và học từ lớp để đóng góp tốt hơn",
+              "summary": "Theo dõi lớp, học cách làm từ những nhóm khác và bài chia sẻ của cả lớp để bổ sung góc nhìn, tích lũy trải nghiệm cho việc thực hành.",
               "sourceIds": [
                 "20261029-3089c8114507d95e",
                 "20261029-8101c0e4c98858d7",
@@ -12365,8 +12365,8 @@
               "count": 3
             },
             {
-              "title": "─Éß╗ü xuß║Ñt BTC v├á ban phß╗Ñng sß╗▒ gß║╖p ri├¬ng tß╗½ng ─æß╗Öi",
-              "summary": "Mß╗Öt ├╜ kiß║┐n ─æß╗ü nghß╗ï BTCΓÇôBPS hß╗ìp ri├¬ng vß╗¢i tß╗½ng ─æß╗Öi. ─É├óy l├á ─æß╗ü xuß║Ñt cho tß╗ò chß╗⌐c, kh├┤ng phß║úi cam kß║┐t h├ánh ─æß╗Öng c├í nh├ón.",
+              "title": "Đề xuất BTC và ban phụng sự gặp riêng từng đội",
+              "summary": "Một ý kiến đề nghị BTC–BPS họp riêng với từng đội. Đây là đề xuất cho tổ chức, không phải cam kết hành động cá nhân.",
               "sourceIds": [
                 "20261029-f2397303d7a460ca"
               ],
@@ -12397,20 +12397,20 @@
               "20261029-d45958d717c0f2e5"
             ],
             "exclusionReasons": {
-              "20261029-19d26162e0f6178e": "Ph├ít biß╗âu ─æß╗Öng lß╗▒c/tß╗▒ cß║úi thiß╗çn qu├í chung, ch╞░a n├¬u h├ánh ─æß╗Öng ─æß╗º r├╡ ─æß╗â tß╗òng hß╗úp.",
-              "20261029-e23b34990c215e87": "Ch╞░a c├│ h├ánh ─æß╗Öng, ch╞░a r├╡ nguß╗ôn lß╗▒c hoß║╖c hß║╣n bß╗ò sung; kh├┤ng suy diß╗àn th├ánh cam kß║┐t cß╗Ñ thß╗â.",
-              "20261029-960839ce25859505": "Ph├ít biß╗âu ─æß╗Öng lß╗▒c/tß╗▒ cß║úi thiß╗çn qu├í chung, ch╞░a n├¬u h├ánh ─æß╗Öng ─æß╗º r├╡ ─æß╗â tß╗òng hß╗úp.",
-              "20261029-389df11ce0e77598": "Ch╞░a c├│ h├ánh ─æß╗Öng, ch╞░a r├╡ nguß╗ôn lß╗▒c hoß║╖c hß║╣n bß╗ò sung; kh├┤ng suy diß╗àn th├ánh cam kß║┐t cß╗Ñ thß╗â.",
-              "20261029-850dfb9bf2d4c218": "Ch╞░a c├│ h├ánh ─æß╗Öng, ch╞░a r├╡ nguß╗ôn lß╗▒c hoß║╖c hß║╣n bß╗ò sung; kh├┤ng suy diß╗àn th├ánh cam kß║┐t cß╗Ñ thß╗â.",
-              "20261029-b3deaf683af14770": "Ch╞░a c├│ h├ánh ─æß╗Öng, ch╞░a r├╡ nguß╗ôn lß╗▒c hoß║╖c hß║╣n bß╗ò sung; kh├┤ng suy diß╗àn th├ánh cam kß║┐t cß╗Ñ thß╗â.",
-              "20261029-bb4d1112467e3735": "Ch╞░a c├│ h├ánh ─æß╗Öng, ch╞░a r├╡ nguß╗ôn lß╗▒c hoß║╖c hß║╣n bß╗ò sung; kh├┤ng suy diß╗àn th├ánh cam kß║┐t cß╗Ñ thß╗â.",
-              "20261029-a3888a1e2d4390e8": "Ph├ít biß╗âu ─æß╗Öng lß╗▒c/tß╗▒ cß║úi thiß╗çn qu├í chung, ch╞░a n├¬u h├ánh ─æß╗Öng ─æß╗º r├╡ ─æß╗â tß╗òng hß╗úp.",
-              "20261029-f8f94fb3b0709a72": "Ph├ít biß╗âu ─æß╗Öng lß╗▒c/tß╗▒ cß║úi thiß╗çn qu├í chung, ch╞░a n├¬u h├ánh ─æß╗Öng ─æß╗º r├╡ ─æß╗â tß╗òng hß╗úp.",
-              "20261029-6a547e103b22b013": "Ch╞░a c├│ h├ánh ─æß╗Öng, ch╞░a r├╡ nguß╗ôn lß╗▒c hoß║╖c hß║╣n bß╗ò sung; kh├┤ng suy diß╗àn th├ánh cam kß║┐t cß╗Ñ thß╗â.",
-              "20261029-98b47fe204647188": "Ch╞░a c├│ h├ánh ─æß╗Öng, ch╞░a r├╡ nguß╗ôn lß╗▒c hoß║╖c hß║╣n bß╗ò sung; kh├┤ng suy diß╗àn th├ánh cam kß║┐t cß╗Ñ thß╗â.",
-              "20261029-9d9fd40aa7c2efb2": "Ph├ít biß╗âu ─æß╗Öng lß╗▒c/tß╗▒ cß║úi thiß╗çn qu├í chung, ch╞░a n├¬u h├ánh ─æß╗Öng ─æß╗º r├╡ ─æß╗â tß╗òng hß╗úp.",
-              "20261029-b733ca5dce53503c": "Ch╞░a c├│ h├ánh ─æß╗Öng, ch╞░a r├╡ nguß╗ôn lß╗▒c hoß║╖c hß║╣n bß╗ò sung; kh├┤ng suy diß╗àn th├ánh cam kß║┐t cß╗Ñ thß╗â.",
-              "20261029-d45958d717c0f2e5": "Ch╞░a c├│ h├ánh ─æß╗Öng, ch╞░a r├╡ nguß╗ôn lß╗▒c hoß║╖c hß║╣n bß╗ò sung; kh├┤ng suy diß╗àn th├ánh cam kß║┐t cß╗Ñ thß╗â."
+              "20261029-19d26162e0f6178e": "Phát biểu động lực/tự cải thiện quá chung, chưa nêu hành động đủ rõ để tổng hợp.",
+              "20261029-e23b34990c215e87": "Chưa có hành động, chưa rõ nguồn lực hoặc hẹn bổ sung; không suy diễn thành cam kết cụ thể.",
+              "20261029-960839ce25859505": "Phát biểu động lực/tự cải thiện quá chung, chưa nêu hành động đủ rõ để tổng hợp.",
+              "20261029-389df11ce0e77598": "Chưa có hành động, chưa rõ nguồn lực hoặc hẹn bổ sung; không suy diễn thành cam kết cụ thể.",
+              "20261029-850dfb9bf2d4c218": "Chưa có hành động, chưa rõ nguồn lực hoặc hẹn bổ sung; không suy diễn thành cam kết cụ thể.",
+              "20261029-b3deaf683af14770": "Chưa có hành động, chưa rõ nguồn lực hoặc hẹn bổ sung; không suy diễn thành cam kết cụ thể.",
+              "20261029-bb4d1112467e3735": "Chưa có hành động, chưa rõ nguồn lực hoặc hẹn bổ sung; không suy diễn thành cam kết cụ thể.",
+              "20261029-a3888a1e2d4390e8": "Phát biểu động lực/tự cải thiện quá chung, chưa nêu hành động đủ rõ để tổng hợp.",
+              "20261029-f8f94fb3b0709a72": "Phát biểu động lực/tự cải thiện quá chung, chưa nêu hành động đủ rõ để tổng hợp.",
+              "20261029-6a547e103b22b013": "Chưa có hành động, chưa rõ nguồn lực hoặc hẹn bổ sung; không suy diễn thành cam kết cụ thể.",
+              "20261029-98b47fe204647188": "Chưa có hành động, chưa rõ nguồn lực hoặc hẹn bổ sung; không suy diễn thành cam kết cụ thể.",
+              "20261029-9d9fd40aa7c2efb2": "Phát biểu động lực/tự cải thiện quá chung, chưa nêu hành động đủ rõ để tổng hợp.",
+              "20261029-b733ca5dce53503c": "Chưa có hành động, chưa rõ nguồn lực hoặc hẹn bổ sung; không suy diễn thành cam kết cụ thể.",
+              "20261029-d45958d717c0f2e5": "Chưa có hành động, chưa rõ nguồn lực hoặc hẹn bổ sung; không suy diễn thành cam kết cụ thể."
             },
             "inputSourceCount": 84,
             "coveredSourceCount": 70,
@@ -12421,11 +12421,11 @@
         },
         {
           "id": "questions",
-          "title": "Câu hỏi: Bß║ín c├│ kh├│ kh─ân & c├óu hß╗Åi g├¼ ─æß║┐n BTC/Thß║ºy?",
+          "title": "Câu hỏi: Bạn có khó khăn & câu hỏi gì đến BTC/Thầy?",
           "ideas": [
             {
-              "title": "Thiß║┐u thß╗¥i gian, qu├í tß║úi v├á kh├│ l├ám b├ái ─æß╗º s├óu",
-              "summary": "Nhiß╗üu phß║ún hß╗ôi m├┤ tß║ú thiß║┐u nguß╗ôn lß╗▒c v├¼ c├┤ng viß╗çc, gia ─æ├¼nh hoß║╖c nhiß╗üu h├ánh tr├¼nh. C├│ ─æß╗ü nghß╗ï r├║t bß╗æn chuyß╗çn xuß╗æng hai, cß║ºn th├¬m thß╗¥i gian thß╗▒c h├ánh, hoß║╖c muß╗æn biß║┐t c├ích sß║»p xß║┐p ─æß╗â b├ái c├│ chß║Ñt l╞░ß╗úng.",
+              "title": "Thiếu thời gian, quá tải và khó làm bài đủ sâu",
+              "summary": "Nhiều phản hồi mô tả thiếu nguồn lực vì công việc, gia đình hoặc nhiều hành trình. Có đề nghị rút bốn chuyện xuống hai, cần thêm thời gian thực hành, hoặc muốn biết cách sắp xếp để bài có chất lượng.",
               "sourceIds": [
                 "20261029-15500db063b2dbdd",
                 "20261029-53a85b5cd06c4599",
@@ -12446,8 +12446,8 @@
               "count": 12
             },
             {
-              "title": "Cß║ºn h╞░ß╗¢ng dß║½n ─æß╗ìc hiß╗âu, ─æ├║c kß║┐t, s╞í ─æß╗ô v├á kß╗â gß╗ìn",
-              "summary": "C├íc kh├│ kh─ân xoay quanh v─ân cß╗ò kh├│ hiß╗âu, kh├┤ng nß║»m bß╗⌐c tranh to├án cß║únh, chß╗ìn phß║ím vi c├óu chuyß╗çn, vß║╜ s╞í ─æß╗ô v├á l├ám b├ái thß║¡t kß╗╣. Mß╗Öt phß║ún hß╗ôi xin h╞░ß╗¢ng dß║½n ─æß╗ìc s├óu, chß╗ìn s├ích v├á kß╗â truyß╗ün cß║úm hß╗⌐ng.",
+              "title": "Cần hướng dẫn đọc hiểu, đúc kết, sơ đồ và kể gọn",
+              "summary": "Các khó khăn xoay quanh văn cổ khó hiểu, không nắm bức tranh toàn cảnh, chọn phạm vi câu chuyện, vẽ sơ đồ và làm bài thật kỹ. Một phản hồi xin hướng dẫn đọc sâu, chọn sách và kể truyền cảm hứng.",
               "sourceIds": [
                 "20261029-15500db063b2dbdd",
                 "20261029-35fb0ab885def136",
@@ -12464,8 +12464,8 @@
               "count": 8
             },
             {
-              "title": "Cß║ºn ng╞░ß╗¥i sß╗¡a b├ái ─æß╗º s├óu, nhß║Ñt l├á tß╗½ Thß║ºy",
-              "summary": "Mß╗Öt sß╗æ phß║ún hß╗ôi mong ─æ╞░ß╗úc chß╗ë lß╗ùi trß╗▒c tiß║┐p hoß║╖c thß║Ñy ─æß╗ông ─æß╗Öi mß╗¢i hß╗ìc ch╞░a sß╗¡a b├ái ─æß╗º chß║Ñt l╞░ß╗úng; c├│ ─æß╗ü xuß║Ñt Thß║ºy chß╗ìn ba ─æß║┐n n─âm ng╞░ß╗¥i ─æß╗â nhß║¡n x├⌐t mß╗ùi tuß║ºn.",
+              "title": "Cần người sửa bài đủ sâu, nhất là từ Thầy",
+              "summary": "Một số phản hồi mong được chỉ lỗi trực tiếp hoặc thấy đồng đội mới học chưa sửa bài đủ chất lượng; có đề xuất Thầy chọn ba đến năm người để nhận xét mỗi tuần.",
               "sourceIds": [
                 "20261029-11f1be2f37a66a40",
                 "20261029-4aa0f4eba6800f66"
@@ -12476,8 +12476,8 @@
               "count": 2
             },
             {
-              "title": "R├¿n kß╗╖ luß║¡t v├á v╞░ß╗út tr├¼ ho├ún",
-              "summary": "Hai phß║ún hß╗ôi chß╗ë r├╡ thiß║┐u kß╗╖ luß║¡t hoß║╖c ─æang khß║»c phß╗Ñc tr├¼ ho├ún; ─æ├óy l├á kh├│ kh─ân tß╗▒ nhß║¡n, ch╞░a k├¿m y├¬u cß║ºu BTC cß╗Ñ thß╗â.",
+              "title": "Rèn kỷ luật và vượt trì hoãn",
+              "summary": "Hai phản hồi chỉ rõ thiếu kỷ luật hoặc đang khắc phục trì hoãn; đây là khó khăn tự nhận, chưa kèm yêu cầu BTC cụ thể.",
               "sourceIds": [
                 "20261029-e567c6f0048a284c",
                 "20261029-010e3580d6cde363"
@@ -12488,8 +12488,8 @@
               "count": 2
             },
             {
-              "title": "Cß║ºn ph╞░╞íng ├ín theo hß╗ìc ph├╣ hß╗úp vß╗¢i ho├án cß║únh c├í nh├ón",
-              "summary": "Mß╗Öt sß╗æ hß╗ìc vi├¬n gß║╖p trß╗ƒ ngß║íi khi dß╗▒ offline v├á cß║ºn c├ích theo hß╗ìc linh hoß║ít; c├│ ─æß╗ü nghß╗ï tham gia Zoom. C├│ ├╜ kiß║┐n thß║Ñy giß╗¥ bß║»t ─æß║ºu sß╗¢m kh├│ ─æ├íp ß╗⌐ng, kh├íc vß╗¢i mong muß╗æn hß╗ìc sß╗¢m ß╗ƒ nh├│m kh├íc.",
+              "title": "Cần phương án theo học phù hợp với hoàn cảnh cá nhân",
+              "summary": "Một số học viên gặp trở ngại khi dự offline và cần cách theo học linh hoạt; có đề nghị tham gia Zoom. Có ý kiến thấy giờ bắt đầu sớm khó đáp ứng, khác với mong muốn học sớm ở nhóm khác.",
               "sourceIds": [
                 "20261029-84322c972b46f4af",
                 "20261029-f261c76cf9d8605d",
@@ -12505,8 +12505,8 @@
               "count": 4
             },
             {
-              "title": "Muß╗æn hß╗ìc th├¬m t├¡ch truyß╗çn lß╗ïch sß╗¡ Viß╗çt Nam",
-              "summary": "Hai phß║ún hß╗ôi hß╗Åi Thß║ºy c├│ thß╗â ─æ╞░a nh├ón vß║¡t hoß║╖c t├¡ch truyß╗çn lß╗ïch sß╗¡ Viß╗çt Nam v├áo ch╞░╞íng tr├¼nh kh├┤ng.",
+              "title": "Muốn học thêm tích truyện lịch sử Việt Nam",
+              "summary": "Hai phản hồi hỏi Thầy có thể đưa nhân vật hoặc tích truyện lịch sử Việt Nam vào chương trình không.",
               "sourceIds": [
                 "20261029-ac6542fbbc29e0ba",
                 "20261029-08c24c92bd47cb7d"
@@ -12517,8 +12517,8 @@
               "count": 2
             },
             {
-              "title": "Xin ─æß╗òi nh├│m ─æß╗â c├│ tinh thß║ºn hß╗ìc tß╗æt h╞ín",
-              "summary": "Mß╗Öt hß╗ìc vi├¬n n├¬u kh├│ kh─ân l├ám viß╗çc vß╗¢i nh├│m hiß╗çn tß║íi v├á mong ─æ╞░ß╗úc chuyß╗ân nh├│m; cß║ºn xß╗¡ l├╜ nh╞░ nhu cß║ºu hß╗ù trß╗ú ri├¬ng.",
+              "title": "Xin đổi nhóm để có tinh thần học tốt hơn",
+              "summary": "Một học viên nêu khó khăn làm việc với nhóm hiện tại và mong được chuyển nhóm; cần xử lý như nhu cầu hỗ trợ riêng.",
               "sourceIds": [
                 "20261029-937bc07870748b77"
               ],
@@ -12530,8 +12530,8 @@
               "count": 1
             },
             {
-              "title": "Cß║ºn ─æ╞░ß╗úc hß╗Åi th─âm v├á ─æß╗ông h├ánh ri├¬ng",
-              "summary": "Mß╗Öt phß║ún hß╗ôi cho thß║Ñy nhu cß║ºu ─æ╞░ß╗úc trao ─æß╗òi th├¬m ─æß╗â duy tr├¼ viß╗çc hß╗ìc; ch╞░a c├│ y├¬u cß║ºu hß╗ù trß╗ú cß╗Ñ thß╗â. Kh├┤ng diß╗àn giß║úi nguy├¬n nh├ón hay c├┤ng khai chi tiß║┐t ri├¬ng trong bß║ún tin.",
+              "title": "Cần được hỏi thăm và đồng hành riêng",
+              "summary": "Một phản hồi cho thấy nhu cầu được trao đổi thêm để duy trì việc học; chưa có yêu cầu hỗ trợ cụ thể. Không diễn giải nguyên nhân hay công khai chi tiết riêng trong bản tin.",
               "sourceIds": [
                 "20261029-67e26bb94e7b6d29"
               ],
@@ -12543,8 +12543,8 @@
               "count": 1
             },
             {
-              "title": "Chß╗º ─æß╗Öng hß╗Åi nhu cß║ºu hß╗ù trß╗ú cß╗ºa hß╗ìc vi├¬n ─æi hß╗ìc xa",
-              "summary": "Mß╗Öt ├╜ ─æß╗ü nghß╗ï BTC chß╗º ─æß╗Öng hß╗Åi mß╗Öt hß╗ìc vi├¬n c├│ cß║ºn hß╗ù trß╗ú theo lß╗¢p kh├┤ng; ─æ├óy l├á ─æß╗ü nghß╗ï tß╗½ ─æß╗ông ─æß╗Öi, cß║ºn x├íc nhß║¡n ri├¬ng vß╗¢i ng╞░ß╗¥i li├¬n quan.",
+              "title": "Chủ động hỏi nhu cầu hỗ trợ của học viên đi học xa",
+              "summary": "Một ý đề nghị BTC chủ động hỏi một học viên có cần hỗ trợ theo lớp không; đây là đề nghị từ đồng đội, cần xác nhận riêng với người liên quan.",
               "sourceIds": [
                 "20261029-f947abe8fa583e7e"
               ],
@@ -12556,8 +12556,8 @@
               "count": 1
             },
             {
-              "title": "Giß╗» phß║ún biß╗çn giß║ú ─æß╗ïnh kh├┤ng rß╗¥i cß╗æt l├╡i c├óu chuyß╗çn",
-              "summary": "Mß╗Öt phß║ún hß╗ôi hß╗Åi liß╗çu ─æß║╖t qu├í nhiß╗üu t├¼nh huß╗æng giß║ú ─æß╗ïnh c├│ l├ám hß╗ìc vi├¬n lan man v├á chß╗ë tß║¡p trung phß║ún biß╗çn thay v├¼ cß╗æt l├╡i.",
+              "title": "Giữ phản biện giả định không rời cốt lõi câu chuyện",
+              "summary": "Một phản hồi hỏi liệu đặt quá nhiều tình huống giả định có làm học viên lan man và chỉ tập trung phản biện thay vì cốt lõi.",
               "sourceIds": [
                 "20261029-bb866b0f264fc5cf"
               ],
@@ -12597,28 +12597,28 @@
               "20261029-9f49a2ed07d8c8c1"
             ],
             "exclusionReasons": {
-              "20261029-78d7a379d7ed3f65": "Ch╞░a c├│ c├óu hß╗Åi/kh├│ kh─ân, hß║╣n hß╗Åi sau hoß║╖c nß╗Öi dung kh├┤ng li├¬n quan.",
-              "20261029-b27fe08a7d5febfb": "Ch╞░a c├│ c├óu hß╗Åi/kh├│ kh─ân, hß║╣n hß╗Åi sau hoß║╖c nß╗Öi dung kh├┤ng li├¬n quan.",
-              "20261029-cdd49991e1123884": "Ch╞░a c├│ c├óu hß╗Åi/kh├│ kh─ân, hß║╣n hß╗Åi sau hoß║╖c nß╗Öi dung kh├┤ng li├¬n quan.",
-              "20261029-aee7cad41d7e4e40": "Ch╞░a c├│ c├óu hß╗Åi/kh├│ kh─ân, hß║╣n hß╗Åi sau hoß║╖c nß╗Öi dung kh├┤ng li├¬n quan.",
-              "20261029-c537634c8e3e8f35": "Chß╗ë n├¬u t├¼nh trß║íng ─æ├ú tß╗æt h╞ín, lß╗¥i ─æß╗Öng vi├¬n hoß║╖c quyß║┐t t├óm chung; kh├┤ng x├íc ─æß╗ïnh nhu cß║ºu hß╗ù trß╗ú cß╗Ñ thß╗â.",
-              "20261029-bd3f3bbfd1db77f2": "Ch╞░a c├│ c├óu hß╗Åi/kh├│ kh─ân, hß║╣n hß╗Åi sau hoß║╖c nß╗Öi dung kh├┤ng li├¬n quan.",
-              "20261029-85ffb8b8daa66aeb": "Ch╞░a c├│ c├óu hß╗Åi/kh├│ kh─ân, hß║╣n hß╗Åi sau hoß║╖c nß╗Öi dung kh├┤ng li├¬n quan.",
-              "20261029-d46559f885568168": "Ch╞░a c├│ c├óu hß╗Åi/kh├│ kh─ân, hß║╣n hß╗Åi sau hoß║╖c nß╗Öi dung kh├┤ng li├¬n quan.",
-              "20261029-743117aebd01f01e": "Chß╗ë n├¬u t├¼nh trß║íng ─æ├ú tß╗æt h╞ín, lß╗¥i ─æß╗Öng vi├¬n hoß║╖c quyß║┐t t├óm chung; kh├┤ng x├íc ─æß╗ïnh nhu cß║ºu hß╗ù trß╗ú cß╗Ñ thß╗â.",
-              "20261029-e5da9eb84ecd2d6f": "Chß╗ë n├¬u t├¼nh trß║íng ─æ├ú tß╗æt h╞ín, lß╗¥i ─æß╗Öng vi├¬n hoß║╖c quyß║┐t t├óm chung; kh├┤ng x├íc ─æß╗ïnh nhu cß║ºu hß╗ù trß╗ú cß╗Ñ thß╗â.",
-              "20261029-37d7a3b454e527cb": "Ch╞░a c├│ c├óu hß╗Åi/kh├│ kh─ân, hß║╣n hß╗Åi sau hoß║╖c nß╗Öi dung kh├┤ng li├¬n quan.",
-              "20261029-9d488be6f72ec850": "Chß╗ë n├¬u t├¼nh trß║íng ─æ├ú tß╗æt h╞ín, lß╗¥i ─æß╗Öng vi├¬n hoß║╖c quyß║┐t t├óm chung; kh├┤ng x├íc ─æß╗ïnh nhu cß║ºu hß╗ù trß╗ú cß╗Ñ thß╗â.",
-              "20261029-b3012059a5e0fba8": "Ch╞░a c├│ c├óu hß╗Åi/kh├│ kh─ân, hß║╣n hß╗Åi sau hoß║╖c nß╗Öi dung kh├┤ng li├¬n quan.",
-              "20261029-5f9ee6644ccfd909": "Ch╞░a c├│ c├óu hß╗Åi/kh├│ kh─ân, hß║╣n hß╗Åi sau hoß║╖c nß╗Öi dung kh├┤ng li├¬n quan.",
-              "20261029-9cc61dfcd39f0713": "Ch╞░a c├│ c├óu hß╗Åi/kh├│ kh─ân, hß║╣n hß╗Åi sau hoß║╖c nß╗Öi dung kh├┤ng li├¬n quan.",
-              "20261029-4db1d826ae204eff": "Ch╞░a c├│ c├óu hß╗Åi/kh├│ kh─ân, hß║╣n hß╗Åi sau hoß║╖c nß╗Öi dung kh├┤ng li├¬n quan.",
-              "20261029-743a1ca5651dc41a": "Ch╞░a c├│ c├óu hß╗Åi/kh├│ kh─ân, hß║╣n hß╗Åi sau hoß║╖c nß╗Öi dung kh├┤ng li├¬n quan.",
-              "20261029-4e84cb878ceeb5a7": "Chß╗ë n├¬u t├¼nh trß║íng ─æ├ú tß╗æt h╞ín, lß╗¥i ─æß╗Öng vi├¬n hoß║╖c quyß║┐t t├óm chung; kh├┤ng x├íc ─æß╗ïnh nhu cß║ºu hß╗ù trß╗ú cß╗Ñ thß╗â.",
-              "20261029-e3f13378abc574e3": "Ch╞░a c├│ c├óu hß╗Åi/kh├│ kh─ân, hß║╣n hß╗Åi sau hoß║╖c nß╗Öi dung kh├┤ng li├¬n quan.",
-              "20261029-9624293cc6540559": "Ch╞░a c├│ c├óu hß╗Åi/kh├│ kh─ân, hß║╣n hß╗Åi sau hoß║╖c nß╗Öi dung kh├┤ng li├¬n quan.",
-              "20261029-30cb70e182fd21fb": "Chß╗ë n├¬u t├¼nh trß║íng ─æ├ú tß╗æt h╞ín, lß╗¥i ─æß╗Öng vi├¬n hoß║╖c quyß║┐t t├óm chung; kh├┤ng x├íc ─æß╗ïnh nhu cß║ºu hß╗ù trß╗ú cß╗Ñ thß╗â.",
-              "20261029-9f49a2ed07d8c8c1": "Chß╗ë n├¬u t├¼nh trß║íng ─æ├ú tß╗æt h╞ín, lß╗¥i ─æß╗Öng vi├¬n hoß║╖c quyß║┐t t├óm chung; kh├┤ng x├íc ─æß╗ïnh nhu cß║ºu hß╗ù trß╗ú cß╗Ñ thß╗â."
+              "20261029-78d7a379d7ed3f65": "Chưa có câu hỏi/khó khăn, hẹn hỏi sau hoặc nội dung không liên quan.",
+              "20261029-b27fe08a7d5febfb": "Chưa có câu hỏi/khó khăn, hẹn hỏi sau hoặc nội dung không liên quan.",
+              "20261029-cdd49991e1123884": "Chưa có câu hỏi/khó khăn, hẹn hỏi sau hoặc nội dung không liên quan.",
+              "20261029-aee7cad41d7e4e40": "Chưa có câu hỏi/khó khăn, hẹn hỏi sau hoặc nội dung không liên quan.",
+              "20261029-c537634c8e3e8f35": "Chỉ nêu tình trạng đã tốt hơn, lời động viên hoặc quyết tâm chung; không xác định nhu cầu hỗ trợ cụ thể.",
+              "20261029-bd3f3bbfd1db77f2": "Chưa có câu hỏi/khó khăn, hẹn hỏi sau hoặc nội dung không liên quan.",
+              "20261029-85ffb8b8daa66aeb": "Chưa có câu hỏi/khó khăn, hẹn hỏi sau hoặc nội dung không liên quan.",
+              "20261029-d46559f885568168": "Chưa có câu hỏi/khó khăn, hẹn hỏi sau hoặc nội dung không liên quan.",
+              "20261029-743117aebd01f01e": "Chỉ nêu tình trạng đã tốt hơn, lời động viên hoặc quyết tâm chung; không xác định nhu cầu hỗ trợ cụ thể.",
+              "20261029-e5da9eb84ecd2d6f": "Chỉ nêu tình trạng đã tốt hơn, lời động viên hoặc quyết tâm chung; không xác định nhu cầu hỗ trợ cụ thể.",
+              "20261029-37d7a3b454e527cb": "Chưa có câu hỏi/khó khăn, hẹn hỏi sau hoặc nội dung không liên quan.",
+              "20261029-9d488be6f72ec850": "Chỉ nêu tình trạng đã tốt hơn, lời động viên hoặc quyết tâm chung; không xác định nhu cầu hỗ trợ cụ thể.",
+              "20261029-b3012059a5e0fba8": "Chưa có câu hỏi/khó khăn, hẹn hỏi sau hoặc nội dung không liên quan.",
+              "20261029-5f9ee6644ccfd909": "Chưa có câu hỏi/khó khăn, hẹn hỏi sau hoặc nội dung không liên quan.",
+              "20261029-9cc61dfcd39f0713": "Chưa có câu hỏi/khó khăn, hẹn hỏi sau hoặc nội dung không liên quan.",
+              "20261029-4db1d826ae204eff": "Chưa có câu hỏi/khó khăn, hẹn hỏi sau hoặc nội dung không liên quan.",
+              "20261029-743a1ca5651dc41a": "Chưa có câu hỏi/khó khăn, hẹn hỏi sau hoặc nội dung không liên quan.",
+              "20261029-4e84cb878ceeb5a7": "Chỉ nêu tình trạng đã tốt hơn, lời động viên hoặc quyết tâm chung; không xác định nhu cầu hỗ trợ cụ thể.",
+              "20261029-e3f13378abc574e3": "Chưa có câu hỏi/khó khăn, hẹn hỏi sau hoặc nội dung không liên quan.",
+              "20261029-9624293cc6540559": "Chưa có câu hỏi/khó khăn, hẹn hỏi sau hoặc nội dung không liên quan.",
+              "20261029-30cb70e182fd21fb": "Chỉ nêu tình trạng đã tốt hơn, lời động viên hoặc quyết tâm chung; không xác định nhu cầu hỗ trợ cụ thể.",
+              "20261029-9f49a2ed07d8c8c1": "Chỉ nêu tình trạng đã tốt hơn, lời động viên hoặc quyết tâm chung; không xác định nhu cầu hỗ trợ cụ thể."
             },
             "assignedSourceCount": 32,
             "excludedSourceCount": 22
