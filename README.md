@@ -10,6 +10,8 @@ Không đánh số câu hỏi ở tiêu đề vì BTC có thể đổi vị trí
 
 Chỉ công bố tên, phản hồi liên quan và dấu vết tab/hàng/thời gian. Không công bố email, số điện thoại hoặc bảng thô. Ý hiếm cần hỗ trợ và quan điểm trái chiều được giữ lại; không biến thành đồng thuận giả.
 
+Nguồn công khai không có mã học viên ổn định. Số người được tính theo tên đã chuẩn hóa; các tên trùng được gộp bảo thủ và giao diện ghi rõ đây là số **tên học viên**, không suy diễn danh tính từ thông tin liên hệ.
+
 ## Cập nhật theo giờ
 
 Phương án 2 **không gọi Cloudflare Workers AI**. GitHub Actions chỉ kiểm tra bản tin đã xuất bản và không tiêu quota AI.

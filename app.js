@@ -11,13 +11,13 @@ function render(){
   $('#groups').innerHTML=current.summaries.map(g=>{
     const ideas=(g.ideas||[]).map((idea,index)=>({idea,index})).filter(({idea:i})=>!q||[i.title,i.summary,...i.sourceIds.map(id=>sourceMap[id]?.name),...i.sourceIds.map(id=>sourceMap[id]?.answer)].join(' ').toLocaleLowerCase('vi').includes(q));
     if(!ideas.length)return'';
-    return `<section class="group"><h2>${esc(g.title||TITLES[g.id])}</h2><div class="ideas">${ideas.map(({idea:i,index},n)=>`<article class="idea"><span class="badge">Ý ${n+1} · ${peopleFor(i).length} học viên</span><h3>${esc(i.title)}</h3>${i.summary?`<p>${esc(i.summary)}</p>`:''}<button class="contributors" data-group="${g.id}" data-index="${index}">Xem học viên đóng góp ý này</button></article>`).join('')}</div></section>`;
+    return `<section class="group"><h2>${esc(g.title||TITLES[g.id])}</h2><div class="ideas">${ideas.map(({idea:i,index},n)=>`<article class="idea"><span class="badge">Ý ${n+1} · ${peopleFor(i).length} tên học viên</span><h3>${esc(i.title)}</h3>${i.summary?`<p>${esc(i.summary)}</p>`:''}<button class="contributors" data-group="${g.id}" data-index="${index}">Xem học viên đóng góp ý này</button></article>`).join('')}</div></section>`;
   }).join('')||'<p class="empty">Không tìm thấy kết quả phù hợp.</p>';
   document.querySelectorAll('.contributors').forEach(b=>b.onclick=()=>openContributors(b.dataset.group,+b.dataset.index));
 }
 function openContributors(groupId,index){
   activeGroup=current.summaries.find(g=>g.id===groupId);activeIdea=activeGroup.ideas[index];const people=peopleFor(activeIdea);
-  $('#detail').innerHTML=`<span class="badge">${esc(activeGroup.title||TITLES[groupId])}</span><h2>${esc(activeIdea.title)}</h2>${activeIdea.summary?`<p>${esc(activeIdea.summary)}</p>`:''}<p class="meta">${people.length} học viên hỗ trợ ý này. Chọn tên để xem nguyên văn.</p><div class="people-list">${people.map(s=>`<button data-source="${s.id}">${esc(s.name)}</button>`).join('')}</div>`;
+  $('#detail').innerHTML=`<span class="badge">${esc(activeGroup.title||TITLES[groupId])}</span><h2>${esc(activeIdea.title)}</h2>${activeIdea.summary?`<p>${esc(activeIdea.summary)}</p>`:''}<p class="meta">${people.length} tên học viên hỗ trợ ý này. Tên trùng được gộp bảo thủ vì nguồn công khai không có mã học viên. Chọn tên để xem nguyên văn.</p><div class="people-list">${people.map(s=>`<button data-source="${s.id}">${esc(s.name)}</button>`).join('')}</div>`;
   document.querySelectorAll('[data-source]').forEach(b=>b.onclick=()=>openSource(sourceMap[b.dataset.source]));$('#sourceDialog').showModal();
 }
 function openSource(s){
