@@ -14,43 +14,43 @@ function parseCsv(text) {
   const h=rows.shift(); return rows.filter(r=>r.some(Boolean)).map(r=>Object.fromEntries(h.map((x,i)=>[x,r[i]||''])));
 }
 const groups=[
-  {id:'journal', title:'Nhật ký cảm xúc từ phản hồi đồng đội', oldCol:'Câu 2', newCol:'Câu 2', themes:[
+  {id:'journal', title:'Câu hỏi: Nhật ký cảm xúc từ phản hồi đồng đội', oldCol:'Câu 2', newCol:'Câu 2', themes:[
     ['Biết ơn và cởi mở đón nhận góp ý',['biết ơn','cảm ơn','vui','đón nhận','ly nước rỗng']],
     ['Nhận diện cảm xúc và quan sát nội tâm',['quan sát','cảm xúc','hồi hộp','phán xét','tâm','bình thản']],
     ['Chưa nhận được phản hồi từ đồng đội',['chưa có nhận xét','chưa được nhận xét','chưa kịp','chưa chấm','gửi muộn']],
     ['Thấy điểm thiếu sót và có động lực sửa bài',['thiếu sót','sửa','làm lại','chỉn chu','cải thiện']]
   ]},
-  {id:'change', title:'Chuyển hóa trong học tập và đời sống', oldCol:'Câu 3', newCol:'Câu 3', themes:[
+  {id:'change', title:'Câu hỏi: Chuyển hóa trong học tập và đời sống', oldCol:'Câu 3', newCol:'Câu 3', themes:[
     ['Tư duy đa chiều và hiểu vấn đề sâu hơn',['đa chiều','góc nhìn','nhìn sâu','hiểu sâu','khách quan']],
     ['Giao tiếp, kể chuyện rõ và tự tin hơn',['tự tin','hoạt ngôn','ngắn gọn','mạch lạc','lời nói','giao tiếp']],
     ['Đưa bài học vào ứng xử thực tế',['ứng dụng','đời sống','gia đình','công việc','hành vi','ứng xử']],
     ['Kiên trì thực hành và kaizen từng bước',['kaizen','nỗ lực','làm lại','rèn luyện','kiên trì','n lần']]
   ]},
-  {id:'kaizen', title:'Điểm tự kaizen từ chấm bài đồng đội', oldCol:'Câu 4', newCol:'Câu 4', themes:[
+  {id:'kaizen', title:'Câu hỏi: Điểm tự kaizen từ chấm bài đồng đội', oldCol:'Câu 4', newCol:'Câu 4', themes:[
     ['Chuẩn bị kỹ và làm bài sớm hơn',['chuẩn bị','làm sớm','chỉn chu','kỹ hơn','đọc sách']],
     ['Kể ngắn gọn, đúng trọng tâm',['ngắn','trọng tâm','dài','ý chính','cốt lõi']],
     ['Cải thiện giọng nói và sức cuốn hút',['giọng','trầm bổng','hấp dẫn','lôi cuốn','cảm xúc']],
     ['Phân tích, phản biện và đúc kết sâu hơn',['đa chiều','phản biện','đúc kết','sâu sắc','sắc bén']]
   ]},
-  {id:'strength', title:'Điểm tốt của lớp cần phát huy', oldCol:'Câu 6', newCol:'Câu 5', themes:[
+  {id:'strength', title:'Câu hỏi: Điểm tốt của lớp cần phát huy', oldCol:'Câu 6', newCol:'Câu 5', themes:[
     ['Duy trì chia sẻ và học trực tiếp tại lớp',['chia sẻ','trực tiếp','offline','trình bày']],
     ['Phát huy sự đồng hành của mentor, đội nhóm',['mentor','đội nhóm','đồng đội','coach','kết nối']],
     ['Bài học và nền tảng hỗ trợ việc học',['bài học','web','xem lại','bài giảng','nộp bài']],
     ['Không khí hiểu thương và hỗ trợ nhau',['hiểu thương','thân hòa','nâng đỡ','hỗ trợ']]
   ]},
-  {id:'improve', title:'Điểm lớp học cần cải thiện', oldCol:'Câu 7', newCol:'Câu 6', themes:[
+  {id:'improve', title:'Câu hỏi: Điểm lớp học cần cải thiện', oldCol:'Câu 7', newCol:'Câu 6', themes:[
     ['Tăng chất lượng chấm bài và phản hồi',['chấm','nhận xét','góp ý','phản hồi']],
     ['Giữ giờ học hợp lý và đúng cam kết',['đúng giờ','giờ','muộn','tan','9h','thời gian']],
     ['Tăng kết nối, động lực và mức tham gia',['kết nối','động lực','tương tác','xuống thuyền','tham gia']],
     ['Cải thiện cách tổ chức và nội dung học',['btc','vận hành','bài tập','bài giảng','tổ chức']]
   ]},
-  {id:'action', title:'Hành động học viên cam kết đóng góp', oldCol:'Câu 8', newCol:'Câu 7', themes:[
+  {id:'action', title:'Câu hỏi: Hành động học viên cam kết đóng góp', oldCol:'Câu 8', newCol:'Câu 7', themes:[
     ['Tham gia đầy đủ, đúng giờ và làm gương',['đầy đủ','đúng giờ','làm gương','tuân thủ']],
     ['Chủ động chia sẻ và tương tác với đồng đội',['chia sẻ','tương tác','góc nhìn','nhắc nhở']],
     ['Nỗ lực hoàn thiện bản thân mỗi ngày',['nỗ lực','tốt lên','cải thiện','rèn luyện']],
     ['Nâng đỡ, kết nối và hỗ trợ đội nhóm',['nâng đỡ','hỗ trợ','kết nối','đồng đội']]
   ]},
-  {id:'questions', title:'Khó khăn và câu hỏi gửi BTC/Thầy', oldCol:'Câu 9', newCol:'Câu 8', themes:[
+  {id:'questions', title:'Câu hỏi: Khó khăn và câu hỏi gửi BTC/Thầy', oldCol:'Câu 9', newCol:'Câu 8', themes:[
     ['Khó sắp xếp thời gian và nguồn lực tham gia',['thời gian','bận','nguồn lực','con','công việc','offline']],
     ['Đề nghị điều chỉnh giờ và nhịp buổi học',['giờ','muộn','tan','9h','thời gian dạy']],
     ['Cần thêm hướng dẫn, thúc đẩy và phản hồi',['hướng dẫn','thúc đẩy','chấm','góp ý','phản hồi']],
