@@ -53,14 +53,17 @@ for (const tab of ['20261022', '20261029']) {
 {
   const week = current.weeks.find((item) => item.tab === '20261029');
   const freshSource = fresh.weeks.find((item) => item.tab === '20261029').sources.find((source) => source.id === editedNewId);
+  const wasExcluded = week.summaries.find((item) => item.id === 'kaizen').coverage.excludedSourceIds.includes(editedOldId);
   week.sources = week.sources.map((source) => source.id === editedOldId ? freshSource : source);
   const group = week.summaries.find((item) => item.id === 'kaizen');
   const target = group.ideas.find((item) => item.title === 'Sơ đồ ít chữ, rõ cấu trúc và dễ nhìn');
   if (!target.sourceIds.includes(editedNewId)) target.sourceIds.push(editedNewId);
-  group.coverage.excludedSourceIds = group.coverage.excludedSourceIds.filter((id) => id !== editedOldId);
-  delete group.coverage.exclusionReasons[editedOldId];
-  for (const key of ['substantiveSourceCount', 'coveredSourceCount', 'assignedSourceCount']) group.coverage[key] += 1;
-  group.coverage.excludedSourceCount -= 1;
+  if (wasExcluded) {
+    group.coverage.excludedSourceIds = group.coverage.excludedSourceIds.filter((id) => id !== editedOldId);
+    delete group.coverage.exclusionReasons[editedOldId];
+    for (const key of ['substantiveSourceCount', 'coveredSourceCount', 'assignedSourceCount']) group.coverage[key] += 1;
+    group.coverage.excludedSourceCount -= 1;
+  }
 }
 
 const sourceMap = new Map(freshWeek.sources.map((source) => [source.id, source]));
@@ -117,6 +120,21 @@ const definitions = {
   ],
 };
 
+// Reconcile the semantic checkpoint with the two submissions added at 07:15 UTC.
+const waitingForFeedback = definitions.journal.find((item) => item.sourceIds.includes('20261105-83c2c758f462fc43'));
+waitingForFeedback.sourceIds.push('20261105-348a4f28ec2496ab');
+waitingForFeedback.summary = 'Hai học viên đang chờ nhận xét hoặc sẽ bổ sung sau khi đồng đội xem bài. Đây là tình trạng chưa đủ đầu vào, không suy diễn thành sự thiếu quan tâm của lớp.';
+definitions.journal.push(
+  idea('Góp ý dễ đón nhận hơn khi có sự đồng cảm và ghi nhận trước', 'Một học viên chia sẻ sở thích được đồng cảm, ghi nhận trước khi nghe góp ý. Đây là nhu cầu giao tiếp cá nhân, không phải quy tắc chung cho mọi người.', ['20261105-5d8793fc570b1bb3'], { unique: true }),
+);
+definitions.change.push(
+  idea('Nhận ra pháp hiện hữu trong đời sống', 'Một học viên nêu thay đổi nhận thức là thấy pháp ở mọi nơi; phần hành vi và lời nói chưa được mô tả nên không suy diễn thêm.', ['20261105-601f0ae549ca1cf1'], { unique: true }),
+  idea('Kể chuyện trở thành cách truyền giá trị và soi lại cách sống', 'Một học viên tự thuật sự chuyển từ kể lại sự kiện sang truyền giá trị, tư duy đa chiều, quan sát-cảm thụ, thực hành kỷ luật và giao tiếp có đúc kết. Đây là phản tư tự thuật, không phải kết quả đã được kiểm chứng độc lập.', ['20261105-927290e8a35809f9'], { unique: true }),
+);
+definitions.kaizen[0].summary = 'Các nguồn hiện chủ yếu cung cấp liên kết, tệp đính kèm hoặc ghi chú sẽ bổ sung sơ đồ. Bản tin giữ trạng thái chờ đọc, không suy diễn nội dung từ liên kết và chưa tạo kết luận kaizen.';
+for (const item of definitions.action) item.sourceIds.push('20261105-7b1bb722756d704a');
+definitions.action[2].summary = 'Ba học viên cam kết hiện diện đúng giờ hoặc giữ kỷ luật cá nhân để góp phần giúp bản thân và lớp tốt hơn.';
+
 const promptByGroup = Object.fromEntries(freshWeek.sources.map((source) => [source.group, source.questionPrompt]));
 const heldId = '20261105-26d192f69c9707bc';
 const sources = freshWeek.sources.map((source) => source.id === heldId ? {
@@ -144,6 +162,7 @@ const nonSubstantive = [
   ['20261105-e0631cb0e7b37019', 'non-substantive-no-improvement-yet'],
   ['20261105-3dcb1b0a9df3ea00', 'non-substantive-no-improvement-yet'],
   ['20261105-53d271e0fb2eda4a', 'non-substantive-no-question-yet'],
+  ['20261105-7e376c83cc22f287', 'non-substantive-no-question-yet'],
 ];
 const updated = {
   ...freshWeek,

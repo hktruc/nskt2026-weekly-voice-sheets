@@ -36,7 +36,7 @@ function countLabel(idea) {
   return `${publicCount} tên học viên${held ? ` + ${held} nguồn giữ riêng` : ''}`;
 }
 
-fetch('data/weeks.json?v=resume-20261104').then((response) => response.json()).then((data) => {
+fetch('data/weeks.json?v=hourly-20261104-0715').then((response) => response.json()).then((data) => {
   model = data;
   const select = $('#week');
   data.weeks.slice().reverse().forEach((week) => select.add(new Option(`${week.tab} · ${week.submissionCount} bài${week.complete ? '' : ' · đang thu'}`, week.tab)));
