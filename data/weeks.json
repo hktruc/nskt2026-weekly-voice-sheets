@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T08:19:10.974998+00:00",
+  "generatedAt": "2026-11-06T09:03:49.432373+00:00",
   "sheetId": "1iDg5ryTjItafI9K0lwORi7KcwsCUmCClaQEg79KhWyQ",
   "weeks": [
     {
@@ -20597,11 +20597,11 @@
         {
           "id": "journal",
           "title": "Câu hỏi: Viết Nhật ký đúc kết (trạng thái tâm, cảm xúc) của bạn từ trải nghiệm khen chê của đồng đội về video của bạn?",
-          "method": "chatgpt-semantic-draft",
+          "method": "chatgpt-semantic-reviewed",
           "coverage": {
             "reviewedSourceCount": 137,
             "representedSourceCount": 109,
-            "status": "ongoing"
+            "status": "reviewed-snapshot"
           },
           "ideas": [
             {
@@ -20806,11 +20806,11 @@
         {
           "id": "change",
           "title": "Câu hỏi: Từ trải nghiệm thực hành kể chuyện, hãy chia sẻ sự thay đổi, chuyển hoá của bạn về nhận thức, tư duy, hành vi và lời nói,..?",
-          "method": "chatgpt-semantic-draft",
+          "method": "chatgpt-semantic-reviewed",
           "coverage": {
             "reviewedSourceCount": 138,
             "representedSourceCount": 129,
-            "status": "ongoing"
+            "status": "reviewed-snapshot"
           },
           "ideas": [
             {
@@ -21073,11 +21073,11 @@
         {
           "id": "kaizen",
           "title": "Câu hỏi: Từ hoạt động phản hồi & chấm bài cho ĐNT trên web dh3g.vn , 3 điểm cần kaizen cho bài làm của bạn?",
-          "method": "chatgpt-semantic-draft",
+          "method": "chatgpt-semantic-reviewed",
           "coverage": {
             "reviewedSourceCount": 137,
             "representedSourceCount": 96,
-            "status": "ongoing"
+            "status": "reviewed-snapshot"
           },
           "ideas": [
             {
@@ -21374,11 +21374,11 @@
         {
           "id": "strength",
           "title": "Câu hỏi: 01 điểm tốt cần phát huy trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
-          "method": "chatgpt-semantic-draft",
+          "method": "chatgpt-semantic-reviewed",
           "coverage": {
             "reviewedSourceCount": 88,
             "representedSourceCount": 70,
-            "status": "ongoing"
+            "status": "reviewed-snapshot"
           },
           "ideas": [
             {
@@ -21528,11 +21528,11 @@
         {
           "id": "improve",
           "title": "Câu hỏi: 03 điểm cần cải thiện trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
-          "method": "chatgpt-semantic-draft",
+          "method": "chatgpt-semantic-reviewed",
           "coverage": {
             "reviewedSourceCount": 85,
             "representedSourceCount": 49,
-            "status": "ongoing"
+            "status": "reviewed-snapshot"
           },
           "ideas": [
             {
@@ -21687,11 +21687,11 @@
         {
           "id": "action",
           "title": "Câu hỏi: Hành động cụ thể của bạn đóng góp giúp lớp học tốt lên là gì?",
-          "method": "chatgpt-semantic-draft",
+          "method": "chatgpt-semantic-reviewed",
           "coverage": {
             "reviewedSourceCount": 86,
             "representedSourceCount": 65,
-            "status": "ongoing"
+            "status": "reviewed-snapshot"
           },
           "ideas": [
             {
@@ -21857,11 +21857,11 @@
         {
           "id": "questions",
           "title": "Câu hỏi: Bạn có khó khăn & câu hỏi gì đến BTC/Thầy?",
-          "method": "chatgpt-semantic-draft",
+          "method": "chatgpt-semantic-reviewed",
           "coverage": {
             "reviewedSourceCount": 83,
             "representedSourceCount": 29,
-            "status": "ongoing"
+            "status": "reviewed-snapshot"
           },
           "ideas": [
             {
@@ -31823,8 +31823,8 @@
         }
       ],
       "checkpoint": {
-        "status": "ongoing",
-        "reviewedAt": "2026-11-06T08:19:10.974998+00:00",
+        "status": "reviewed-snapshot",
+        "reviewedAt": "2026-11-06T09:03:49.432373+00:00",
         "method": "Native ChatGPT semantic reading; no external AI API.",
         "sourceCount": 754,
         "routingCorrection": "Question meaning verified: self-kaizen responses now use the feedback prompt, not storytelling-video instructions.",
@@ -31835,11 +31835,15 @@
         "mediaVideosReviewedCount": 5,
         "mediaReviewedAt": "2026-11-05T20:24:19.451079+00:00",
         "latestSemanticQA": "Six edited journal/change/kaizen answers reviewed: five now represented, one remains pending specific improvement detail. Distinguish recognition, intentions and reported experience; do not infer story-video content.",
-        "sourceVerifiedAt": "2026-11-06T08:19:10.974998+00:00",
-        "latestSourceUpdate": "Six prior placeholder/deferred answers replaced. Source count and submission count unchanged."
+        "sourceVerifiedAt": "2026-11-06T09:02:20.559012+00:00",
+        "latestSourceUpdate": "Six prior placeholder/deferred answers replaced. Source count and submission count unchanged.",
+        "lastContentReviewedAt": "2026-11-06T08:19:10.974998+00:00",
+        "reviewedSnapshotComplete": true,
+        "collectionClosureVerified": false,
+        "reviewQueueInterpretation": "All queued sources have been read and dispositioned. The queue records deferred, ambiguous, excluded or privacy-limited material, not unread current-week media."
       }
     }
   ],
   "method": "chatgpt-semantic-reviewed-with-ongoing-draft",
-  "contentHash": "58812ccf6c280dbbeef2513746d1d3590f6bbed191374fad07c12a7f53d35d84"
+  "contentHash": "bbe11c581866a1480e2370dfa66350947ff540afcbd2bbe31fac309cf3ebe66c"
 }

@@ -18,6 +18,30 @@ const personKey = (source) => (source.name || '').trim().toLocaleLowerCase('vi')
 const privateIds = (idea) => new Set(idea.privacyReviewSourceIds || []);
 const questionText = (title) => String(title || '').replace(/^Câu hỏi\s*:\s*/i, '').trim();
 
+function parseDue(due) {
+  const parts = /^(\d{2})\/(\d{2})\/(\d{4}) (\d{2}):(\d{2})$/.exec(String(due || '').trim());
+  if (!parts) return NaN;
+  const [, day, month, year, hour, minute] = parts.map(Number);
+  const local = new Date(0);
+  local.setUTCFullYear(year, month - 1, day);
+  local.setUTCHours(hour, minute, 0, 0);
+  if (local.getUTCFullYear() !== year || local.getUTCMonth() !== month - 1 || local.getUTCDate() !== day || local.getUTCHours() !== hour || local.getUTCMinutes() !== minute) return NaN;
+  // Due dates are local to Asia/Ho_Chi_Minh (UTC+07), not the viewer's time zone.
+  return local.getTime() - 7 * 60 * 60 * 1000;
+}
+
+function deadlineStatus(due, now = Date.now()) {
+  const deadline = parseDue(due);
+  if (!Number.isFinite(deadline)) return 'chưa rõ hạn';
+  return now > deadline ? 'đã qua hạn' : 'trong hạn';
+}
+
+function snapshotTime(value) {
+  const timestamp = Date.parse(value);
+  if (!Number.isFinite(timestamp)) return 'chưa rõ thời điểm cập nhật';
+  return `${new Intl.DateTimeFormat('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh', day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(timestamp)} (giờ Việt Nam)`;
+}
+
 function peopleFor(idea) {
   const seen = new Set();
   const held = privateIds(idea);
@@ -36,12 +60,13 @@ function countLabel(idea) {
   return `${publicCount} tên học viên${held ? ` + ${held} nguồn giữ riêng` : ''}`;
 }
 
-fetch('data/weeks.json?v=hourly-20261104-0715').then((response) => response.json()).then((data) => {
+const dataUrl = `data/weeks.json?v=${Date.now()}-${Math.random().toString(36).slice(2)}`;
+fetch(dataUrl, { cache: 'no-store' }).then((response) => response.json()).then((data) => {
   model = data;
   const select = $('#week');
-  data.weeks.slice().reverse().forEach((week) => select.add(new Option(`${week.tab} · ${week.submissionCount} bài${week.complete ? '' : ' · đang thu'}`, week.tab)));
-  const preferred = data.weeks.slice().reverse().find((week) => week.complete);
-  if (preferred) select.value = preferred.tab;
+  const weeks = data.weeks.slice().sort((a, b) => String(b.tab).localeCompare(String(a.tab)));
+  weeks.forEach((week) => select.add(new Option(`${week.tab} · ${week.submissionCount} bài · ${deadlineStatus(week.due)}`, week.tab)));
+  if (weeks.length) select.value = weeks[0].tab;
   select.onchange = render;
   $('#search').oninput = render;
   render();
@@ -50,12 +75,12 @@ fetch('data/weeks.json?v=hourly-20261104-0715').then((response) => response.json
 function render() {
   current = model.weeks.find((week) => week.tab === $('#week').value) || model.weeks.at(-1);
   sourceMap = Object.fromEntries(current.sources.map((source) => [source.id, source]));
-  const reviewed = current.summaries.every((group) => group.method === 'chatgpt-semantic-reviewed');
-  document.querySelector('aside').textContent = reviewed
-    ? 'Bản tin đã được ChatGPT đọc và tổng hợp ngữ nghĩa từ toàn bộ phản hồi có trong snapshot; mỗi ý đều truy ngược được nguồn.'
-    : 'Tuần đang thu bài – nội dung hiện tại là bản nháp, chưa dùng làm kết luận chính thức.';
+  const reviewed = current.summaries.length > 0 && current.summaries.every((group) => group.method === 'chatgpt-semantic-reviewed');
+  document.querySelector('aside').textContent = `Thời điểm dữ liệu: ${snapshotTime(model.generatedAt)}. ${reviewed
+    ? 'Bản tin đã được ChatGPT đọc và tổng hợp ngữ nghĩa từ các phản hồi có trong bản dữ liệu này; mỗi ý đều truy ngược được nguồn. Số bài ghi nhận không xác nhận mọi học viên đã nộp.'
+    : 'Phân tích và tổng hợp bản dữ liệu này chưa hoàn tất; nội dung hiện tại là bản nháp, chưa dùng làm kết luận chính thức.'}`;
   const query = $('#search').value.trim().toLocaleLowerCase('vi');
-  $('#stats').innerHTML = `<div class="stat"><b>${current.submissionCount}</b><span>bài WEEK${current.complete ? '' : ' · đang thu bài'}</span></div><div class="stat"><b>${current.answerCount}</b><span>câu trả lời có nội dung</span></div><div class="stat"><b>${esc(current.due || current.tab)}</b><span>hạn nộp</span></div>`;
+  $('#stats').innerHTML = `<div class="stat"><b>${current.submissionCount}</b><span>bài WEEK</span></div><div class="stat"><b>${current.answerCount}</b><span>câu trả lời có nội dung</span></div><div class="stat"><b>${esc(current.due || current.tab)}</b><span>hạn nộp · ${deadlineStatus(current.due)}</span></div>`;
   $('#groups').innerHTML = current.summaries.map((group) => {
     const ideas = (group.ideas || []).map((idea, index) => ({ idea, index })).filter(({ idea }) => !query || [idea.title, idea.summary, ...idea.sourceIds.map((id) => sourceMap[id]?.name), ...idea.sourceIds.map((id) => sourceMap[id]?.answer)].join(' ').toLocaleLowerCase('vi').includes(query));
     if (!ideas.length) return '';
