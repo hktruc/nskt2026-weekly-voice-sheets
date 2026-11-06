@@ -1,11 +1,11 @@
 {
   "status": "success",
-  "checkedAt": "2026-11-06T09:02:20.559012+00:00",
-  "sourceChangedSinceLastPublication": false,
+  "checkedAt": "2026-11-06T11:16:43.209228+00:00",
+  "sourceChangedSinceLastPublication": true,
   "changedTabs": [
     "20261105"
   ],
-  "dataChangeScope": "Certified current snapshot review and corrected display metadata; all answers and summaries unchanged.",
+  "dataChangeScope": "One reviewed journal feedback update; current totals and privacy exclusions unchanged.",
   "currentTab": {
     "tab": "20261105",
     "status": "past-deadline-reviewed-snapshot",
@@ -15,8 +15,8 @@
     "representedSourceCount": 547,
     "reviewQueueCount": 219,
     "semanticMethod": "Native ChatGPT semantic reading; no external AI API.",
-    "sourceCsvSha256": "1f7354b19c8cc9eb01215b8dd66d572125b1c2dd2780e6324210b6bdd9b41451",
-    "sourceHash": "46231ff52de22e0018a6042da0f3d12a7acb698a7d4a8d3b96f99ee40c5c4ca6",
+    "sourceCsvSha256": "9a7a854b1a68a5adbb6f66784a4ef7ff4c7a598b7ed5dcc51afec1ce393e24cb",
+    "sourceHash": "3c11ffe0064885eabb29d08e086f35cd4b641444b3e33fd627c18eccd09c071a",
     "reviewStatus": "reviewed-snapshot",
     "deadlinePassed": true,
     "collectionClosureVerified": false
@@ -24,5 +24,5 @@
   "privacyHeldSourceCount": 32,
   "currentWeekPrivacyHeldSourceCount": 16,
   "externalAiUsed": false,
-  "contentHash": "bbe11c581866a1480e2370dfa66350947ff540afcbd2bbe31fac309cf3ebe66c"
+  "contentHash": "2ca61f925922032528ce8593cc1b07105b3113360645577f29330fdca13a1bf7"
 }

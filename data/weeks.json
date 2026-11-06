@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T09:03:49.432373+00:00",
+  "generatedAt": "2026-11-06T11:16:43.209228+00:00",
   "sheetId": "1iDg5ryTjItafI9K0lwORi7KcwsCUmCClaQEg79KhWyQ",
   "weeks": [
     {
@@ -20687,7 +20687,7 @@
             },
             {
               "title": "Đang chờ hoặc mong thêm phản hồi",
-              "summary": "Một số người chưa nhận góp ý, chưa kịp xin ý kiến hoặc đang chờ nhận xét để bổ sung. Có người làm bài muộn nên đồng đội chưa kịp góp ý; người khác nói hơi chờ đợi nhưng tuần này chưa thấy nhận xét. Có người đã nhận nhưng còn ít; người khác chỉ nhận lượt thả tim. Một số kể cảm xúc từ buổi học trước trong khi video tuần này chưa được phản hồi. Cảm xúc khi tự nhìn lại hành trình hoặc tự xem video được tách khỏi trải nghiệm nhận khen chê. Không suy sự chậm phản hồi thành thiếu quan tâm của đồng đội.",
+              "summary": "Một số người chưa nhận góp ý, chưa kịp xin ý kiến hoặc đang chờ nhận xét để bổ sung. Có người làm bài muộn nên đồng đội chưa kịp góp ý; người khác nói hơi chờ đợi nhưng tuần này chưa thấy nhận xét. Có người đã nhận nhưng còn ít; người khác chỉ nhận lượt thả tim. Một số kể cảm xúc từ buổi học trước trong khi video tuần này chưa được phản hồi. Cảm xúc khi tự nhìn lại hành trình hoặc tự xem video được tách khỏi trải nghiệm nhận khen chê. Không suy sự chậm phản hồi thành thiếu quan tâm của đồng đội. Một người dự định đăng bài lên Facebook để nhận thêm lời chê; chưa coi đây là việc đã làm hoặc đã có thêm phản hồi.",
               "sourceIds": [
                 "20261105-83c2c758f462fc43",
                 "20261105-348a4f28ec2496ab",
@@ -20700,7 +20700,7 @@
                 "20261105-d7d3307289f85f8e",
                 "20261105-5f605381f5d34dcf",
                 "20261105-43d333290014f352",
-                "20261105-c4dd2e1ce2c8b481",
+                "20261105-01142d791acacae1",
                 "20261105-51a630f91972a6a9",
                 "20261105-96fe928f1b869f4d",
                 "20261105-b599660f80a6ec73",
@@ -26568,14 +26568,14 @@
           "due": "05/11/2026 23:00"
         },
         {
-          "id": "20261105-c4dd2e1ce2c8b481",
-          "fingerprint": "c4dd2e1ce2c8b481",
+          "id": "20261105-01142d791acacae1",
+          "fingerprint": "01142d791acacae1",
           "row": 79,
           "questionColumn": "Câu 2",
           "questionPrompt": "Viết Nhật ký đúc kết (trạng thái tâm, cảm xúc) của bạn từ trải nghiệm khen chê của đồng đội về video của bạn?",
           "group": "journal",
           "name": "Nguyễn Thị Sao Ly",
-          "answer": "Dạ đồng đội chưa kịp khen chê ạ",
+          "answer": "Dạ đồng đội chưa kịp khen chê em ạ, em sẽ đăng tải lên facebook để được nhiều người chê hơn ạ.",
           "submitted": "05/11/2026 19:34",
           "due": "05/11/2026 23:00"
         },
@@ -31824,20 +31824,20 @@
       ],
       "checkpoint": {
         "status": "reviewed-snapshot",
-        "reviewedAt": "2026-11-06T09:03:49.432373+00:00",
+        "reviewedAt": "2026-11-06T11:16:43.209228+00:00",
         "method": "Native ChatGPT semantic reading; no external AI API.",
         "sourceCount": 754,
         "routingCorrection": "Question meaning verified: self-kaizen responses now use the feedback prompt, not storytelling-video instructions.",
         "latestMediaReview": "Four actual UI transcripts read, six source/question contexts assessed. Intimate, unlisted or sensitive source links held. Transcripts do not establish storytelling caused broader life changes. Audio and video images were not independently reviewed.",
-        "sourceCsvSha256": "1f7354b19c8cc9eb01215b8dd66d572125b1c2dd2780e6324210b6bdd9b41451",
+        "sourceCsvSha256": "9a7a854b1a68a5adbb6f66784a4ef7ff4c7a598b7ed5dcc51afec1ce393e24cb",
         "textReviewStatus": "All current response text reviewed. All four additional video transcripts reviewed; five question contexts not selected and one limited, de-identified practice reflection represented.",
         "mediaUninterpretedCount": 0,
         "mediaVideosReviewedCount": 5,
         "mediaReviewedAt": "2026-11-05T20:24:19.451079+00:00",
-        "latestSemanticQA": "Six edited journal/change/kaizen answers reviewed: five now represented, one remains pending specific improvement detail. Distinguish recognition, intentions and reported experience; do not infer story-video content.",
-        "sourceVerifiedAt": "2026-11-06T09:02:20.559012+00:00",
-        "latestSourceUpdate": "Six prior placeholder/deferred answers replaced. Source count and submission count unchanged.",
-        "lastContentReviewedAt": "2026-11-06T08:19:10.974998+00:00",
+        "latestSemanticQA": "Future Facebook-posting intent remains an intention; no posting or additional received feedback is inferred or performed.",
+        "sourceVerifiedAt": "2026-11-06T11:16:43.209228+00:00",
+        "latestSourceUpdate": "One journal answer updated with a plan to seek feedback. Source count, submission count and idea count unchanged.",
+        "lastContentReviewedAt": "2026-11-06T11:16:43.209228+00:00",
         "reviewedSnapshotComplete": true,
         "collectionClosureVerified": false,
         "reviewQueueInterpretation": "All queued sources have been read and dispositioned. The queue records deferred, ambiguous, excluded or privacy-limited material, not unread current-week media."
@@ -31845,5 +31845,5 @@
     }
   ],
   "method": "chatgpt-semantic-reviewed-with-ongoing-draft",
-  "contentHash": "bbe11c581866a1480e2370dfa66350947ff540afcbd2bbe31fac309cf3ebe66c"
+  "contentHash": "2ca61f925922032528ce8593cc1b07105b3113360645577f29330fdca13a1bf7"
 }
