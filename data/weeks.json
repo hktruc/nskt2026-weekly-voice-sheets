@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T01:16:52.055601+00:00",
+  "generatedAt": "2026-11-07T13:18:52.459455+00:00",
   "sheetId": "1iDg5ryTjItafI9K0lwORi7KcwsCUmCClaQEg79KhWyQ",
   "weeks": [
     {
@@ -31846,8 +31846,232 @@
         "sourceSemanticFingerprint": "11dbab001426b25a41dbf8533bb02f9a491fe16ed66d761d59dcc98dc4c918b3",
         "sourceReadMethod": "Connected Google Sheets formatted values; contact columns excluded."
       }
+    },
+    {
+      "tab": "20261112",
+      "due": "12/11/2026 23:00",
+      "submissionCount": 1,
+      "answerCount": 7,
+      "complete": false,
+      "reviewCount": 0,
+      "summaries": [
+        {
+          "id": "journal",
+          "title": "Câu hỏi: Viết Nhật ký đúc kết (trạng thái tâm, cảm xúc) của bạn từ trải nghiệm khen chê của đồng đội về video của bạn?",
+          "method": "chatgpt-semantic-reviewed",
+          "coverage": {
+            "reviewedSourceCount": 1,
+            "representedSourceCount": 0,
+            "status": "reviewed-snapshot"
+          },
+          "ideas": []
+        },
+        {
+          "id": "change",
+          "title": "Câu hỏi: Từ trải nghiệm thực hành kể chuyện, hãy chia sẻ sự thay đổi, chuyển hoá của bạn về nhận thức, tư duy, hành vi và lời nói,..?",
+          "method": "chatgpt-semantic-reviewed",
+          "coverage": {
+            "reviewedSourceCount": 1,
+            "representedSourceCount": 1,
+            "status": "reviewed-snapshot"
+          },
+          "ideas": [
+            {
+              "title": "Nhận ra mình còn thiếu thực tiễn",
+              "summary": "Qua tích chuyện Triệu Xa, Triệu Quát, một học viên thấy mình giống Triệu Quát ở điểm thiếu thực tiễn. Đây là nhận thức tự thuật, chưa có mô tả về thay đổi hành vi hay việc đã thực hành thêm.",
+              "sourceIds": [
+                "20261112-f63f6223489ffd32"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "kaizen",
+          "title": "Câu hỏi: Từ hoạt động phản hồi & chấm bài cho ĐNT trên web dh3g.vn , 3 điểm cần kaizen cho bài làm của bạn?",
+          "method": "chatgpt-semantic-reviewed",
+          "coverage": {
+            "reviewedSourceCount": 1,
+            "representedSourceCount": 0,
+            "status": "reviewed-snapshot"
+          },
+          "ideas": []
+        },
+        {
+          "id": "strength",
+          "title": "Câu hỏi: 01 điểm tốt cần phát huy trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
+          "method": "chatgpt-semantic-reviewed",
+          "coverage": {
+            "reviewedSourceCount": 1,
+            "representedSourceCount": 0,
+            "status": "reviewed-snapshot"
+          },
+          "ideas": []
+        },
+        {
+          "id": "improve",
+          "title": "Câu hỏi: 03 điểm cần cải thiện trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
+          "method": "chatgpt-semantic-reviewed",
+          "coverage": {
+            "reviewedSourceCount": 1,
+            "representedSourceCount": 0,
+            "status": "reviewed-snapshot"
+          },
+          "ideas": []
+        },
+        {
+          "id": "action",
+          "title": "Câu hỏi: Hành động cụ thể của bạn đóng góp giúp lớp học tốt lên là gì?",
+          "method": "chatgpt-semantic-reviewed",
+          "coverage": {
+            "reviewedSourceCount": 1,
+            "representedSourceCount": 0,
+            "status": "reviewed-snapshot"
+          },
+          "ideas": []
+        },
+        {
+          "id": "questions",
+          "title": "Câu hỏi: Bạn có khó khăn & câu hỏi gì đến BTC/Thầy?",
+          "method": "chatgpt-semantic-reviewed",
+          "coverage": {
+            "reviewedSourceCount": 1,
+            "representedSourceCount": 0,
+            "status": "reviewed-snapshot"
+          },
+          "ideas": []
+        }
+      ],
+      "sources": [
+        {
+          "id": "20261112-9b4a2a54a23d795c",
+          "fingerprint": "9b4a2a54a23d795c",
+          "row": 2,
+          "questionColumn": "Câu 2",
+          "questionPrompt": "Viết Nhật ký đúc kết (trạng thái tâm, cảm xúc) của bạn từ trải nghiệm khen chê của đồng đội về video của bạn?",
+          "group": "journal",
+          "name": "Nguyễn Thị Thảo",
+          "answer": "Đã nghiêm túc thực hiện",
+          "submitted": "07/11/2026 19:37",
+          "due": "12/11/2026 23:00"
+        },
+        {
+          "id": "20261112-f63f6223489ffd32",
+          "fingerprint": "f63f6223489ffd32",
+          "row": 2,
+          "questionColumn": "Câu 3",
+          "questionPrompt": "Từ trải nghiệm thực hành kể chuyện, hãy chia sẻ sự thay đổi, chuyển hoá của bạn về nhận thức, tư duy, hành vi và lời nói,..?",
+          "group": "change",
+          "name": "Nguyễn Thị Thảo",
+          "answer": "Tích chuyện Triệu xa, Triệu Quát thấy mình giống Triệu Quát thiếu thực tiễn",
+          "submitted": "07/11/2026 19:37",
+          "due": "12/11/2026 23:00"
+        },
+        {
+          "id": "20261112-df5db5a4163e2d85",
+          "fingerprint": "df5db5a4163e2d85",
+          "row": 2,
+          "questionColumn": "Câu 4",
+          "questionPrompt": "Từ hoạt động phản hồi & chấm bài cho ĐNT trên web dh3g.vn , 3 điểm cần kaizen cho bài làm của bạn?",
+          "group": "kaizen",
+          "name": "Nguyễn Thị Thảo",
+          "answer": "Đang chờ phản hồi",
+          "submitted": "07/11/2026 19:37",
+          "due": "12/11/2026 23:00"
+        },
+        {
+          "id": "20261112-8ceff6698d2dcab4",
+          "fingerprint": "8ceff6698d2dcab4",
+          "row": 2,
+          "questionColumn": "Câu 5",
+          "questionPrompt": "01 điểm tốt cần phát huy trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
+          "group": "strength",
+          "name": "Nguyễn Thị Thảo",
+          "answer": "Đang suy ngẫm",
+          "submitted": "07/11/2026 19:37",
+          "due": "12/11/2026 23:00"
+        },
+        {
+          "id": "20261112-a263e5e2ec42f8c8",
+          "fingerprint": "a263e5e2ec42f8c8",
+          "row": 2,
+          "questionColumn": "Câu 6",
+          "questionPrompt": "03 điểm cần cải thiện trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
+          "group": "improve",
+          "name": "Nguyễn Thị Thảo",
+          "answer": "Sẽ suy ngẫm",
+          "submitted": "07/11/2026 19:37",
+          "due": "12/11/2026 23:00"
+        },
+        {
+          "id": "20261112-145959cd9a068bac",
+          "fingerprint": "145959cd9a068bac",
+          "row": 2,
+          "questionColumn": "Câu 7",
+          "questionPrompt": "Hành động cụ thể của bạn đóng góp giúp lớp học tốt lên là gì?",
+          "group": "action",
+          "name": "Nguyễn Thị Thảo",
+          "answer": "Sẽ suy ngẫm",
+          "submitted": "07/11/2026 19:37",
+          "due": "12/11/2026 23:00"
+        },
+        {
+          "id": "20261112-ce430a1465ca36d7",
+          "fingerprint": "ce430a1465ca36d7",
+          "row": 2,
+          "questionColumn": "Câu 8",
+          "questionPrompt": "Bạn có khó khăn & câu hỏi gì đến BTC/Thầy?",
+          "group": "questions",
+          "name": "Nguyễn Thị Thảo",
+          "answer": "Sẽ bổ xung sau",
+          "submitted": "07/11/2026 19:37",
+          "due": "12/11/2026 23:00"
+        }
+      ],
+      "reviewQueue": [
+        {
+          "sourceId": "20261112-9b4a2a54a23d795c",
+          "reason": "completion-claim-without-peer-feedback-emotion-or-specific-experience"
+        },
+        {
+          "sourceId": "20261112-df5db5a4163e2d85",
+          "reason": "awaiting-feedback-no-specific-kaizen-yet"
+        },
+        {
+          "sourceId": "20261112-8ceff6698d2dcab4",
+          "reason": "reflection-in-progress-no-specific-strength-yet"
+        },
+        {
+          "sourceId": "20261112-a263e5e2ec42f8c8",
+          "reason": "reflection-intended-no-specific-improvement-yet"
+        },
+        {
+          "sourceId": "20261112-145959cd9a068bac",
+          "reason": "reflection-intended-no-specific-contribution-yet"
+        },
+        {
+          "sourceId": "20261112-ce430a1465ca36d7",
+          "reason": "non-substantive-update-promised"
+        }
+      ],
+      "checkpoint": {
+        "status": "reviewed-snapshot",
+        "sourceCount": 7,
+        "reviewedSnapshotComplete": true,
+        "collectionClosureVerified": false,
+        "textReviewStatus": "All seven current feedback responses read and dispositioned; one substantive reflection represented and six responses queued with explicit reasons.",
+        "mediaUninterpretedCount": 0,
+        "reviewedAt": "2026-11-07T13:18:52.459455+00:00",
+        "method": "Native ChatGPT semantic reading; no external AI API.",
+        "sourceVerifiedAt": "2026-11-07T13:18:52.459455+00:00",
+        "lastContentReviewedAt": "2026-11-07T13:18:52.459455+00:00",
+        "sourceSemanticFingerprint": "d89596d49f1b0d3fe5aefac91e84036a5be76f328b9d9a1614ea0e023c413251",
+        "sourceReadMethod": "Connected Google Sheets formatted values; contact columns excluded.",
+        "reviewQueueInterpretation": "All seven feedback responses were read. Six lack enough detail for a substantive learning idea and remain queued. No inference that the class is complete or collection closed.",
+        "excludedMediaScope": "Câu 1 storytelling media is outside the feedback bulletin scope and was not opened or interpreted."
+      }
     }
   ],
   "method": "chatgpt-semantic-reviewed-with-ongoing-draft",
-  "contentHash": "9b851a80c063cb2394fea7636c5bc81e4e8870355f69a78e8eed80185f38be36"
+  "contentHash": "337b6c611bbde0e78bbcd5d6a14e79e69038f2122c16f66989c53f4c171d8e9b"
 }
