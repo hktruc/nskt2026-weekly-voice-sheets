@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T11:16:43.209228+00:00",
+  "generatedAt": "2026-11-07T01:16:52.055601+00:00",
   "sheetId": "1iDg5ryTjItafI9K0lwORi7KcwsCUmCClaQEg79KhWyQ",
   "weeks": [
     {
@@ -20590,9 +20590,9 @@
       "tab": "20261105",
       "due": "05/11/2026 23:00",
       "submissionCount": 138,
-      "answerCount": 754,
+      "answerCount": 755,
       "complete": false,
-      "reviewCount": 219,
+      "reviewCount": 47,
       "summaries": [
         {
           "id": "journal",
@@ -20600,7 +20600,7 @@
           "method": "chatgpt-semantic-reviewed",
           "coverage": {
             "reviewedSourceCount": 137,
-            "representedSourceCount": 109,
+            "representedSourceCount": 110,
             "status": "reviewed-snapshot"
           },
           "ideas": [
@@ -20661,7 +20661,7 @@
             },
             {
               "title": "Khen chê vẫn có thể khơi mong cầu, so sánh và giận",
-              "summary": "Khen chê có thể gợi vui, tự mãn, mong được ghi nhận, chạnh lòng, tự ái, giận hoặc muốn biện minh. Có người tự thấy có xu hướng đọc kỹ lời khen, đôi khi đọc lướt lời chê và dễ tiếp nhận góp ý hình thức hơn nội dung. Những người khác đã bình tâm, buông phản ứng hoặc đang tập quan sát; một số còn hồi hộp, sợ bị chê. Có người xấu hổ vì bài chưa chỉn chu; một người xấu hổ vì chưa hoàn thành việc dù được nâng đỡ. Đây là các trải nghiệm khác nhau, chưa chứng minh phản ứng đã hết.",
+              "summary": "Khen chê có thể gợi vui, tự mãn, mong được ghi nhận, chạnh lòng, tự ái, giận hoặc muốn biện minh. Có người tự thấy có xu hướng đọc kỹ lời khen, đôi khi đọc lướt lời chê và dễ tiếp nhận góp ý hình thức hơn nội dung. Những người khác đã bình tâm, buông phản ứng hoặc đang tập quan sát; một số còn hồi hộp, sợ bị chê. Có người xấu hổ vì bài chưa chỉn chu; một người xấu hổ vì chưa hoàn thành việc dù được nâng đỡ. Đây là các trải nghiệm khác nhau, chưa chứng minh phản ứng đã hết. Một người nhận ra mình thích được khen, có phản kháng trong tâm khi bị chê, rồi rút ra điều cần tập là quan sát phản ứng thân tâm và biết ơn người góp ý; chưa coi đây là phản ứng đã được điều chỉnh hoàn toàn.",
               "sourceIds": [
                 "20261105-d1113f94763dca47",
                 "20261105-01463a537164c46f",
@@ -20681,9 +20681,10 @@
                 "20261105-4519722a63c4611e",
                 "20261105-ea4cc9a1988aa0bb",
                 "20261105-042f82c66edd35cb",
-                "20261105-e8981b5dae251311"
+                "20261105-e8981b5dae251311",
+                "20261105-be07674f280a2f44"
               ],
-              "count": 19
+              "count": 20
             },
             {
               "title": "Đang chờ hoặc mong thêm phản hồi",
@@ -20809,7 +20810,7 @@
           "method": "chatgpt-semantic-reviewed",
           "coverage": {
             "reviewedSourceCount": 138,
-            "representedSourceCount": 129,
+            "representedSourceCount": 130,
             "status": "reviewed-snapshot"
           },
           "ideas": [
@@ -20989,7 +20990,7 @@
             },
             {
               "title": "Soi lại cuộc đời, giá trị và lựa chọn của mình",
-              "summary": "Các phản tư gồm tăng quan sát, giảm phản ứng; nhìn lại điểm tốt, điều cần sửa, giá trị sống và lựa chọn lặp lại; xúc động, biết ơn khi nhớ quá khứ. Có người nhận ra vai trò của tình thương, nghị lực, trí tuệ; soi thành bại qua nhân–duyên–quả; hiểu mình qua vòng tròn số 2 hoặc chọn bắt đầu từ việc nhỏ. Một nguồn rút bài học về trí tuệ tự rèn, nỗ lực không dính kết quả và chia sẻ. Một số chỉ nói hiểu mình hơn, nhìn sâu hơn hay dần chuyển hóa, chưa nêu biểu hiện cụ thể. Một video nêu suy ngẫm về tình thương, gắn bó và cho đi không đòi hỏi, chưa chứng minh thay đổi do thực hành kể chuyện. Chỉ giữ bài học khái quát từ nguồn riêng tư.",
+              "summary": "Các phản tư gồm tăng quan sát, giảm phản ứng; nhìn lại điểm tốt, điều cần sửa, giá trị sống và lựa chọn lặp lại; xúc động, biết ơn khi nhớ quá khứ. Có người nhận ra vai trò của tình thương, nghị lực, trí tuệ; soi thành bại qua nhân–duyên–quả; hiểu mình qua vòng tròn số 2 hoặc chọn bắt đầu từ việc nhỏ. Một nguồn rút bài học về trí tuệ tự rèn, nỗ lực không dính kết quả và chia sẻ. Một số chỉ nói hiểu mình hơn, nhìn sâu hơn hay dần chuyển hóa, chưa nêu biểu hiện cụ thể. Một video nêu suy ngẫm về tình thương, gắn bó và cho đi không đòi hỏi, chưa chứng minh thay đổi do thực hành kể chuyện. Chỉ giữ bài học khái quát từ nguồn riêng tư. Một người tự thuật rằng kể lại đời mình giúp nhận ra sự bám chấp vào điều mình tin là đúng, buông được một phần và thấy tâm trí nhẹ hơn; việc làm điều có ích hơn được nêu như khả năng mở ra, chưa phải kết quả đã thực hiện.",
               "sourceIds": [
                 "20261105-5446497a688bcc23",
                 "20261105-9e1b8f7529e66952",
@@ -21011,13 +21012,14 @@
                 "20261105-6bbfaa9eb1bec412",
                 "20261105-348b2df7e72b6201",
                 "20261105-8f8a19042afb3a80",
-                "20261105-2bdbea3b4a030103"
+                "20261105-2bdbea3b4a030103",
+                "20261105-0b096a2bc9142f6a"
               ],
               "privacyReviewSourceIds": [
                 "20261105-2824ce8b09e439e6",
                 "20261105-348b2df7e72b6201"
               ],
-              "count": 21
+              "count": 22
             },
             {
               "title": "Quan sát, lắng nghe và đưa bài học vào đời sống",
@@ -21076,7 +21078,7 @@
           "method": "chatgpt-semantic-reviewed",
           "coverage": {
             "reviewedSourceCount": 137,
-            "representedSourceCount": 96,
+            "representedSourceCount": 97,
             "status": "reviewed-snapshot"
           },
           "ideas": [
@@ -21122,7 +21124,7 @@
             },
             {
               "title": "Cô đọng mạch kể nhưng giữ chi tiết làm nên câu chuyện",
-              "summary": "Hướng cải tiến chung là kể đủ ý, có trọng tâm và mạch nối rõ, chọn chi tiết đắt giá, điểm nhấn hoặc bước ngoặt thay vì kéo dài. Một số học viên muốn mở đầu hấp dẫn hơn, kể đa dạng hơn hoặc dùng từ khóa. Việc rút gọn vẫn cần giữ những chi tiết phục vụ bài học; có người muốn bớt biện minh khi kể. Các mốc thời lượng video và thời gian gây chú ý ở đầu bài là mục tiêu riêng của từng người, không phải quy định chung.",
+              "summary": "Hướng cải tiến chung là kể đủ ý, có trọng tâm và mạch nối rõ, chọn chi tiết đắt giá, điểm nhấn hoặc bước ngoặt thay vì kéo dài. Một số học viên muốn mở đầu hấp dẫn hơn, kể đa dạng hơn hoặc dùng từ khóa. Việc rút gọn vẫn cần giữ những chi tiết phục vụ bài học; có người muốn bớt biện minh khi kể. Các mốc thời lượng video và thời gian gây chú ý ở đầu bài là mục tiêu riêng của từng người, không phải quy định chung. Một người muốn phần mở đầu và kết thúc hỗ trợ nhau, rút ngắn bài và thử kể hài hước về chính mình, có thể tự cười mình; đây là hướng cải tiến được nêu, chưa xác nhận đã làm.",
               "sourceIds": [
                 "20261105-90d0262314862348",
                 "20261105-c5c35ebb609e31ea",
@@ -21157,9 +21159,10 @@
                 "20261105-81b39ef58157cfa3",
                 "20261105-e16dcddf64edca82",
                 "20261105-2bbd96de1573c211",
-                "20261105-3bd59ece584caeab"
+                "20261105-3bd59ece584caeab",
+                "20261105-286a1ca52d0a3229"
               ],
-              "count": 34
+              "count": 35
             },
             {
               "title": "Sơ đồ có cấu trúc, dễ theo dõi và vừa đủ chi tiết",
@@ -21377,13 +21380,13 @@
           "method": "chatgpt-semantic-reviewed",
           "coverage": {
             "reviewedSourceCount": 88,
-            "representedSourceCount": 70,
+            "representedSourceCount": 71,
             "status": "reviewed-snapshot"
           },
           "ideas": [
             {
               "title": "Nhóm nhỏ giúp thực hành, phản biện và gắn kết",
-              "summary": "Học viên ghi nhận phối hợp, tương tác và chia sẻ trong nhóm nhỏ; có ý kiến nêu nhóm bốn người kể chuyện, phản biện rồi chấm chéo. Việc mỗi người được nói, đặt câu hỏi và nghe góc nhìn khác giúp hiểu sâu hơn, luyện trình bày. Các ý kiến cũng muốn duy trì tự tập, thảo luận, chia sẻ chủ động không cần sơ đồ, sự nâng đỡ và góp ý chân thành; đệ nhị thân nhắc nhau, nhóm trưởng làm gương làm bài.",
+              "summary": "Học viên ghi nhận phối hợp, tương tác và chia sẻ trong nhóm nhỏ; có ý kiến nêu nhóm bốn người kể chuyện, phản biện rồi chấm chéo. Việc mỗi người được nói, đặt câu hỏi và nghe góc nhìn khác giúp hiểu sâu hơn, luyện trình bày. Các ý kiến cũng muốn duy trì tự tập, thảo luận, chia sẻ chủ động không cần sơ đồ, sự nâng đỡ và góp ý chân thành; đệ nhị thân nhắc nhau, nhóm trưởng làm gương làm bài. Một người thấy việc chia sẻ câu chuyện đời mình trong nhóm giúp hiểu và trân trọng nhau hơn, nên muốn tiếp tục phát huy.",
               "sourceIds": [
                 "20261105-b4839d99333598ae",
                 "20261105-7b80d325c73cc7c0",
@@ -21405,9 +21408,10 @@
                 "20261105-5780ff6e8654db7d",
                 "20261105-219622fb6fe8922a",
                 "20261105-6e326e4635a3fcdb",
-                "20261105-d3c8017fcddb2b7a"
+                "20261105-d3c8017fcddb2b7a",
+                "20261105-9f03fa3297dba4e4"
               ],
-              "count": 21
+              "count": 22
             },
             {
               "title": "Duy trì cơ hội thực hành đều đặn",
@@ -21531,13 +21535,13 @@
           "method": "chatgpt-semantic-reviewed",
           "coverage": {
             "reviewedSourceCount": 85,
-            "representedSourceCount": 49,
+            "representedSourceCount": 50,
             "status": "reviewed-snapshot"
           },
           "ideas": [
             {
               "title": "Giữ giờ học và điều phối thời lượng rõ ràng",
-              "summary": "Có ý kiến yêu cầu giữ đúng thời gian và kết thúc đúng giờ, trong đó một người nêu mốc 21h30 để thuận tiện đi về. Các đề xuất gồm điều phối nghiêm hơn, giảm thời gian chờ, giới hạn phát biểu hoặc chữa bài và nhắc khi quá giờ nhưng vẫn để học viên được lắng nghe. Những mong muốn riêng về lịch gồm bắt đầu offline lúc 18h30, học sớm hơn 30 phút, hoặc bắt đầu sớm hơn để tăng thời lượng. Một nguồn chỉ muốn vào sớm để trao đổi, không xác định đổi giờ bắt đầu lớp. “Quản lý thời gian” chưa rõ phạm vi được giữ ở hàng chờ.",
+              "summary": "Có ý kiến yêu cầu giữ đúng thời gian và kết thúc đúng giờ, trong đó một người nêu mốc 21h30 để thuận tiện đi về. Các đề xuất gồm điều phối nghiêm hơn, giảm thời gian chờ, giới hạn phát biểu hoặc chữa bài và nhắc khi quá giờ nhưng vẫn để học viên được lắng nghe. Những mong muốn riêng về lịch gồm bắt đầu offline lúc 18h30, học sớm hơn 30 phút, hoặc bắt đầu sớm hơn để tăng thời lượng. Một nguồn chỉ muốn vào sớm để trao đổi, không xác định đổi giờ bắt đầu lớp. “Quản lý thời gian” chưa rõ phạm vi được giữ ở hàng chờ. Một phản hồi khác chỉ đề nghị thời gian dài hơn, chưa nêu rõ phần hoạt động, mức tăng hay cách bố trí; không suy thành đề nghị bắt đầu sớm hoặc kết thúc muộn.",
               "sourceIds": [
                 "20261105-36fced216aafe0f8",
                 "20261105-190a9eb1b21c29e0",
@@ -21548,12 +21552,13 @@
                 "20261105-7db8d4c02be15d17",
                 "20261105-00d370f9a1e8fedd",
                 "20261105-b42eb6a734b431b1",
-                "20261105-d47855ddee44a176"
+                "20261105-d47855ddee44a176",
+                "20261105-25cf849177b4d6f8"
               ],
               "privacyReviewSourceIds": [
                 "20261105-d47855ddee44a176"
               ],
-              "count": 10
+              "count": 11
             },
             {
               "title": "Giảm tiếng ồn, cải thiện không gian và kết nối âm thanh",
@@ -21690,7 +21695,7 @@
           "method": "chatgpt-semantic-reviewed",
           "coverage": {
             "reviewedSourceCount": 86,
-            "representedSourceCount": 65,
+            "representedSourceCount": 66,
             "status": "reviewed-snapshot"
           },
           "ideas": [
@@ -21809,28 +21814,30 @@
             },
             {
               "title": "Thực hành và tương tác nhiều hơn",
-              "summary": "Một số câu trả lời đặt trọng tâm vào thực hành, tương tác hoặc tích cực rèn luyện rồi khích lệ mọi người. Các ý này chưa nêu lịch hay mức thực hành cụ thể.",
+              "summary": "Một số câu trả lời đặt trọng tâm vào thực hành, tương tác hoặc tích cực rèn luyện rồi khích lệ mọi người. Các ý này chưa nêu lịch hay mức thực hành cụ thể. Một người nêu hướng trò chuyện với mọi người nhiều hơn, chưa xác nhận đã thực hiện.",
               "sourceIds": [
                 "20261105-35c27dfd5bef9fff",
                 "20261105-11a9ac7c4285bd87",
                 "20261105-f23662503e5251a8",
                 "20261105-351c5cd2b6848fa4",
                 "20261105-88d0355d5d449622",
-                "20261105-a06b76d929a3af43"
+                "20261105-a06b76d929a3af43",
+                "20261105-dca02024dbbbb032"
               ],
-              "count": 6
+              "count": 7
             },
             {
               "title": "Hỗ trợ học tập và vận hành lớp",
-              "summary": "Các đóng góp được nêu gồm tiếp tục phụng sự ban học tập để hỗ trợ ôn tập, giải đáp và hướng dẫn khi bạn hỏi, đồng hành vận hành lớp và sẵn sàng sắp xếp bàn ghế sau buổi học. Một người nêu cùng BPS tổ chức Zoom định kỳ, nhưng chưa có thông tin xác nhận lịch hay buổi Zoom đã diễn ra.",
+              "summary": "Các đóng góp được nêu gồm tiếp tục phụng sự ban học tập để hỗ trợ ôn tập, giải đáp và hướng dẫn khi bạn hỏi, đồng hành vận hành lớp và sẵn sàng sắp xếp bàn ghế sau buổi học. Một người nêu cùng BPS tổ chức Zoom định kỳ, nhưng chưa có thông tin xác nhận lịch hay buổi Zoom đã diễn ra. Một người nêu hướng chụp ảnh đẹp hơn, có kịch bản cho mọi người trình bày rồi quay phim, ghi hình cho họ; chưa xác nhận các việc này đã được triển khai.",
               "sourceIds": [
                 "20261105-2be7d69af15f11d6",
                 "20261105-336ccd975428c100",
                 "20261105-aa731ba011a8b1b3",
                 "20261105-abac8acc8652938e",
-                "20261105-e82ca1b9bf7807bc"
+                "20261105-e82ca1b9bf7807bc",
+                "20261105-dca02024dbbbb032"
               ],
-              "count": 5
+              "count": 6
             },
             {
               "title": "Góp ý cải tiến tổ chức và không gian học",
@@ -21859,7 +21866,7 @@
           "title": "Câu hỏi: Bạn có khó khăn & câu hỏi gì đến BTC/Thầy?",
           "method": "chatgpt-semantic-reviewed",
           "coverage": {
-            "reviewedSourceCount": 83,
+            "reviewedSourceCount": 84,
             "representedSourceCount": 29,
             "status": "reviewed-snapshot"
           },
@@ -30872,74 +30879,86 @@
           "heldStatus": "manual-review-required"
         },
         {
-          "id": "20261105-b8cc88b4dc33a923",
-          "fingerprint": "b8cc88b4dc33a923",
+          "id": "20261105-be07674f280a2f44",
+          "fingerprint": "be07674f280a2f44",
           "row": 139,
           "questionColumn": "Câu 2",
           "questionPrompt": "Viết Nhật ký đúc kết (trạng thái tâm, cảm xúc) của bạn từ trải nghiệm khen chê của đồng đội về video của bạn?",
           "group": "journal",
           "name": "Đế Quân",
-          "answer": "gh",
+          "answer": "Khi được nghe đồng đội nói video của mình rất hay, rất bánh cuốn, rất là truyền cảm, sinh động, thì em thấy là mình như được ăn sơn hào mỹ vị vậy. Và mình rất thích cái cảm giác ăn sơn hào mỹ vị này. Khi cảm giác này nó lên ngay lúc đấy ấy, vì là mình không quan sát được tâm, mà cụ thể ở đây là tâm tham được khen, tham được công nhận, tham được ghi nhận, tham được tung hô, mà không biết rằng chính tâm tham này nó dẫn đến khổ đau cho chính mình. Khi mà bị chê ấy, thì mình chỉ đọc lướt qua thôi, và mình có sự phản kháng, mình chối bỏ và mình sân với cái lời chê. Nó chỉ diễn ra ở trong tâm thôi, nhưng mà cái lời chê này nó được hình thành bởi tâm tham. Là tâm tham mong được ghi nhận nhưng mà lại bị chê như vậy, nên nó đảo chiều sang tâm sân, tâm sợ, sợ bị người khác đánh giá, sợ bị phán xét và sợ bị cho rằng thế này thế kia không tốt. Nhưng nhìn đúc kết lại thì khen chê nó chỉ là góc nhìn của người khác về mình, còn việc mình đọc những lời khen chê này, mình quan sát thân của mình căng không, thân của mình có cứng không, tâm của mình có vui không, tâm của mình có dễ chịu không. Đấy là lúc quan trọng khi mà mình đọc lời khen hay lời chê. Và mình đọc như vậy, và khi đọc xong dù là chê hay là khen thì mình cũng cần biết ơn người đã dành thời gian xuống ra để nói cho mình biết, viết cho mình hiểu.",
           "submitted": "31/10/2026 20:25",
           "due": "05/11/2026 23:00"
         },
         {
-          "id": "20261105-0184524517d29e07",
-          "fingerprint": "0184524517d29e07",
+          "id": "20261105-0b096a2bc9142f6a",
+          "fingerprint": "0b096a2bc9142f6a",
           "row": 139,
           "questionColumn": "Câu 3",
           "questionPrompt": "Từ trải nghiệm thực hành kể chuyện, hãy chia sẻ sự thay đổi, chuyển hoá của bạn về nhận thức, tư duy, hành vi và lời nói,..?",
           "group": "change",
           "name": "Đế Quân",
-          "answer": "gh",
+          "answer": "Từ cái việc mà em chia sẻ câu chuyện của cuộc đời mình ấy, thì em có một cái nhận thức hoàn toàn mới về cái việc bám chấp của mình, về cái điều mình tin rằng, mình nghĩ rằng, mình hiểu rằng nó đúng. Đó là cái niềm tin cố hữu của mình, cái niềm tin mình cho rằng mình sống vì điều đó và mình đang rất là thỏa mãn với cái điều đấy. Mình đang làm cái điều tốt đẹp. Thực sự thì đó chỉ là cái lời bao biện mà mình dành cho chính mình thôi. Nó là cái bản ngã mà mình tin rằng là nó là điều tốt đẹp, nhưng thực sự thì mình lấy cái việc là mình đã nỗ lực này, mình đã chăm chỉ, mình đã quyết liệt, mình đã dũng cảm, mình đã chiến đấu, mình đã thức khuya dậy sớm ấy. Thực ra đấy, tất cả những cái đấy nó chỉ là những cái lớp, những cái mặt nạ, những cái lớp cánh hoa nó xếp vào nó để nó bảo vệ cái nhụy bên trong thôi. Cái bản ngã ở bên trong nó vô cùng dày và nó thiếu trí tuệ, nên ấy, nào em cảm thấy là khi mà mình kể chuyện xong ấy thì mình đã mở ra được một vài cái cánh hoa trong cả cái bông hoa đấy. Mình buông xuống được một vài cái sợi dây nó trói buộc mình. Thì khi mà buông ra được rồi thì tâm trí của mình nó nhẹ lên, và mình có thể tập trung để làm những điều có ích hơn cho bản thân mình và cho những người xung quanh mình.",
           "submitted": "31/10/2026 20:25",
           "due": "05/11/2026 23:00"
         },
         {
-          "id": "20261105-7498ec57bc911a17",
-          "fingerprint": "7498ec57bc911a17",
+          "id": "20261105-286a1ca52d0a3229",
+          "fingerprint": "286a1ca52d0a3229",
           "row": 139,
           "questionColumn": "Câu 4",
           "questionPrompt": "Từ hoạt động phản hồi & chấm bài cho ĐNT trên web dh3g.vn , 3 điểm cần kaizen cho bài làm của bạn?",
           "group": "kaizen",
           "name": "Đế Quân",
-          "answer": "gho",
+          "answer": "1-là mở đầu câu chuyện và kết thúc câu chuyện thì nó phải hỗ trợ cho nhau.\n2-Rút ngắn câu chuyện lại\n3-có thể tự cười chính mình, tức là một câu chuyện hài về chính cuộc đời của mình.",
           "submitted": "31/10/2026 20:25",
           "due": "05/11/2026 23:00"
         },
         {
-          "id": "20261105-25538d5df09dfb2e",
-          "fingerprint": "25538d5df09dfb2e",
+          "id": "20261105-9f03fa3297dba4e4",
+          "fingerprint": "9f03fa3297dba4e4",
           "row": 139,
           "questionColumn": "Câu 5",
           "questionPrompt": "01 điểm tốt cần phát huy trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
           "group": "strength",
           "name": "Đế Quân",
-          "answer": "vh",
+          "answer": "Anh em đứng lên chia sẻ và mình hiểu hơn về anh em, để cái việc mà làm việc nhóm này này, để anh em đứng lên chia sẻ những câu chuyện của cuộc đời mình ấy. Để làm việc nhóm ấy nó rất là tốt và mình cần phát huy. Làm việc nhóm rất tốt và mình cần phải phát huy. Chính nhờ cái lúc làm việc nhóm này anh em hiểu nhau hơn, và khi mà anh em hiểu nhau ấy thì mình quý nhau và mình trân trọng nhau hơn.",
           "submitted": "31/10/2026 20:25",
           "due": "05/11/2026 23:00"
         },
         {
-          "id": "20261105-f99b45b6a34f75a3",
-          "fingerprint": "f99b45b6a34f75a3",
+          "id": "20261105-25cf849177b4d6f8",
+          "fingerprint": "25cf849177b4d6f8",
           "row": 139,
           "questionColumn": "Câu 6",
           "questionPrompt": "03 điểm cần cải thiện trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
           "group": "improve",
           "name": "Đế Quân",
-          "answer": "vn",
+          "answer": "1-Thời gian dài hơn",
           "submitted": "31/10/2026 20:25",
           "due": "05/11/2026 23:00"
         },
         {
-          "id": "20261105-75ea5d07abced3c9",
-          "fingerprint": "75ea5d07abced3c9",
+          "id": "20261105-dca02024dbbbb032",
+          "fingerprint": "dca02024dbbbb032",
           "row": 139,
           "questionColumn": "Câu 7",
           "questionPrompt": "Hành động cụ thể của bạn đóng góp giúp lớp học tốt lên là gì?",
           "group": "action",
           "name": "Đế Quân",
-          "answer": "hj",
+          "answer": "Đi trò chuyện với mọi người nhiều hơn, chụp ảnh đẹp hơn, có kịch bản để mọi người trình bày rồi mình quay phim và ghi hình lại cho mọi người.",
+          "submitted": "31/10/2026 20:25",
+          "due": "05/11/2026 23:00"
+        },
+        {
+          "id": "20261105-9d34db10c4eccbe8",
+          "fingerprint": "9d34db10c4eccbe8",
+          "row": 139,
+          "questionColumn": "Câu 8",
+          "questionPrompt": "Bạn có khó khăn & câu hỏi gì đến BTC/Thầy?",
+          "group": "questions",
+          "name": "Đế Quân",
+          "answer": "Em đã hỏi Thầy xong rồi ạ",
           "submitted": "31/10/2026 20:25",
           "due": "05/11/2026 23:00"
         }
@@ -31050,10 +31069,6 @@
           "reason": "no-feedback-or-reflection-unclear"
         },
         {
-          "sourceId": "20261105-b8cc88b4dc33a923",
-          "reason": "uninterpretable-response"
-        },
-        {
           "sourceId": "20261105-29040a41a6940b46",
           "reason": "general-principle-not-specific-emotional-experience"
         },
@@ -31108,10 +31123,6 @@
         {
           "sourceId": "20261105-5766a8239339de57",
           "reason": "update-promised"
-        },
-        {
-          "sourceId": "20261105-0184524517d29e07",
-          "reason": "uninterpretable-response"
         },
         {
           "sourceId": "20261105-348b2df7e72b6201",
@@ -31216,10 +31227,6 @@
         {
           "sourceId": "20261105-acdecfb7d45aa14f",
           "reason": "Chỉ trả lời “dạ”, không có nội dung kaizen."
-        },
-        {
-          "sourceId": "20261105-7498ec57bc911a17",
-          "reason": "Chuỗi “gho” không đủ nghĩa để diễn giải."
         },
         {
           "sourceId": "20261105-5ec963ff47824422",
@@ -31348,10 +31355,6 @@
         {
           "sourceId": "20261105-4cba24f6f314eb5a",
           "reason": "gratitude-without-specific-strength"
-        },
-        {
-          "sourceId": "20261105-25538d5df09dfb2e",
-          "reason": "uninterpretable-short-response"
         },
         {
           "sourceId": "20261105-aaf4649aee7cec9d",
@@ -31494,10 +31497,6 @@
           "reason": "story-review-request-too-vague-to-infer-specific-change"
         },
         {
-          "sourceId": "20261105-f99b45b6a34f75a3",
-          "reason": "uninterpretable-short-response"
-        },
-        {
           "sourceId": "20261105-5cbf3fac85a95fd4",
           "reason": "Ý về bảo đảm giờ kết thúc chưa rõ là đề nghị hay việc người học sẽ làm; cần làm rõ."
         },
@@ -31576,10 +31575,6 @@
         {
           "sourceId": "20261105-91f33b5d94e5ebf7",
           "reason": "Chưa có ý tưởng cụ thể; dự định góp ý khi có ý tưởng."
-        },
-        {
-          "sourceId": "20261105-75ea5d07abced3c9",
-          "reason": "Câu trả lời quá ít thông tin."
         },
         {
           "sourceId": "20261105-4ae0be392dbe37e9",
@@ -31820,30 +31815,39 @@
         {
           "sourceId": "20261105-712f97ff40cbf2e1",
           "reason": "kaizen-intended-after-class-no-specific-improvement-yet"
+        },
+        {
+          "sourceId": "20261105-25cf849177b4d6f8",
+          "reason": "requested-longer-time-activity-and-duration-unspecified"
+        },
+        {
+          "sourceId": "20261105-9d34db10c4eccbe8",
+          "reason": "already-asked-teacher-no-question-content-or-resolution-stated"
         }
       ],
       "checkpoint": {
         "status": "reviewed-snapshot",
-        "reviewedAt": "2026-11-06T11:16:43.209228+00:00",
+        "reviewedAt": "2026-11-07T01:16:52.055601+00:00",
         "method": "Native ChatGPT semantic reading; no external AI API.",
-        "sourceCount": 754,
+        "sourceCount": 755,
         "routingCorrection": "Question meaning verified: self-kaizen responses now use the feedback prompt, not storytelling-video instructions.",
         "latestMediaReview": "Four actual UI transcripts read, six source/question contexts assessed. Intimate, unlisted or sensitive source links held. Transcripts do not establish storytelling caused broader life changes. Audio and video images were not independently reviewed.",
-        "sourceCsvSha256": "9a7a854b1a68a5adbb6f66784a4ef7ff4c7a598b7ed5dcc51afec1ce393e24cb",
         "textReviewStatus": "All current response text reviewed. All four additional video transcripts reviewed; five question contexts not selected and one limited, de-identified practice reflection represented.",
         "mediaUninterpretedCount": 0,
         "mediaVideosReviewedCount": 5,
         "mediaReviewedAt": "2026-11-05T20:24:19.451079+00:00",
-        "latestSemanticQA": "Future Facebook-posting intent remains an intention; no posting or additional received feedback is inferred or performed.",
-        "sourceVerifiedAt": "2026-11-06T11:16:43.209228+00:00",
-        "latestSourceUpdate": "One journal answer updated with a plan to seek feedback. Source count, submission count and idea count unchanged.",
-        "lastContentReviewedAt": "2026-11-06T11:16:43.209228+00:00",
+        "latestSemanticQA": "Six substantive responses represented in existing ideas. The request for more time remains nonspecific, and the already-asked status does not imply a resolved question.",
+        "sourceVerifiedAt": "2026-11-07T01:16:52.055601+00:00",
+        "latestSourceUpdate": "Six placeholders replaced with reviewed learning feedback; one answered-already status added; two submission statuses changed to reviewed.",
+        "lastContentReviewedAt": "2026-11-07T01:16:52.055601+00:00",
         "reviewedSnapshotComplete": true,
         "collectionClosureVerified": false,
-        "reviewQueueInterpretation": "All queued sources have been read and dispositioned. The queue records deferred, ambiguous, excluded or privacy-limited material, not unread current-week media."
+        "reviewQueueInterpretation": "All queued sources have been read and dispositioned. The queue records deferred, ambiguous, excluded or privacy-limited material, not unread current-week media.",
+        "sourceSemanticFingerprint": "11dbab001426b25a41dbf8533bb02f9a491fe16ed66d761d59dcc98dc4c918b3",
+        "sourceReadMethod": "Connected Google Sheets formatted values; contact columns excluded."
       }
     }
   ],
   "method": "chatgpt-semantic-reviewed-with-ongoing-draft",
-  "contentHash": "2ca61f925922032528ce8593cc1b07105b3113360645577f29330fdca13a1bf7"
+  "contentHash": "9b851a80c063cb2394fea7636c5bc81e4e8870355f69a78e8eed80185f38be36"
 }

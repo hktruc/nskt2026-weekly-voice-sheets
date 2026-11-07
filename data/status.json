@@ -1,28 +1,28 @@
 {
   "status": "success",
-  "checkedAt": "2026-11-06T11:16:43.209228+00:00",
+  "checkedAt": "2026-11-07T01:16:52.055601+00:00",
   "sourceChangedSinceLastPublication": true,
   "changedTabs": [
     "20261105"
   ],
-  "dataChangeScope": "One reviewed journal feedback update; current totals and privacy exclusions unchanged.",
+  "dataChangeScope": "Six placeholders replaced with reviewed feedback and one answered-already status added; two submission statuses changed to reviewed.",
   "currentTab": {
     "tab": "20261105",
     "status": "past-deadline-reviewed-snapshot",
     "weekRows": 138,
-    "sourceCount": 754,
+    "sourceCount": 755,
     "ideaCount": 68,
-    "representedSourceCount": 547,
-    "reviewQueueCount": 219,
+    "representedSourceCount": 553,
+    "reviewQueueCount": 215,
     "semanticMethod": "Native ChatGPT semantic reading; no external AI API.",
-    "sourceCsvSha256": "9a7a854b1a68a5adbb6f66784a4ef7ff4c7a598b7ed5dcc51afec1ce393e24cb",
-    "sourceHash": "3c11ffe0064885eabb29d08e086f35cd4b641444b3e33fd627c18eccd09c071a",
+    "sourceHash": "11dbab001426b25a41dbf8533bb02f9a491fe16ed66d761d59dcc98dc4c918b3",
     "reviewStatus": "reviewed-snapshot",
     "deadlinePassed": true,
-    "collectionClosureVerified": false
+    "collectionClosureVerified": false,
+    "sourceReadMethod": "Connected Google Sheets formatted values; contact columns excluded."
   },
   "privacyHeldSourceCount": 32,
   "currentWeekPrivacyHeldSourceCount": 16,
   "externalAiUsed": false,
-  "contentHash": "2ca61f925922032528ce8593cc1b07105b3113360645577f29330fdca13a1bf7"
+  "contentHash": "9b851a80c063cb2394fea7636c5bc81e4e8870355f69a78e8eed80185f38be36"
 }
