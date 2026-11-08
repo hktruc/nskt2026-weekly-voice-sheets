@@ -1,12 +1,12 @@
 {
   "status": "success",
-  "checkedAt": "2026-11-08T12:21:13.699637+00:00",
-  "sourceChangedSinceLastPublication": true,
+  "checkedAt": "2026-11-08T23:28:00Z",
+  "sourceChangedSinceLastPublication": false,
   "changedTabs": [
-    "20261105",
-    "20261112"
+    "20261008",
+    "20261015"
   ],
-  "dataChangeScope": "One new submission adds seven nonempty responses in week 20261112. Six single-letter placeholders and one explicit no-question response are queued; no new learning idea. Existing source row references shift by one. Prior-week review metadata refreshed; prior feedback content unchanged.",
+  "dataChangeScope": "Added reviewed text summaries and safe original-answer evidence for weeks 20261008 and 20261015. Existing four weeks unchanged. Linked media remains unread; collection closure is unverified.",
   "currentTab": {
     "tab": "20261112",
     "status": "within-deadline-reviewed-snapshot",
@@ -22,8 +22,11 @@
     "collectionClosureVerified": false,
     "sourceReadMethod": "Connected Google Sheets formatted values; contact columns excluded."
   },
-  "privacyHeldSourceCount": 32,
+  "privacyHeldSourceCount": 256,
   "currentWeekPrivacyHeldSourceCount": 0,
   "externalAiUsed": false,
-  "contentHash": "35978418ef41a03498e6919d10ce22474c1487c9b4923382c335ecd505b9ae9f"
+  "contentHash": "25c236864558d3abf61745ce4bd064eca8e1b02b2d03658702870a456db9a541",
+  "textReviewCompleteForAddedWeeks": true,
+  "mediaReviewCompleteForAddedWeeks": false,
+  "collectionClosureVerifiedForAddedWeeks": false
 }

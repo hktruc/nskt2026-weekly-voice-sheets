@@ -36,7 +36,7 @@ function freeze(value) {
 }
 
 async function load(data = fixture(), random = 0.25) {
-  const buttons = { contributors: [], sources: [], back: null };
+  const buttons = { contributors: [], sources: [], occurrences: [], back: null };
   const element = () => ({ value: '', textContent: '', innerHTML: '' });
   const elements = Object.fromEntries(['#week', '#search', '#stats', '#groups', '#detail', '#sourceDialog', '.close', 'aside'].map((key) => [key, element()]));
   elements['#week'].options = [];
@@ -53,6 +53,7 @@ async function load(data = fixture(), random = 0.25) {
     set(html) {
       this.html = html;
       buttons.sources = [...html.matchAll(/<button data-source="([^"]+)">/g)].map((match) => ({ dataset: { source: match[1] } }));
+      buttons.occurrences = [...html.matchAll(/<button data-occurrence="([^"]+)">/g)].map((match) => ({ dataset: { occurrence: match[1] } }));
       buttons.back = html.includes('class="back"') ? {} : null;
     },
   });
@@ -73,7 +74,7 @@ async function load(data = fixture(), random = 0.25) {
     Option: function (text, value) { this.text = text; this.value = value; },
     document: {
       querySelector: (selector) => selector === '.back' ? buttons.back : elements[selector],
-      querySelectorAll: (selector) => selector === '.contributors' ? buttons.contributors : selector === '[data-source]' ? buttons.sources : [],
+      querySelectorAll: (selector) => selector === '.contributors' ? buttons.contributors : selector === '[data-source]' ? buttons.sources : selector === '[data-occurrence]' ? buttons.occurrences : [],
     },
     fetch: async (url, options) => { fetches.push({ url, options }); return { json: async () => data }; },
     setInterval: (...args) => { timers.push(args); },
@@ -109,7 +110,7 @@ test('each load requests fresh data once and bumps the application asset version
   assert.equal(first.timers.length, 0);
   assert.equal(second.timers.length, 0);
   const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
-  assert.match(html, /app\.js\?v=fresh-deadline-20261106-1/);
+  assert.match(html, /app\.js\?v=source-status-20261109-1/);
   assert.doesNotMatch(html, /hourly-20261104-0715/);
 });
 
@@ -173,17 +174,24 @@ test('search retains idea indices and contributor/source/back/close/privacy beha
     assert.equal(buttons.contributors[0].dataset.index, '1');
   }
   assert.match(elements['#groups'].innerHTML, /Thực hành &lt;an toàn&gt;/);
-  assert.match(elements['#groups'].innerHTML, /2 tên học viên \+ 1 nguồn giữ riêng/);
+  assert.match(elements['#groups'].innerHTML, /2 tên học viên · 3 nguồn công khai \+ 1 nguồn giữ riêng/);
   buttons.contributors[0].onclick();
   assert.equal(elements['#sourceDialog'].open, true);
   assert.deepEqual(buttons.sources.map((button) => button.dataset.source), ['an1', 'binh']);
   assert.doesNotMatch(elements['#detail'].innerHTML, /data-source="held"|data-source="an2"/);
   assert.match(elements['#detail'].innerHTML, /An &lt;A&gt;/);
   buttons.sources[0].onclick();
+  assert.deepEqual(buttons.occurrences.map((b) => b.dataset.occurrence), ['an1', 'an2']);
+  buttons.occurrences[1].onclick();
+  assert.match(elements['#detail'].innerHTML, /Giữ thói quen/);
+  buttons.back.onclick();
+  buttons.occurrences[0].onclick();
   assert.match(elements['#detail'].innerHTML, /Câu hỏi gốc/);
   assert.match(elements['#detail'].innerHTML, /Nhật ký &lt;gốc&gt;/);
   assert.match(elements['#detail'].innerHTML, /&lt;script&gt;alert\(1\)&lt;\/script&gt;/);
   assert.match(elements['#detail'].innerHTML, /Tab 20261105 · hàng 3/);
+  buttons.back.onclick();
+  assert.equal(buttons.occurrences.length, 2);
   buttons.back.onclick();
   assert.deepEqual(buttons.sources.map((button) => button.dataset.source), ['an1', 'binh']);
   elements['.close'].onclick();
@@ -201,4 +209,88 @@ test('search retains idea indices and contributor/source/back/close/privacy beha
   assert.equal(buttons.contributors.length, 2);
   assert.equal(ui.fetches.length, 1);
   assert.equal(ui.timers.length, 0);
+});
+
+
+test('actual restored release latest week and source navigation', async () => {
+ const data=JSON.parse(fs.readFileSync(path.join(root,'data/weeks.json'),'utf8')); const ui=await load(data);
+ assert.equal(ui.elements['#week'].value,'20261112');
+ assert.match(ui.elements['#stats'].innerHTML,/<b>2<\/b><span>bài WEEK/);
+ assert.match(ui.elements['#stats'].innerHTML,/<b>14<\/b><span>câu trả lời có nội dung/);
+ assert.match(ui.elements['#stats'].innerHTML,/hạn nộp · trong hạn/);
+ assert.equal(ui.buttons.contributors.length,1); ui.buttons.contributors[0].onclick();
+ assert.equal(ui.elements['#sourceDialog'].open,true); assert.equal(ui.buttons.sources.length,1);
+ ui.buttons.sources[0].onclick(); assert.match(ui.elements['#detail'].innerHTML,/Tab 20261112 · hàng 3/);
+ ui.buttons.back.onclick(); assert.equal(ui.buttons.sources.length,1);ui.elements['.close'].onclick();assert.equal(ui.elements['#sourceDialog'].open,false);
+ ui.elements['#week'].value='20261105';ui.elements['#week'].onchange();
+ assert.match(ui.elements['#stats'].innerHTML,/<b>138<\/b><span>bài WEEK/);assert.match(ui.elements['#stats'].innerHTML,/<b>755<\/b><span>câu trả lời có nội dung/);
+ assert.match(ui.elements['#stats'].innerHTML,/hạn nộp · đã qua hạn/);assert.equal(ui.buttons.contributors.length,68);assert.equal(ui.fetches.length,1);
+});
+
+
+test('text, media and collection closure are independent from deadline and method', async () => {
+  for (const due of ['08/10/2026 23:00', undefined]) {
+    const data = fixture(); const week = data.weeks[0];
+    Object.assign(week, {due, textReviewComplete:true, mediaReviewComplete:false, collectionClosure:'unverified', coverage:{mediaOnlyUninterpreted:9, linkedMediaAlongsideText:'unopened'}});
+    week.summaries[0].method='chatgpt-semantic-reviewed-text-only';
+    const ui=await load(data); const text=ui.elements.aside.textContent;
+    assert.match(text,/Đã đọc xong phần văn bản/); assert.match(text,/9 nguồn chỉ chứa media/);
+    assert.match(text,/đi kèm câu trả lời văn bản cũng chưa được mở/); assert.match(text,/Chưa xác nhận việc thu thập đã đóng/);
+    assert.doesNotMatch(text,/đang thu|Bản tin đã được ChatGPT đọc|bản nháp/);
+  }
+});
+
+test('duplicate answer occurrences remain distinct; held fields cannot enter search or direct source view', async () => {
+  const data=fixture(); const week=data.weeks[0];
+  week.sources[2].answer=week.sources[1].answer;
+  Object.assign(week.sources[4], {name:'SECRET NAME', answer:'SECRET ANSWER'});
+  week.summaries[0].ideas[1].sourceIds.push('an1');
+  // Source-level hold is sufficient even if the idea omits its hold list.
+  week.summaries[0].ideas[1].privacyReviewSourceIds=[];
+  const ui=await load(data); const {elements,buttons}=ui;
+  assert.match(elements['#groups'].innerHTML,/2 tên học viên · 3 nguồn công khai \+ 1 nguồn giữ riêng/);
+  for (const query of ['SECRET NAME','SECRET ANSWER']) {
+    elements['#search'].value=query;elements['#search'].oninput();assert.equal(buttons.contributors.length,0);
+  }
+  elements['#search'].value='';elements['#search'].oninput();buttons.contributors[1].onclick();buttons.sources[0].onclick();
+  assert.equal(buttons.occurrences.length,2);
+  for (const id of ['an1','an2']) {
+    buttons.occurrences.find(b=>b.dataset.occurrence===id).onclick();
+    assert.ok(elements['#detail'].innerHTML.includes(`mã ${id}`));buttons.back.onclick();
+  }
+  const before=elements['#detail'].innerHTML;ui.evaluate("openSource(sourceMap.held)");assert.equal(elements['#detail'].innerHTML,before);
+  elements['.close'].onclick();buttons.contributors[1].onclick();assert.equal(buttons.sources.length,2);assert.equal(buttons.occurrences.length,0);
+});
+
+test('added week originals remain reachable and held stubs remain excluded', async (t) => {
+  const input=process.env.CANDIDATE_PATH || path.join(root,'data/weeks.json');
+  const data=freeze(JSON.parse(fs.readFileSync(input,'utf8')));const before=JSON.stringify(data);const ui=await load(data);
+  let checked=0;
+  for(const week of data.weeks.filter(w=>['20261008','20261015'].includes(w.tab))){
+    ui.elements['#week'].value=week.tab;ui.elements['#week'].onchange();
+    assert.match(ui.elements.aside.textContent,/Đã đọc xong phần văn bản/);
+    assert.match(ui.elements.aside.textContent,new RegExp(`${week.coverage.mediaOnlyUninterpreted} nguồn chỉ chứa media`));
+    for(const group of week.summaries)for(let i=0;i<group.ideas.length;i++){
+      const idea=group.ideas[i];ui.context.testGroup=group.id;ui.context.testIndex=i;
+      ui.evaluate('openContributors(testGroup,testIndex)');
+      const publicIds=[...new Set(idea.sourceIds)].filter(id=>!idea.privacyReviewSourceIds?.includes(id)&&!week.sources.find(s=>s.id===id)?.privacyHeld);
+      const reachable=[];
+      for(const rep of [...ui.buttons.sources]){
+        rep.onclick();
+        if(ui.buttons.occurrences.length){
+          for(const occurrence of [...ui.buttons.occurrences]){
+            const source=week.sources.find(s=>s.id===occurrence.dataset.occurrence);occurrence.onclick();
+            ui.context.testAnswer=source.answer;ui.context.testPrompt=source.questionPrompt;
+            assert.ok(ui.elements['#detail'].innerHTML.includes(ui.evaluate('esc(testAnswer)')));
+            assert.ok(ui.elements['#detail'].innerHTML.includes(ui.evaluate('esc(testPrompt)')));
+            reachable.push(source.id);ui.buttons.back.onclick();checked++;
+          }
+          ui.buttons.back.onclick();
+        }else{reachable.push(rep.dataset.source);ui.buttons.back.onclick();checked++;}
+      }
+      assert.deepEqual(reachable.sort(),publicIds.sort());
+      ui.elements['.close'].onclick();
+    }
+  }
+  assert.equal(JSON.stringify(data),before);t.diagnostic(`${checked} public source memberships reachable with original answers`);
 });
