@@ -1,21 +1,22 @@
 {
   "status": "success",
-  "checkedAt": "2026-11-07T13:18:52.459455+00:00",
+  "checkedAt": "2026-11-08T12:21:13.699637+00:00",
   "sourceChangedSinceLastPublication": true,
   "changedTabs": [
+    "20261105",
     "20261112"
   ],
-  "dataChangeScope": "New weekly tab: one submission, seven nonempty feedback responses; one substantive self-reflection represented and six deferred with explicit reasons. Prior weeks unchanged.",
+  "dataChangeScope": "One new submission adds seven nonempty responses in week 20261112. Six single-letter placeholders and one explicit no-question response are queued; no new learning idea. Existing source row references shift by one. Prior-week review metadata refreshed; prior feedback content unchanged.",
   "currentTab": {
     "tab": "20261112",
     "status": "within-deadline-reviewed-snapshot",
-    "weekRows": 1,
-    "sourceCount": 7,
+    "weekRows": 2,
+    "sourceCount": 14,
     "ideaCount": 1,
     "representedSourceCount": 1,
-    "reviewQueueCount": 6,
+    "reviewQueueCount": 13,
     "semanticMethod": "Native ChatGPT semantic reading; no external AI API.",
-    "sourceHash": "d89596d49f1b0d3fe5aefac91e84036a5be76f328b9d9a1614ea0e023c413251",
+    "sourceHash": "0e564931cbab5794ad16bed90ef4dc07033f59b1c47c71bfaa5756ab98dad309",
     "reviewStatus": "reviewed-snapshot",
     "deadlinePassed": false,
     "collectionClosureVerified": false,
@@ -24,5 +25,5 @@
   "privacyHeldSourceCount": 32,
   "currentWeekPrivacyHeldSourceCount": 0,
   "externalAiUsed": false,
-  "contentHash": "337b6c611bbde0e78bbcd5d6a14e79e69038f2122c16f66989c53f4c171d8e9b"
+  "contentHash": "35978418ef41a03498e6919d10ce22474c1487c9b4923382c335ecd505b9ae9f"
 }

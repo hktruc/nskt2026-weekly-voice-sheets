@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T13:18:52.459455+00:00",
+  "generatedAt": "2026-11-08T12:21:13.699637+00:00",
   "sheetId": "1iDg5ryTjItafI9K0lwORi7KcwsCUmCClaQEg79KhWyQ",
   "weeks": [
     {
@@ -20592,7 +20592,7 @@
       "submissionCount": 138,
       "answerCount": 755,
       "complete": false,
-      "reviewCount": 47,
+      "reviewCount": 50,
       "summaries": [
         {
           "id": "journal",
@@ -31837,30 +31837,30 @@
         "mediaVideosReviewedCount": 5,
         "mediaReviewedAt": "2026-11-05T20:24:19.451079+00:00",
         "latestSemanticQA": "Six substantive responses represented in existing ideas. The request for more time remains nonspecific, and the already-asked status does not imply a resolved question.",
-        "sourceVerifiedAt": "2026-11-07T01:16:52.055601+00:00",
-        "latestSourceUpdate": "Six placeholders replaced with reviewed learning feedback; one answered-already status added; two submission statuses changed to reviewed.",
+        "sourceVerifiedAt": "2026-11-08T12:21:13.699637+00:00",
+        "latestSourceUpdate": "Review status refreshed to 50 reviewed submissions; learning responses and summary ideas unchanged.",
         "lastContentReviewedAt": "2026-11-07T01:16:52.055601+00:00",
         "reviewedSnapshotComplete": true,
         "collectionClosureVerified": false,
         "reviewQueueInterpretation": "All queued sources have been read and dispositioned. The queue records deferred, ambiguous, excluded or privacy-limited material, not unread current-week media.",
-        "sourceSemanticFingerprint": "11dbab001426b25a41dbf8533bb02f9a491fe16ed66d761d59dcc98dc4c918b3",
+        "sourceSemanticFingerprint": "4b5b762790f88657ab028260a521886d43ef3348ed2b84587c15034d0ec7d409",
         "sourceReadMethod": "Connected Google Sheets formatted values; contact columns excluded."
       }
     },
     {
       "tab": "20261112",
       "due": "12/11/2026 23:00",
-      "submissionCount": 1,
-      "answerCount": 7,
+      "submissionCount": 2,
+      "answerCount": 14,
       "complete": false,
-      "reviewCount": 0,
+      "reviewCount": 1,
       "summaries": [
         {
           "id": "journal",
           "title": "Câu hỏi: Viết Nhật ký đúc kết (trạng thái tâm, cảm xúc) của bạn từ trải nghiệm khen chê của đồng đội về video của bạn?",
           "method": "chatgpt-semantic-reviewed",
           "coverage": {
-            "reviewedSourceCount": 1,
+            "reviewedSourceCount": 2,
             "representedSourceCount": 0,
             "status": "reviewed-snapshot"
           },
@@ -31871,7 +31871,7 @@
           "title": "Câu hỏi: Từ trải nghiệm thực hành kể chuyện, hãy chia sẻ sự thay đổi, chuyển hoá của bạn về nhận thức, tư duy, hành vi và lời nói,..?",
           "method": "chatgpt-semantic-reviewed",
           "coverage": {
-            "reviewedSourceCount": 1,
+            "reviewedSourceCount": 2,
             "representedSourceCount": 1,
             "status": "reviewed-snapshot"
           },
@@ -31891,7 +31891,7 @@
           "title": "Câu hỏi: Từ hoạt động phản hồi & chấm bài cho ĐNT trên web dh3g.vn , 3 điểm cần kaizen cho bài làm của bạn?",
           "method": "chatgpt-semantic-reviewed",
           "coverage": {
-            "reviewedSourceCount": 1,
+            "reviewedSourceCount": 2,
             "representedSourceCount": 0,
             "status": "reviewed-snapshot"
           },
@@ -31902,7 +31902,7 @@
           "title": "Câu hỏi: 01 điểm tốt cần phát huy trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
           "method": "chatgpt-semantic-reviewed",
           "coverage": {
-            "reviewedSourceCount": 1,
+            "reviewedSourceCount": 2,
             "representedSourceCount": 0,
             "status": "reviewed-snapshot"
           },
@@ -31913,7 +31913,7 @@
           "title": "Câu hỏi: 03 điểm cần cải thiện trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
           "method": "chatgpt-semantic-reviewed",
           "coverage": {
-            "reviewedSourceCount": 1,
+            "reviewedSourceCount": 2,
             "representedSourceCount": 0,
             "status": "reviewed-snapshot"
           },
@@ -31924,7 +31924,7 @@
           "title": "Câu hỏi: Hành động cụ thể của bạn đóng góp giúp lớp học tốt lên là gì?",
           "method": "chatgpt-semantic-reviewed",
           "coverage": {
-            "reviewedSourceCount": 1,
+            "reviewedSourceCount": 2,
             "representedSourceCount": 0,
             "status": "reviewed-snapshot"
           },
@@ -31935,7 +31935,7 @@
           "title": "Câu hỏi: Bạn có khó khăn & câu hỏi gì đến BTC/Thầy?",
           "method": "chatgpt-semantic-reviewed",
           "coverage": {
-            "reviewedSourceCount": 1,
+            "reviewedSourceCount": 2,
             "representedSourceCount": 0,
             "status": "reviewed-snapshot"
           },
@@ -31944,9 +31944,93 @@
       ],
       "sources": [
         {
+          "id": "20261112-1e8dbd19c4fb434e",
+          "fingerprint": "1e8dbd19c4fb434e",
+          "row": 2,
+          "questionColumn": "Câu 2",
+          "questionPrompt": "Viết Nhật ký đúc kết (trạng thái tâm, cảm xúc) của bạn từ trải nghiệm khen chê của đồng đội về video của bạn?",
+          "group": "journal",
+          "name": "Đế Quân",
+          "answer": "e",
+          "submitted": "08/11/2026 17:48",
+          "due": "12/11/2026 23:00"
+        },
+        {
+          "id": "20261112-6ee4c9c37cc4dc01",
+          "fingerprint": "6ee4c9c37cc4dc01",
+          "row": 2,
+          "questionColumn": "Câu 3",
+          "questionPrompt": "Từ trải nghiệm thực hành kể chuyện, hãy chia sẻ sự thay đổi, chuyển hoá của bạn về nhận thức, tư duy, hành vi và lời nói,..?",
+          "group": "change",
+          "name": "Đế Quân",
+          "answer": "e",
+          "submitted": "08/11/2026 17:48",
+          "due": "12/11/2026 23:00"
+        },
+        {
+          "id": "20261112-995cbde128745d25",
+          "fingerprint": "995cbde128745d25",
+          "row": 2,
+          "questionColumn": "Câu 4",
+          "questionPrompt": "Từ hoạt động phản hồi & chấm bài cho ĐNT trên web dh3g.vn , 3 điểm cần kaizen cho bài làm của bạn?",
+          "group": "kaizen",
+          "name": "Đế Quân",
+          "answer": "e",
+          "submitted": "08/11/2026 17:48",
+          "due": "12/11/2026 23:00"
+        },
+        {
+          "id": "20261112-27c224f122745f36",
+          "fingerprint": "27c224f122745f36",
+          "row": 2,
+          "questionColumn": "Câu 5",
+          "questionPrompt": "01 điểm tốt cần phát huy trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
+          "group": "strength",
+          "name": "Đế Quân",
+          "answer": "e",
+          "submitted": "08/11/2026 17:48",
+          "due": "12/11/2026 23:00"
+        },
+        {
+          "id": "20261112-e09f43a47fcb4def",
+          "fingerprint": "e09f43a47fcb4def",
+          "row": 2,
+          "questionColumn": "Câu 6",
+          "questionPrompt": "03 điểm cần cải thiện trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
+          "group": "improve",
+          "name": "Đế Quân",
+          "answer": "e",
+          "submitted": "08/11/2026 17:48",
+          "due": "12/11/2026 23:00"
+        },
+        {
+          "id": "20261112-585286f49523faa8",
+          "fingerprint": "585286f49523faa8",
+          "row": 2,
+          "questionColumn": "Câu 7",
+          "questionPrompt": "Hành động cụ thể của bạn đóng góp giúp lớp học tốt lên là gì?",
+          "group": "action",
+          "name": "Đế Quân",
+          "answer": "e",
+          "submitted": "08/11/2026 17:48",
+          "due": "12/11/2026 23:00"
+        },
+        {
+          "id": "20261112-40eff341228cf422",
+          "fingerprint": "40eff341228cf422",
+          "row": 2,
+          "questionColumn": "Câu 8",
+          "questionPrompt": "Bạn có khó khăn & câu hỏi gì đến BTC/Thầy?",
+          "group": "questions",
+          "name": "Đế Quân",
+          "answer": "Em không.",
+          "submitted": "08/11/2026 17:48",
+          "due": "12/11/2026 23:00"
+        },
+        {
           "id": "20261112-9b4a2a54a23d795c",
           "fingerprint": "9b4a2a54a23d795c",
-          "row": 2,
+          "row": 3,
           "questionColumn": "Câu 2",
           "questionPrompt": "Viết Nhật ký đúc kết (trạng thái tâm, cảm xúc) của bạn từ trải nghiệm khen chê của đồng đội về video của bạn?",
           "group": "journal",
@@ -31958,7 +32042,7 @@
         {
           "id": "20261112-f63f6223489ffd32",
           "fingerprint": "f63f6223489ffd32",
-          "row": 2,
+          "row": 3,
           "questionColumn": "Câu 3",
           "questionPrompt": "Từ trải nghiệm thực hành kể chuyện, hãy chia sẻ sự thay đổi, chuyển hoá của bạn về nhận thức, tư duy, hành vi và lời nói,..?",
           "group": "change",
@@ -31970,7 +32054,7 @@
         {
           "id": "20261112-df5db5a4163e2d85",
           "fingerprint": "df5db5a4163e2d85",
-          "row": 2,
+          "row": 3,
           "questionColumn": "Câu 4",
           "questionPrompt": "Từ hoạt động phản hồi & chấm bài cho ĐNT trên web dh3g.vn , 3 điểm cần kaizen cho bài làm của bạn?",
           "group": "kaizen",
@@ -31982,7 +32066,7 @@
         {
           "id": "20261112-8ceff6698d2dcab4",
           "fingerprint": "8ceff6698d2dcab4",
-          "row": 2,
+          "row": 3,
           "questionColumn": "Câu 5",
           "questionPrompt": "01 điểm tốt cần phát huy trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
           "group": "strength",
@@ -31994,7 +32078,7 @@
         {
           "id": "20261112-a263e5e2ec42f8c8",
           "fingerprint": "a263e5e2ec42f8c8",
-          "row": 2,
+          "row": 3,
           "questionColumn": "Câu 6",
           "questionPrompt": "03 điểm cần cải thiện trong lớp học là gì? (Thầy, BTC, vận hành, đội nhóm, bài học, bài tập, web, buổi học offline, chấm bài,..)",
           "group": "improve",
@@ -32006,7 +32090,7 @@
         {
           "id": "20261112-145959cd9a068bac",
           "fingerprint": "145959cd9a068bac",
-          "row": 2,
+          "row": 3,
           "questionColumn": "Câu 7",
           "questionPrompt": "Hành động cụ thể của bạn đóng góp giúp lớp học tốt lên là gì?",
           "group": "action",
@@ -32018,7 +32102,7 @@
         {
           "id": "20261112-ce430a1465ca36d7",
           "fingerprint": "ce430a1465ca36d7",
-          "row": 2,
+          "row": 3,
           "questionColumn": "Câu 8",
           "questionPrompt": "Bạn có khó khăn & câu hỏi gì đến BTC/Thầy?",
           "group": "questions",
@@ -32052,26 +32136,54 @@
         {
           "sourceId": "20261112-ce430a1465ca36d7",
           "reason": "non-substantive-update-promised"
+        },
+        {
+          "sourceId": "20261112-1e8dbd19c4fb434e",
+          "reason": "single-letter-placeholder-no-substantive-feedback"
+        },
+        {
+          "sourceId": "20261112-6ee4c9c37cc4dc01",
+          "reason": "single-letter-placeholder-no-substantive-feedback"
+        },
+        {
+          "sourceId": "20261112-995cbde128745d25",
+          "reason": "single-letter-placeholder-no-substantive-feedback"
+        },
+        {
+          "sourceId": "20261112-27c224f122745f36",
+          "reason": "single-letter-placeholder-no-substantive-feedback"
+        },
+        {
+          "sourceId": "20261112-e09f43a47fcb4def",
+          "reason": "single-letter-placeholder-no-substantive-feedback"
+        },
+        {
+          "sourceId": "20261112-585286f49523faa8",
+          "reason": "single-letter-placeholder-no-substantive-feedback"
+        },
+        {
+          "sourceId": "20261112-40eff341228cf422",
+          "reason": "no-difficulty-or-question-stated"
         }
       ],
       "checkpoint": {
         "status": "reviewed-snapshot",
-        "sourceCount": 7,
+        "sourceCount": 14,
         "reviewedSnapshotComplete": true,
         "collectionClosureVerified": false,
-        "textReviewStatus": "All seven current feedback responses read and dispositioned; one substantive reflection represented and six responses queued with explicit reasons.",
+        "textReviewStatus": "All fourteen current feedback responses read and dispositioned; one substantive reflection represented and thirteen responses queued with explicit reasons.",
         "mediaUninterpretedCount": 0,
-        "reviewedAt": "2026-11-07T13:18:52.459455+00:00",
+        "reviewedAt": "2026-11-08T12:21:13.699637+00:00",
         "method": "Native ChatGPT semantic reading; no external AI API.",
-        "sourceVerifiedAt": "2026-11-07T13:18:52.459455+00:00",
-        "lastContentReviewedAt": "2026-11-07T13:18:52.459455+00:00",
-        "sourceSemanticFingerprint": "d89596d49f1b0d3fe5aefac91e84036a5be76f328b9d9a1614ea0e023c413251",
+        "sourceVerifiedAt": "2026-11-08T12:21:13.699637+00:00",
+        "lastContentReviewedAt": "2026-11-08T12:21:13.699637+00:00",
+        "sourceSemanticFingerprint": "0e564931cbab5794ad16bed90ef4dc07033f59b1c47c71bfaa5756ab98dad309",
         "sourceReadMethod": "Connected Google Sheets formatted values; contact columns excluded.",
-        "reviewQueueInterpretation": "All seven feedback responses were read. Six lack enough detail for a substantive learning idea and remain queued. No inference that the class is complete or collection closed.",
+        "reviewQueueInterpretation": "All fourteen feedback responses were read. Thirteen are placeholders, lack substantive detail, or state no question and are queued with reasons. No inference that the class is complete or collection closed.",
         "excludedMediaScope": "Câu 1 storytelling media is outside the feedback bulletin scope and was not opened or interpreted."
       }
     }
   ],
   "method": "chatgpt-semantic-reviewed-with-ongoing-draft",
-  "contentHash": "337b6c611bbde0e78bbcd5d6a14e79e69038f2122c16f66989c53f4c171d8e9b"
+  "contentHash": "35978418ef41a03498e6919d10ce22474c1487c9b4923382c335ecd505b9ae9f"
 }
