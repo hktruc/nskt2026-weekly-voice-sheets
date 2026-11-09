@@ -1,12 +1,11 @@
 {
   "status": "success",
-  "checkedAt": "2026-11-08T23:28:00Z",
-  "sourceChangedSinceLastPublication": false,
+  "checkedAt": "2026-11-09T05:15:52Z",
+  "sourceChangedSinceLastPublication": true,
   "changedTabs": [
-    "20261008",
-    "20261015"
+    "20261105"
   ],
-  "dataChangeScope": "Added reviewed text summaries and safe original-answer evidence for weeks 20261008 and 20261015. Existing four weeks unchanged. Linked media remains unread; collection closure is unverified.",
+  "dataChangeScope": "One existing submission in week 20261105 changed to REVIEWED (50 to 51 reviewed submissions). Original responses, summary ideas, source evidence and privacy holds are unchanged.",
   "currentTab": {
     "tab": "20261112",
     "status": "within-deadline-reviewed-snapshot",
@@ -25,8 +24,5 @@
   "privacyHeldSourceCount": 256,
   "currentWeekPrivacyHeldSourceCount": 0,
   "externalAiUsed": false,
-  "contentHash": "25c236864558d3abf61745ce4bd064eca8e1b02b2d03658702870a456db9a541",
-  "textReviewCompleteForAddedWeeks": true,
-  "mediaReviewCompleteForAddedWeeks": false,
-  "collectionClosureVerifiedForAddedWeeks": false
+  "contentHash": "6ea8a301f09edd0e819d3a4b8b27e481d6d976b54e9258017df45d98886ce114"
 }

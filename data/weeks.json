@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T23:28:00Z",
+  "generatedAt": "2026-11-09T05:15:52Z",
   "sheetId": "1iDg5ryTjItafI9K0lwORi7KcwsCUmCClaQEg79KhWyQ",
   "weeks": [
     {
@@ -32763,7 +32763,7 @@
       "submissionCount": 138,
       "answerCount": 755,
       "complete": false,
-      "reviewCount": 50,
+      "reviewCount": 51,
       "summaries": [
         {
           "id": "journal",
@@ -44008,13 +44008,13 @@
         "mediaVideosReviewedCount": 5,
         "mediaReviewedAt": "2026-11-05T20:24:19.451079+00:00",
         "latestSemanticQA": "Six substantive responses represented in existing ideas. The request for more time remains nonspecific, and the already-asked status does not imply a resolved question.",
-        "sourceVerifiedAt": "2026-11-08T12:21:13.699637+00:00",
-        "latestSourceUpdate": "Review status refreshed to 50 reviewed submissions; learning responses and summary ideas unchanged.",
+        "sourceVerifiedAt": "2026-11-09T05:15:52Z",
+        "latestSourceUpdate": "Review status refreshed to 51 reviewed submissions; learning responses and summary ideas unchanged.",
         "lastContentReviewedAt": "2026-11-07T01:16:52.055601+00:00",
         "reviewedSnapshotComplete": true,
         "collectionClosureVerified": false,
         "reviewQueueInterpretation": "All queued sources have been read and dispositioned. The queue records deferred, ambiguous, excluded or privacy-limited material, not unread current-week media.",
-        "sourceSemanticFingerprint": "4b5b762790f88657ab028260a521886d43ef3348ed2b84587c15034d0ec7d409",
+        "sourceSemanticFingerprint": "81776e1ebe871e9958b4d9bdde42b9d7078278e59b19878672dd5345deb005a9",
         "sourceReadMethod": "Connected Google Sheets formatted values; contact columns excluded."
       }
     },
@@ -44356,5 +44356,5 @@
     }
   ],
   "method": "Native ChatGPT semantic text review with source evidence; media coverage is reported separately for each week. No external AI API.",
-  "contentHash": "25c236864558d3abf61745ce4bd064eca8e1b02b2d03658702870a456db9a541"
+  "contentHash": "6ea8a301f09edd0e819d3a4b8b27e481d6d976b54e9258017df45d98886ce114"
 }
